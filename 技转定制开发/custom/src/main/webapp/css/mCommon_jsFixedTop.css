@@ -1,0 +1,8 @@
+/*loading组件*/
+.dajia{}
+
+.mCommon_jsFilter_height{}
+.mCommon_jsFilter_fixed{ width:100%; left:0; z-index:1;top:0}
+/*.mCommon_jsFilter_fixedContent{ max-width:640px; margin: 0 auto; }*/
+/*by-yuexy2017.10.26*/
+.mCommon_jsFilter_fixedContent{ max-width:100%; margin: 0 auto; }

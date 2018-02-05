@@ -1,0 +1,27 @@
+.mCommon_basicProAccessory_box{
+	padding:0px 10px 0px 10px;
+}
+.mCommon_basicProAccessory_info{
+	height: 42px;
+	border:1px solid #e0dede;
+	border-radius:5px;
+	margin-bottom: 8px;
+}
+.mCommon_basicProAccessory_info:last-child{
+	margin-bottom: 0px;
+}
+.mCommon_basicProAccessory_info_content{
+	padding: 6px 15px 6px 15px;
+}
+.mCommon_basicProAccessory_pic{
+	margin-top: 5px;
+}
+.mCommon_basicProAccessory_pic img{
+	width: 20px;
+	height: 20px;
+	vertical-align: inherit;
+}
+.mCommon_basicProAccessory_word{
+	line-height: 30px;
+	margin-left: 13px;
+}

@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+.dajia {}
+.mCommon_basicBtnLight{ display: inline-block}
+.mCommon_basicBtnLight > i {line-height:22px; font-size:12px; }
+.mCommon_basicBtnLight:hover { text-decoration:none}
+.mCommon_basicBtnLight_blue{ color:#1378bf}
+.mCommon_basicBtnLight_gray { color:#999}
+.mCommon_basicBtnLight_disable{color:#999}
+.mCommon_basicBtnLight_disable:hover { cursor:default}

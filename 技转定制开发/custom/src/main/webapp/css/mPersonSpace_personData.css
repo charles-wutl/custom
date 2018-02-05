@@ -1,0 +1,29 @@
+.mPersonSpace_personData{background: #edeef2;}
+.mPersonSpace_personData .mCommon_basicInfoListFrame{margin-bottom:10px;}
+.mPersonSpace_personData_birthday_gray{color: #999;}
+a.mPersonSpace_personData_btn:hover{text-decoration: none;}
+.mPersonSpace_personData_btn{text-align: center;
+    border-radius: 20px;display: inline-block;
+    background-clip: padding-box;line-height: 20px;
+    padding: 0 20px;color:#1378bf;margin-left:10px;position: relative;}
+.mPersonSpace_personData_btn:first-child{margin-left:0;}
+.mPersonSpace_personData_btn i {   
+    font-size: 16px;
+    vertical-align: middle;
+}
+.mPersonSpace_personData_btn:after{
+    border-width:1px;
+    border-style:solid;
+    box-sizing: border-box;
+    border-radius:20px;
+    display: block;
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(1);
+    pointer-events: none; /*解决边框内文字不可点击bug*/
+}

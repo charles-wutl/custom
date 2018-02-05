@@ -1,0 +1,10 @@
+@charset "utf-8";
+.mShop_overlayEMBA_box{text-align:center;color: #333;}
+.mShop_overlayEMBA_cost{color: #ff4d4d;}
+
+.mShop_overlayEMBA_member,.mShop_overlayEMBA_box p{font-size: 16px; line-height: 20px; padding: 10px 0;border-bottom:1px solid #e1e2e6;}
+.mShop_overlayEMBA_box p:last-child{border:0;padding-bottom:0;}
+
+.mShop_overlayEMBA_member p{border:0;padding:5px 0;}
+.mShop_overlayEMBA_btn{color:#00ace6;}
+.mShop_overlayEMBA_btn:hover{text-decoration:none;}

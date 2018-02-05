@@ -1,0 +1,92 @@
+/*控制左右布局yr定义*/
+.mCommon_basicCrmForm{}
+.mCommon_basicCrmForm .mCommon_basicFlowChart_itemTitle{display: none;}
+.mCommon_basicCrmForm .mCommon_basicFlowChart_itemContent{background: none;padding-left:0;}
+.mCommon_basicCrmForm .mCommon_controlFormGroup_box {padding:0 15px;}
+
+.mCommon_basicCrmForm .mCommon_controlFormGroup_item{overflow: hidden;padding-bottom: 5px;}
+.mCommon_basicCrmForm .mCommon_controlFormGroup_item_lable{line-height: 22px; width: 84px; color: #666;float:left;font-size:14px;padding-top:10px;}
+.mCommon_basicCrmForm .mCommon_controlFormGroup_item_input{ margin-left: 100px;margin-top:0;}
+.mCommon_basicCrmForm .mCommon_controlFormGroup_item_error{margin-left: 100px}
+.mService_fillOut_style2_img img{width:100%;}
+.mCommon_basicCrmForm .mService_fillOut_descText{margin-left: 100px}
+.mCommon_basicCrmForm .mCommon_controlFormGroup_item{border-bottom:1px solid #eee;margin-top:0px;}
+.mCommon_basicCrmForm .mCommon_basicInputText,
+.mCommon_basicCrmForm .mCommon_basicInputTel,
+.mCommon_basicCrmForm .mCommon_basicInputNum,
+.mCommon_basicCrmForm .mCommon_basicSelect,
+.mCommon_basicCrmForm .mCommon_basicTextArea,
+.mCommon_basicCrmForm .mCommon_basicInputContact,
+.mCommon_basicCrmForm .mCommon_basicInputDatetime{border:0px;}
+.mCommon_basicCrmForm .mCommon_basicInputStar_star > img{margin-right:0px;}
+.mCommon_basicCrmForm .mCommon_basicTextArea{padding: 7px 0px;padding-top: 12px;}
+
+.mCommon_basicCrmForm .mCommon_controlFormGroup_itemError{background:none;}
+.mCommon_basicCrmForm .mService_fillOut_style2_input_twoLevel{margin-top:5px;}
+.mCommon_basicCrmForm .mCommon_basicSelect{padding: 7px 0px;}
+.mCommon_basicCrmForm .mCommon_basicCrmForm_contact,.mCommon_basicCrmForm_input02,.mCommon_basicCrmForm .mCommon_basicCrmForm_location{ padding: 7px 0px; }
+.mCommon_basicCrmForm .mCommon_controlThumbnail_box{padding: 0 17px;}
+.mCommon_basicCrmForm .mCommon_basicCrmForm_voice{padding: 10px 17px;}
+.mCommon_basicCrmForm .mCommon_basicInputDatetime{padding: 7px 0px;}
+.mCommon_basicCrmForm .mCommon_basicInputText{padding: 7px 0px;}
+.mCommon_basicCrmForm .mCommon_basicCrmForm_lunch .mCommon_controlFormGroup_item_input{ margin-left: 0px;margin-top:40px;}
+.mCommon_basicCrmForm_lunch .mCommon_basicLunchDom_head > img{width: 15px;float: right;margin-left: 10;}
+.mCommon_basicCrmForm_servlet,.mCommon_basicCrmForm_contact{border:0;padding: 7px 5px;padding-right: 30px;background-color: #fff;overflow: hidden;position: relative;}
+.mCommon_basicCrmForm_voice .mCommon_basicVoice_tablePlayAndSuspend{position: relative;}
+.mCommon_basicCrmForm_deleteVoice{
+    width: 20px;
+    height: 20px;
+    top: -8px;
+    right: -10px;
+    position: absolute;
+    padding: 0 5px 5px 5px;
+    cursor: pointer;
+    z-index: 10;
+}
+.mCommon_basicCrmForm_servlet img,.mCommon_basicCrmForm_input02 img,.mCommon_basicCrmForm_contact img,.mCommon_basicCrmForm_location img{
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 5px;
+}
+.mCommon_basicCrmForm_location img{
+    width: 13px;
+}
+.mCommon_basicCrmForm_servlet input,.mCommon_basicCrmForm_input02 input,.mCommon_basicCrmForm_contact input,.mCommon_basicSelect input,.mCommon_basicCrmForm_location input{
+    border: 0 none;
+    color: #333333;
+    font-size: 14px;
+    height: 24px;
+    width: 85%;
+}
+.mCommon_basicCrmForm .mCommon_basicSelect img{
+    margin-right: -4px;
+}
+.mCommon_basicCrmForm .mCommon_basicInputDatetime > img{
+    margin-right: -4px;
+}
+/*控制左右布局yr定义*/
+
+
+.mCommon_basicCrmForm .font_littlegray{color: rgb(158,158,158);font-size: 12px;}
+
+.mCommon_basicCrmForm_voice{
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+}
+.mCommon_basicCrmForm_input02 img{
+    padding-right: -25px;
+}
+.mCommon_basicTextArea_box textarea{
+    border:none;
+    font-size:14px;
+}
+
+
+
+
+
+

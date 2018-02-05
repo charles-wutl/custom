@@ -1,0 +1,43 @@
+.mCommon_basicPlusJump_box{
+	width: 100%;
+	position: fixed;
+	left: 0;
+}
+/*.mCommon_basicPlusJump_boxMaxW{
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+}*/
+/*by-yuexy2017.10.26*/
+.mCommon_basicPlusJump_boxMaxW{
+	max-width:100%;
+	margin: 0 auto;
+	position: relative;
+}
+.mCommon_basicPlusJump_bottomBtnBox{
+	width: 48px;
+	height: 48px;
+	box-shadow: 1px 1px 4px #b2b2b2;
+	border-radius: 100%;
+	cursor: pointer;
+	position: absolute;
+}
+.mCommon_basicPlusJump_bottomBtnBoxContent{
+	margin: 13px;
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url('../images/mCommon_basicIcon_bottomBtnPlus.png?v=2016.04.27') center no-repeat;
+	background-size:100%;
+}
+.mCommon_basicPlusJump_bottomBtnBoxContentClose{
+	margin: 13px;
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url('../images/mCommon_basicIcon_closeWhite44.png') center no-repeat;
+	background-size:100%;
+}
+.mCommon_basicPlusJump_box .mCommon_basicPlusJump_bottomBtnBoxRed{
+	background-color: #FF4D4D;
+}

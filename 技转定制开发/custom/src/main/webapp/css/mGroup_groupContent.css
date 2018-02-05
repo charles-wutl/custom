@@ -1,0 +1,57 @@
+.mGroup_groupContent_content{background:#ebecf0}
+.mGroup_groupContent_headerBox{}
+.mGroup_groupContent_peopleListBox{}
+.mGroup_groupContent_feedListBox{}
+.mGroup_groupContent_feedListBox_top{}
+.mGroup_groupContent_feedListBox_list{}
+.mGroup_groupContent_feedListBox_list_item{
+		background-color: #FFFFFF;
+	padding:15px 0;
+	margin-bottom: 10px;
+}
+.mGroup_groupContent_feedListBox_list_item:after{
+	border-top:1px solid #e1e2e6;
+	border-bottom:1px solid #e1e2e6;
+}
+.mGroup_groupContent_footerBox{
+	height: 55px;
+}
+.mGroup_groupContent_footerPosition{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+}
+/*.mGroup_groupContent_footerCenter{
+	max-width: 640px;
+	margin: 0 auto;
+	background: #FAFAFA;
+	height: 55px;
+}*/
+/*by-yuexy2017.10.26*/
+.mGroup_groupContent_footerCenter{
+	max-width:100%;
+	margin: 0 auto;
+	background: #FAFAFA;
+	height: 55px;
+}
+.mGroup_groupContent_footerCenter:after{
+	border-top: 1px solid #E1E2E6;
+}
+.mGroup_groupContent_btnBox{
+	padding: 8px 15px 0 15px;
+}
+.mGroup_groupContent_btn{
+	background: rgba(0,172,230,1);
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20px;
+	font-size: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.mGroup_groupContent_btnAudit{
+	background: rgba(0,172,230,0.8);
+}

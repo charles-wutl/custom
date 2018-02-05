@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+.dajia {}
+.mCommon_framePopup_bigBox {}
+.mCommon_framePopup_black { background:rgba(0,0,0,0.4);position:fixed; left:0; right:0; top:0; bottom:0; z-index:100}
+
+.mCommon_framePopup_winBox {z-index:101; position:fixed; width:100%}
+/*.mCommon_framePopup_winBox_win{padding:0 15px; max-width:640px; min-width:320px; margin:0 auto; box-sizing:border-box}*/
+/*by-yuexy2017.10.26*/
+.mCommon_framePopup_winBox_win{padding:0 15px; max-width:100%; min-width:320px; margin:0 auto; box-sizing:border-box}
+
+.mCommon_framePopup_winBox_winContnet { background:#fff; box-shadow:0px 0px 10px rgba(0,0,0,0.5); padding:10px; border-radius:5px;  box-sizing:border-box}
+.mCommon_framePopup_winBox_winContnet_content{ overflow-y:auto}
+.mCommon_framePopup_winBox_winContnet_button{ padding-top:10px}
+
+/*默认显示文字*/
+.mCommon_framePopup_defaultText {  line-height:150%; font-size:16px; color:#333; text-align:center; padding:20px 0}

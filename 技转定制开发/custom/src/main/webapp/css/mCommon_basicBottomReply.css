@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_basicBottomReply{height:49px;}
+.mCommon_basicBottomReply_box{width:100%; position:fixed; z-index: 1; bottom:0;left:0}
+.mCommon_basicBottomReply_content{ max-width: 610px; margin: 0 auto; display: block; background: #005F9B; padding:7px 15px 8px 15px; background: #fafafa; border-top:1px solid #eeeff1;}
+
+.mCommon_basicBottomReply_contentLeft{ margin-right: 42px;}
+.mCommon_basicBottomReply_contentRight{ float:right;}
+.mCommon_basicBottomReply_contentLeft_reply{border-radius: 16px; background: #fff; color:#666; line-height: 34px; padding:0 16px; font-size:14px; cursor: text;}
+.mCommon_basicBottomReply_contentLeft_reply:after{border:1px solid #dddde0; font-size: 16px;}
+.mCommon_basicBottomReply_contentLeft_praise{ width: 34px; height: 34px;  border-radius: 16px; background: #fff; cursor: pointer;}
+.mCommon_basicBottomReply_contentLeft_praise:after{border:1px solid #dddde0; font-size: 16px;}
+.mCommon_basicBottomReply_contentLeft_praise img{ height: 16px; width:16px; margin-top: 9px; margin-left: 9px;}
+
+

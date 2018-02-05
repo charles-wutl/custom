@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* 商品模块的按钮,基础按钮是红色*/
+.mCommon_basicBtnShop_wrapper{}
+.mCommon_basicBtnShop_blue,
+.mCommon_basicBtnShop_silvery,
+.mCommon_basicBtnShop_white,
+.mCommon_basicBtnShop_red,
+.mCommon_basicBtnShop_yellow,
+.mCommon_basicBtnShop_disabled{vertical-align: middle; text-align:center;display:block;padding:0 5px;box-sizing: border-box;}
+.mCommon_basicBtnShop_blue:hover,
+.mCommon_basicBtnShop_silvery:hover,
+.mCommon_basicBtnShop_white:hover,
+.mCommon_basicBtnShop_red:hover,
+.mCommon_basicBtnShop_yellow:hover,
+.mCommon_basicBtnShop_disabled:hover { text-decoration:none}
+.mCommon_basicBtnShop_blue i,
+.mCommon_basicBtnShop_silvery i,
+.mCommon_basicBtnShop_white i,
+.mCommon_basicBtnShop_red i,
+.mCommon_basicBtnShop_yellow i,
+.mCommon_basicBtnShop_disabled i { line-height:49px;display:block;font-size:16px;vertical-align: middle; }
+
+.mCommon_basicBtnShop_silvery{background-color:#f4f4f5; color:#333;}
+.mCommon_basicBtnShop_silvery_tap{background-color:#dddddd;}
+
+.mCommon_basicBtnShop_blue{background-color:#4da9eb; color:#fff;}
+.mCommon_basicBtnShop_blue_tap{background-color:#65b2e8;}
+.mCommon_basicBtnShop_white{background-color:#fff; color:#333;}
+.mCommon_basicBtnShop_white_tap{background-color:#ccc;}
+.mCommon_basicBtnShop_red{ background-color:#ff4d4d; color:#fff;}
+.mCommon_basicBtnShop_red_tap{background-color:#ff7171;}
+.mCommon_basicBtnShop_yellow{ background-color:#ffa414; color:#fff;}
+.mCommon_basicBtnShop_yellow_tap{background-color:#ffb643;}
+.mCommon_basicBtnShop_disabled{background-color:#bfbfbf;color:#666666;cursor: default;}
+.mCommon_basicBtnShop_disabled_tap{}
+

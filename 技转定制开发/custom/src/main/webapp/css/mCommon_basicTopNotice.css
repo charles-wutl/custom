@@ -1,0 +1,32 @@
+.mCommon_basicTopNotice_containerNormal{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 44px;
+}
+.mCommon_basicTopNotice_containerNormal:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mCommon_basicTopNotice_containerBox{
+	padding:0 15px;
+}
+.mCommon_basicTopNotice_containerPic{
+	float: left;
+	margin-top: 10px;
+}
+.mCommon_basicTopNotice_containerPic img{
+	width: 24px;
+	height: 24px;
+}
+.mCommon_basicTopNotice_containerText{
+	padding-left: 10px;
+	font-size: 17px;
+	line-height: 44px;
+}
+.mCommon_basicTopNotice_containerProminent{
+	background-color: #ffeded;
+}
+.mCommon_basicTopNotice_containerProminent:after{
+	border-bottom: 1px solid #ffbdbd;
+	font-size: 0px;
+}

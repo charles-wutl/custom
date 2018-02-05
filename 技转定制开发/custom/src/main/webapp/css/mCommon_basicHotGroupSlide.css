@@ -1,0 +1,47 @@
+.mCommon_basicHotGroupSlide_box{
+	height: 84px;
+	overflow: hidden;
+}
+.mCommon_basicHotGroupSlide_itemBox{
+	display: table;
+	height: 100%;
+}
+.mCommon_basicHotGroupSlide_itemBoxTr{
+	display: table-row;
+}
+.mCommon_basicHotGroupSlide_imgBox{
+	display: table-cell;
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+}
+.mCommon_basicHotGroupSlide_imgBox>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.mCommon_basicHotGroupSlide_contentBox{
+	display: table-cell;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+.mCommon_basicHotGroupSlide_groupName{
+	font-size: 17px;
+	line-height: 23px;
+	color: #333333;
+}
+.mCommon_basicHotGroupSlide_groupDesc{
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+	max-height: 32px;
+	overflow: hidden;
+}
+.mCommon_basicHotGroupSlide_shareAndMember{
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+}
+.mCommon_basicHotGroupSlide_share{
+	margin-left: 10px;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+.dajia {}
+/* CSS Document */
+
+/*搜索导航*/
+.mCommon_basicHeaderToorBar{border-bottom: 1px solid #e1e2e6;border-top: 1px solid #fff;padding:0 10px;background: #fff;}
+.mCommon_basicHeaderToorBar_text{line-height: 40px;font-size:15px;color: #999;display: block;padding:0 5px;cursor: pointer;}
+.mCommon_basicHeaderToorBar_textTap{color: #666;}
+
+.mCommon_basicHeaderToorBar_icon,
+.mCommon_basicHeaderToorBar_iconTap{width:16px;height:16px;padding:12px 5px;cursor: pointer;}
+.mCommon_basicHeaderToorBar_icon .mCommon_basicHeaderToorBar_iconNormal{display:block;width:16px;height:16px;}
+.mCommon_basicHeaderToorBar_icon .mCommon_basicHeaderToorBar_iconPressed{display: none;}
+.mCommon_basicHeaderToorBar_iconTap .mCommon_basicHeaderToorBar_iconNormal{display: none;}
+.mCommon_basicHeaderToorBar_iconTap .mCommon_basicHeaderToorBar_iconPressed{display: block;width:16px;height:16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

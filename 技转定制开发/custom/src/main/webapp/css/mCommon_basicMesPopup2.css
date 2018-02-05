@@ -1,0 +1,48 @@
+.mCommon_basicMesPopup2_box{
+	width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: rgba(255,255,255,0.95);
+}
+.mCommon_basicMesPopup2_content_button{
+    margin: 0 auto;
+    width: 115px;
+    padding: 5px 0px 5px 0px;
+}
+/*.mCommon_basicMesPopup2{
+	max-width: 640px;
+    margin: 0 auto;
+}*/
+/*by-yuexy2017.10.26*/
+.mCommon_basicMesPopup2{
+	max-width:100%;
+    margin: 0 auto;
+}
+.mCommon_basicMesPopup2_btn{
+	width: 65px;
+}
+.mCommon_basicMesPopup2_content_text{
+	color:#89abcb;
+	font-size: 16px;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+.mCommon_basicMesPopup_closeOverlay2{
+	display: none;
+}
+.mCommon_basicMesPopup_closeOverlay2,.mCommon_basicMesPopup_openOverlay2{
+	position: fixed;
+	bottom:40px;
+	right:15px;
+	z-index: 50;
+}
+.mCommon_basicMesPopup_closeOverlay2 img{
+	width: 48px;
+}
+.mCommon_basicMesPopup_openOverlay2 img{
+	width: 48px;
+}

@@ -1,0 +1,48 @@
+.mCommon_basicFrameDelicateInfo_box{
+	border-top: 10px solid #edeef2;
+}
+.mCommon_basicFrameDelicateInfo_box:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mCommon_basicFrameDelicateInfo_headArea{
+	display: block;
+	padding: 0 15px;
+	height: 34px;
+}
+.mCommon_basicFrameDelicateInfo_headArea:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mCommon_basicFrameDelicateInfo_title{
+	font-size: 15px;
+	color: #666666;
+	line-height: 33px;
+}
+.mCommon_basicFrameDelicateInfo_operate{
+	font-size: 12px;
+	color: #666666;
+	line-height: 33px;
+	cursor: pointer;
+}
+.mCommon_basicFrameDelicateInfo_operate img{
+	width: 10px;
+	height: 10px;
+	vertical-align: 0px;
+}
+.mCommon_basicFrameDelicateInfo_contentArea{
+	display: block;
+}
+.mCommon_basicFrameDelicateInfo_footArea{
+	display: block;
+	font-size: 12px;
+	color: #666666;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.mCommon_basicFrameDelicateInfo_footArea:after{
+	border-top: 1px solid #e1e2e6;
+}
+.mCommon_basicFrameDelicateInfo_footArea>img{
+	height: 10px;
+	vertical-align: 0px;
+}

@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_controlFormGroup_box { }
+
+.mCommon_controlFormGroup_item { margin-top:15px;padding-top:5px;}
+.mCommon_controlFormGroup_box > ul:first-child { margin-top:0}
+.mCommon_controlFormGroup_item_lable { color:#333; font-size:16px; line-height:120%;}
+.mCommon_controlFormGroup_item_infoIntroduce{
+	margin: 5px 0;
+}
+.mCommon_controlFormGroup_item_input { margin-top:5px}
+.mCommon_controlFormGroup_item_error { color:#ff4d4d; font-size:12px; line-height:120%; padding:5px 0; display:none}
+
+/*错误状态*/
+.mCommon_controlFormGroup_itemError{ background:#ffeded}
+    .mCommon_controlFormGroup_itemError .mCommon_controlFormGroup_item_error { display:block}
+
+/*只读状态*/
+.mCommon_controlFormGroup_itemRead { }
+.mCommon_controlFormGroup_item_info {  color: #333; font-size: 16px; line-height: 120%;}
+.mCommon_controlFormGroup_item_info_lable { }
+.mCommon_controlFormGroup_item_info_content { margin-left: 5px; }
+
+/*分割线*/
+/*上*/
+.mCommon_controlFormGroup_itemSeperateLine1{border-top:1px dashed #d9d9d9;padding-top: 10px;}
+/*中*/
+.mCommon_controlFormGroup_itemSeperateLine2 .mCommon_controlFormGroup_item_lable{border-bottom:1px dashed #d9d9d9;padding-bottom: 10px;}
+/*下*/
+.mCommon_controlFormGroup_itemSeperateLine3{border-bottom:1px dashed #d9d9d9;padding-bottom: 10px;}
+
+.mCommon_basicInputDate{
+	border:1px solid #e1e2e6;
+	padding:7px 10px;
+	/*padding-right:5px;*/
+	background:#fff;
+	position: relative;
+	box-sizing: border-box;
+}
+.mCommon_basicInputDate > input{
+	border:0; 
+	line-height:24px;
+	height:24px; 
+	font-size:14px; 
+	color:#333333;
+	width:100%;
+	background: transparent;
+}
+.mCommon_basicInputDate > img {
+	width:24px; 
+	height:24px; 
+	float:right; 
+	margin-top:-24px;
+	cursor:pointer;
+}
+.mCommon_basicInputDate > input:focus{
+	outline: none;
+}

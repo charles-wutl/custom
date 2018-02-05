@@ -1,0 +1,283 @@
+﻿@charset "utf-8";
+dajia{versions:20131226}
+/* CSS Document */
+@font-face {font-family: "iconfont";
+  src: url('../images/iconfont_app/iconfont.eot?v=2016.03.09'); /* IE9*/
+  src: url('../images/iconfont_app/iconfont.eot?#iefix?v=2016.03.09') format('embedded-opentype'), /* IE6-IE8 */
+  url('../images/iconfont_app/iconfont.woff?v=2016.03.09') format('woff'), /* chrome、firefox */
+  url('../images/iconfont_app/iconfont.ttf?v=2016.03.09') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../images/iconfont_app/iconfont.svg#iconfont?v=2016.03.09') format('svg'); /* iOS 4.1- */
+}
+
+
+
+.commonIconLeft32_mobile_white,
+.commonIconLeft32_voteWall_white,
+.commonIconLeft32_payment_white,
+.commonIconLeft32_praise_white,
+.commonIconLeft32_meInfo_white,
+.commonIconLeft32_infoPrompt_white,
+.commonIconSend32_mobile_white,
+.commonIconSend32_voteWall_white,
+.commonIconSend32_payment_white,
+.commonIconSend32_praise_white,
+.commonIconSend32_meInfo_white,
+.commonIconSend32_infoPrompt_white
+{ display:block; height:32px; width:32px;color: #fff;  text-align: center;
+ font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+.commonIconLeft32_setting_white,
+.commonIconLeft32_index_white,
+.commonIconLeft32_community_white,
+.commonIconLeft32_management_white,
+.commonIconLeft32_search_white,
+.commonIconLeft32_appDownload_white,
+.commonIconLeft32_salesData_white,
+.commonIconLeft32_salesFunnel_white,
+.commonIconLeft32_notice_white,
+.commonIconSend32_codeImg_white,
+.commonIconSend32_more_white
+{
+	 display:block; height:32px; width:32px;color: #fff;  text-align: center;
+    font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*老版图标兼容*/
+.common_iconLeft26_mobile_gray,
+.common_iconLeft26_voteWall_gray,
+.common_iconLeft26_payment_gray,
+.common_iconLeft26_praise_gray,
+.common_iconLeft26_meInfo_gray,
+.common_iconLeft26_infoPrompt_gray,
+
+
+/*老版图标兼容end*/
+.commonIconLeft32_mobile_gray,
+.commonIconLeft32_voteWall_gray,
+.commonIconLeft32_payment_gray,
+.commonIconLeft32_praise_gray,
+.commonIconLeft32_meInfo_gray,
+.commonIconLeft32_infoPrompt_gray,
+.commonIconSend32_mobile_gray,
+.commonIconSend32_voteWall_gray,
+.commonIconSend32_payment_gray,
+.commonIconSend32_praise_gray,
+.commonIconSend32_meInfo_gray,
+.commonIconSend32_infoPrompt_gray
+{display:block; height:32px; width:32px;color:#ffffff;  text-align: center;
+ font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+
+.commonIconLeft32_setting_gray,
+.commonIconLeft32_index_gray,
+.commonIconLeft32_community_gray,
+.commonIconLeft32_management_gray,
+.commonIconLeft32_search_gray,
+.commonIconLeft32_appDownload_gray,
+.commonIconLeft32_salesData_gray,
+.commonIconLeft32_salesFunnel_gray,
+.commonIconLeft32_notice_gray,
+.commonIconSend32_codeImg_gray,
+.commonIconSend32_more_gray
+{ 
+  display:block; height:32px; width:32px;color: #fff;  text-align: center;
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*老版图标兼容*/
+.common_iconLeft26_mobile_send_blue,
+.common_iconLeft26_voteWall_send_blue,
+.common_iconLeft26_payment_send_blue,
+.common_iconLeft26_praise_send_blue,
+.common_iconLeft26_meInfo_send_blue,
+.common_iconLeft26_infoPrompt_send_blue,
+
+/*老版图标兼容end*/
+.commonIconLeft32_mobile_blue,
+.commonIconLeft32_voteWall_blue,
+.commonIconLeft32_payment_blue,
+.commonIconLeft32_praise_blue,
+.commonIconLeft32_meInfo_blue,
+.commonIconLeft32_infoPrompt_blue,
+.commonIconSend32_mobile_blue,
+.commonIconSend32_voteWall_blue,
+.commonIconSend32_payment_blue,
+.commonIconSend32_praise_blue,
+.commonIconSend32_meInfo_blue,
+.commonIconSend32_infoPrompt_blue
+{ display:block; height:32px; width:32px;color: #00ace6;  text-align: center;
+ font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+.commonIconLeft32_setting_blue,
+.commonIconLeft32_index_blue,
+.commonIconLeft32_community_blue,
+.commonIconLeft32_management_blue,
+.commonIconLeft32_search_blue,
+.commonIconLeft32_appDownload_blue,
+.commonIconLeft32_salesData_blue,
+.commonIconLeft32_salesFunnel_blue,
+.commonIconLeft32_notice_blue,
+.commonIconSend32_codeImg_blue,
+.commonIconSend32_more_blue
+{ 
+  display:block; height:32px; width:32px;color: #00ace6;  text-align: center;
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.commonIconLeft32_setting_blue:before,
+.commonIconLeft32_setting_white:before,
+.commonIconLeft32_setting_gray:before{font-size: 20px;content: "\e625";line-height: 32px;}
+.commonIconLeft32_index_blue:before,
+.commonIconLeft32_index_white:before,
+.commonIconLeft32_index_gray:before{font-size: 20px;content: "\e648";line-height: 32px;}
+.commonIconLeft32_community_blue:before,
+.commonIconLeft32_community_white:before,
+.commonIconLeft32_community_gray:before{font-size: 20px;content: "\e643";line-height: 32px;}
+.commonIconLeft32_management_blue:before,
+.commonIconLeft32_management_white:before,
+.commonIconLeft32_management_gray:before{font-size: 20px;content: "\e625";line-height: 32px;}
+.commonIconLeft32_search_blue:before,
+.commonIconLeft32_search_white:before,
+.commonIconLeft32_search_gray:before{font-size: 20px;content: "\e652";line-height: 32px;}
+.commonIconLeft32_notice_blue:before,
+.commonIconLeft32_notice_white:before,
+.commonIconLeft32_notice_gray:before{font-size: 20px;content: "\e63c";line-height: 32px;}
+.commonIconSend32_codeImg_white:before,
+.commonIconSend32_codeImg_blue:before,
+.commonIconSend32_codeImg_gray:before{font-size: 20px;content: "\e609";line-height: 32px;}
+.commonIconSend32_more_blue:before,
+.commonIconSend32_more_white:before,
+.commonIconSend32_more_gray:before{font-size: 20px;content: "\e639";line-height: 32px;}
+.commonIconLeft32_appDownload_blue:before,
+.commonIconLeft32_appDownload_white:before,
+.commonIconLeft32_appDownload_gray:before{font-size: 20px;content: "\e63a";line-height: 32px;}
+.commonIconLeft32_salesData_blue:before,
+.commonIconLeft32_salesData_white:before,
+.commonIconLeft32_salesData_gray:before{font-size: 20px;content: "\e60e";line-height: 32px;}
+.commonIconLeft32_salesFunnel_blue:before,
+.commonIconLeft32_salesFunnel_white:before,
+.commonIconLeft32_salesFunnel_gray:before{font-size: 20px;content: "\e624";line-height: 32px;}
+
+.common_iconLeft26_mobile_gray:before,
+.commonIconLeft32_mobile_blue:before,
+.commonIconLeft32_mobile_white:before,
+.commonIconLeft32_mobile_gray:before{font-size: 20px;content: "\e660";line-height: 32px;}
+.common_iconLeft26_mobile_send_blue:before,
+.commonIconSend32_mobile_blue:before,
+.commonIconSend32_mobile_white:before,
+.commonIconSend32_mobile_gray:before{font-size: 28px;content: "\e660";line-height: 32px;}
+
+.common_iconLeft26_praise_gray:before,
+.commonIconLeft32_praise_blue:before,
+.commonIconLeft32_praise_white:before,
+.commonIconLeft32_praise_gray:before{font-size: 20px;content: "\e667";line-height: 32px;}
+.common_iconLeft26_praise_send_blue:before,
+.commonIconSend32_praise_blue:before,
+.commonIconSend32_praise_white:before,
+.commonIconSend32_praise_gray:before{font-size: 28px;content: "\e667";line-height: 32px;}
+
+.common_iconLeft26_meInfo_gray:before,
+.commonIconLeft32_meInfo_blue:before,
+.commonIconLeft32_meInfo_white:before,
+.commonIconLeft32_meInfo_gray:before{font-size: 20px;content: "\e638";line-height: 32px;}
+.common_iconLeft26_meInfo_send_blue:before,
+.commonIconSend32_meInfo_blue:before,
+.commonIconSend32_meInfo_white:before,
+.commonIconSend32_meInfo_gray:before{font-size: 28px;content: "\e638";line-height: 32px;}
+
+.common_iconLeft26_voteWall_gray:before,
+.commonIconLeft32_voteWall_blue:before,
+.commonIconLeft32_voteWall_white:before,
+.commonIconLeft32_voteWall_gray:before{font-size: 20px;content: "\e68c";line-height: 32px;}
+.common_iconLeft26_voteWall_send_blue:before,
+.commonIconSend32_voteWall_blue:before,
+.commonIconSend32_voteWall_white:before,
+.commonIconSend32_voteWall_gray:before{font-size: 28px;content: "\e68c";line-height: 32px;}
+
+.common_iconLeft26_payment_gray:before,
+.commonIconLeft32_payment_blue:before,
+.commonIconLeft32_payment_white:before,
+.commonIconLeft32_payment_gray:before{font-size: 20px;content: "\e6b0";line-height: 32px;}
+.common_iconLeft26_payment_send_blue:before,
+.commonIconSend32_payment_blue:before,
+.commonIconSend32_payment_white:before,
+.commonIconSend32_payment_gray:before{font-size: 28px;content: "\e6b0";line-height: 32px;}
+
+
+.common_iconLeft26_infoPrompt_gray:before,
+.commonIconLeft32_infoPrompt_blue:before,
+.commonIconLeft32_infoPrompt_white:before,
+.commonIconLeft32_infoPrompt_gray:before{font-size: 20px;content: "\e68b";line-height: 32px;}
+.common_iconLeft26_infoPrompt_send_blue:before,
+.commonIconSend32_infoPrompt_blue:before,
+.commonIconSend32_infoPrompt_white:before,
+.commonIconSend32_infoPrompt_gray:before{font-size: 28px;content: "\e68b";line-height: 32px;}
+
+
+
+/*font_icon*/
+.common_fontIcon32_closed{display:inline-block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_closed:before{content:"\e672";  font-size:28px; line-height:32px}
+.common_fontIcon32_upArrow{display:inline-block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_upArrow:before{content:"\e67b";  font-size:28px; line-height:32px}
+.common_fontIcon32_downArrow{display:inline-block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_downArrow:before{content:"\e67c";  font-size:28px; line-height:32px}
+.common_fontIcon32_prompt{display:inline-block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_prompt:before{content:"\e62a";  font-size:28px; line-height:32px}
+.common_fontIcon32_upArrowMore{display:block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_upArrowMore:before{content:"\e68e";  font-size:28px; line-height:32px}
+.common_fontIcon32_fullScreen{display:block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_fullScreen:before{content:"\e68d";  font-size:28px; line-height:32px}
+.common_fontIcon32_edit{display:block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_edit:before{content:"\e655";  font-size:28px; line-height:32px}
+.common_fontIcon32_eye,
+.common_fontIcon32_allNews,
+.common_fontIcon32_meInfo,
+.common_fontIcon32_drag,
+.common_fontIcon32_footerMenuIcon,
+.common_fontIcon32_apply{display:block; width:32px; height:32px;color:#fff;text-align: center;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.common_fontIcon32_eye:before{content:"\e690";  font-size:28px; line-height:32px}
+.common_fontIcon32_allNews:before{content:"\e61e";  font-size:28px; line-height:32px}
+.common_fontIcon32_meInfo:before{content:"\e638";  font-size:28px; line-height:32px}
+.common_fontIcon32_drag:before{content:"\e6a5";  font-size:28px; line-height:32px}
+.common_fontIcon32_apply:before{content:"\e642";  font-size:28px; line-height:32px}
+.common_fontIcon32_footerMenuIcon:before{content:"\e6b2";  font-size:28px; line-height:32px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

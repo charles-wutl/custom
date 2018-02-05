@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_controlPrompt_box{margin:0 auto;max-width: 70%;}
+.mCommon_controlPrompt_icon > *{margin: 0 auto;}
+
+.mCommon_controlPrompt_text{margin-top: 10px;text-align: center;}
+.mCommon_controlPrompt_textInner{font-size: 16px;line-height: 24px;color: #bfbfbf;text-align: left;display: inline-block;}
+.mCommon_controlPrompt_textInner ol li{display: block;}
+
+.mCommon_controlPrompt_textInner_words{font-size: 16px;line-height: 24px;color: #bfbfbf;text-align: center;}
+
+.mCommon_controlPrompt_btn{margin-top:60px;}
+/*16.09.28 update 图片外容器给宽高，计算位置就不用等图片加载完了*/
+.mCommon_controlPrompt_imgBox{text-align: center;width: 80px;height: 80px;}
+.mCommon_controlPrompt_imgBox>img{width: 100%;}

@@ -1,0 +1,109 @@
+/*图文推送*/
+.mPicTextPush_edit{position: relative;}
+.mPicTextPush_edit_head img{width:100%}
+.mPicTextPush_edit_foot img{width:100%}
+.mPicTextPush_edit_content{padding:0 15px;}
+.mPicTextPush_edit_input{margin-top: 10px;}
+.mPicTextPush_edit_input input{font-size: 20px;}
+.mPicTextPush_edit_richText{border:1px solid #e1e2e6;height: 180px;margin-top:10px;background: #fff;overflow: hidden;}
+.mPicTextPush_edit_location{margin-top:10px}
+
+.mPicTextPush_edit_coverAbstract{margin-top:10px;height:60px;}
+.mPicTextPush_edit_cover{float: left;width:80px;}
+.mPicTextPush_edit_abstract{margin-left:90px;
+    padding: 6px;height: 48px;
+    background: #FFF;}
+.mPicTextPush_edit_abstract:after{border: 1px solid #e1e2e6;}
+.mPicTextPush_edit_abstract textarea{width: 100%;height: 100%;
+    line-height: 120%;
+    border: 0;
+    font-size: 15px;
+    overflow-y: auto;
+    color: #333;
+    float: none;}
+
+.mPicTextPush_edit_setTheme{position: absolute;top:10px;right:15px;display: none;}
+.mPicTextPush_edit_setImg{text-align: right;position: absolute;top:10px;right:15px;}
+.mPicTextPush_edit_setImg img{width:32px;height: 32px;cursor: pointer;}
+.mPicTextPush_edit_closeImg{text-align: right;/*position: absolute;top:10px;right:15px;display: none;*/}
+.mPicTextPush_edit_closeImg img{width:32px;height: 32px;cursor: pointer;}
+
+.mPicTextPush_edit_setTheme_head{background: #4d4d4d;padding:9px 10px;color: #fff;font-size: 17px;margin-top:3px;}
+.mPicTextPush_edit_setTheme_head_switchBtn img{width:51px;height: 31px;}
+.mPicTextPush_edit_setTheme_content{background: #4d4d4d;border-top:1px solid #fff;padding: 10px 5px 15px 13px;}
+.mPicTextPush_edit_setTheme_item{padding:2px;float: left;margin-right:5px;margin-bottom:5px;position: relative;}
+.mPicTextPush_edit_setTheme_itemImg{width:80px;height:100px;}
+.mPicTextPush_edit_setTheme_itemImgActive{display: none;width:20px;height:20px;position: absolute;top:50%;left:50%;margin-left:-10px;margin-top:-10px;}
+.mPicTextPush_edit_setTheme_item_active{border:2px solid #00ace6;padding:0;}
+.mPicTextPush_edit_setTheme_item_active .mPicTextPush_edit_setTheme_itemImgActive{display: block;}
+
+
+
+/**/
+/*有/无 选中联系人层的样式*/
+.mPicTextPush_edit_cLatelyOperateBox{
+	border-bottom: 10px solid #edeef2;
+}
+.mPicTextPush_edit_cLatelyContactsText{
+	padding: 0 15px;
+	background: #edeef2;
+	line-height: 22px;
+	font-size: 12px;
+	color: #999999;
+}
+.mPicTextPush_edit_cLatelyContactsList{
+	max-height: 450px;
+	overflow: hidden;
+}
+.mPicTextPush_edit_cLatelyContactsItem{
+	height: 45px;
+	width: 100%;
+}
+.mPicTextPush_edit_cLatelyContactsItem:after{
+	border-bottom: 1px solid #E1E2E6;
+}
+.mPicTextPush_edit_cItemImgBox{
+	width: 35px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+}
+.mPicTextPush_edit_cItemImgBox>img{
+	width: 20px;
+	height: 20px;
+}
+.mPicTextPush_edit_cItemNamesBox{
+	font-size: 17px;
+	color: #333333;
+	line-height: 45px;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.mPicTextPush_edit_cItemNumbersBox{
+	font-size: 15px;
+	color: #999999;
+	line-height: 45px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.mPicTextPush_edit_toolBar {
+	overflow: hidden;
+	padding: 10px 0;
+	border-left:1px solid #e1e2e6;
+	border-right:1px solid #e1e2e6;
+	border-bottom:1px solid #e1e2e6;
+}
+.mPicTextPush_edit_toolBar_item {
+	float: left;
+	width: 20%;
+	text-align: center;
+	cursor: pointer;
+}
+.mPicTextPush_edit_toolBar_item img {
+	height: 22px;
+	vertical-align: middle;
+}
+
+

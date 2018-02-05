@@ -1,0 +1,61 @@
+.mNews_messageList_content {
+    background: #ffffff;
+}
+
+.mNews_messageList_content_itemBar{
+
+}
+.mNews_messageList_content_itemBar_left{
+    float: left;
+    padding-left:10px;
+    padding-top:9px;
+}
+.mNews_messageList_content_itemBar_left em{
+    width: 40px;
+    height: 40px;
+    background: red;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mNews_messageList_content_itemBar_right{
+    margin-left: 60px;
+    border-bottom:1px solid #E1E2E6;
+    padding-bottom:10px;
+    padding-right: 10px;
+}
+.mNews_messageList_content_itemBar_right_top{
+    height: 20px;
+    padding-top:10px;
+}
+.mNews_messageList_content_itemBar_right_top_news{
+    line-height: 20px;
+    color: #333333;
+    font-size: 16px;
+}
+.mNews_messageList_content_itemBar_right_top_day{
+    float: right;
+}
+.mNews_messageList_content_itemBar_right_top_time{
+    line-height: 20px;
+    color: #999999;
+    
+}
+.mNews_messageList_content_itemBar_right_top_date{
+    line-height: 20px;
+    margin-right: 10px;
+    color: #999999;
+}
+.mNews_messageList_content_itemBar_right_bottom{
+
+    
+}
+.mNews_messageList_content_itemBar_right_bottom_news{
+    font-size: 14px;
+    color: #999999;
+    padding-right: 18px;
+    line-height: 20px;
+    margin-top: 5px;
+}

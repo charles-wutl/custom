@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+.dajia {}
+.mCommon_basicUploadBtn { border: 1px dashed #e1e2e6; display: block; background: #edeef2; text-align: center; }
+.mCommon_basicUploadBtn > i { line-height: 38px; color: #999999; vertical-align: middle; }
+.mCommon_basicUploadBtn > em { line-height: 38px; color: #999999; font-weight: bold; vertical-align: middle; }
+.mCommon_basicUploadBtn:hover { text-decoration:none}
+.mCommon_basicUploadBtn_tapClass { background:#009ed3}
+.mCommon_basicUploadBtn_tapClass > i,
+.mCommon_basicUploadBtn_tapClass > em{ color:#fff}

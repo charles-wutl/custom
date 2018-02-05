@@ -1,0 +1,22 @@
+.mLongText_longTextList_listBox{
+	background: #ebecf0;
+	padding-bottom: 10px;
+}
+.mLongText_longTextList_listBox:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mLongText_longTextList_listBoxItem{
+	padding: 15px 0;
+	background: #FFFFFF;
+	margin-bottom: 10px;
+}
+.mLongText_longTextList_listBoxItem:last-child{
+	margin-bottom: 0;
+}
+.mLongText_longTextList_listBoxItem:after{
+	border-top:1px solid #e1e2e6;
+	border-bottom:1px solid #e1e2e6;
+}
+.mLongText_longTextList_listBoxItem:first-child:after{
+	border-top:0;
+}

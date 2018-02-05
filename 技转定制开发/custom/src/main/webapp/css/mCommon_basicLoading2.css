@@ -1,0 +1,71 @@
+/*弹出层-选择角色列表*/
+.dajia{}
+
+/*=============================loading圆 渐变==============================*/
+.mCommon_basicLoading2{
+	position:relative;
+	box-sizing: border-box;
+    height: 156px;
+    width: 170px;
+    background: #00ace6;
+    overflow: hidden;
+ }
+.mCommon_basicLoading2_loadingWrapper{
+	box-sizing: border-box;
+    margin:15px auto;
+    height: 126px;
+    width: 126px;
+    border-radius: 90px;
+    position: relative;
+    border: 8px solid rgba(255,255,255,0.2);
+    box-shadow:0 0 0 1px rgba(255,255,255,0.5);
+}
+.mCommon_basicLoading2_loadingInnerBorder {
+	position: absolute;
+	left:0;
+	top: 0;
+	width:108px;
+	height: 108px;
+	border-radius: 90px;
+    border: 1px solid rgba(255,255,255,0.5);
+    z-index: 100;
+}
+.mCommon_basicLoading2_loader {
+    background:url(../images/mCommon_basicLoading2_loader.png) no-repeat;
+    background-size: cover;
+     -webkit-animation: mCommon_basicLoading2 1.5s linear infinite;
+          animation: mCommon_basicLoading2 1.5s linear infinite;
+    position: absolute;
+    z-index: 100;
+	left: -10px;
+	top:-10px;
+	width: 130px;
+	height: 130px;
+}
+@-webkit-keyframes mCommon_basicLoading2{
+0% {
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}
+
+100% {
+     transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}    
+}
+@keyframes mCommon_basicLoading2{
+0% {
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}
+
+100% {
+    transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
+}
+
+.mCommon_basicLoading2_loadingText{position:absolute;z-index:10px;left:0;top:60px;width: 170px;height:100px;text-align: center;}
+.mCommon_basicLoading2_loadingText h3{font-size:20px;color: #fff;margin:0;padding:0;}
+.mCommon_basicLoading2_loadingText p{font-size:12px;color: rgba(255,255,255,0.6);margin:0;padding:0;}
+

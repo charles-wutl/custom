@@ -1,0 +1,11 @@
+.mApp_community_box{}
+.mApp_community_list{}
+.mApp_community_list .mCommon_controlLeftPicRightText_item{padding:10px 15px;}
+.mApp_community_list .mCommon_controlLeftPicRightText_item:after{border-top:0;}
+.mApp_community_list .mCommon_controlLeftPicRightText_itemImgText{padding:0;display: table;table-layout: fixed;width:100%;}
+ .mCommon_controlLeftPicRightText_imgBox{width:40px;height:40px;display: table-cell;margin:0;float:none;text-align:center;vertical-align: middle;border-radius:4px;border:1px solid #f2f2f2;overflow: hidden;}
+.mApp_community_list .mCommon_controlLeftPicRightText_imgBox:after {border:0;}
+/*.mApp_community_list .mCommon_controlLeftPicRightText_imgBox:after {border:1px solid #f2f2f2;border-radius: 4px;}*/
+.mApp_community_list .mCommon_controlLeftPicRightText_imgBox img{max-width:100%;max-height:100%;}
+.mApp_community_list .mCommon_controlLeftPicRightText_contentBox{display: table-cell;vertical-align: middle;padding-left:10px;height:40px;overflow: hidden;}
+.mApp_community_list .mCommon_controlLeftPicRightText_contentBoxTitle{height:auto;line-height: 20px;}

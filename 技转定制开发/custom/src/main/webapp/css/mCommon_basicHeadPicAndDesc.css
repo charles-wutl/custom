@@ -1,0 +1,82 @@
+.mCommon_basicHeadPicAndDesc_item {
+    padding: 10px 15px;
+    background: #FFFFFF;
+}
+
+.mCommon_basicHeadPicAndDesc_item:after {
+    border-bottom: 1px solid #e1e2e6;
+}
+
+.mCommon_basicHeadPicAndDesc_itemTable {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.mCommon_basicHeadPicAndDesc_itemTdHeadPic {
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.mCommon_basicHeadPicAndDesc_itemTdHeadPic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.mCommon_basicHeadPicAndDesc_itemTdDesc {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.mCommon_basicHeadPicAndDesc_title {
+    font-size: 17px;
+    color: #333333;
+}
+
+.mCommon_basicHeadPicAndDesc_content, .mCommon_basicHeadPicAndDesc_date {
+    font-size: 12px;
+    color: #999999;
+}
+
+.mCommon_basicHeadPicAndDesc_contentTitle {
+
+}
+
+.mCommon_basicHeadPicAndDesc_contentTitle_icon {
+    background-color: #ff9317;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+    padding: 0 7px;
+    color: #fff;
+}
+
+/*20161011新增*/
+.mCommon_basicHeadPicAndDesc_labelWrapper {
+    display: table-cell;
+    width: 50px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.mCommon_basicHeadPicAndDesc_label {
+    background-color: #ff9317;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+    padding: 0 7px;
+    color: #fff;
+}
+/*2016-10-28新增*/
+.mCommon_basicHeadPicAndDesc_contentTitle_icon2 {
+    background-color: #14c89b;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+    padding: 0 7px;
+    color: #fff;
+}

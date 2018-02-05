@@ -1,0 +1,106 @@
+.mCommon_basicShortTextHead_container{
+	width: 100%;
+}
+.mCommon_basicShortTextHead_headPic{
+	margin-right: 10px;
+	float: left;
+}
+.mCommon_basicShortTextHead_headPic img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+.mCommon_basicShortTextHead_btnBox{
+	float: right;
+}
+.mCommon_basicShortTextHead_btnReport{
+	display: none;
+}
+.mCommon_basicShortTextHead_btnDelete{
+	display: none;
+}
+.mCommon_basicShortTextHead_btnHidden{
+	display: none;
+}
+.mCommon_basicShortTextHead_btnHidden i{
+	font-size: 10px;
+	color: #999999;
+	display: inline-block;
+}
+.mCommon_basicShortTextHead_btnHidden img{
+	width: 10px;
+	height: 10px;
+	display: block;
+	float: left;
+	margin-top: 3px;
+	margin-right: 3px;
+}
+.mCommon_basicShortTextHead_btnLable{
+	display: none;
+	line-height:15px;
+	font-size: 10px;
+	color: #00ace6;
+	padding-top: 1px;
+}
+.mCommon_basicShortTextHead_btnLable:after{
+	border: 1px solid #00ace6;
+	font-size: 20px;
+}
+.mCommon_basicShortTextHead_btnLable i{
+	margin:0 5px;
+	white-space: nowrap;
+}
+.mCommon_basicShortTextHead_btnReportShow .mCommon_basicShortTextHead_btnReport{
+	display: inline;
+}
+.mCommon_basicShortTextHead_btnDeleteShow .mCommon_basicShortTextHead_btnDelete{
+	display: inline;
+}
+.mCommon_basicShortTextHead_btnHiddenShow .mCommon_basicShortTextHead_btnHidden{
+	display: inline;
+}
+.mCommon_basicShortTextHead_btnLableShow .mCommon_basicShortTextHead_btnLable{
+	display: block;
+}
+/*中间文字显示区域*/
+.mCommon_basicShortTextHead_name{
+	display: block;
+	font-size: 14px;
+	color: #666666;
+	line-height: 18px;
+}
+.mCommon_basicShortTextHead_timeAndInfoLevel{
+	display: block;
+}
+.mCommon_basicShortTextHead_timeAndInfoLevel img{
+	width: 9px;
+	height: 9px;
+	margin-right: 3px;
+	vertical-align:0px;
+}
+.mCommon_basicShortTextHead_timeAndInfoLevel i{
+	font-size: 10px;
+	color: #999999;
+	line-height: 16px;
+}
+.mCommon_basicShortTextHead_timeBox{
+	margin-right: 10px;
+}
+.mCommon_basicShortTextHead_appointGroup{
+	display: none;
+}
+.mCommon_basicShortTextHead_appointPeople{
+	display: none;
+}
+.mCommon_basicShortTextHead_appointPublic{
+	display: none;
+}
+.mCommon_basicShortTextHead_appointGroupShow .mCommon_basicShortTextHead_appointGroup{
+	display: inline;
+}
+.mCommon_basicShortTextHead_appointPeopleShow .mCommon_basicShortTextHead_appointPeople{
+	display: inline;
+}
+.mCommon_basicShortTextHead_appointPublicShow .mCommon_basicShortTextHead_appointPublic{
+	display: inline;
+}

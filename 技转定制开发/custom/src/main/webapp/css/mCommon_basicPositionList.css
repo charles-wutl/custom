@@ -1,0 +1,17 @@
+/*块内容*/
+.dajia{}
+
+/*=============================地图位置列表==============================*/
+
+.mCommon_basicPositionList{background: rgba(255,255,255,1);}
+
+.mCommon_basicPositionListItem{padding:9px 15px;border-bottom:1px solid #e1e2e6;}
+.mCommon_basicPositionListItem_position{}
+.mCommon_basicPositionListItem_position h3{font-size: 17px;line-height:22px;color: #333;}
+.mCommon_basicPositionListItem_position p{font-size: 13px;line-height:16px;color: #999;padding-top:5px;}
+
+.mCommon_basicPositionListItemCurrent{} /*当前位置*/
+.mCommon_basicPositionListItemCurrent h3{color:#ff9318;}
+
+/*tap时*/
+.mCommon_basicPositionListItemTap{}

@@ -1,0 +1,45 @@
+/*单品详情*/
+.mCommon_basicShopInfo_info_box{
+	border-bottom: 1px solid rgba(246,247,247,1);
+	padding:15px 0px;
+}
+.mCommon_basicShopInfo_info_item{
+	padding:0px 15px;
+}
+.mCommon_basicShopInfo_content_item_head h2 span{
+	font-size:14px;
+}
+.mCommon_basicShopInfo_content_item{
+	margin-right: 25px;
+}
+.mCommon_basicShopInfo_content_item_head{
+	position:relative;
+}
+/*颜色-种类-价格*/
+.mCommon_basicShopInfo_content_item_colorAndkind{
+	color:#666;
+    font-size:12px;
+    padding-top:4px;
+    padding-bottom:4px
+}
+.mCommon_basicShopInfo_content_item_priceFormat{
+	padding-right:15px;
+}
+.mCommon_basicShopInfo_content_item_priceFormat i{
+	font-size:12px;
+	color:rgb(250,74,79);
+}
+.mCommon_basicShopInfo_content_item_priceFormat em{
+	margin-right:8px;
+}
+.mCommon_basicShopInfo_content_item_priceFormat span{
+	font-size:14px;
+}
+.mCommon_basicShopInfo_info_del{
+	width: 20px;
+	height: 20px;
+}
+.mCommon_basicShopInfo_info_del img{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,22 @@
+.mShortText_pictureList_picListBox{
+	background: #ebecf0;
+	padding-bottom: 10px;
+}
+.mShortText_pictureList_picListBox:after{
+	border-bottom:1px solid #e1e2e6;
+}
+.mShortText_pictureList_picListBoxItem{
+	background: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 15px 0;
+}
+.mShortText_pictureList_picListBoxItem:last-child{
+	margin-bottom: 0;
+}
+.mShortText_pictureList_picListBoxItem:after{
+	border-top:1px solid #e1e2e6;
+	border-bottom:1px solid #e1e2e6;
+}
+.mShortText_pictureList_picListBoxItem:first-child:after{
+	border-top:0;
+}

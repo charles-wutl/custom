@@ -1,0 +1,128 @@
+.mReleaseMessage_info_header{}
+.mReleaseMessage_info_content{}
+.mReleaseMessage_info_status{background: #edeef2;}
+.mReleaseMessage_info_edit_contact{}
+.mReleaseMessage_info_edit_selectContact{line-height: 40px;cursor: pointer;border-bottom:1px solid #f1f1f3;padding: 0 15px;}
+.mReleaseMessage_info_edit_selectContact img{width:16px;height: 16px;vertical-align: middle;}
+.mReleaseMessage_info_edit_selectContact i{font-size: 16px;color: #999999;vertical-align: middle;margin-left: 10px;}
+.mReleaseMessage_info_edit_contactList{line-height: 40px;cursor: pointer;border-bottom:1px solid #f1f1f3;padding: 0 15px;}
+.mReleaseMessage_info_edit_contactList span{font-size: 16px;color:#1378bf;margin-left:10px;}
+.mReleaseMessage_info_edit_textareaBox{padding:5px 15px;box-sizing: border-box;}
+.mReleaseMessage_info_edit_textarea{width:100%;height:100%;color:#333;font-size: 16px;line-height: 26px;border: 0;}
+.mReleaseMessage_info_edit_position{padding:0 15px;}
+.mReleaseMessage_info_toolBar{overflow: hidden;padding:10px 0;margin-top:10px;}
+.mReleaseMessage_info_toolBar:after{border-top: 1px solid #eff0f2;border-bottom: 1px solid #f1f1f3;}
+.mReleaseMessage_info_toolBar_item{float: left;width:20%;text-align: center;cursor: pointer;}
+.mReleaseMessage_info_toolBar_item img{height: 22px;vertical-align: middle;}
+/*表情类*/
+.mReleaseMessage_info_expressionBox{  position:relative; top:-6px;}
+.mReleaseMessage_info_expression_top{ display: block;height:6px;overflow: hidden;}
+.mReleaseMessage_info_expression_top img{ width: 12px; height: 6px;vertical-align: top; margin-left: 30%;}
+.mReleaseMessage_info_expression_bottom{display: block; padding:0 12px}
+.mReleaseMessage_info_expression_bottom_item{ padding:10px 4px; float:left; width: 12.5%; box-sizing: border-box; cursor: pointer;}
+.mReleaseMessage_info_expression_bottom_item img{ width: 100%}
+/*图片类*/
+.mReleaseMessage_info_imageBox{  position:relative; top:-5px;}
+.mReleaseMessage_info_image_top{ display: block;height:6px;overflow: hidden;}
+.mReleaseMessage_info_image_top img{ width: 12px; height: 6px;vertical-align: top; margin-left: 9%;}
+.mReleaseMessage_info_image_bottom{display: block; padding:10px 15px 0;width:100%;box-sizing: border-box;}
+.mReleaseMessage_info_image_bottom_item{float:left;width:33.3%;box-sizing: border-box; position: relative;text-align: center;margin-right:10px;margin-bottom:10px;}
+.mReleaseMessage_info_image_bottom_item:nth-child(3n){float: right;margin-right:0;}
+.mReleaseMessage_info_image_bottom_item_img{width:100%;height: 100%;}
+.mReleaseMessage_info_image_bottom_item_del{width:20px;height:20px;position: absolute;right:5px;top:5px;cursor: pointer;}
+.mReleaseMessage_info_image_bottom_item_plus{float:left;border:1px dashed #bfbfbf;box-sizing: border-box;position: relative;text-align: center;margin-bottom: 10px;}
+.mReleaseMessage_info_image_bottom_item_plus img{width:32px;height: 32px;position:absolute;top:50%;margin-top:-16px;left:50%;margin-left:-16px;cursor: pointer;}
+
+/*有/无 选中联系人层的样式*/
+.mReleaseMessage_info_cLatelyOperateBox{
+	border-bottom: 10px solid #edeef2;
+}
+.mReleaseMessage_info_cLatelyContactsText{
+	padding: 0 15px;
+	background: #edeef2;
+	line-height: 22px;
+	font-size: 12px;
+	color: #999999;
+}
+.mReleaseMessage_info_cLatelyContactsList{
+	max-height: 450px;
+	overflow: hidden;
+}
+.mReleaseMessage_info_cLatelyContactsItem{
+	height: 45px;
+	width: 100%;
+}
+.mReleaseMessage_info_cLatelyContactsItem:after{
+	border-bottom: 1px solid #E1E2E6;
+}
+.mReleaseMessage_info_cItemImgBox{
+	width: 35px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+}
+.mReleaseMessage_info_cItemImgBox>img{
+	width: 20px;
+	height: 20px;
+}
+.mReleaseMessage_info_cItemNamesBox{
+	font-size: 17px;
+	color: #333333;
+	line-height: 45px;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.mReleaseMessage_info_cItemNumbersBox{
+	font-size: 15px;
+	color: #999999;
+	line-height: 45px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+/*图文推送*/
+.mReleaseMessage_info_textPicPushInit{position: relative;}
+.mReleaseMessage_info_head img{width:100%}
+.mReleaseMessage_info_foot img{width:100%}
+.mReleaseMessage_info_textPicPushInit_content{padding:0 15px;}
+.mReleaseMessage_info_textPicPushInit_input{margin-top: 10px;}
+.mReleaseMessage_info_textPicPushInit_input input{font-size: 20px;}
+.mReleaseMessage_info_textPicPushInit_richText{border:1px solid #e1e2e6;height: 180px;margin-top:10px;background: #fff;}
+.mReleaseMessage_info_textPicPushInit_location{margin-top:10px}
+
+.mReleaseMessage_info_textPicPushInit_coverAbstract{margin-top:10px;height:60px;}
+.mReleaseMessage_info_textPicPushInit_cover{float: left;width:80px;}
+.mReleaseMessage_info_textPicPushInit_abstract{margin-left:90px;
+    padding: 6px;height: 48px;
+    background: #FFF;}
+.mReleaseMessage_info_textPicPushInit_abstract:after{border: 1px solid #e1e2e6;}
+.mReleaseMessage_info_textPicPushInit_abstract textarea{width: 100%;height: 100%;
+    line-height: 120%;
+    border: 0;
+    font-size: 15px;
+    overflow-y: auto;
+    color: #333;
+    float: none;}
+
+.mReleaseMessage_info_setPopup{position: absolute;top:10px;right:15px;display: none;}
+.mReleaseMessage_info_setImg{text-align: right;position: absolute;top:10px;right:15px;}
+.mReleaseMessage_info_setImg img{width:32px;height: 32px;cursor: pointer;}
+.mReleaseMessage_info_closeImg{text-align: right;/*position: absolute;top:10px;right:15px;display: none;*/}
+.mReleaseMessage_info_closeImg img{width:32px;height: 32px;cursor: pointer;}
+
+.mReleaseMessage_info_setPopup_head{background: #4d4d4d;padding:9px 10px;color: #fff;font-size: 17px;margin-top:3px;}
+.mReleaseMessage_info_setPopup_head_switchBtn img{width:51px;height: 31px;}
+.mReleaseMessage_info_setPopup_content{background: #4d4d4d;border-top:1px solid #fff;padding: 10px 5px 15px 13px;}
+.mReleaseMessage_info_setPopup_item{padding:2px;float: left;margin-right:5px;margin-bottom:5px;position: relative;}
+.mReleaseMessage_info_setPopup_itemImg{width:80px;height:100px;}
+.mReleaseMessage_info_setPopup_itemImgActive{display: none;width:20px;height:20px;position: absolute;top:50%;left:50%;margin-left:-10px;margin-top:-10px;}
+.mReleaseMessage_info_setPopup_item_active{border:2px solid #00ace6;padding:0;}
+.mReleaseMessage_info_setPopup_item_active .mReleaseMessage_info_setPopup_itemImgActive{display: block;}
+.mReleaseMessage_info_positionTime{
+	font-size: 12px;
+}
+.mReleaseMessage_info_maskHeadBox{
+	z-index: 8;
+}

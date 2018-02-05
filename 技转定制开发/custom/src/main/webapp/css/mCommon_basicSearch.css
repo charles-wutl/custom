@@ -1,0 +1,32 @@
+@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_basicSearch_box{background-color:#edeef2;padding:6px;font-size:14px;position:relative;}
+/*带取消按钮的搜索*/
+.mCommon_basicSearchAndBtn{padding-right:53px;}
+
+/*search输入框*/
+.mCommon_basicSearchInputWrapper{background-color:#ffffff;border-radius: 3px;padding:4px 34px 2px 30px;line-height:24px;position:relative;}
+.mCommon_basicSearchInputWrapper input{width:100%;border:none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.mCommon_basicSearchInputWrapper input::-webkit-input-placeholder{vertical-align: top;}
+.mCommon_basicSearchInputWrapper input::-webkit-search-cancel-button{display: none;}/*清除谷歌浏览器下的 search 叉号*/
+
+/*搜索图标*/
+.mCommon_basicSearchIcon{display:inline-block;margin-left:-22px;width:13px;height:13px;vertical-align:-2px;background:url(/images/mCommon_basicSearch_icon.png) 0 0 no-repeat;background-size:100%;}
+/*搜索按钮*/
+.mCommon_basicSearchBtn{position:absolute;width:47px;text-align:center;right:5px;top:0;line-height:42px;display: none;}
+.mCommon_basicSearchBtn a{text-decoration: none;}
+
+/*清空输入的文字图标*/
+/*.mCommon_basicSearchClear{position: absolute;top:11px;padding-top:3px;text-align:center;;right:13px;width:20px;height:20px;-webkit-tap-highlight-color: rgba(0,0,0,0);display: none;}*/
+/*.mCommon_basicSearchClear em{display:inline-block;width:14px;height:14px;background:url(../images/mCommon_basicSearch_clear.png) 0 0 no-repeat;background-size:14px;}*/
+.mCommon_basicSearchClear{position: absolute;z-index:2;top:0;text-align:center;;right:13px;width:30px;height:40px;-webkit-tap-highlight-color: rgba(0,0,0,0);display: none;}
+.mCommon_basicSearchClear em{display:inline-block;margin-top:13px;width:14px;height:14px;background:url(/images/mCommon_basicSearch_clear.png) 0 0 no-repeat;background-size:14px;}
+
+/*带按钮搜索的*/
+.mCommon_basicSearchAndBtn .mCommon_basicSearchClear{right:58px;}
+.mCommon_basicSearchAndBtn .mCommon_basicSearchBtn{display: block;}
+
+.mCommon_basicSearchCenter{text-align:center;}
+.mCommon_basicSearchCenter .mCommon_basicSearchIcon{margin-left:0;}
+.mCommon_basicSearchCenter input{width:86px;}

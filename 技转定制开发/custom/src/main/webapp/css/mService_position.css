@@ -1,0 +1,24 @@
+@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mService_position{background:#edeef2;}
+
+.mService_position .mCommon_basicSearch_box{position: relative;z-index: 110;}
+.mService_positionOpenLocation{text-align:center;color: #999;}
+.mService_positionMap{height:200px;width:100%;border-top:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2;}
+
+.mService_positionOpenLocation p{font-size:16px;}
+.mService_positionOpenLocation .commonIconSend32_signwall_white{color: #999;display: inline-block;width:60px;}
+.mService_positionOpenLocation .commonIconSend32_signwall_white:before{font-size:48px;line-height: 48px;}
+.mService_positionOpenLocationIcon{text-align:center;padding:15px 0;}
+.mService_positionOpenLocationIcon .mCommon_basicIcon60Failed{display: inline-block;}
+
+/*搜索结果*/
+.mService_positionSearchList{background: #fff;display: none; position: absolute;top:42px;width:100%;z-index: 161;overflow-y: auto;-webkit-overflow-scrolling: touch;}/*地图z-index:160;*/
+.mService_positionSearchItem{line-height:24px;padding:10px 15px;border-bottom:1px solid #e1e2e6;color: #999;font-size: 15px;cursor: pointer;}
+.mService_positionSearchItem span:first-child{color:#333;}
+
+.mService_positionSearchItemNoborder{border-bottom:0;}
+
+.mService_positionSearchAndMap .mCommon_basicSearch_box{display:none;}
+

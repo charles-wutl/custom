@@ -1,0 +1,40 @@
+.mCommon_basicCount_content_row_link:hover{
+    text-decoration: none;
+}
+.mCommon_basicCount_content_row_link:active{
+	text-decoration: none;
+}
+.mCommon_basicCount_content{
+	height: 74px;
+	background: #FFFFFF;
+}
+.mCommon_basicCount_content_row{
+	float:left;
+    background: url("/modulev1/portalHtml5/images/mCommon_basicCount.jpg") no-repeat left center;
+    background-size: 1px 30px;
+}
+.mCommon_basicCount_content_row:nth-child(1){
+   background: none;
+}
+.mCommon_basicCount_content_wrap{
+	background: white;
+}
+.mCommon_basicCount_content_col_marginLeft{
+	margin-left: 1px;
+}
+.mCommon_basicCount_content_col{
+	padding: 16px 7px 16px 7px;
+}
+.mCommon_basicCount_content_col_top{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 5px;
+	color: #000000;
+	font-weight: 600;
+}
+.mCommon_basicCount_content_col_bottom{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	color: #a8a8a8;
+}

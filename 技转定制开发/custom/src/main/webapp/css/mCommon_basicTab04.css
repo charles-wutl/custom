@@ -1,0 +1,59 @@
+.mCommon_basicTab04{position: relative;}
+.mCommon_basicTab04_box{width:100%;background: rgba(255,255,255,0.95);height:48px;border-bottom: 1px solid rgb(244, 244, 246);}
+/*.mCommon_basicTab04_Box{max-width: 640px;margin:0 auto;position: relative;}*/
+/*by-yuexy2017.10.26*/
+.mCommon_basicTab04_Box{max-width:100%;margin:0 auto;position: relative;}
+.mCommon_basicTab04_container{margin-left:10px;margin-right: 10px;}
+.mCommon_basicTab04_wrapper{}
+.mCommon_basicTab04_slide{/*transform:rotate(180deg);-webkit-transform:rotate(180deg);*/width: 100%;box-sizing: border-box;height:45px;text-align: center;}
+.mCommon_basicTab04_item{padding:0 4px;text-align: center;/*transform:rotate(180deg);-webkit-transform:rotate(180deg);*/height: 45px;display: inline-block;}
+.mCommon_basicTab04_item_icon{width:60px;height: 60px;margin:0 auto;text-align: center;border-radius: 30px;}
+.mCommon_basicTab04_item_icon em{margin:0 auto;color: #fff;width:60px;height: 60px;line-height: 60px;}
+.mCommon_basicTab04_item_icon em:before{line-height: 60px;font-size:28px;}
+.mCommon_basicTab04_item_text{font-size: 15px;color: #666;margin-top:5px;line-height: 40px;}
+.mCommon_basicTab04_container .pagination {
+    width:100%;text-align:center;position: absolute;left: 0;bottom:0;
+}
+.mCommon_basicTab04_container .swiper-pagination-switch {
+    display: inline-block;
+    width: 5px;height: 5px;border-radius: 3px;
+    margin: 0 2px;cursor: pointer;background-color: #e0e0e0;
+}
+.mCommon_basicTab04_container .swiper-active-switch {
+    background-color: #666666;
+}
+.mCommon_basicTabMenu_active04 .mCommon_basicTab04_item_text{
+	
+}
+.mCommon_basicTabMenu_active04{
+    border-bottom: 3px solid #00ace6;
+    color: #00ace6;
+}
+
+.mCommon_basicTab04_img{
+    width: 10px;
+    position: absolute;
+    right: 6px;
+    height: 45px;
+    top: 0;
+    text-align: right;
+    z-index: 20;
+    background: white;
+    text-align: center;
+    background: url(../images/mCommon_basicTab02_right.png) white no-repeat center;
+    background-size: 8px;
+    background-position: left 10px;
+}
+.mCommon_basicTab04_left_img{
+	width: 10px;
+    height: 45px;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+    text-align: right;
+    z-index: 20;
+    background: white;
+    text-align: center;
+    background-size: 8px;
+    background-position: left 6px;	
+}

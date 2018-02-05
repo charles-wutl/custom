@@ -1,0 +1,147 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_basicBtn{vertical-align: middle; text-align:center; border-radius:20px; display:block;background-clip:padding-box; padding:0 25px;}
+.mCommon_basicBtn:hover { text-decoration:none}
+
+/*尺寸控制*/
+.mCommon_basicBtn i { line-height:40px; font-size:16px;vertical-align: middle;  }
+.mCommon_basicBtn img{ width:16px;  height: 16px; vertical-align: middle; margin-left:5px}
+.mCommon_basicBtn img:first-child{  margin-left:0px; margin-right: 5px;}
+
+.mCommon_basicBtn_32{padding:0 25px}
+.mCommon_basicBtn_32 i { line-height:32px; font-size:14px;}
+.mCommon_basicBtn_32 img{ width:16px;  height: 16px; vertical-align: middle; margin-left:5px}
+.mCommon_basicBtn_32 img:first-child{  margin-left:0px; margin-right: 5px;}
+
+.mCommon_basicBtn_24{padding:0 15px}
+.mCommon_basicBtn_24 i { line-height:24px; font-size:12px;}
+.mCommon_basicBtn_24 img{ width:14px;  height: 14px; vertical-align: middle; margin-left:5px}
+.mCommon_basicBtn_24 img:first-child{  margin-left:0px; margin-right: 5px;}
+
+.mCommon_basicBtn_boxCenter .mCommon_basicBtn,
+.mCommon_basicBtn_box2Center .mCommon_basicBtn,
+.mCommon_basicBtn_boxRight .mCommon_basicBtn,
+.mCommon_basicBtn_boxLeft .mCommon_basicBtn{  margin-left: 10px}
+
+
+
+/*颜色控制*/
+
+.mCommon_basicBtn_yellow{ background-color:#ffa414; color:#fff;}
+.mCommon_basicBtn_yellow_tap{background-color:#ffb643;}
+
+.mCommon_basicBtn_red{ background-color:#ff4d4d; color:#fff;}
+.mCommon_basicBtn_red_tap{background-color:#ff7171;}
+
+.mCommon_basicBtn_blue{ background-color:#00ace6; color:#fff;}
+.mCommon_basicBtn_blue_tap{background-color:#33bdeb;}
+
+.mCommon_basicBtn_darkgray{ background-color:#666666; color:#fff;}
+.mCommon_basicBtn_darkgray_tap{background-color:#858585;}
+
+.mCommon_basicBtn_gray{ background-color:#e1e2e6;color:#666}
+.mCommon_basicBtn_gray_tap{ background-color:#d5d6da}
+
+.mCommon_basicBtn_disabled{background-color:#cccccc;color:#ffffff}
+.mCommon_basicBtn_disabled img{opacity: 0.3;}
+.mCommon_basicBtn_disabled_tap{cursor: default;}
+
+.mCommon_basicBtn_yellowBorder{ color:#ffa414;}
+.mCommon_basicBtn_yellowBorder:after{border-color: #ffa414;}
+.mCommon_basicBtn_yellowBorder_tap{background-color:#fff6e7;}
+
+.mCommon_basicBtn_redBorder{ color:#ff4d4d;}
+.mCommon_basicBtn_redBorder:after{border-color: #ff4d4d;}
+.mCommon_basicBtn_redBorder_tap{background-color:#ffeded;}
+
+.mCommon_basicBtn_blueBorder{ color:#00ace6;}
+.mCommon_basicBtn_blueBorder:after{border-color: #00ace6;}
+.mCommon_basicBtn_blueBorder_tap{background-color:#e5f7fc;}
+
+.mCommon_basicBtn_darkgrayBorder{color:#666666;}
+.mCommon_basicBtn_darkgrayBorder:after{border-color: #d9dade;}
+.mCommon_basicBtn_darkgrayBorder_tap{background-color:#9c9c9c;}
+
+.mCommon_basicBtn_grayStatusWeakBorder{color:#bfbfbf;}
+.mCommon_basicBtn_grayStatusWeakBorder:after{border-color: #bfbfbf;}
+.mCommon_basicBtn_grayStatusWeakBorder_tap{background-color:#f8f8f8;}
+
+.mCommon_basicBtn_grayStatusStrongBorder{color:#999999;}
+.mCommon_basicBtn_grayStatusStrongBorder:after{border-color: #999999;}
+.mCommon_basicBtn_grayStatusStrongBorder_tap{background-color:#f2f2f2;}
+
+.mCommon_basicBtn_disabledBorder{ color:#ccc;cursor: default;}
+.mCommon_basicBtn_disabledBorder:after{border-color: #ccc;}
+.mCommon_basicBtn_disabledBorder img{opacity: 0.6;}
+.mCommon_basicBtn_disabledBorder_tap{cursor: default;}
+
+/*mCommon_basicBtn_box2Center之前两个按钮的居中*/
+.mCommon_basicBtn_boxCenter,.mCommon_basicBtn_box2Center{ text-align: center}
+.mCommon_basicBtn_boxCenter .mCommon_basicBtn,.mCommon_basicBtn_box2Center .mCommon_basicBtn { display:inline-block; }
+
+.mCommon_basicBtn_boxCenter > a:first-child,.mCommon_basicBtn_box2Center > a:first-child{ margin-left:0}
+
+.mCommon_basicBtn_boxRight{ text-align: right}
+.mCommon_basicBtn_boxRight .mCommon_basicBtn{ display:inline-block; }
+.mCommon_basicBtn_boxRight > a:first-child{ margin-left:0}
+
+.mCommon_basicBtn_boxLeft{ text-align: left}
+.mCommon_basicBtn_boxLeft .mCommon_basicBtn{ display:inline-block; }
+.mCommon_basicBtn_boxLeft > a:first-child{ margin-left:0}
+
+/*1px边框*/
+.mCommon_basicBtn_yellowBorder,
+.mCommon_basicBtn_redBorder,
+.mCommon_basicBtn_blueBorder,
+.mCommon_basicBtn_darkgrayBorder,
+.mCommon_basicBtn_grayStatusStrongBorder,
+.mCommon_basicBtn_grayStatusWeakBorder,
+.mCommon_basicBtn_disabledBorder{position: relative;}
+.mCommon_basicBtn_yellowBorder:after,
+.mCommon_basicBtn_redBorder:after,
+.mCommon_basicBtn_blueBorder:after,
+.mCommon_basicBtn_darkgrayBorder:after,
+.mCommon_basicBtn_grayStatusStrongBorder:after,
+.mCommon_basicBtn_grayStatusWeakBorder:after,
+.mCommon_basicBtn_disabledBorder:after{
+    border-width:1px;
+    border-style:solid;
+    box-sizing: border-box;
+    border-radius:20px;
+    display: block;
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(1);
+    pointer-events: none; /*解决边框内文字不可点击bug*/
+}
+/*不同dpr缩放*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    .mCommon_basicBtn:after{
+        border-radius:30px;
+        width:150%;
+        height:150%;
+        -webkit-transform: scale(0.66666666);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .mCommon_basicBtn:after{
+        border-radius:40px;
+        width:200%;
+        height:200%;
+        -webkit-transform: scale(0.5);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+    .mCommon_basicBtn:after{
+        border-radius:60px;
+        width:300%;
+        height:300%;
+        -webkit-transform: scale(0.3333);
+    }
+}

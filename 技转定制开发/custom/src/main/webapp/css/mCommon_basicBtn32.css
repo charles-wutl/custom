@@ -1,0 +1,124 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_basicBtn32{text-align:center; border-radius:20px; display:block;background-clip:padding-box; padding:0 25px}
+.mCommon_basicBtn32:hover { text-decoration:none}
+.mCommon_basicBtn32 i { line-height:32px; font-size:14px; vertical-align: middle;}
+.mCommon_basicBtn32 img{ width:16px;  height: 16px; vertical-align: middle; margin-left:5px}
+.mCommon_basicBtn32 img:first-child{  margin-left:0px; margin-right: 5px;}
+
+.mCommon_basicBtn32_yellow{ background-color:#ffa414; color:#fff;}
+.mCommon_basicBtn32_yellow_tap{ background-color:#ffb643;}
+
+.mCommon_basicBtn32_red{ background-color:#ff4d4d; color:#fff;}
+.mCommon_basicBtn32_red_tap{ background-color:#ff7171;}
+
+.mCommon_basicBtn32_blue{ background-color:#00ace6; color:#fff;}
+.mCommon_basicBtn32_blue_tap{background-color:#33bdeb;}
+
+.mCommon_basicBtn32_darkgray{ background-color:#666666; color:#fff;}
+.mCommon_basicBtn32_darkgray_tap{background-color:#858585;}
+
+.mCommon_basicBtn32_gray{ background-color:#e1e2e6;color:#666}
+.mCommon_basicBtn32_gray_tap{ background-color:#d5d6da}
+
+.mCommon_basicBtn32_disabled{ background-color:#ccc;color:#fff;cursor: default;}
+.mCommon_basicBtn32_disabled img{opacity: 0.3;}
+.mCommon_basicBtn32_disabled_tap{cursor: default;}
+
+.mCommon_basicBtn32_yellowBorder{color:#ffa414;}
+.mCommon_basicBtn32_yellowBorder:after{border-color: #ffa414;}
+.mCommon_basicBtn32_yellowBorder_tap{background-color:#fff6e7;}
+
+.mCommon_basicBtn32_redBorder{ color:#ff4d4d;}
+.mCommon_basicBtn32_redBorder:after{border-color: #ff4d4d;}
+.mCommon_basicBtn32_redBorder_tap{background-color:#ffeded;}
+
+.mCommon_basicBtn32_blueBorder{ color:#00ace6;}
+.mCommon_basicBtn32_blueBorder:after{border-color: #00ace6;}
+.mCommon_basicBtn32_blueBorder_tap{background-color:#e5f7fc;}
+
+.mCommon_basicBtn32_darkgrayBorder{ color:#666666;}
+.mCommon_basicBtn32_darkgrayBorder:after{border-color: #d9dade;}
+.mCommon_basicBtn32_darkgrayBorder_tap{background-color:#9c9c9c;}
+
+.mCommon_basicBtn32_grayStatusWeakBorder{color:#bfbfbf;}
+.mCommon_basicBtn32_grayStatusWeakBorder:after{border-color: #bfbfbf;}
+.mCommon_basicBtn32_grayStatusWeakBorder_tap{background-color:#f8f8f8;}
+
+.mCommon_basicBtn32_grayStatusStrongBorder{color:#999999;}
+.mCommon_basicBtn32_grayStatusStrongBorder:after{border-color: #999999;}
+.mCommon_basicBtn32_grayStatusStrongBorder_tap{background-color:#f2f2f2;}
+
+.mCommon_basicBtn32_disabledBorder{ color:#ccc;cursor: default;}
+.mCommon_basicBtn32_disabledBorder:after{border-color: #ccc;}
+.mCommon_basicBtn32_disabledBorder img{opacity: 0.6;}
+.mCommon_basicBtn32_disabledBorder_tap{cursor: default;}
+
+.mCommon_basicBtn32_boxCenter{ text-align: center}
+.mCommon_basicBtn32_boxCenter .mCommon_basicBtn32 { display:inline-block; margin-left: 10px}
+.mCommon_basicBtn32_boxCenter > a:first-child{ margin-left:0}
+
+.mCommon_basicBtn32_boxRight{ text-align: right}
+.mCommon_basicBtn32_boxRight .mCommon_basicBtn32 { display:inline-block; margin-left: 10px}
+.mCommon_basicBtn32_boxRight > a:first-child{ margin-left:0}
+
+.mCommon_basicBtn32_boxLeft{ text-align: left}
+.mCommon_basicBtn32_boxLeft .mCommon_basicBtn32 { display:inline-block; margin-left: 10px}
+.mCommon_basicBtn32_boxLeft > a:first-child{ margin-left:0}
+
+/*1px边框*/
+.mCommon_basicBtn32_yellowBorder,
+.mCommon_basicBtn32_redBorder,
+.mCommon_basicBtn32_blueBorder,
+.mCommon_basicBtn32_darkgrayBorder,
+.mCommon_basicBtn32_grayStatusStrongBorder,
+.mCommon_basicBtn32_grayStatusWeakBorder,
+.mCommon_basicBtn32_disabledBorder{position: relative;}
+.mCommon_basicBtn32_yellowBorder:after,
+.mCommon_basicBtn32_redBorder:after,
+.mCommon_basicBtn32_blueBorder:after,
+.mCommon_basicBtn32_darkgrayBorder:after,
+.mCommon_basicBtn32_grayStatusStrongBorder:after,
+.mCommon_basicBtn32_grayStatusWeakBorder:after,
+.mCommon_basicBtn32_disabledBorder:after{
+    border-width:1px;
+    border-style:solid;
+    box-sizing: border-box;
+    border-radius:20px;
+    display: block;
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(1);
+    pointer-events: none; /*解决边框内文字不可点击bug*/
+}
+/*不同dpr缩放*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    .mCommon_basicBtn32:after{
+        border-radius:30px;
+        width:150%;
+        height:150%;
+        -webkit-transform: scale(0.66666666);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .mCommon_basicBtn32:after{
+        border-radius:40px;
+        width:200%;
+        height:200%;
+        -webkit-transform: scale(0.5);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+    .mCommon_basicBtn32:after{
+        border-radius:60px;
+        width:300%;
+        height:300%;
+        -webkit-transform: scale(0.3333);
+    }
+}

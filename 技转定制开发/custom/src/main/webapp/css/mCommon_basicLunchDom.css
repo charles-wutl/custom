@@ -1,0 +1,7 @@
+.mCommon_basicLunchDom_Box {  border: 1px solid #ddd;  border-radius: 10px;  margin: 5px;  box-shadow: 1px 1px 1px #dcdcdc;  padding: 8px;  }
+.mCommon_basicLunchDom_head{margin: 10px 0;}
+.mCommon_basicLunchDom_head_title{font-size: 12px;line-height: 14px;}
+.mCommon_basicLunchDom_head_icon{height: 20px;width: 40px;float:right;background: 10px url("../images/mCommon_basicLunchDom_arrowDown.png") no-repeat ;background-size: 10px;background-position: right;margin-right: 5px}
+.mCommon_basicLunchDom_content{background-color: #f0f1f2;  }
+.mCommon_basicLunchDom_content .mCommon_controlFormGroup_item_lable{width: 100%;}
+.mCommon_basicLunchDom_contentDom{height: 100px;width: 96%;margin-left: 2%;  overflow: hidden;  transition:height 2s;  -moz-transition:height 2s; /* Firefox 4 */  -webkit-transition:height 2s; /* Safari and Chrome */  -o-transition:width 2s; /* Opera */  }

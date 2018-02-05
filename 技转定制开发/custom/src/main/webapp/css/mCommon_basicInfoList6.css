@@ -1,0 +1,44 @@
+.mCommon_basicInfoList6_box{  }
+.mCommon_basicInfoList6_box_content{
+    border-bottom: 1px solid #e1e2e6;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: 15px;
+    padding-right: 14px; 
+}
+.mCommon_basicInfoList6_box_content_table{
+	width: 100%;
+}
+.mCommon_basicInfoList6_box_item{
+	font-size: 15px;
+	line-height: 25px;
+}
+.mCommon_basicInfoList6_box_item_content{
+	width: 100%;
+}
+.mCommon_basicInfoList6_box_content_img{
+	width: 15px;
+	text-align: right;
+}
+.mCommon_basicInfoList6_box_content_img img{
+    width: 7px;
+    height: 14px;
+}
+.mCommon_basicInfoList_item_lable{
+	vertical-align: middle;
+	width: 75px;
+	color: #666;
+	text-align: left;
+	color:#84abc9;
+	word-break: break-all;
+    word-wrap: break-word;
+}
+.mCommon_basicInfoList_item_info{
+	vertical-align: middle;
+	text-align: left;
+	line-height: 20px;
+	color: #333;
+	padding-left: 100px;
+	word-break: break-all;
+    word-wrap: break-word;
+}

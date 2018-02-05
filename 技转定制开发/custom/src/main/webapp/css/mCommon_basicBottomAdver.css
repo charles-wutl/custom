@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_basicBottomAdver{text-align:center; border-top:1px solid #e1e2e6}
+.mCommon_basicBottomAdver > img{width:14px;vertical-align: middle;}
+.mCommon_basicBottomAdver > a{font-size:12px;color:#999;margin-left:3px;vertical-align: middle;cursor: default; line-height:40px}
+.mCommon_basicBottomAdver > a:hover{text-decoration: none;}
+.mCommon_basicBottomAdver > .ui-link{font-weight:normal;color:#999;}
+
+

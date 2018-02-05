@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_jsPullToRefresh_loading{
+	color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.mCommon_jsPullToRefresh_loading_icon{
+	width:28px; height:28px;	
+	vertical-align: middle;
+	margin-right: 5px;
+	animation-name:mCommon_jsPullToRefresh_loading_icon_movie;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	
+	-webkit-animation-name:mCommon_jsPullToRefresh_loading_icon_movie;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	
+}
+
+.mCommon_jsPullToRefresh_noneMore{
+	color: #666;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+}
+
+
+@keyframes mCommon_jsPullToRefresh_loading_icon_movie {
+	from { transform:rotate(0deg);-webkit-transform:rotate(0deg) }
+	to { transform:rotate(360deg);-webkit-transform:rotate(360deg) }
+}
+@-webkit-keyframes mCommon_jsPullToRefresh_loading_icon_movie {
+	from { -webkit-transform:rotate(0deg) }
+	to { -webkit-transform:rotate(360deg)  }
+}
+

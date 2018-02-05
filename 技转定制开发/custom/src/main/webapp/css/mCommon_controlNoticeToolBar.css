@@ -1,0 +1,7 @@
+﻿@charset "utf-8";
+.dajia {}
+.mCommon_controlNoticeToolBar { }
+.mCommon_controlNoticeToolBar_left { }
+    
+.mCommon_controlNoticeToolBar_btnGroup { float: left; margin-left:10px}
+.mCommon_controlNoticeToolBar_left > p:first-child{margin-left:0 }

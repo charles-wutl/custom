@@ -1,0 +1,15 @@
+/*maCommon_ImageSwiper*/
+.mCommon_jsImageView { background-color:#000; position:fixed; z-index:10; width:100%; left:0; top:0}
+.mCommon_jsImageView_imgBox { }
+.mCommon_jsImageView_imgBox div[mCommon_jsImageView_swiperZoom]{position: fixed;z-index:-5}
+.mCommon_jsImageView_imgBox #mCommon_jsImageView_swiperZoom{background:#000; position: fixed; z-index:5; width:100%; right:0; top:0 }
+.mCommon_jsImageView_imgBox .mCommon_jsImageView_swiperZoom{background:#000; position: fixed; z-index:5; width:100%; right:0; top:0 }
+.mCommon_jsImageView_imgContent { width:100%}
+.mCommon_jsImageView_imgContent td { text-align: center}
+.mCommon_jsImageView_imgContent img { max-height:100%; max-width:100%}
+
+.mCommon_jsImageView_numBox{ display:block; position: fixed; bottom:20px; width:100%; z-index:10; }
+.mCommon_jsImageView_numBox_mum i{text-shadow:inherit; padding:0 3px; }
+.mCommon_jsImageView_numBox_mum{color:#fff; font-size:18px; text-shadow:1px 1px 2px rgba(0,0,0,1); display:block; line-height:32px; margin: 0 52px;text-align:center; }
+.mCommon_jsImageView_close { display:block; float:left; padding:0 20px;cursor: pointer; }
+.mCommon_jsImageView_close em{ font-size:18px;text-shadow:1px 1px 2px rgba(0,0,0,1);}

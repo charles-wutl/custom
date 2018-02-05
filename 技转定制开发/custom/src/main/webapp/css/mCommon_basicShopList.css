@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*列表*/
+.mCommon_basicShopList{min-width:320px;color: #333;}
+/*左图右文，图片居顶对齐，去掉1px边框，源文件按比例传入，不存在90*120的图片源，20160926*/
+.mCommon_basicShopListItem{padding:10px 15px;background:#fff;border-bottom:1px solid #e1e2e6;}
+.mCommon_basicShopListItem_imgAndInfo{display: table;width:100%;}
+.mCommon_basicShopListItem_img{display: table-cell;width:90px;position: relative; box-sizing: border-box;}
+.mCommon_basicShopListItem_img img{width: 100%;}
+
+.mCommon_basicShopListItem_info{padding-left: 8px;display: table-cell;vertical-align: top;position:relative;}
+.mCommon_basicShopListItem_info h3{font-size: 16px;line-height:20px;color: #333;overflow:hidden;max-height:42px;word-break:break-all;word-wrap:break-word;}
+
+.mCommon_basicShopList_specification{color: #999999;font-size: 12px;line-height: 15px;margin-top:4px;}
+
+.mCommon_basicShopList_moneyAndNum{font-size:14px;height:17px;width:100%;margin-top:4px;}
+.mCommon_basicShopList_money{color: #ff4d4d;display: inline-block;}
+.mCommon_basicShopList_money em{font-size:10px;}
+.mCommon_basicShopList_money strong{font-size:16px;line-height:16px;}
+.mCommon_basicShopList_num{float: right;margin-right:8px}
+
+/*积分图标*/
+.mCommon_basicShopList_intelgralIcon{background:url("../images/mIntegralMoney_icon.png") center no-repeat;background-size:100%;display: inline-block;height: 12px;margin-right:2px;width:12px;}
+/*运费*/
+.mCommon_basicShopList_transCosts{font-size:16px;line-height: 40px;border-bottom:1px solid #e1e2e6;padding:0 15px;}
+.mCommon_basicShopList_transCosts span{float:right;}
+/*合计*/
+.mCommon_basicShopList_total{font-size:14px;line-height: 22px;border-bottom:1px solid #e1e2e6;padding:10px 15px;text-align:right; }
+.mCommon_basicShopList_total span{font-size:16px;color: #ff4d4d;}
+

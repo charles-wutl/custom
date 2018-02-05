@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_basicInputStar { }
+.mCommon_basicInputStar_star { cursor:pointer;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.mCommon_basicInputStar_star > img{ width:32px; height:32px; display:none; margin-right:5px;}
+.mCommon_basicInputStar_starGray .mCommon_basicInputStar_star_gray{ display:inline-block}
+.mCommon_basicInputStar_starYellow .mCommon_basicInputStar_star_yellow{ display:inline-block}
+

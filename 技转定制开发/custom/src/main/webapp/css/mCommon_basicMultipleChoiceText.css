@@ -1,0 +1,11 @@
+@charset "utf-8";
+.dajia {}
+/* 多选 */
+.mCommon_basicMultipleChoiceTextList{}
+.mCommon_basicMultipleChoiceTextList li{cursor: pointer;line-height:40px;padding:0 10px;/*border-bottom:1px solid #e1e2e5;*/-webkit-touch-callout:none; -webkit-user-select:none; user-select:none;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+.mCommon_basicMultipleChoiceTextList em{display: inline-block;vertical-align:-4px;border:1px solid #e1e2e6;border-radius:5px;width:18px;height:18px;margin-right:6px;background-color:#fff;background-clip: padding-box;}
+.mCommon_basicMultipleChoiceTextList span{display: inline-block;color:#666;font-size:15px;}
+.mCommon_basicMultipleChoiceTextList .mCommon_basicMultipleTextItemSelected em{background:#00ace6 url(../images/mCommon_basicChoiceTextItemSelected.png) center no-repeat;background-size:80%;background-clip:padding-box;border:1px solid #00ace6;}
+
+.mCommon_basicMultipleChoiceTextList .mCommon_basicMultipleTextItemDisabled em{background:#bfbfbf;background-clip:padding-box;border:1px solid #e1e2e6;}
+.mCommon_basicMultipleChoiceTextList .mCommon_basicMultipleTextItemDisabled{cursor:default;}

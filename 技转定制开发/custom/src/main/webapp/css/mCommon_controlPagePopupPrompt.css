@@ -1,0 +1,31 @@
+.mCommon_controlPagePopupPrompt_box{
+	min-width: 80px;
+	min-height: 80px;
+	max-width: 270px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 10px;
+	padding:10px;
+	display: inline-block;
+	position: fixed;
+	top: 50%;
+	z-index: 999;
+}
+.mCommon_controlPagePopupPrompt_boxNoImg{
+	min-height: 22px;
+}
+.mCommon_controlPagePopupPrompt_promptImgBox{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 4px;
+}
+.mCommon_controlPagePopupPrompt_promptImgBox>img{
+	width: 40px;
+	height: 40px;
+}
+.mCommon_controlPagePopupPrompt_promptInfo{
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	display: block;
+}

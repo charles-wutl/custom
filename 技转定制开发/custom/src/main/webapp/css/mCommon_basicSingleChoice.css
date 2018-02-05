@@ -1,0 +1,12 @@
+@charset "utf-8";
+.dajia {}
+/* 单选 */
+.mCommon_basicSingleChoiceList{margin: 0 -5px;}
+.mCommon_basicSingleChoiceList li{display: inline-block;cursor: pointer;line-height:30px;height:30px;background:#fff;border:1px solid #d9dade;border-radius: 30px;text-align:center;padding:0 20px;margin:5px;background-clip:padding-box;-webkit-touch-callout:none; -webkit-user-select:none; user-select:none;-webkit-tap-highlight-color:rgba(255,0,0,0);position: relative;}
+.mCommon_basicSingleChoiceList li:before{border:1px solid transparent;position:absolute;content:"";top:-2px}/*解决联想A780t，点击露1px底色bug*/
+.mCommon_basicSingleChoiceList span{display: block;color:#666;font-size:13px;}
+.mCommon_basicSingleChoiceList .mCommon_basicSingleItemSelected{background:#e5f7fc;background-clip:padding-box;border:1px solid #00ace6;}
+.mCommon_basicSingleChoiceList .mCommon_basicSingleItemSelected span{color: #00ace6;}
+
+.mCommon_basicSingleChoiceList .mCommon_basicSingleItemDisabled{background:#d9dade;background-clip:padding-box;border:1px solid #d9dade;cursor: default;}
+.mCommon_basicSingleChoiceList .mCommon_basicSingleItemDisabled span{color:#ffffff;}

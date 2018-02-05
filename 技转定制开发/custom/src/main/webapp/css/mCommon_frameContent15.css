@@ -1,0 +1,6 @@
+﻿@charset "utf-8";
+.dajia {}
+/*.mCommon_frameContent15_page { max-width:640px; margin:0 auto}*/
+/*by-yuexy2017.10.25*/
+.mCommon_frameContent15_page { max-width:100%; margin:0 auto}
+.mCommon_frameContent15_content { padding:15px}

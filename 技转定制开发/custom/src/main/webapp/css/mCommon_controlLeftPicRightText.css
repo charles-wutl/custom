@@ -1,0 +1,41 @@
+.mCommon_controlLeftPicRightText_item:after{
+	border-top: 1px solid #e1e2e6;
+	border-bottom: 1px solid #e1e2e6;
+}
+.mCommon_controlLeftPicRightText_item:first-child:after{
+	border-top: 0px;
+}
+.mCommon_controlLeftPicRightText_itemImgText{
+	padding: 10px 15px;
+	padding-left: 134px;
+}
+.mCommon_controlLeftPicRightText_imgBox{
+	width: 107px;
+	height: 80px;
+	float: left;
+	margin-left: -119px;
+}
+.mCommon_controlLeftPicRightText_imgBox:after{
+	border: 1px solid #f2f2f2;
+}
+.mCommon_controlLeftPicRightText_contentBoxTitle{
+	font-size: 16px;
+	line-height: 22px;
+	color: #333333;
+	height: 44px;
+}
+.mCommon_controlLeftPicRightText_contentBoxAddress,.mCommon_controlLeftPicRightText_contentBoxTime{
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+}
+.mCommon_controlLeftPicRightText_contentBoxTimeSpace{
+	margin-right: 5px;
+}
+.mCommon_controlLeftPicRightText_itemBtn{
+	padding: 6px 15px;
+	text-align: right;
+}
+.mCommon_controlLeftPicRightText_itemBtn:after{
+	border-top: 1px solid #e1e2e6;
+}

@@ -1,0 +1,108 @@
+.mLongTextReplyDetails_longTextReplyDetails_infoComprehensive{
+	background-color: #EBECF0;
+}
+.mLongTextReplyDetails_longTextReplyDetails_infoComprehensiveBox{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #FFFFFF;
+}
+.mLongTextReplyDetails_longTextReplyDetails_infoComprehensiveBox:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mLongTextReplyDetails_longTextReplyDetails_replyInfoBox{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_replyInfoBox:after{
+	border-top: 1px solid #e1e2e6;
+}
+.mLongTextReplyDetails_longTextReplyDetails_replySpecificContentOption{
+	padding: 15px;
+	background-color: #FFFFFF;
+}
+.mLongTextReplyDetails_longTextReplyDetails_replySpecificContentOption:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_replySpecificContentOptionInfo{
+	padding-left: 42px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_nullInfo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_popOperationBox{
+	text-align: center;
+}
+.mLongTextReplyDetails_longTextReplyDetails_popOperationBoxP{
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+.mLongTextReplyDetails_longTextReplyDetails_popOperationBoxP:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mLongTextReplyDetails_longTextReplyDetails_popOperationBoxP:last-child:after{
+	border: 0;
+}
+.mLongTextReplyDetails_longTextReplyDetails_alreadyReadBoxOption{
+	background-color: #FFFFFF;
+	display: block;
+	height: 52px;
+	padding: 0 15px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_alreadyReadBoxOption:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_alreadyReadBoxOptionImg{
+	float: left;
+}
+.mLongTextReplyDetails_longTextReplyDetails_alreadyReadBoxOptionImg img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_alreadyReadBoxOptionText{
+	color: #333333;
+	font-size: 14px;
+	line-height: 52px;
+	padding-left: 10px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_praiseBoxOption{
+	background-color: #FFFFFF;
+	display: block;
+	height: 52px;
+	padding: 0 15px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_praiseBoxOption:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mLongTextReplyDetails_longTextReplyDetails_praiseBoxOptionImg{
+	float: left;
+}
+.mLongTextReplyDetails_longTextReplyDetails_praiseBoxOptionImg img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_praiseBoxOptionText{
+	color: #333333;
+	font-size: 14px;
+	line-height: 52px;
+	padding-left: 10px;
+}
+.mLongTextReplyDetails_longTextReplyDetails_popOperationBoxBtn {
+	color: #00ace6;
+}
+.mLongTextReplyDetails_longTextReplyDetails_popOperationBoxBtn:hover {
+	text-decoration: none;
+}
+.mLongTextReplyDetails_longTextReplyDetails_replySpecificContentListAll,
+.mLongTextReplyDetails_longTextReplyDetails_alreadyReadBoxAll,
+.mLongTextReplyDetails_longTextReplyDetails_praiseBoxAll,
+.mLongTextReplyDetails_longTextReplyDetails_ReplyBtn{
+	background: #FFFFFF;
+}

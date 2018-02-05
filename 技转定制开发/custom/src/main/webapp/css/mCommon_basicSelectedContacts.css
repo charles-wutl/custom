@@ -1,0 +1,53 @@
+.mCommon_basicSelectedContacts_box{
+	padding: 0 15px;
+	background: #FFFFFF;
+}
+.mCommon_basicSelectedContacts_boxContent{
+	overflow-y: auto;
+	max-height: 75px;
+	padding: 3px 0 10px 0;
+	box-sizing: border-box;
+}
+.mCommon_basicSelectedContacts_box:after{
+	border-bottom: 1px solid #E1E2E6;
+}
+.mCommon_basicSelectedContacts_selectedPerson{
+	display: inline-block;
+	background: #e7f1f8;
+	border-radius: 20px;
+	height: 24px;
+	vertical-align: middle;
+	margin-top: 7px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.mCommon_basicSelectedContacts_box .mCommon_basicSelectedContacts_selectedPerson:after{
+	border: 1px solid #1378bf;
+	font-size:14px;
+}
+.mCommon_basicSelectedContacts_selectedPersonContent{
+	display: inline-block;
+	max-width:84px;
+	padding:5px 10px;
+	font-size: 14px;
+	color: #1378bf;
+	line-height: 14px;
+}
+.mCommon_basicSelectedContacts_boxContent >input{
+	border: 0;
+	background: none;
+	width: 96px;
+	height: 28px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.mCommon_basicSelectedContacts_noSelectPerson{
+	font-size: 16px;
+	line-height: 52px;
+	color: #999999;
+	display: none;
+	padding: 0 15px;
+}
+.mCommon_basicSelectedContacts_noSelectPerson:after{
+	border-bottom: 1px solid #E1E2E6;
+}

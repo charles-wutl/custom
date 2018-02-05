@@ -1,0 +1,34 @@
+.mDelicateInfo_list_containerBorderPx1:after{
+	position: static;
+}
+.mDelicateInfo_list_container .mCommon_basicFrameDelicateInfo_box:first-of-type{
+	border-top: 0;
+}
+.mDelicateInfo_list_popularUsersContainer{
+	padding:10px 15px;
+}
+.mDelicateInfo_list_hotGroupContainer{
+	padding-left: 15px;
+}
+.mDelicateInfo_list_hotTopicContainerItem{
+	padding: 15px 0;
+}
+.mDelicateInfo_list_hotTopicContainerItem:after{
+	border-top: 1px solid #E1E2E6;
+}
+.mDelicateInfo_list_hotTopicContainerItem:first-of-type:after{
+	border-top: 0;
+}
+.mDelicateInfo_list_pictureSelectedContainerItem{
+	padding: 15px 0;
+}
+.mDelicateInfo_list_pictureSelectedContainerItem:after{
+	border-top: 1px solid #E1E2E6;
+}
+.mDelicateInfo_list_pictureSelectedContainerItem:first-of-type:after{
+	border-top: 0;
+}
+.mDelicateInfo_list_hotTopicNull,
+.mDelicateInfo_list_pictureSelectedNull{
+	padding: 35px 0;
+}

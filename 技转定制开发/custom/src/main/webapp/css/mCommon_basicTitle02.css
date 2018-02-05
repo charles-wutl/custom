@@ -1,0 +1,24 @@
+.mCommon_basicTitle02_box{
+	background: #f4f4f5;
+	text-align: center;
+}
+.mCommon_basicTitle02_content{
+	margin:0 auto;
+	overflow: hidden;
+	display: inline-block;
+}
+.mCommon_basicTitle02_line{
+	width: 25px;
+	border-top:1px solid #333333; 
+	margin:0 auto;
+	margin-top: 15px;
+}
+.mCommon_basicTitle02_line:nth-child(1){
+	/* margin-right:55px; */
+}
+.mCommon_basicTitle02_word{
+	/* margin:0 auto; */
+	margin-left:4px;
+	margin-right:4px;
+	/* line-height: 30px; */
+}

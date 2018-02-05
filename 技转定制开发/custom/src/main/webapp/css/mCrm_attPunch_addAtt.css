@@ -1,0 +1,80 @@
+.mCrm_attPunch_addAtt_map{
+	border: 1px solid #e1e2e6;
+    padding: 7px 10px;
+    padding-right: 5px;
+    background: #fff;
+}
+.mCrm_attPunch_addAtt_map .mCrm_attPunch_addAtt_map_left{
+    border: 0;
+    line-height: 24px;
+    height: 24px;
+    font-size: 14px;
+    color: #1270b3;
+    background: transparent;
+    padding-left: 30px;
+}
+.mCrm_attPunch_addAtt_map_right{
+	width:24px;
+	padding-left: 5px;
+	border-left: 1px solid #e1e2e6;
+}
+.mCrm_attPunch_addAtt_map_right img{
+	width:24px;
+}
+.mCrm_attPunch_addAtt_map > img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+}
+.mCrm_attPunch_addAtt_toolBar{
+	margin-top:0px;
+}
+.mCrm_attPunch_addAtt_toolBar .mReleaseMessage_info_toolBar_item{
+	width:50%;
+}
+.mCrm_attPunch_addAtt_card{
+	padding-left: 15px;
+}
+.mCrm_attPunch_addAtt_item {
+	padding-top: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+    float: left;
+    width: 100px;
+}
+.mCrm_attPunch_addAtt_item_slide {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.mCrm_attPunch_addAtt_item_icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+}
+.mCrm_attPunch_addAtt_item_icon em {
+    margin: 0 auto;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+}
+.mCommon_basicMessageEnter_item_icon em:before {
+    line-height: 60px;
+    font-size: 28px;
+}
+.mCrm_attPunch_addAtt_attachment{
+	top:0px;
+}
+.mCommon_basicMessageEnter_item_text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    padding: 0 5px;
+}

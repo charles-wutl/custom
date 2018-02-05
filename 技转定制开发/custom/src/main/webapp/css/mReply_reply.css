@@ -1,0 +1,20 @@
+.mReply_reply_conrent{ background: #edeef2;}
+.mReply_reply_textAreaBox{ padding:10px 15px; background: #fff;}
+.mReply_reply_textArea{ height: 110px; text-align: 1.5; font-size: 16px; border: 0; width: 100%;}
+.mReply_reply_imgBox{ background: #fff; padding-bottom:5px}
+
+.mReply_reply_attachmentBox{  background:#fff; }
+.mReply_reply_attachmentBox:after{border-top: 1px solid #e1e2e6;border-bottom: 1px solid #e1e2e6;  }
+.mReply_reply_attachment_leftItem{padding:5px 15px; float:left; cursor: pointer;}
+.mReply_reply_attachment_leftItem img{ width: 30px; height: 30px;}
+.mReply_reply_attachment_right{ padding:4px 15px 4px 0px }
+
+.mReply_reply_expressionBox{  position:relative; top:-5px}
+.mReply_reply_expression_top{ display: block;height:6px;overflow: hidden;}
+.mReply_reply_expression_top img{ width: 12px; height: 6px;vertical-align: top; margin-left: 23px;}
+.mReply_reply_expression_bottom{display: block; padding:0 12px}
+.mReply_reply_expression_bottom_item{ padding:10px 4px; float:left; width: 12.5%; box-sizing: border-box; cursor: pointer;}
+.mReply_reply_expression_bottom_item img{ width: 100%}
+
+
+

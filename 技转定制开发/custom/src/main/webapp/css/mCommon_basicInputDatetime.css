@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_basicInputDatetime { border:1px solid #e1e2e6; padding:7px 10px; padding-right:5px; background:#fff; position: relative;box-sizing: border-box;}
+.mCommon_basicInputDatetime > input{border:0; line-height:24px;height:24px; font-size:14px; color:#333333;width:100%;background: transparent;}
+.mCommon_basicInputDatetime > img { width:24px; height:24px; float:right; margin-top:-24px;cursor:pointer}
+.mCommon_basicInputDatetime > input:focus{outline: none;}
+
+.mCommon_basicInputDatetime_disable{}
+.mCommon_basicInputDatetime_disable:before{ 
+	box-sizing: border-box;
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index:1;
+	background: rgba(0,0,0,0.1);
+	}

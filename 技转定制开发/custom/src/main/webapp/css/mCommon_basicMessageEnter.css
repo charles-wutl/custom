@@ -1,0 +1,23 @@
+.mCommon_basicMessageEnter_box{width:100%;position: fixed;top:0;bottom:0;left:0;right:0;z-index: 20;background: rgba(255,255,255,0.95);}
+/*.mCommon_basicMessageEnter{max-width: 640px;margin:0 auto;}*/
+/*by-yuexy2017.10.26*/
+.mCommon_basicMessageEnter{max-width:100%;margin:0 auto;}
+.mCommon_basicMessageEnter_container{height:352px;}
+.mCommon_basicMessageEnter_wrapper{}
+.mCommon_basicMessageEnter_slide{/*transform:rotate(180deg);-webkit-transform:rotate(180deg);*/width: 100%;padding:0 10px;box-sizing: border-box;}
+.mCommon_basicMessageEnter_item{text-align: center;padding-bottom: 30px;/*transform:rotate(180deg);-webkit-transform:rotate(180deg);*/float: left;}
+.mCommon_basicMessageEnter_item_icon{width:60px;height: 60px;margin:0 auto;text-align: center;border-radius: 30px;}
+.mCommon_basicMessageEnter_item_icon em{margin:0 auto;color: #fff;width:60px;height: 60px;line-height: 60px;}
+.mCommon_basicMessageEnter_item_icon em:before{line-height: 60px;font-size:28px;}
+.mCommon_basicMessageEnter_item_text{font-size: 14px;color: #666;margin-top:5px;padding:0 5px;}
+.mCommon_basicMessageEnter_container .pagination {
+    width:100%;text-align:center;position: absolute;left: 0;bottom:0;
+}
+.mCommon_basicMessageEnter_container .swiper-pagination-switch {
+    display: inline-block;
+    width: 5px;height: 5px;border-radius: 3px;
+    margin: 0 2px;cursor: pointer;background-color: #e0e0e0;
+}
+.mCommon_basicMessageEnter_container .swiper-active-switch {
+    background-color: #666666;
+}

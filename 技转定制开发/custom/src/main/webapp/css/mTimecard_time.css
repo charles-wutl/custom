@@ -1,0 +1,29 @@
+.mTimecard_card_take{
+	float: left;
+	padding: 7px 5px;
+}
+.mTimecard_card_more{
+	float: right;
+}
+.mTimecard_card_png{
+	float: right;	
+}
+.mCommon_basicSelect{
+	float: right;	
+}
+.mTimecard_card_selectmonth{
+	width: 55px;
+}
+.mTimecard_card_png img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	padding-bottom: 1px;
+}
+.mTimecard_card_content_header{
+	border-bottom:1px solid #e1e2e6;
+	padding:14px;
+}
+.mTimecard_card_content_header p{
+	font-size: 15px;
+}

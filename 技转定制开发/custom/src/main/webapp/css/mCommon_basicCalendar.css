@@ -1,0 +1,149 @@
+/*日历组件*/
+.mCommon_basicCalendar{/*overflow:auto;*/overflow-x:hidden;overflow-y:auto;position:relative;}
+/*年月标题*/
+.mCommon_basicCalendar_ymWrapper{cursor: pointer;background: #edeef2;text-align: center;line-height: 36px;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.mCommon_basicCalendar_ymWrapper:after{border-top:1px solid #e1e2e6;border-bottom:1px solid #e1e2e6;}
+.mCommon_basicCalendar_ymWrapper_yearAndMonthCurrent{color:#333333;font-size: 17px;display:inline-block;padding:0 3px;}
+.mCommon_basicCalendar_ymWrapper_icon{display:inline-block;width:11px;height:13px;background:url(../images/basicIcon_arrowDown.png) center no-repeat;background-size:100% auto; }
+
+.mCommon_basicCalendar_ymWrapper_preMonth,
+.mCommon_basicCalendar_ymWrapper_nextMonth{display:inline-block;width:16px;height:16px;cursor: pointer;vertical-align:-2px;background-size:100% auto; background-position: center;background-repeat:no-repeat; }
+.mCommon_basicCalendar_ymWrapper_preMonth{background-image:url(../images/basicIcon_arrowLeft.png);}
+.mCommon_basicCalendar_ymWrapper_nextMonth{background-image:url(../images/basicIcon_arrowRight.png);}
+
+.mCommon_basicCalendar_ymWrapper_preMonthDisabled{background-image:url(../images/basicIcon_arrowLeftGrey.png);}
+.mCommon_basicCalendar_ymWrapper_nextMonthDisabled{background-image:url(../images/basicIcon_arrowRightGrey.png);}
+
+
+/*周*/
+.mCommon_basicCalendar_week{background:#fff;color:#666666;font-size:11px;height:20px;/*padding:0 1%;*/}
+.mCommon_basicCalendar_week span{float:left;width:14%;width:calc(100% / 7);line-height:20px;text-align:center;}
+/*日*/
+.mCommon_basicCalendar_daysWrapper{overflow: hidden;height:220px;position: relative;background:#fff;}
+.mCommon_basicCalendar_daysScroll{position: absolute;left:0;top:0;height:220px;-webkit-overflow-scrolling: touch;}/*滚动区域*/
+.mCommon_basicCalendar_days{float:left;background:#fff;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.mCommon_basicCalendar_days li{float:left;width:14%;width:calc(100% / 7);text-align: center;height:36px;text-align:center;cursor:pointer;color:#333333;font-size:15px;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.mCommon_basicCalendar_dayWrapper{margin-top:3px;/*width:30px;*/height:30px;/*border-radius:100%;*/display: block;text-align:center;vertical-align:middle;}
+.mCommon_basicCalendar_days span{display:block;padding-top:5px;line-height: 18px;}
+/*周末*/
+.mCommon_basicCalendar_days_weekend{}
+/*当前日期*/
+.mCommon_basicCalendar_dayCurrent{color:#ffa414;}
+.mCommon_basicCalendar_dayCurrent span{}
+/*激活日*/
+.mCommon_basicCalendar_daySelect{background-color:#ffa414;background-clip: padding-box;}
+.mCommon_basicCalendar_daySelect span{color:#fff;}
+/*有活动icon*/
+.mCommon_basicCalendar_days .mCommon_basicCalendar_planIcon{display:none;width:4px; height:4px;border-radius: 100%;background-color:#999999;background-clip: padding-box;margin: 0 auto;padding:0;}
+.mCommon_basicCalendar_daySelect .mCommon_basicCalendar_planIcon{background-color:#fff;}
+/*有活动时，li添加hasPlan*/
+.mCommon_basicCalendar_hasPlan .mCommon_basicCalendar_planIcon{display: block;}
+/*灰色日*/
+.mCommon_basicCalendar_days .mCommon_basicCalendar_dayDisabled{color:#999999;cursor:default;}
+.mCommon_basicCalendar_cursorDefault{cursor: default;}
+/*加载中*/
+.mCommon_basicCalendarLoading{position:absolute;bottom:0;width:100%;text-align:center;color:#999999;}
+
+/*选择整月*/
+.mCommon_basicCalendar_btnArea{background:#fff;}
+.mCommon_basicCalendar_btnChooseMonth{margin:0 20px;vertical-align: middle; text-align:center; display:block;background-clip:padding-box; padding:0 25px;line-height:40px; font-size:16px; color:#ffa414;}
+.mCommon_basicCalendar_btnChooseMonth:after{border:1px solid #ffa414;border-radius:200px;}
+.mCommon_basicCalendar_btnChooseMonth:hover { text-decoration:none;}
+.mCommon_basicCalendar_btnChooseMonth_tap,.mCommon_basicCalendar_btnChooseMonthSelect {background-color:#ffb643;color:#fff;border-radius:20px;}
+
+.mCommon_basicCalendar_btnResetAndConfirmWrapper{width:100%;margin-top:10px;}
+.mCommon_basicCalendar_btnResetAndConfirmWrapper:after{border-top: 1px solid #e1e2e6;}
+.mCommon_basicCalendar_btnReset,
+.mCommon_basicCalendar_btnConfirm{box-sizing: border-box;padding: 0 5px;text-align: center;font-size: 16px;line-height: 49px;}
+.mCommon_basicCalendar_btnReset{float:left;width:50%;background-color: #fff;color: #333;}
+.mCommon_basicCalendar_btnConfirm{float:left;width:50%;background-color: #ff4d4d;color: #fff;}
+.mCommon_basicCalendar_btnReset:hover,
+.mCommon_basicCalendar_btnConfirm:hover{text-decoration: none;}
+
+
+/*多选*/
+.mCommon_basicCalendar_daySelect_start:before,
+.mCommon_basicCalendar_daySelect_end:before,
+.mCommon_basicCalendar_daySelect_startEnd:before{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 3px;
+    padding-top: 5px;
+    background-color: #ffa414;
+    color: #fff;
+    line-height:18px;
+}
+.mCommon_basicCalendar_daySelect_start::before{
+    content:attr(data-attr);
+}
+
+.mCommon_basicCalendar_daySelect_end::before{
+    content:attr(data-attr);
+}
+
+.mCommon_basicCalendar_daySelect_startEnd:before{
+    content:attr(data-attr);
+}
+.mCommon_basicCalendar_daySelect_start .mCommon_basicCalendar_dayWrapper{
+    background-color:#ffa414;background-clip: padding-box;
+}
+
+.mCommon_basicCalendar_daySelect_end .mCommon_basicCalendar_dayWrapper{
+    background-color:#ffa414;background-clip: padding-box;
+}
+
+.mCommon_basicCalendar_daySelect_startEnd .mCommon_basicCalendar_dayWrapper{
+    background-color:#ffa414;background-clip: padding-box;
+}
+.mCommon_basicCalendar_daySelect_start .mCommon_basicCalendar_planIcon,
+.mCommon_basicCalendar_daySelect_end .mCommon_basicCalendar_planIcon,
+.mCommon_basicCalendar_daySelect_startEnd .mCommon_basicCalendar_planIcon
+{background-color:#fff;}
+
+.mCommon_basicCalendar_days  .mCommon_basicCalendar_isPeriodOfTimeDayDisabled{color:#999999;cursor:default;}
+.mCommon_basicCalendar_isPeriodOfTimeDayDisabled:before{box-sizing: border-box;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;color:#999;
+    background: rgba(255,255,255,0.1);}
+.mCommon_basicCalendar_isPeriodOfTimeDayDisabled .mCommon_basicCalendar_dayWrapper{
+    background-color:rgba(255,255,255,0.1);background-clip: padding-box;
+}
+.mCommon_basicCalendar_isPeriodOfTimeDayDisabled .mCommon_basicCalendar_daySelect span{color:#999;}
+.mCommon_basicCalendar_day{position:relative;}
+.mCommon_basicCalendar_dayPreMonth{position:relative;}
+.mCommon_basicCalendar_dayNextMonth{position:relative;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

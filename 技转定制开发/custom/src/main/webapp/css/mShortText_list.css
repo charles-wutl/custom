@@ -1,0 +1,60 @@
+.mShortText_list_listEndPromptInfo{
+	width: 100%;
+	height: 60px;
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	line-height: 60px;
+}
+.mShortText_list_infoComprehensiveBoxItemList{
+	background-color: #EBECF0;
+}
+.mShortText_list_infoComprehensiveBoxItem{
+	background-color: #FFFFFF;
+	padding:15px 0;
+	margin-bottom: 10px;
+}
+.mShortText_list_infoComprehensiveBoxItem:last-child{
+	margin-bottom: 0px;
+}
+.mShortText_list_infoComprehensiveBoxItem:after{
+	border-top:1px solid #e1e2e6;
+	border-bottom:1px solid #e1e2e6;
+}
+.mShortText_list_infoComprehensiveBoxItem:first-child:after{
+	border-top:0px;
+}
+.mCommon_shortText_bottomBtnContainer{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 108px;
+	z-index: 999;
+}
+/*.mCommon_shortText_bottomBtnContainerMaxW{
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+}*/
+.mCommon_shortText_bottomBtnContainerMaxW{
+	max-width:100%;
+	margin: 0 auto;
+	position: relative;
+}
+.mCommon_shortText_bottomBtnBox{
+	right: 15px;
+	width: 48px;
+	height: 48px;
+	box-shadow: 1px 1px 4px #b2b2b2;
+	border-radius: 100%;
+	cursor: pointer;
+	position: absolute;
+}
+.mCommon_shortText_bottomBtnBoxContent{
+	display: block;
+	width: 22px;
+	height: 22px;
+	margin: 13px;
+	background: url('../images/mCommon_basicIcon_bottomBtnPlus.png?v=2016.04.27') center no-repeat;
+	background-size:100%;
+}

@@ -1,0 +1,17 @@
+.mCommon_basicInfoList8_box{
+	padding-left: 15px;
+}
+.mCommon_basicInfoList8_content{
+	border-bottom:1px solid #f4f4f5; 
+	height: 45px;
+}
+.mCommon_basicInfoList8_content img{
+    width: 13px;
+    margin-top: 16px;
+    margin-right: 15px;
+}
+.mCommon_basicInfoList8_word{
+	line-height: 45px;
+	padding-right: 10px;
+	font-size: 14px;
+}

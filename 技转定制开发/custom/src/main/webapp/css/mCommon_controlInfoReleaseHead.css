@@ -1,0 +1,76 @@
+.mCommon_controlInfoReleaseHead_box{
+	position: relative;
+}
+.mCommon_controlInfoReleaseHead_operateBox{
+	height: 45px;
+	background: #3e4859;
+	color: #FFFFFF;
+	text-align: center;
+}
+.mCommon_controlInfoReleaseHead_operateBoxClose{
+	float: left;
+	width: 45px;
+	height: 100%;
+	cursor: pointer;
+}
+.mCommon_controlInfoReleaseHead_operateBoxClose>img{
+	width: 16px;
+	height: 16px;
+	margin-top: 15px;
+}
+.mCommon_controlInfoReleaseHead_operateBoxSelect{
+	display: block;
+	height: 45px;
+	font-size: 17px;
+	cursor: pointer;
+}
+.mCommon_controlInfoReleaseHead_notClickCursor{
+	cursor: default;
+}
+.mCommon_controlInfoReleaseHead_operateBoxSelect>i{
+	max-width: 85px;
+	display: inline-block;
+	line-height: 45px;
+	vertical-align: middle;
+}
+.mCommon_controlInfoReleaseHead_operateBoxSelect>img{
+	width: 11px;
+	height: 6px;
+	vertical-align: middle;
+}
+.mCommon_controlInfoReleaseHead_operateBoxSure{
+	float: right;
+	text-align: right;
+	line-height: 45px;
+	padding-right: 15px;
+	font-size: 16px;
+	max-width: 85px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.mCommon_controlInfoReleaseHead_selectOptionBox{
+	max-width: 270px;
+	position: absolute;
+	top: 45px;
+	display: none;
+	z-index: 9;
+}
+.mCommon_controlInfoReleaseHead_selectOptionBox .mCommon_basicPoptip_content{
+	text-align: center;
+}
+.mCommon_controlInfoReleaseHead_operateBoxSelect .mCommon_controlInfoReleaseHead_operateBoxSelectUp{
+	display: none;
+}
+.mCommon_controlInfoReleaseHead_selectUpShow .mCommon_controlInfoReleaseHead_operateBoxSelectUp{
+	display: inline;
+}
+.mCommon_controlInfoReleaseHead_selectUpShow .mCommon_controlInfoReleaseHead_operateBoxSelectDown{
+	display: none;
+}
+.mCommon_controlInfoReleaseHead_notDown>img{
+	display: none;
+}
+.mCommon_controlInfoReleaseHead_selectOptionBox .mCommon_basicPoptip_arrow{
+	left: 50%;
+	margin-left: -5px;
+}

@@ -1,0 +1,11 @@
+.mGroup_groupManage_manageBtn{    display: table-cell;
+    width: 60px;
+    text-align: right;vertical-align: middle;}
+
+.mGroup_groupManage_popup{position: absolute;right:27px;top:45px;z-index:15;display: none;
+    -webkit-transform:translateZ(1px);
+    -moz-transform:translateZ(1px);
+    -o-transform:translateZ(1px);
+    transform:translateZ(1px);}
+.mGroup_groupManage_popup .mCommon_basicPoptip_content_item{text-align: center;}
+.mGroup_groupManage_listBox .mCommon_basicHeadPicAndDesc_item{position: relative;}

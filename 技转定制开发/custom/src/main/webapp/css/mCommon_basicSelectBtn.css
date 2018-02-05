@@ -1,0 +1,15 @@
+@charset "utf-8";
+.dajia {}
+/* 多选 */
+.mCommon_basicSelectBtn_list{margin: 0 -5px;}
+.mCommon_basicSelectBtn_list_item{border-radius:30px;display: inline-block;cursor: pointer;line-height:30px;background:#fff;background-clip:padding-box;text-align: center;padding:0 20px;margin: 5px;-webkit-touch-callout:none; -webkit-user-select:none; user-select:none;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+.mCommon_basicSelectBtn_list_item:after {border:1px solid #d9dade; font-size:30px}
+
+.mCommon_basicSelectBtn_list_item_text{display:inline-block;color:#666;font-size:13px;}
+.mCommon_basicSelectBtn_list_itemSelected{background:#ffeded;background-clip:padding-box;}
+.mCommon_basicSelectBtn_list_itemSelected:after {border-color:#ff5400; }
+.mCommon_basicSelectBtn_list_itemSelected span{color:#ff4d4d;}
+
+.mCommon_basicSelectBtn_list_itemDisabled{background:#d9dade;background-clip:padding-box;cursor: default;}
+.mCommon_basicSelectBtn_list_itemDisabled:after{border-color:#d9dade; }
+.mCommon_basicSelectBtn_list_itemDisabled span{color: #ffffff;}

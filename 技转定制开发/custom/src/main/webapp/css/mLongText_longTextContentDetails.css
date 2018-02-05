@@ -1,0 +1,28 @@
+.mLongText_longTextContentDetails_headBox {
+    height: 64px;
+}
+.mLongText_longTextContentDetails_headBoxPosition {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+}
+.mLongText_longTextContentDetails_headBoxContent {
+    padding: 15px;
+    max-width: 610px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+.mLongText_longTextContentDetails_headBoxContent:after {
+    border-bottom: 1px solid #e1e2e6;
+}
+.mLongText_longTextContentDetails_textBox {
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.mLongText_longTextContentDetails_title {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+}

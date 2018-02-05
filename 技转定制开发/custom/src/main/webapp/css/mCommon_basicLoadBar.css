@@ -1,0 +1,6 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_basicLoadBar { width: 100%; }
+.mCommon_basicLoadBar_bg { display: block; border: 1px solid #ccc; background-color: #fff; height: 10px; }
+.mCommon_basicLoadBar_line { display: block; background-color: #0099cb; height: 12px; margin-top: -12px; }

@@ -1,0 +1,13 @@
+.mCouponBusiness_couponList .mCommon_basicTabMenu{background-color: #fff;}
+/*.mCouponBusiness_couponList .mCommon_basicSearch151124_box{position: fixed;z-index: 2;max-width: 640px;}*/
+/*by-yuexy2017.10.26*/
+.mCouponBusiness_couponList .mCommon_basicSearch151124_box{position: fixed;z-index: 2;max-width:100%;}
+.mCouponBusiness_couponList .mCommon_frameContent0_content{padding: 42px 0 0 0;}
+/* 我的优惠券列表 */
+.mCommon_basicStoreListItem_img{margin-right: 10px;}
+.mCouponBusiness_couponList_left_img img{display: table-cell;width: 58px;height: 56px;vertical-align: top;overflow: hidden;position: relative;}
+.mCommon_basicStoreListItem_info{width: 55%;}
+.mCommon_basicStoreListItem_info p{font-size: 14px;}
+.mCommon_basicStoreListItem_info .mCouponBusiness_couponList_centerBox_title{line-height: 18px;margin-bottom: 5px;}
+.mCommon_basicStoreListItem_info .mCouponBusiness_couponList_centerBox_detail{font-size: 12px;color: #666666;line-height: 16px;}
+.mCommon_basicInfoList5_item{padding-bottom: 15px;}

@@ -1,0 +1,45 @@
+.mCommon_basicLocation{
+	display: block;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mCommon_basicLocation:after{
+	border: 1px solid #E1E2E6;
+	font-size: 0px;
+}
+.mCommon_basicLocation_table{
+	width: 100%;
+}
+.mCommon_basicLocation_tablePic{
+	width: 26px;
+	height: 36px;
+	text-align: center;
+}
+.mCommon_basicLocation_tableText{
+	font-size: 16px;
+	line-height: 36px;
+	color: #1071af;
+	padding-right:25px;
+}
+.mCommon_basicLocation_tableDel{
+	width: 35px;
+	text-align: center;
+}
+.mCommon_basicLocation_tableDel_img{
+	width: 16px;
+	height: 16px;
+}
+.mCommon_basicLocation_tableDel:after{
+	border-left: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mCommon_basicLocation_tablePic img{
+	width: 16px;
+	height: 16px;margin:0 auto;
+	vertical-align: middle;}
+.mCommon_basicLocation_iconBlue{}
+.mCommon_basicLocation_iconGray{display: none;}
+.mCommon_basicLocation_table_default .mCommon_basicLocation_tableDel{display: none;}
+.mCommon_basicLocation_table_default .mCommon_basicLocation_iconBlue{display: none;}
+.mCommon_basicLocation_table_default .mCommon_basicLocation_iconGray{display: block;}
+.mCommon_basicLocation_table_default .mCommon_basicLocation_tableText {color: #999;}

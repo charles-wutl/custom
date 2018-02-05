@@ -1,0 +1,40 @@
+/*控制左右布局yr定义*/
+.mService_fillOut_style2{}
+.mService_fillOut_style2 .mCommon_basicFlowChart_itemTitle{display: none;}
+.mService_fillOut_style2 .mCommon_basicFlowChart_itemContent{background: none;padding-left:0;}
+.mService_fillOut_style2 .mCommon_controlFormGroup_box {padding-top:0;}
+
+.mService_fillOut_style2 .mCommon_controlFormGroup_item{overflow: hidden;padding-bottom: 5px;}
+.mService_fillOut_style2 .mCommon_controlFormGroup_item_lable{line-height: 22px; width: 100px; color: #666;float:left;font-size:14px;padding-top:10px;}
+.mService_fillOut_style2 .mCommon_controlFormGroup_item_input{ margin-left: 100px;margin-top:0;}
+.mService_fillOut_style2 .mCommon_controlFormGroup_item_error{margin-left: 100px}
+.mService_fillOut_style2_img img{width:100%;}
+.mService_fillOut_style2 .mService_fillOut_descText{margin-left: 100px}
+.mService_fillOut_style2 .mCommon_controlFormGroup_item{border-bottom:1px solid #eee;margin-top:0px;}
+.mService_fillOut_style2 .mCommon_basicInputText,
+.mService_fillOut_style2 .mCommon_basicInputTel,
+.mService_fillOut_style2 .mCommon_basicInputNum,
+.mService_fillOut_style2 .mCommon_basicSelect,
+.mService_fillOut_style2 .mCommon_basicTextArea,
+.mService_fillOut_style2 .mCommon_basicInputDatetime{border:0px;}
+.mService_fillOut_style2 .mCommon_basicInputStar_star > img{margin-right:0px;}
+.mService_fillOut_style2 .mCommon_basicTextArea{padding: 7px 10px;padding-top: 12px;}
+
+.mService_fillOut_style2 .mCommon_controlFormGroup_itemError{background:none;}
+.mService_fillOut_style2 .mService_fillOut_style2_input_twoLevel{margin-top:5px;}
+/*控制左右布局yr定义*/
+
+
+.font_littlegray{color: rgb(158,158,158);font-size: 12px;}
+
+.mCommon_basicSelect{padding: 7px 10px;padding-right: 5px;}
+.mCommon_basicSelect input{background:transparent;}
+.mCommon_basicSelect img{margin-bottom: -24px;margin-right: 0;}
+
+
+
+
+
+
+
+

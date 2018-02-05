@@ -1,0 +1,35 @@
+.mCommon_basicHeadHorizontalRank_box{
+	width: 100%;
+}
+.mCommon_basicHeadHorizontalRank_item{
+	float: left;
+}
+@media screen and (max-width: 360px) {
+	.mCommon_basicHeadHorizontalRank_imgBox{
+		position: relative;
+		width: 54px;
+		height: 54px;
+	}
+}
+@media screen and (min-width: 360px){
+	.mCommon_basicHeadHorizontalRank_imgBox{
+		position: relative;
+		width: 64px;
+		height: 64px;
+	}
+}
+.mCommon_basicHeadHorizontalRank_imgBox>img{
+	width: 100%;
+	border-radius: 100%;
+}
+.mCommon_basicHeadHorizontalRank_imgBoxLevel{
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	right: -5px;
+	bottom: -4px;
+}
+.mCommon_basicHeadHorizontalRank_imgBoxLevel>img{
+	width: 100%;
+}

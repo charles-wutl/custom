@@ -1,0 +1,22 @@
+.mGroup_groupManageCreateGroup_upload_box{padding-top:55px;}
+.mGroup_groupManageCreateGroup_upload{
+    border-radius:40px;margin: 0 auto;
+    text-align: center;width: 80px;height: 80px;overflow: hidden;line-height: 80px;
+}
+.mGroup_groupManageCreateGroup_upload img{
+    /*width:100%;*/vertical-align: middle;
+}
+
+.mGroup_groupManageCreateGroup_btn{margin-top:20px;}
+.mGroup_groupManageCreateGroup_nature{margin-top:10px;}
+
+.mGroup_groupManageCreateGroup_uploadBefore{position: relative;border:1px dashed #ccc;}
+.mGroup_groupManageCreateGroup_uploadBefore img{
+    width: 26px;  height: 26px;cursor: pointer;
+    position: absolute;  top: 50%;  left: 50%;
+    margin-top: -13px;  margin-left: -13px;
+}
+
+
+
+

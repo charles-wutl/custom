@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.mCommon_basicInputNum{ border: 1px solid #e1e2e6; padding:7px 10px;background: #fff;}
+.mCommon_basicInputNum > input{border:0; /*line-height:24px;*/height:24px; font-size:14px; color:#333333; width:100%}
+
+/*去掉input type=number的 上下箭头*/
+/*chrome*/
+.mCommon_basicInputNum >input::-webkit-outer-spin-button,
+.mCommon_basicInputNum >input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+/*火狐*/
+.mCommon_basicInputNum >input[type="number"]{-moz-appearance:textfield;}

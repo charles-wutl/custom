@@ -1,0 +1,35 @@
+/*选社区图标*/
+.mApp_changeCommunity_iconWrapper {
+    cursor: pointer;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+/*.mApp_changeCommunity_icon {
+    margin: 0 auto;
+    max-width: 640px;
+    position: relative;
+}*/
+/*by-yuexy2017.10.26*/
+.mApp_changeCommunity_icon {
+    margin: 0 auto;
+    max-width:100%;
+    position: relative;
+}
+
+.mApp_changeCommunity_icon em {
+    cursor: pointer;
+    background:rgba(0,0,0,0.5) url('../images/mCommon_basicIcon_communityIcon.png') center 8px no-repeat;
+    background-clip: border-box;
+    background-size:22px 22px;
+    border-radius: 100%;
+    border:1px solid rgba(255,255,255,0.2);
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}

@@ -1,0 +1,46 @@
+.mCommon_basicVoice_listOptions{
+	display: block;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.mCommon_basicVoice_listOptions:after{
+	border: 1px solid #E1E2E6;
+	font-size: 0px;
+}
+.mCommon_basicVoice_listOptionsTable{
+	width: 100%;
+}
+.mCommon_basicVoice_tablePic{
+	width: 56px;
+	height: 56px;
+	text-align: center;
+}
+.mCommon_basicVoice_voice{
+	width: 40px;
+	height: 45px;
+}
+.mCommon_basicVoice_tableText{
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+}
+.mCommon_basicVoice_tablePlayAndSuspend{
+	width: 56px;
+	text-align: center;
+}
+.mCommon_basicVoice_tablePicRightPlay{
+	width: 24px;
+	height: 24px;
+	display: none;
+}
+.mCommon_basicVoice_tablePicRightSuspend{
+	width: 24px;
+	height: 24px;
+	display: none;
+}
+.mCommon_basicVoice_voicePlay .mCommon_basicVoice_tablePicRightPlay{
+	display: inline;
+}
+.mCommon_basicVoice_voiceSuspend .mCommon_basicVoice_tablePicRightSuspend{
+	display: inline;
+}

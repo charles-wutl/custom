@@ -1,0 +1,14 @@
+.mCommon_basicUploadImg_box{}
+.mCommon_basicUploadImg{text-align: center;}
+.mCommon_basicUploadImg_default{width:100%;height:60px;line-height: 60px;text-align: center;cursor: pointer;background: #fff;}
+.mCommon_basicUploadImg_default:after{border:1px solid #e1e2e6;}
+.mCommon_basicUploadImg_plusIcon{width:12px;height: 12px;vertical-align: middle;}
+.mCommon_basicUploadImg_text{font-size: 15px;color: #999;vertical-align: middle;}
+.mCommon_basicUploadImg_upload{position: relative;height: 60px;}
+.mCommon_basicUploadImg_upload_img{position: absolute;left: 0;top: 0;width:100%;height:100%;}
+.mCommon_basicUploadImg_upload_img img{width: 100%;height: 100%;}
+.mCommon_basicUploadImg_uploadImgDel{cursor: pointer;
+	position: absolute;left: 50%;top: 50%;margin-left: -12px;margin-top:-12px;width:24px;height:24px;
+}
+
+

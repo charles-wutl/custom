@@ -1,0 +1,26 @@
+.dajia{}
+
+.mCommon_jsOverlay_content{overflow-y: auto;background-color:white;}
+.mCommon_jsOverlay{position:absolute;width:100%;z-index:100;}/*浮层js控制了底层页面不滚动，设置fixed层内部点击高亮错位*/
+.mCommon_jsOverlay_mask{position: fixed; top:0;right:0;left:0;bottom:0;background:rgba(0,0,0,0.5);display:none;z-index:101;}
+.mCommon_jsOverlay_inner{position:relative;z-index:102;/*-webkit-tap-highlight-color: rgba(0,0,0,0);*/}
+
+/*.showAnimationBToT{animation:showAnimationBToT 0.5s ease-in 1;-webkit-animation:showAnimationBToT 0.5s ease-in 1;}
+ @keyframes showAnimationBToT {
+	0% {transform: translateY(100%); }
+	100% { transform: translateY(0%);}
+}
+ @-webkit-keyframes showAnimationBToT {
+	0% {-webkit-transform: translateY(100%);}
+	100% { -webkit-transform: translateY(0%);}
+ }
+ 
+.hideAnimationBToT{animation:hideAnimationBToT 0.5s ease-in 1;-webkit-animation:hideAnimationBToT 0.5s ease-in 1;}
+ @keyframes hideAnimationBToT {
+	0% {transform: translateY(0%); }
+	100% { transform: translateY(100%);}
+}
+ @-webkit-keyframes hideAnimationBToT {
+	0% {-webkit-transform: translateY(0%);}
+	100% { -webkit-transform: translateY(100%);}
+ }*/

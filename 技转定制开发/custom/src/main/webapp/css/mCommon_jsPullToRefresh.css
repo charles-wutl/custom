@@ -1,0 +1,96 @@
+/*下拉刷新，上拉加载更多*/
+.dajia{}
+
+.mCommon_jsPullToRefresh_wrapper {
+	position:absolute; z-index:1;
+	top:0; bottom:0; left:-9999px;
+	width:100%;
+	overflow:auto;
+}
+
+.mCommon_jsPullToRefresh_scroller {
+	position:absolute; z-index:1;
+/*	-webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	width:100%;
+	padding:0;
+}
+
+/**
+ *
+ * Pull down styles
+ *
+ */
+.mCommon_jsPullToRefresh_scroller #pullDown,.mCommon_jsPullToRefresh_scroller #pullUp {
+	height:30px;
+	line-height:30px;
+	padding:5px 10px;
+	font-size:14px;
+	color:#666;
+	text-align: center;
+	-webkit-backface-visibility: hidden;-webkit-transform-style: preserve-3d;
+}
+.mCommon_jsPullToRefresh_scroller .pullDownLabel,.mCommon_jsPullToRefresh_scroller .pullUpLabel{-webkit-backface-visibility: hidden;-webkit-transform-style: preserve-3d;}
+.mCommon_jsPullToRefresh_scroller #pullDown .pullDownIcon,.mCommon_jsPullToRefresh_scroller #pullUp .pullUpIcon  {
+	display:inline-block;/* float:left;*/
+	width:30px; height:30px;
+	vertical-align: middle;
+	background:url(../images/mCommon_pullToRefresh.png) 0 0 no-repeat;
+	-webkit-background-size:30px 60px; background-size:30px 60px;
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:250ms;	
+	-webkit-backface-visibility: hidden;-webkit-transform-style: preserve-3d;
+}
+.mCommon_jsPullToRefresh_scroller #pullDown .pullDownIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+	transform:rotate(0deg) translateZ(0);
+}
+.mCommon_jsPullToRefresh_scroller #pullUp .pullUpIcon  {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+	transform:rotate(-180deg) translateZ(0);
+}
+
+.mCommon_jsPullToRefresh_scroller #pullDown.flip .pullDownIcon {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+	transform:rotate(-180deg) translateZ(0);
+}
+
+.mCommon_jsPullToRefresh_scroller #pullUp.flip .pullUpIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+	transform:rotate(0deg) translateZ(0);
+}
+
+.mCommon_jsPullToRefresh_scroller #pullDown.loading .pullDownIcon,.mCommon_jsPullToRefresh_scroller #pullUp.loading .pullUpIcon {
+	background-position:0 100%;
+	
+	transform:rotate(0deg) translateZ(0);
+	transition-duration:0ms;
+
+	animation-name:loading;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	
+	-webkit-transform:rotate(0deg) translateZ(0);
+	-webkit-transition-duration:0ms;
+
+	-webkit-animation-name:loading;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	
+	-webkit-backface-visibility: hidden;-webkit-transform-style: preserve-3d;
+}
+
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0); }
+	to { -webkit-transform:rotate(360deg) translateZ(0); }
+}
+@keyframes loading {
+	from { transform:rotate(0deg) translateZ(0);-webkit-transform:rotate(0deg) translateZ(0); }
+	to { transform:rotate(360deg) translateZ(0);-webkit-transform:rotate(360deg) translateZ(0); }
+}
+
+
+/*页面测试列表*/
+.mCommon_jsPullToRefresh_testListItem{line-height:50px;border-bottom:1px solid #f3f3f3;color: #666;font-size:17px;}

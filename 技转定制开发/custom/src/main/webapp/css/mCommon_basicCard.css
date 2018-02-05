@@ -1,0 +1,23 @@
+@charset "utf-8";
+.dajia {}
+/* CSS Document */
+/**/
+.mCommon_basicCard_Wrapper{border:1px solid #e1e2e6;margin-top:-1px;background:#fff;cursor: pointer;}
+.mCommon_basicCard {padding: 10px;}
+.mCommon_basicCard_title {font-size: 14px;line-height: 24px;padding-bottom: 5px;}
+.mCommon_basicCard_title h3{float:left;width: 120px;font-size:14px;font-weight: 100;color: #666666;}
+.mCommon_basicCard_status{float: right;}
+.mCommon_basicCard_status em{float: right;width: 82px;text-align: right;}
+
+.mCommon_basicCardContent{}
+.mCommon_basicCardContent_text{color: #333333; }
+.mCommon_basicCardContent_text i{max-width:70px;}
+.mCommon_basicCardContent_text i,
+.mCommon_basicCardContent_text em,
+.mCommon_basicCardContent_text b{display: inline-block;font-size:16px;line-height: 24px; vertical-align: middle;}
+.mCommon_basicCardContent_text b{}
+
+
+.mCommon_basicCard_completed{color: #2db95f;}
+.mCommon_basicCard_pending{color: #ffb21a;}
+.mCommon_basicCard_closed{color: #ff4d4d;}

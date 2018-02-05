@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_basicBottomBlack_boxNone{ height:56px;}
+.mCommon_basicBottomBlack_box{ position:fixed; width:100%; z-index:10; bottom:0;left:0; cursor:pointer}
+
+.mCommon_basicBottomBlack{display: block;background: rgba(0,0,0,0.7); text-decoration:none; padding:10px; max-width:620px; margin:0 auto;}
+.mCommon_basicBottomBlack_content{ width:100%}
+.mCommon_basicBottomBlack_logo_box{width:36px}
+.mCommon_basicBottomBlack_logo{width:36px; height:36px;}
+.mCommon_basicBottomBlack_icon_box{padding-top:2px; width:32px; text-align: center}
+.mCommon_basicBottomBlack_icon{ background: url( ../images/mCommon_basicBottomBlack_icon.gif) no-repeat; width:16px; height:16px; background-size: 16px auto; display: inline-block; }
+.mCommon_basicBottomBlack_icon_text{ float:left; color:#fff; line-height:32px}
+.mCommon_basicBottomBlack_textBox{ width:auto; padding:0 10px;font-size:14px; line-height:18px; color:#fff}

@@ -1,0 +1,17 @@
+.mCommon_controlShopInfoBottomBtn_box{ }
+.mCommon_controlShopInfoBottomBtn_none{display: block; height: 50px;}
+
+.mCommon_controlShopInfoBottomBtn{ display: block; position:fixed; z-index:10; left:0; bottom:0;  width: 100%;}
+/*.mCommon_controlShopInfoBottomBtn_content{max-width:640px; margin: 0 auto; background:#fff; overflow: hidden;}*/
+/*by-yuexy2017.10.26*/
+.mCommon_controlShopInfoBottomBtn_content{max-width:100%; margin: 0 auto; background:#fff; overflow: hidden;}
+.mCommon_controlShopInfoBottomBtn_content:after{border-top:1px solid #e1e2e6;}
+
+.mCommon_controlShopInfoBottomBtn_iconBtn{ width: 60px; float:left;height:50px; padding-top:6px; cursor: pointer;box-sizing: border-box;}
+.mCommon_controlShopInfoBottomBtn_iconBtn:first-child:after{border-right:1px solid #e1e2e6;}
+.mCommon_controlShopInfoBottomBtn_iconBtn em{display: block; text-align: center;}
+.mCommon_controlShopInfoBottomBtn_iconBtn i{ font-size:11px; line-height: 18px; color:#999; display: block; text-align: center; margin-top: 2px;}
+.mCommon_controlShopInfoBottomBtn_iconBtn img{ width:22px; height: 22px; }
+
+.mCommon_controlShopInfoBottomBtn_linkBtn{ margin-left: 121px;}
+.mCommon_controlShopInfoBottomBtn_linkBtn a{height:50px;}

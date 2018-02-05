@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+.dajia {}
+/*mCommon_controlFileTool*/
+.mCommon_controlFileToolBox { }
+.mCommon_controlFileToolBox > span {margin-top:10px}
+.mCommon_controlFileToolBox > span:first-child { margin-top:0px}
+
+.mCommon_controlFileTool_table{width:100%}
+.mCommon_controlFileTool{border: 1px solid #e1e2e6; display:block; cursor:pointer; background:#fff}
+
+.mCommon_controlFileTool_iconBox{ width:56px; height:56px; text-align:center}
+.mCommon_controlFileTool_iconBox > img{ width:40px; height:45px}
+.mCommon_controlFileTool_textBox{ width:auto;font-size:16px; line-height:20px}
+
+.mCommon_controlFileTool_textTitle{ color:#333; font-size:14px;}
+.mCommon_controlFileTool_textNum { color:#333; font-size:12px;}
+.mCommon_controlFileTool_textBox .mCommon_basicLoadBar { margin-top:5px}
+
+.mCommon_controlFileTool_toolBox{ width:40px; text-align:right; padding:0 5px}
+.mCommon_controlFileTool_toolBtn { line-height:40px; font-size:14px; display:inline-block; }
+.mCommon_controlFileTool_toolBtn:hover { text-decoration:none}
+
+

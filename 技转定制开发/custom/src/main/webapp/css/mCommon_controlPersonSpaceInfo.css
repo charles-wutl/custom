@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+.dajia {}
+.mCommon_controlPersonSpaceInfo{position:relative;}
+.mCommon_controlPersonSpaceInfo_data{color: #fff;padding-top:30px;}
+.mCommon_controlPersonSpaceInfo_arrow_box{position:absolute;right:15px;top:15px;}
+.mCommon_controlPersonSpaceInfo_arrow{text-align:right;margin-right:5px;}
+.mCommon_controlPersonSpaceInfo_arrow img{width:24px;height: 24px;}
+.mCommon_controlPersonSpaceInfo_dataImage{}
+.mCommon_controlPersonSpaceInfo_dataImage_imageBg{display:block;width:78px;height: 78px;margin:0 auto;overflow:hidden;border-radius:88px;padding:5px;background-color: rgba(255,255,255,0.2);}
+.mCommon_controlPersonSpaceInfo_dataImage_imageBg img{border-radius: 78px;width:78px;height:78px;}
+.mCommon_controlPersonSpaceInfo_dataIntro{font-size: 17px;width:100%;}
+.mCommon_controlPersonSpaceInfo_dataProfiles{margin-top:8px;font-size:12px;color:#fff;text-align:center;padding:0 15px 15px;}
+.mCommon_controlPersonSpaceInfo_dataIntro_box{text-align: center;margin-top:20px;}
+.mCommon_controlPersonSpaceInfo_dataIntro{overflow:hidden;display:inline;}
+.mCommon_controlPersonSpaceInfo_dataIntro_img{width:16px;height: 16px;display: inline-block;vertical-align:middle;}
+.mCommon_controlPersonSpaceInfo_dataIntro_name{max-width: 190px;display:inline-block;vertical-align:middle;}
+.mCommon_controlPersonSpaceInfo_dataIntro_rank{
+	vertical-align: middle;
+	max-width:70px;border-radius: 8px;background-color: #ffa414;padding: 1px 5px;
+	display: inline-block;
+}
+.mCommon_controlPersonSpaceInfo_dataIntro_rank:hover{text-decoration: none;}
+.mCommon_controlPersonSpaceInfo_dataIntro_rank i{
+	display: table-cell;font-size: 12px;color: #fff;
+}
+
+.mCommon_controlPersonSpaceInfo_data_rank_tap{background-color:#ffb643;}
+
+.mCommon_controlPersonSpaceInfo_score{height: 16px;line-height:16px;background-color: rgba(255,255,255,0.6);position: relative;}
+.mCommon_controlPersonSpaceInfo_score_progress{height:100%;background-color:#ffc545;position: absolute;left: 0;top:0;z-index: 1;}
+.mCommon_controlPersonSpaceInfo_score_text{width:100%;height:100%;text-align: center;position: absolute;left: 0;top:0;z-index: 2;font-size: 12px;color: #fff;}
+.mCommon_controlPersonSpaceInfo_arrow_box .mCommon_basicPoptip{display: none;margin-top:2px;}
+
+
+

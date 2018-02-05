@@ -1,0 +1,65 @@
+.mCommon_controlPagePopupPromptModal_box{
+	width: 270px;
+	border-radius: 10px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -135px;
+	background: #FFFFFF;
+	z-index: 999;
+}
+.mCommon_controlPagePopupPromptModal_item:after{
+	border-top: 1px solid #E1E2E6;
+}
+.mCommon_controlPagePopupPromptModal_item:first-child:after{
+	border-top: 0;
+}
+.mCommon_controlPagePopupPromptModal_text{
+	padding: 15px;
+	color: #333333;
+	text-align: center;
+}
+.mCommon_controlPagePopupPromptModal_textTitle{
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.mCommon_controlPagePopupPromptModal_textContent{
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 10px;
+}
+.mCommon_controlPagePopupPromptModal_operateInfo{
+	height: 45px;
+	font-size: 17px;
+	color: #333333;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+}
+.mCommon_controlPagePopupPromptModal_selected{
+	color: #00ace6;
+}
+.mCommon_controlPagePopupPromptModal_transverse{
+	display: table;
+	width: 100%;
+}
+.mCommon_controlPagePopupPromptModal_transverse>p{
+	display: table-cell;
+	width: 50%;
+	color: #00ace6;
+}
+.mCommon_controlPagePopupPromptModal_operateInfoCancle:after{
+	border-right: 1px solid #E1E2E6;
+}
+.mCommon_controlPagePopupPromptModal_transverseOnlyOne .mCommon_controlPagePopupPromptModal_operateInfoCancle{
+	display: none;
+}
+.mCommon_controlPagePopupPromptModal_transverseOnlyOne .mCommon_controlPagePopupPromptModal_operateInfoConfirm{
+	width: 100%;
+}
+
+
+
+
+

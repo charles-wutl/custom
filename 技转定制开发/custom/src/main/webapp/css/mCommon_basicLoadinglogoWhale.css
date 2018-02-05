@@ -1,0 +1,40 @@
+/*先构造loading图片，再让图片层旋转*/
+.dajia{}
+
+
+.mCommon_basicLoadinglogoWhale{position:absolute;z-index:9999;width:80px;height:98px;background:rgba(255,255,255,0);}
+.mCommon_basicLoadinglogoWhale_maskAreaAll{
+	background:rgba(247,247,247,0.5);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9990;
+}
+.mCommon_basicLoadinglogoWhale_modal_bg{
+	background:rgba(255,255,255,1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9990;
+}
+.mCommon_basicLoadinglogoWhale_maskAreaLocal{
+	background:rgba(255,255,255,0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9990;
+}
+/*loading图片层*/
+.mCommon_basicLoadinglogoWhaleLayerWrapper{text-align:center;width:80px;height:80px;}
+.mCommon_basicLoadinglogoWhaleLayerWrapper img{text-align:center;width:80px;height:80px;}
+
+.mCommon_basicLoadinglogoWhaleLayerWrapper p{
+	font-size: 12px;text-align: center;color: #666;
+	margin-top: 2px;
+}
+
+

@@ -1,0 +1,19 @@
+.mCustomermanagement_customermanagementdetails_box{}
+.mCustomermanagement_customermanagementdetails_box_header{height: 48px;}
+.mCustomermanagement_customermanagementdetails_box_content{overflow:hidden;}
+.mCustomermanagement_customermanagementdetails_box_content_item{border-radius: 15px;margin: 15px 15px; box-shadow: 0px 0px 15px 5px #f3f3f3;}
+
+.mCommon_basicTabMenu{height: 45px;}
+.mCommon_basicTabMenu_content{padding-left: 20px;padding-right: 20px;height: 45px;position: relative;overflow-x:scroll; }
+.mCommon_basicTabMenu_content ul{overflow: hidden;position: absolute;left: 20px;top: 0px;right: 0px;}
+
+
+.mHistoryOrder_img{width: 10px;position: absolute;right: 15px;top:12px;text-align: right;}
+.mHistoryOrder_img img{height: 10px;}
+.mCommon_basicTabMenu:after{border-bottom: none;}
+
+.tab .mCommon_basicInfoList6_box_item {margin-bottom: 10px;}
+.tab .mCommon_basicInfoList6_box_item:last-child{margin-bottom: 0;}
+.tab .mCommon_basicInfoList_item_lable{width: 82px;}
+
+.mCommon_basicTab04_box{bottom: auto;left: auto;right: 0;cursor: pointer;}

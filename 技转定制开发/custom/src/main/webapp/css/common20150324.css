@@ -1,0 +1,490 @@
+﻿ @charset "utf-8";
+.dajia{versions:20150324;}
+/* 所有页面公用css*/
+
+*{ text-shadow:none}
+*{-webkit-text-size-adjust:none }/*苹果横屏文字不变*/
+html {
+	overflow-y:scroll
+}
+html, body {
+	background:none
+}
+select {
+	width:40px
+}
+body,font {
+	font-size:12px;
+}
+
+html {
+	color:#000;
+	direction:ltr;
+	font-family:"HiraginoSansGB-W3","微软雅黑","Microsoft Yahei","宋体", "Arial Narrow","HELVETICA";/*微软雅黑测试中*/
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, i {
+	margin:0;
+	padding:0;
+}
+i{font-style:normal}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	table-layout:fixed;
+}
+fieldset, img{
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup, b {
+	font-style: normal;
+	font-weight:normal;
+}
+del, ins {
+	text-decoration:none;
+}
+li {
+	list-style:none;
+}
+caption, th {
+	text-align:left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+	font-variant:normal;
+}
+sup {
+	vertical-align:baseline;
+}
+sub {
+	vertical-align:baseline;
+}
+legend {
+	color:#000;
+}
+input, button, textarea, select, optgroup, option {
+	font-family:inherit;
+	font-size:inherit;
+	font-style:inherit;
+	font-weight:inherit;
+}
+input, button, textarea, select {
+*font-size:100%;
+}
+
+/*去掉自动验证的红框*/
+input,
+textarea{box-shadow: none;}
+input:focus{outline: none;}
+
+/*disable 背景变成白色*/
+    /*select,
+    input[type="text"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="number"],
+    input[type="password"],
+    input[type="time"],
+    input[type="email"],
+    input[type="tel"] { background-color: #FFF; }*/
+   select,
+   input{ background-color: #FFF; }
+/*disable 背景变成白色 end*/
+
+select { width: 40px; }
+textarea { border: 1px solid #cccccc; background: #FFF;}
+
+/*去掉input type=number的 上下箭头*/
+input[type="number"] {-moz-appearance: textfield;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+     -webkit-appearance: none;	/* 有无看不出差别 */
+	 width:auto;
+}
+/*去掉input type=number的 上下箭头end*/
+
+/*ie10去掉输入框的叉子*/
+input::-ms-clear{display:none;}
+
+/*win8 chorme输入框变黄*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+/*placeholder文字颜色*/
+textarea::-webkit-input-placeholder {
+color:#9d9d9d
+}
+textarea:-moz-placeholder {
+color:#9d9d9d
+}
+textarea::-moz-placeholder {
+color:#9d9d9d
+}
+textarea:-ms-input-placeholder {
+color:#9d9d9d
+}
+
+
+
+input::-webkit-input-placeholder {
+color:#9d9d9d
+}
+input:-moz-placeholder {
+color:#9d9d9d; opacity: 1;
+}
+input::-moz-placeholder {
+color:#9d9d9d; opacity: 1;
+}
+input:-ms-input-placeholder {
+color:#9d9d9d
+}
+
+/*placeholder文字颜色end*/
+a {
+	text-decoration:none;
+	cursor:pointer;
+	color:#0f72b8;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+a {
+blr:expression(this.onFocus=this.blur());   /*    IE Opera    */
+	outline:none;   /*    FF Opera    */
+}
+a:focus {
+	-moz-outline-style: none;   /*    FF    */
+}
+input, button, select, textarea {
+	outline:none;
+}
+textarea {
+	resize:none;
+}
+img {
+	vertical-align:bottom
+}
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.clearfix {
+	zoom: 1;
+	display:inline-block;
+	_height: 1px
+}
+.clearfix {
+	display: block
+}
+.clearfixOverflow {
+	overflow:hidden;
+	display:block
+}
+
+
+
+body .display_none {
+	display:none
+}
+body .display_block {
+	display:block
+}
+.visibility_hid {
+	visibility:hidden
+}
+.visibility_vis {
+	visibility:visible
+}
+/*pc鼠标指针*/
+.font_bold {
+	font-weight: bold
+}
+.font_red { color: #fd0000; }
+.font_gray { color: #9d9d9d; }
+.cursor_zo {
+	cursor:url(../images/zo.cur), pointer
+}
+.cursor_zi {
+	cursor:url(../images/zi.cur), pointer
+}
+.cursor_hand {
+	cursor:pointer
+}
+.cursor_arrow {
+	cursor: default
+}
+/*pc鼠标指针end*/
+
+/*对齐方式*/
+.textAlign_left{text-align: left;}
+.textAlign_center{text-align: center;}
+.textAlign_right{text-align: right;}
+
+body .left {
+	float:left;
+}
+body .right {
+	float:right;
+}
+.display_inhert {/*继承父元素display属性*/
+	display:inherit
+}
+
+.wordBreak {
+	word-break: break-all;
+	word-wrap:break-word
+}
+.wordBreak_td {
+	display: table-cell;
+	display:block\9\0;
+   *display: block;
+	word-break:break-all;
+	word-wrap:break-word;
+}/*td加宽度,所有th/td都要有宽度，中的内容套一个容器span，*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.wordBreak_td {
+display: table-cell
+}
+}/*Chrome & Safari*/
+.whiteSpace{/*文字不换行*/
+	white-space:nowrap;
+}
+
+.textCut{text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+
+body .lineHeight18{ line-height:18px}
+body .lineHeight20{ line-height:20px}
+body .lineHeight22{ line-height:22px}
+body .lineHeight24{ line-height:24px}
+body .lineHeight26{ line-height:26px}
+body .lineHeight30{ line-height:30px}
+
+body .marginBottom0 {margin-bottom:0px}
+body .marginBottom5 {margin-bottom:5px}
+body .marginBottom10 {margin-bottom:10px}
+body .marginBottom-10 {margin-bottom:-10px}
+body .marginTop0 {margin-top:0px}
+body .marginTop5 {margin-top:5px}
+body .marginTop10 {margin-top:10px}
+body .marginTop15 {margin-top:15px}
+body .marginTop20 {margin-top:20px}
+body .marginTop30 {margin-top:30px}
+body .marginTop40 {margin-top:40px}
+body .marginTop50 {margin-top:50px}
+body .marginTop60 {margin-top:60px}
+body .marginTop80 {margin-top:80px}
+body .marginLeft0 {margin-left:0px}
+body .marginLeft3 {margin-left:3px}
+body .marginLeft5 {margin-left:5px}
+body .marginLeft10 {margin-left:10px}
+body .marginLeft20 {margin-left:20px}
+body .marginRight0 {margin-right:0px}
+body .marginRight3 {margin-right:3px}
+body .marginRight5 {margin-right:5px}
+body .marginRight10 {margin-right:10px}
+body .marginRight20 {margin-right:20px}
+
+body .padding20b0{padding:20px; padding-bottom:0}
+body .padding20{padding:20px;}
+html body .padding10 {padding:10px}
+html body .paddingTop0 {padding-top:0px}
+html body .paddingTop5 {padding-top:5px}
+html body .paddingTop10 {padding-top:10px}
+html body .paddingTop20 {padding-top:20px}
+html body .paddingTop30 {padding-top:30px}
+html body .paddingTop40 {padding-top:40px}
+html body .paddingTop50 {padding-top:50px}
+html body .paddingTop60 {padding-top:60px}
+html body .paddingLeft0 {padding-left:0px}
+html body .paddingLeft5 {padding-left:5px}
+html body .paddingLeft10 {padding-left:10px}
+html body .paddingLeft20 {padding-left:20px}
+html body .paddingLeft40 {padding-left:40px}
+html body .paddingBottom0 {padding-bottom:0}
+html body .paddingBottom10 {padding-bottom:10px}
+html body .paddingBottom20 {padding-bottom:20px}
+html body .paddingBottom30 {padding-bottom:30px}
+html body .paddingBottom40 {padding-bottom:40px}
+html body .paddingRight0 {padding-right:0px} /*20161011*/
+
+.underline {
+	padding-bottom:10px;
+	border-bottom:1px solid #e5ecf2
+}
+body .noBorder {
+	border:0
+}
+.opacity10 {
+	filter: Alpha(opacity=10);
+	-moz-opacity:.1;
+	opacity:0.1;
+}
+.opacity15 {
+	filter: Alpha(opacity=15);
+	-moz-opacity:.15;
+	opacity:0.15;
+}
+.opacity20 {
+	filter: Alpha(opacity=20);
+	-moz-opacity:.2;
+	opacity:0.2;
+}
+
+/*富文本样式*/
+.richText { word-break:break-all;word-wrap:break-word; overflow:auto; display:block}
+
+.richText p {  maring:5px 0}
+.richText *,
+.richText { line-height: 150%;}
+.richText {font-size:17px}
+big,
+small {
+    line-height: 180%;
+}
+
+.richText b{
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.richText i {
+    font-style: italic;
+}
+
+.richText u {
+    text-decoration: underline;
+}
+
+.richText h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 72px;
+    color: #000;
+    float: none;
+}
+
+.richText h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    float: none;
+}
+
+.richText h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+    float: none;
+}
+
+.richText p {
+    margin-top: 0px;
+}
+
+.richText table {
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.richText td {
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+.richText strong {
+    font-weight: bold;
+}
+
+.richText em {
+    font-style: italic;
+}
+
+.richText li {
+    padding-left: 0px;
+    list-style-position: outside;
+    list-style-type: inherit;
+}
+
+.richText ol,
+.richText ul {
+    padding-left: 40px;
+}
+
+.richText strong i, 
+.richText strong em {
+font-weight:inherit;
+}
+.richText i strong,
+.richText em strong {
+font-style: inherit
+}
+
+.richText img { 
+max-width:100%
+}
+/*富文本样式end*/
+
+/*1px边框*/
+.borderPx1{
+	position: relative;
+}
+.borderPx1:after {
+	box-sizing: border-box;
+	font-size:0px;
+	border-radius:1em;
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	-webkit-transform-origin: 0 0;
+	-webkit-transform: scale(1);
+	pointer-events: none;
+}
+/*不同dpr缩放*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.borderPx1:after{
+		width:150%;
+		height:150%;
+		-webkit-transform: scale(0.66666666);
+		border-radius:1.5em;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.borderPx1:after{
+		width:200%;
+		height:200%;
+		-webkit-transform: scale(0.5);
+		border-radius:2em;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+	.borderPx1:after{
+		width:300%;
+		height:300%;
+		-webkit-transform: scale(0.3333);
+		border-radius:3em;
+	}
+}
+

@@ -1,0 +1,62 @@
+.mPersonmes_mes_content_title{
+	background: #e1e2e6;
+	padding: 10px 15px 10px 15px;
+}
+.mPersonmes_mes_content_row{
+	border-bottom: 1px solid #e1e2e6;
+	padding-top: 11px;
+	padding-bottom:11px;
+	margin-left:15px;
+	font-size: 14px;
+}
+.mPersonmes_mes_content_row_table{
+	width: 100%;
+}
+.mPersonmes_mes_content_row_left{
+	width: 33.3%;
+}
+.mPersonmes_mes_content_row_right{
+	width: 66.6%;
+	padding-right: 15px;
+	text-align:right;
+	padding-left:10px;
+}
+.mPersonmes_mes_content_row_right p{
+	float: right;
+	text-align:left;
+}
+.mPersonmes_mes_content_row_right em{
+	width: 45px;
+	height: 45px;
+	border-radius:50%;
+	display: inline-block;
+}
+.mPersonmes_mes_content_row_right img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+/*.mPersonmes_mes_footer{
+	position: fixed;
+	bottom: 0;
+	z-index: 3;
+	background: #e1e2e6;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 640px;
+}*/
+.mPersonmes_mes_footer{
+	position: fixed;
+	bottom: 0;
+	z-index: 3;
+	background: #e1e2e6;
+	width: 100%;
+	margin: 0 auto;
+	max-width:100%;
+}
+.mPersonmes_mes_footer_tap{
+	margin:10px 15px 10px 15px;
+}
+.mPersonmes_mes_content_tap{
+	cursor: pointer;
+}

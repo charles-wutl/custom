@@ -1,0 +1,110 @@
+.mShortText_details_infoComprehensive{
+	background-color: #EBECF0;
+}
+.mShortText_details_infoComprehensiveBox{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #FFFFFF;
+}
+.mShortText_details_infoComprehensiveBox:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mShortText_details_replyInfoBox{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+}
+.mShortText_details_replyInfoBox:after{
+	border-top: 1px solid #e1e2e6;
+}
+.mShortText_details_replySpecificContentOption{
+	padding: 15px;
+	background-color: #FFFFFF;
+}
+.mShortText_details_replySpecificContentOption:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mShortText_details_replySpecificContentOptionInfo{
+	padding-left: 42px;
+}
+.mShortText_details_alreadyReadBoxOption{
+	background-color: #FFFFFF;
+	display: block;
+	height: 52px;
+	padding: 0 15px;
+}
+.mShortText_details_alreadyReadBoxOption:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mShortText_details_alreadyReadBoxOptionImg{
+	float: left;
+}
+.mShortText_details_alreadyReadBoxOptionImg img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.mShortText_details_alreadyReadBoxOptionText{
+	color: #333333;
+	font-size: 14px;
+	line-height: 52px;
+	padding-left: 10px;
+}
+.mShortText_details_praiseBoxOption{
+	background-color: #FFFFFF;
+	display: block;
+	height: 52px;
+	padding: 0 15px;
+}
+.mShortText_details_praiseBoxOption:after{
+	border-bottom: 1px solid #e1e2e6;
+	font-size: 0px;
+}
+.mShortText_details_praiseBoxOptionImg{
+	float: left;
+}
+.mShortText_details_praiseBoxOptionImg img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.mShortText_details_praiseBoxOptionText{
+	color: #333333;
+	font-size: 14px;
+	line-height: 52px;
+	padding-left: 10px;
+}
+.mShortText_details_nullInfo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.mShortText_details_popOperationBox{
+	text-align: center;
+}
+.mShortText_details_popOperationBoxP{
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+.mShortText_details_popOperationBoxP:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.mShortText_details_popOperationBoxP:last-child:after{
+	border: 0;
+}
+.mShortText_details_popOperationBoxBtn {
+	color: #00ace6;
+}
+.mShortText_details_popOperationBoxBtn:hover {
+	text-decoration: none;
+}
+.mShortText_details_replySpecificContentListAll,
+.mShortText_details_alreadyReadBoxAll,
+.mShortText_details_praiseBoxAll,
+.mShortText_details_ReplyBtn{
+	background: #FFFFFF;
+}

@@ -1,0 +1,94 @@
+.mCommon_basicInfoList7_box{  }
+.mCommon_basicInfoList7_box_content{
+
+}
+.mCommon_basicInfoList7_box_item{
+	font-size: 15px;
+	line-height: 20px;
+	border-bottom: 1px solid #e1e2e6;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-left: 15px;
+	padding-right: 14px;
+}
+.mCommon_basicInfoList7_box_item_text .mCommon_basicInfoList7_box_item_content{
+	width: 100%;
+}
+.mCommon_basicInfoList7_box_item_text .mCommon_basicInfoList7_item_info{
+	line-height: 20px;
+	color: #333;
+	margin-left: 100px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_text .mCommon_basicInfoList7_item_lable{
+	vertical-align: middle;
+	width: 75px;
+	text-align: left;
+	color:#84abc9;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.mCommon_basicInfoList7_box_item_pic .mCommon_basicInfoList7_item_lable{
+	color:#84abc9;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_pic .mCommon_basicInfoList7_box_content_img{
+	height: 15px;
+	text-align: right;
+}
+.mCommon_basicInfoList7_box_item_pic .mCommon_basicInfoList7_item_info{
+	padding-top: 14px;
+	padding-left: 3px;
+	padding-right: 3px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_pic img{
+	width: 7px;
+	height: 14px;
+}
+.mCommon_basicInfoList7_box_item_pic .mCommon_basicInfoList7_box_item_pic_img{
+	padding:5px 0px 5px 0px;
+	width: 33%;
+	text-align: center;
+}
+.mCommon_basicInfoList7_box_item_pic_img img{
+	width: 75px;
+	height: 75px;
+}
+
+.mCommon_basicInfoList7_box_item_tel .mCommon_basicInfoList7_item_lable{
+	color: #84abc9;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_tel .mCommon_basicInfoList7_item_info{
+	line-height: 20px;
+	color: #333;
+	margin-left: 100px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_record .mCommon_basicInfoList7_item_lable{
+	color: #84abc9;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_record .mCommon_basicInfoList7_item_info{
+	line-height: 20px;
+	color: #0f72b8;
+	cursor: pointer;
+	margin-left: 100px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.mCommon_basicInfoList7_box_item_record img{
+	width:20px;
+}
+.mCommon_basicInfoList7_box_item_record span{
+	margin-left: 10px;
+}
+

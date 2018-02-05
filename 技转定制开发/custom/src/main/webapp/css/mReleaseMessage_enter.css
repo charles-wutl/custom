@@ -1,0 +1,4 @@
+/*.mReleaseMessage_enter_addPage_box{max-width: 640px;margin:0 auto;}*/
+.mReleaseMessage_enter_addPage_box{max-width:100%;margin:0 auto;}
+.mReleaseMessage_enter_addBtn{width:48px;height: 48px;position: fixed;right:15px;bottom:40px;z-index: 25;}
+.mReleaseMessage_enter_addBtn img{width:48px;height: 48px;}

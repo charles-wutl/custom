@@ -1,0 +1,143 @@
+.mCommon_controlListInfoFlow_containerBox{
+	padding: 0 15px;
+}
+.mCommon_controlListInfoFlow_bigPicBox{
+	width: 100%;
+	height: 216px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_bigPicBox:after{
+	border: 1px solid #f2f2f2;
+}
+.mCommon_controlListInfoFlow_title{
+	font-size: 16px;
+	line-height: 22px;
+	color: #333333;
+	max-height: 44px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_content{
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+	max-height: 36px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_smallImgBox{
+	float: left;
+	width: 107px;
+	height: 80px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_smallImgBox:after{
+	border: 1px solid #f2f2f2;
+}
+.mCommon_controlListInfoFlow_smallImgTextBoxRight{
+	padding-left: 119px;
+}
+.mCommon_controlListInfoFlow_smallImgTextBoxLeft{
+	padding-right: 119px;
+}
+.mCommon_controlListInfoFlow_smallImgBoxRight{
+	float: right;
+	width: 107px;
+	height: 80px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_smallImgBoxRight:after{
+	border: 1px solid #f2f2f2;
+}
+.mCommon_controlListInfoFlow_pictContainer{
+	width: 100%;
+	height: 216px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_pictContainer:after{
+	border: 1px solid #e1e2e6;
+}
+.mCommon_controlListInfoFlow_picCount{
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	color: #FFFFFF;
+	font-size: 12px;
+	background: #00ace6;
+	text-align: center;
+	line-height: 20px;
+	right: 0;
+	bottom: 10px;
+	border-radius: 30px 0 0 30px;
+}
+.mCommon_controlListInfoFlow_blogTitle{
+	width: 100%;
+	height: 40px;
+	display: table;
+	padding: 10px 0;
+}
+.mCommon_controlListInfoFlow_blogTitle:after{
+	border:1px solid #e1e2e6;
+}
+.mCommon_controlListInfoFlow_blogContent{
+	padding: 10px;
+}
+.mCommon_controlListInfoFlow_blogContent:after{
+	border:1px solid #e1e2e6;
+	border-top: 0px;
+}
+.mCommon_controlListInfoFlow_blogContentPic{
+	width: 100%;
+	height: 90px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_blogContentText{
+	font-size: 15px;
+	color: #333333;
+}
+.mCommon_controlListInfoFlow_blogTitleIcon{
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_blogTitleIcon img{
+	width: 100%;
+	height: 100%;
+}
+.mCommon_controlListInfoFlow_blogTitleName{
+	display: table-cell;
+	padding-left: 5px;
+	padding-right: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: middle;
+	max-height: 40px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_componentContent{
+	font-size: 17px;
+	line-height: 20px;
+	color: #333333;
+}
+.mCommon_controlListInfoFlow_componentContentIntercept{
+	max-height: 160px;
+	overflow: hidden;
+}
+.mCommon_controlListInfoFlow_forwordComment{
+	font-size: 17px;
+	color: #333333;
+}
+.mCommon_controlListInfoFlow_forwordBox{
+	background: #FAFAFA;
+	padding: 10px;
+}
+.mCommon_controlListInfoFlow_forwordBox:after{
+	border: 1px solid #e1e2e6;
+}
+.mCommon_controlListInfoFlow_forwordAuthor{
+	font-size: 14px;
+	color: #666666;
+}

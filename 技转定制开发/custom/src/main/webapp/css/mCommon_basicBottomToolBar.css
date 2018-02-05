@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {
+}
+/**/
+.mCommon_basicBottomToolBar_box { }
+.mCommon_basicBottomToolBar_read,
+.mCommon_basicBottomToolBar_praise { float:left; margin-right:10px; font-size:16px; line-height:30px; cursor:pointer}
+.mCommon_basicBottomToolBar_praise_active { color:#fc667f;}
+    .mCommon_basicBottomToolBar_praise_active .mCommon_basicBottomToolBar_praise_icon{ background-position: -16px 0}
+.mCommon_basicBottomToolBar_whistleblower { float: left; border: 1px solid #d2d2d2;cursor: pointer;padding: 0 8px; display:block; color: #ababab;font-size: 12px; line-height:28px}
+.mCommon_basicBottomToolBar_whistleblower:hover { text-decoration:none}
+
+.mCommon_basicBottomToolBar_praise_icon{ background: url(../images/mCommon_basicBottomToolBar_praise_icon.png) no-repeat; background-size:auto 16px ; height:16px; width:16px; display:block; float:left; margin-top:7px; margin-right:3px}

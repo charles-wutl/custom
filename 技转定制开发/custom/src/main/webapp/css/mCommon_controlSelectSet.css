@@ -1,0 +1,19 @@
+.mCommon_controlSelectSet_box{background: #fff}
+.mCommon_controlSelectSet{ overflow-y: auto; max-height:350px}
+.mCommon_controlSelectSet_list{padding: 10px 15px 20px; }
+.mCommon_controlSelectSet_item{ margin-top:10px }
+.mCommon_controlSelectSet_list > li:first-child{ margin-top: 0}
+.mCommon_controlSelectSet_itemTitle{ paddin-right:35px}
+.mCommon_controlSelectSet_itemCon{}
+
+.mCommon_controlSelectSet_btnBox{ display: block; border-top:1px solid #e1e2e6;}
+.mCommon_controlSelectSet_btnBox li{width:50%; float: left}
+
+.mCommon_controlSelectSet_itemTitle_text{ line-height: 24px; font-size: 16px; color: #333; display: block}
+.mCommon_controlSelectSet_itemTitle_icon{ float:right;  height:24px; text-align:center;display: block; cursor: pointer}
+.mCommon_controlSelectSet_itemTitle_iconMore,
+.mCommon_controlSelectSet_itemTitle_iconUp{line-height: 24px; color:#999; font-size:13px;vertical-align: middle}
+.mCommon_controlSelectSet_itemTitle_iconMore img,
+.mCommon_controlSelectSet_itemTitle_iconUp img{ height: 6px; width: 11px; vertical-align: middle; margin-left:5px}
+
+

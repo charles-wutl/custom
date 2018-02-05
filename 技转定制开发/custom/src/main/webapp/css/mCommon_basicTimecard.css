@@ -1,0 +1,21 @@
+.mCommon_basicTimecard_box{
+	width:100%;
+}
+.mCommon_basicTimecard_content_mes p{
+	border-bottom:1px solid #e1e2e6;
+	margin-left:14px;
+	margin-right:14px;
+}
+.mCommon_basicTimecard_content_mes_date,.mCommon_basicTimecard_content_mes_time{
+	line-height: 30px;
+	font-size: 12px;
+}
+.mCommon_basicTimecard_content_mes_time{
+	margin-left: 10px;
+}
+.mCommon_basicTimecard_content_mes_succ{
+	line-height: 30px;
+	font-size: 14px;
+	float: right;
+	color:#2db95f;
+}

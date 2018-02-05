@@ -1,0 +1,39 @@
+.mCommon_basicPortrait_box{
+	padding:0.28rem 0.15rem 0.28rem 0.15rem;
+}
+.mCommon_basicPortrait_headportrait{
+	float: left;
+	width: 0.84rem;
+    height: 0.84rem;
+
+}
+.mCommon_basicPortrait_headportrait img{
+    width: 100%;
+    border-radius: 50%;
+}
+.mCommon_basicPortrait_mes{
+	margin-left: 0.94rem;
+}
+.mCommon_basicPortrait_mes_right{
+	height: 0.84rem;
+	width: 100%;
+}
+.mCommon_basicPortrait_mes_name{
+	margin-bottom: 0.07rem;
+}
+.mCommon_basicPortrait_mes_name_pic{
+	height:0.2rem;
+	line-height:0.2rem;
+}
+.mCommon_basicPortrait_mes_name_pic img{
+	height: 0.09rem;
+	vertical-align: middle;
+}
+.mCommon_basicPortrait_mes_name_word{
+	font-size: 0.15rem;
+	margin-left: 0.19rem;
+}
+.mCommon_basicPortrait_mes_content{
+	font-size: 0.12rem;
+	color:#666666;
+}

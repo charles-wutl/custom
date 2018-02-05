@@ -1,0 +1,12 @@
+.mCommon_controlShopOverlayBtn_box{ }
+.mCommon_controlShopOverlayBtn_none{display: block; height: 50px;}
+
+.mCommon_controlShopOverlayBtn{ display: block; position:fixed; z-index:10; left:0; bottom:0;  width: 100%;}
+/*.mCommon_controlShopOverlayBtn_content{background: #fafafa; border-top:1px solid #e1e2e6; padding:10px 15px; max-width: 640px; box-sizing: border-box; margin: 0 auto;}*/
+/*by-yuexy2017.10.26*/
+.mCommon_controlShopOverlayBtn_content{background: #fafafa; border-top:1px solid #e1e2e6; padding:10px 15px; max-width:100%; box-sizing: border-box; margin: 0 auto;}
+
+.mCommon_controlShopOverlayBtn_content .mCommon_basicBtn32_boxRight .mCommon_basicBtn32,
+.mCommon_controlShopOverlayBtn_content .mCommon_basicBtn32_boxLeft .mCommon_basicBtn32,
+.mCommon_controlShopOverlayBtn_content .mCommon_basicBtn32_boxCenter.mCommon_basicBtn32{
+	width: 85px; padding: 0;}

@@ -1,0 +1,2940 @@
+/* CSS Document */
+/*management_overlay_groupManage*/
+.management_overlay_groupManage_box ul li{float: left;}
+.management_overlay_groupManage_box .common_photoName27_name{margin-left: 5px;}
+.management_overlay_groupManage_box  .common_photoName27_box .input-checkbox{margin-top:7px;vertical-align: top;}
+.management_overlay_groupManage_box  .common_photoName27_photo{margin-left:10px;}
+.management_overlay_groupManage_box .common_photoName27_box{margin-bottom:15px;}
+.management_overlay_groupManage_itemBox{height:300px;overflow: auto;}
+
+/*index_selectTemplate*/
+.index_selectTemplate{width:302px;margin: 0 auto;box-shadow: 2px 2px 10px #888888; background: #fff; border: 1px solid #ccc;}
+.index_selectTemplate_title{background-color: #cceefa;padding:0 10px;}
+.index_selectTemplate_title > em{float: left;margin-right: 5px;margin-top: 13px;}
+.index_selectTemplate_title > i{float: left;font-size: 14px;line-height: 40px;color: #333;}
+.index_selectTemplate_content_box{max-height:390px;overflow-y: auto;width:100%;}
+.index_selectTemplate_content{width:268px;margin:0 auto;padding-top:20px;padding-bottom:10px;}
+.index_selectTemplate_content .common_imageList_listItem_img > img{width:124px;height:164px;}
+.index_selectTemplate_content .common_imageList_listItem_active, 
+.index_selectTemplate_content .common_imageList_listItem {width:130px;margin-right:8px;}
+.index_selectTemplate_content .common_imageList_listItem_box{margin-right: -8px;}
+
+
+/*index_overlay20140930*/
+.index_overlay20140930_previewEffectText{font-size:12px;color:#999;text-align:center;margin-bottom:10px;}
+.index_overlay20140930_previewImg{margin:0 auto;width:220px;height:165px;overflow:hidden;}
+.index_overlay20140930_editImg_uploadImg{margin-top:-10px;margin-bottom:10px;margin-left:25px;}
+.index_overlay20140930_editScroll_uploadImg{margin-left:110px;line-height:20px;color:#999;}
+.index_overlay20140930_originalImg{background:#ededed;width:440px;height:230px;margin:0 auto;text-align:center;}
+.index_overlay20140930_originalImg  img{max-width:440px;max-height:230px;}
+
+
+
+/*index_overlay20150611*/
+.index_overlay20150611_regType_regPerson {
+    text-align: right;
+    margin: 10px 20px 0px 0;
+}
+
+.index_overlay20150611_regType_regPerson .index_overlay20150611_regType_regPersonButton {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+.index_overlay20150611_regType_regPersonButton > i {
+    font-size: 14px;
+    line-height: 32px;
+    vertical-align: middle;
+    color: #00ace6;
+}
+
+.index_overlay20150611_regType_regPersonButton > i:hover {
+        text-decoration: underline;
+    }
+
+.index_overlay20150611_regType_regPersonButton > em {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+.index_overlay20150611_selectTemplate_box{ padding-bottom:50px}
+.index_overlay20150611_selectTemplate_box .common_controlsContainerPopup_regDialog_title{  padding-bottom: 30px; margin-top:-10px}
+.index_overlay20150611_selectTemplate_content{padding:0px; max-height: 490px; overflow-y:auto; overflow-x: hidden; }
+
+.index_overlay20150611_selectTemplate_content_list{ width: 970px; margin: 0 auto; padding-left:10px}
+.index_overlay20150611_selectTemplate_content_list_more,
+.index_overlay20150611_selectTemplate_content_list .mCommon_controlTemplateList{
+	width:278px; margin-right: 10px; margin-bottom: 10px; float: left; border:1px solid #ccc
+}
+.index_overlay20150611_selectTemplate_content_list .mCommon_controlTemplateList_info p{height:48px}
+.index_overlay20150611_selectTemplate_content_list_more{width:310px; }
+.index_overlay20150611_selectTemplate_content_list_more td{text-align: center; height: 150px; color: #999; font-size: 18px;}
+
+.index_overlay20150611_settingLoad_iconBox{ margin: 0 auto;}
+
+/*notice*/
+.notice_info_content { border:#f2f2f2 solid 1px}
+
+/*notice_overlay*/
+.notice_overlay_preview{width:812px;margin: 0 auto;}
+.notice_overlay_preview_mobileBox{width: 396px;height: 745px;display: block;background: url(../images/mobileManagement_mobileBox.png) no-repeat;}
+.notice_overlay_preview_mobileContent{background: #fff;width: 340px;height: 514px;margin-left: 30px;margin-top: 115px;overflow-y: scroll;overflow-x: hidden;}
+.notice_overlay_preview_mobileLeft{background: #e7e8ec;}
+
+/*service_overlay*/
+.service_overlay_currentNodeSet .form-input{padding:0px;margin-bottom: 0;}
+.service_overlay_currentNodeSet_spacing15{margin-left:15px;}
+.service_overlay_currentNodeSet_spacing15 .form-information{margin-left: 0;}
+
+.service_overlay_templateBox {
+    border-bottom: 1px solid #ccc;
+}
+
+.service_overlay_templateLeft {
+    margin-right: 380px;
+    overflow-y: scroll;
+    height: 440px;
+}
+
+.service_overlay_templateRight {
+    background: #e6e6e6;
+    float: right;
+    width: 380px;
+    overflow-y: scroll;
+    height: 440px;
+}
+
+.service_overlay_templateRight_content {
+    padding: 20px 0;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.service_overlay_templateRight_content > iframe {
+    border: 0;
+}
+
+.service_overlay_templateRight_content > img {
+    width: 320px;
+}
+
+.service_overlay_codeImg {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.service_overlay_templateLeft_listItem_box {
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.service_overlay_templateLeft_listItem_active,
+.service_overlay_templateLeft_listItem {
+    width: 114px;
+    display: block;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+
+.service_overlay_templateLeft_listItem {
+    cursor: pointer;
+}
+
+.service_overlay_templateLeft_listItem_img {
+    padding: 2px;
+}
+
+.service_overlay_templateLeft_listItem_img > img {
+    width: 108px;
+    height: 128px;
+    border: 1px solid #e6e6e6;
+}
+
+.service_overlay_templateLeft_listItem_icon {
+    margin-top: -42px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: right;
+    visibility: hidden;
+}
+
+.service_overlay_templateLeft_listItem_icon > em {
+    display: inline-block;
+}
+
+.service_overlay_templateLeft_listItem_text {
+    line-height: 120%;
+    text-align: center;
+    margin-top: 5px;
+    min-height: 30px;
+}
+
+.service_overlay_templateLeft_listItem:hover .service_overlay_templateLeft_listItem_img {
+    padding: 0px;
+    border: 3px solid #00ace6;
+}
+
+.service_overlay_templateLeft_listItem:hover .service_overlay_templateLeft_listItem_img > img {
+    border: 0;
+}
+
+.service_overlay_templateLeft_listItem_active .service_overlay_templateLeft_listItem_img {
+    padding: 0px;
+    border: 3px solid #00ace6;
+}
+
+.service_overlay_templateLeft_listItem_active .service_overlay_templateLeft_listItem_img > img {
+    border: 0;
+}
+
+.service_overlay_templateLeft_listItem_active .service_overlay_templateLeft_listItem_icon {
+    visibility: visible;
+}
+
+.service_overlay_importMobilePage {border:1px solid #ccc;background:#fff;}
+.service_overlay_importMobilePage .common_title03_box{padding:0;}
+
+/*service*/
+.service_edit_bottomBox_content .common_controlsContainerForm_inputType{width:516px;}
+
+.service_managementList_list .common_form_box{float:left;width:250px;margin-right:10px;margin-bottom:10px;}
+.service_managementList_list .common_form{height:115px;}
+
+.service_managementListOrder .common_miniContent640{padding-top:0;border:1px solid #ccc;}
+.service_managementListOrder .common_title03_box{padding:0;}
+
+.service_managementListService1_importMobilePage {border:1px solid #ccc;background:#fff;width:640px;margin:0 auto;}
+.service_managementListService1_importMobilePage .common_title03_box{padding:0;}
+
+/*service_edit_box*/
+.service_edit_box{width:610px;margin: 20px auto 0;background: #fff;padding:15px;}
+.service_edit_box .mCommon_basicFlowChart_itemTitle_icon{padding-top:8px;}
+.service_edit_box .mCommon_basicFlowChart_itemTitle_text{line-height: 26px;}
+.service_edit_flowChart_itemTitle i{float: left;margin-left: 10px;max-width:400px;}
+.service_edit_flowChart_itemTitle .common_icon18_editTitle{float: left;margin-top: 3px;margin-left: 5px;}
+.service_edit_flowChart_itemTitle .common_buttonLight_box a{margin-right:5px;}
+.service_edit_flowChart_itemTitle .common_buttonLight_box a.common_buttonLight_iconNoText{margin-right:0px;}
+.service_edit_flowChart_itemTitle .common_buttonLight_box a{font-size: 14px;}
+.service_edit_box .mCommon_basicFlowChart_itemTitle .common_buttonLight_box{padding-right:10px;}
+.service_edit_box .mCommon_basicFlowChart_itemAdd .mCommon_basicFlowChart_itemTitle_text{font-size:14px;}
+.service_edit_box .mCommon_basicFlowChart_itemAdd .mCommon_basicFlowChart_itemTitle_text span{cursor: pointer;}
+.service_edit_flowChart_itemContent .mCommon_controlFormGroup_item{padding-top:0;}
+
+.service_edit_flowChart_bottomBox{background: url(../images/formPCommon_frameBottonBgTrue.png);border: 1px solid #CCC;position: relative;margin:10px;}
+.service_edit_flowChart_bottomBox_arrow{text-align: center;margin-top: -13px;height: 13px;position: relative;z-index: 3;}
+.service_edit_flowChart_bottomBox_arrow > em{display: inline-block;width: 20px;height: 13px;background-image: url(../images/formPCommon_arrowup.png);}
+.service_edit_flowChart_bottomBox_content{display: block;text-align: center;}
+.service_edit_flowChart_bottomBox_content .common_controlsContainerForm_inputType{padding: 20px 0;padding-left: 50px;display: none;}
+.service_edit_flowChart_bottomBox_content_add{padding: 20px;}
+.service_edit_flowChart_bottomBox_active .service_edit_flowChart_bottomBox_content_add { display: none; }
+.service_edit_flowChart_bottomBox_active .common_controlsContainerForm_inputType { display: block; }
+.service_edit_box .common_controlsContainerForm_frameEditgroup_content{display: none;}
+
+.service_edit_flowChart_itemContent .mCommon_controlFormGroup_item{margin-top:0;}
+.form_overlay_templateRight_content .service_edit_flowChart_itemContent .mCommon_controlFormGroup_item{margin-top:15px;}
+
+.service_edit_flowChart_itemContent{position: relative;}
+.service_edit_flowChart_itemHandlePeople{border: 1px solid #fff;padding:0 10px 10px;}
+.service_edit_flowChart_itemHandlePeople .form-input{padding:0;padding-left:7px;margin-bottom: 0;margin-top:10px;}
+.service_edit_flowChart_itemHandlePeople_handMode .form-radio i{color: #00ace6;font-weight: bold;margin-left:3px;}
+.service_edit_flowChart_itemHandlePeople_selectPeople{}
+.service_edit_flowChart_itemHandlePeople_selectPeopleLable{width:110px}
+.service_edit_flowChart_itemHandlePeople_selectPeopleInput{width: 450px;}
+.service_edit_flowChart_itemHandlePeople_posMatch{padding-left:7px;margin-top:10px;}
+.service_edit_flowChart_itemHandlePeople_posTable{font-size:12px;margin-top:5px;}
+.service_edit_flowChart_itemHandlePeople_posTable .common_dateTable_th01{width:120px;}
+.service_edit_flowChart_itemHandlePeople_posTable .common_dateTable_th02{width:auto;}
+.service_edit_flowChart_itemHandlePeople_posTable .common_dateTable_th03{width:80px;}
+.service_overlay_editPeoplePos{}
+.service_overlay_editPeoplePos input{width:350px;}
+
+/*service_myServiceList*/
+.service_myServiceList_card {}
+.service_myServiceList_card .mCommon_basicCard_Wrapper{width:260px;margin:10px;float: left;height:145px;}
+.service_myServiceList_card_margin{margin:-10px;}
+
+/*backendStaff_overlay*/
+.backendStaff_overlay_serviceOrder{border: 1px solid #ccc;background: #fff;width:650px;}
+.backendStaff_overlay_serviceOrder .common_title03_box{padding: 0;}
+
+.backendStaff_overlay_setSubjectCol1{border-right: 1px solid #e5ecf2;padding-right:20px;width:410px;}
+.backendStaff_overlay_setSubjectCol2{width:410px;}
+.backendStaff_overlay_setSubjectCol1 .form-lable,.backendStaff_overlay_setSubjectCol2 .form-lable{width:102px;text-align:right}
+.backendStaff_overlay_setSubjectCol1 ul.form-input:first-child,.backendStaff_overlay_setSubjectCol2 ul.form-input:first-child{margin-bottom: 18px;}
+
+.service_fillout_content { border:1px solid #f2f2f2}
+
+.backendStaff_overlay_setContentImage{position: relative;}
+.backendStaff_overlay_setContentImage img{width: 146px;height: 105px;}
+.backendStaff_overlay_setContentImage p{position: absolute;bottom: 5px;margin-left: 33px;background: rgba(0, 0, 0, .2);color: #fff;width: 60px;height: 20px;text-align: center;line-height: 20px;border-radius: 20px;padding: 0 10px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.backendStaff_overlay_setContentInput label{line-height: 25px;}
+.backendStaff_overlay_setContentInput .common_100inputText input{width: 270px;height: 25px;}
+
+/*backendStaff_applyAuthorize*/
+.backendStaff_applyAuthorize_table{margin-top: 10px;}
+.backendStaff_applyAuthorize_table .common_dateTable_th01{width:150px;}
+.backendStaff_applyAuthorize_table .common_dateTable_th02{width:auto;}
+.backendStaff_applyAuthorize_table .common_dateTable_th03{width:250px;}
+
+/*.backendStaff_overlay20141218*/
+.backendStaff_overlay20141218_applyAuthorizeAdd .form-input{padding:0px;}
+.backendStaff_overlay20141218_applyAuthorizeAdd .form-lable{width:40px;}
+
+/**/
+.backendStaff_appConfigure{width:1000px;margin:0 auto;padding:30px 0 20px;}
+
+/*覆盖移动端3d加速*/
+.backendStaff_appConfigure_content .mCommon_basicListLine,
+.backendStaff_appConfigure_content .mCommon_basicListTitle,
+.backendStaff_appConfigure_content .mCommon_basicListFrameWrapper,
+.backendStaff_appConfigure_content .mCommon_basicListMore{-webkit-transform:none}
+/*覆盖移动端3d加速 end*/
+
+
+/*工具tool 16原来写在common2里的css 由于覆盖了原有样式改到了cloud_now2里了*/
+.backendStaff_appConfigure_colToolBtn .common_icon16_edit,
+.backendStaff_appConfigure_colToolBtn .common_icon16_delete,
+.backendStaff_appConfigure_colToolBtn .common_icon16_move{display:inline-block;width:16px;height: 16px;background: url(../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30) no-repeat;cursor: pointer;}
+.backendStaff_appConfigure_colToolBtn .backendStaff_appConfigure_colToolBtn .common_icon16_edit{background-position: 0 0;}
+.backendStaff_appConfigure_colToolBtn .common_icon16_delete{background-position: -16px 0;}
+.backendStaff_appConfigure_colToolBtn .common_icon16_move{background-position: -32px 0;}
+.backendStaff_appConfigure_colToolBtn .common_icon16_edit:hover{background-position: 0 -16px;}
+.backendStaff_appConfigure_colToolBtn .common_icon16_delete:hover{background-position: -16px -16px;}
+.backendStaff_appConfigure_colToolBtn .common_icon16_move:hover{background-position: -32px -16px;cursor: move;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_edit,
+.backendStaff_appConfigure_lineToolBtn .common_icon16_delete,
+.backendStaff_appConfigure_lineToolBtn .common_icon16_move{display:inline-block;width:16px;height: 16px;background: url(../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30) no-repeat;cursor: pointer;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_edit{background-position: 0 0;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_delete{background-position: -16px 0;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_move{background-position: -32px 0;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_edit:hover{background-position: 0 -16px;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_delete:hover{background-position: -16px -16px;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_move:hover{background-position: -32px -16px;cursor: move;}
+
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_edit,
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_delete,
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_move{display:inline-block;width:16px;height: 16px;background: url(../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30) no-repeat;cursor: pointer;}
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_edit{background-position: 0 0;}
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_delete{background-position: -16px 0;}
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_move{background-position: -32px 0;}
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_edit:hover{background-position: 0 -16px;}
+.backendStaff_appConfigure_center_contentFooter_btn .common_icon16_delete:hover{background-position: -16px -16px;}
+.backendStaff_appConfigure_lineToolBtn .common_icon16_move:hover{background-position: -32px -16px;cursor: move;}
+
+
+
+.backendStaff_appConfigure_left{width:284px;background: #f7f7f7;float:left;margin-right:10px;position: fixed;top:170px;left:0;z-index: 5;}
+.backendStaff_appConfigure_left_title{height:44px;display:block;background: #ff984c;color: #fff;font-size: 14px;line-height: 44px;padding-left:25px;font-weight: bold;}
+.backendStaff_appConfigure_left_content{display:block;padding:10px 8px 10px 10px;height:230px;overflow-y: scroll;box-sizing: border-box;}
+.backendStaff_appConfigure_left_content_itemBox:first-child{margin-top:0;}
+.backendStaff_appConfigure_left_content_itemBox{margin-top:10px;padding-left:5px;}
+.backendStaff_appConfigure_left_content_itemBox p{margin-right:10px;}
+.backendStaff_appConfigure_left_content_item{width:110px;background: #fff;border:1px solid #d9d9d9;float: left;margin-bottom: 10px;cursor: move;}
+.backendStaff_appConfigure_left_content_item:hover{background: #00ace6;border:1px solid #00ace6}
+.backendStaff_appConfigure_left_content_item>em{color: #a6a6a6;float: left;width: 30px;}
+.backendStaff_appConfigure_left_content_item>em:before{font-size: 18px;}
+.backendStaff_appConfigure_left_content_item:hover em{color: #fff;}
+.backendStaff_appConfigure_left_content_item i{float: left;line-height:32px;width:60px;color:#666;}
+.backendStaff_appConfigure_left_content_item:hover i{color: #fff;}
+.backendStaff_appConfigure_left_content_item_disable{width:110px;background: #fff;border:1px solid #d9d9d9;float: left;margin-bottom: 10px;}
+.backendStaff_appConfigure_left_content_item_disable>em{color:#ccc;float: left;width:30px;}
+.backendStaff_appConfigure_left_content_item_disable>em:before{font-size: 18px;}
+.backendStaff_appConfigure_left_content_item_disable i{float: left;line-height:32px;width:60px;color:#ccc;}
+.backendStaff_appConfigure_left_grayLine{height:1px;background: #e6e6e6;margin:0 12px 0 10px;}
+
+.backendStaff_appConfigure_right{float:right;width:340px;position: fixed;top:170px;right:0;background: #f7f7f7;}
+.backendStaff_appConfigure_right_title{height:44px;line-height:44px;background: #cceefa;font-size:14px;color: #666;padding-left:15px;}
+.backendStaff_appConfigure_right_content{height:220px;overflow-y: scroll;background: #f7f7f7;padding:15px;box-sizing: border-box;}
+
+.backendStaff_appConfigure_center{float:left;width:375px;margin-right:5px;margin-left:294px;}
+.backendStaff_appConfigure_center_mobileTopBg{height:51px;background: url(../images/backendStaff_appConfigure_mobileTopBg.png) no-repeat;}
+.backendStaff_appConfigure_center_mobileMiddleBg{background: url(../images/backendStaff_appConfigure_mobileMiddleBg.png);background-repeat: repeat-y;}
+/*.backendStaff_appConfigure_center_mobileBottomBg_box{height:51px;}
+.backendStaff_appConfigure_center_mobileBottomBg{height:71px;background: url(../images/backendStaff_appConfigure_mobileBottomBg.png) no-repeat #d9d9d9;position: fixed;left:0;bottom:60px;z-index:100;width:360px;}*/
+.backendStaff_appConfigure_center_mobileBottomBg_box{height:102px;}
+.backendStaff_appConfigure_center_mobileBottomBg{height:121px;background: #d9d9d9;background: url(../images/backendStaff_appConfigure_mobileBottomBg.png?v=2015.12.24) no-repeat top left;position: fixed;left:0;bottom:60px;z-index:100;width:374px;}
+
+.backendStaff_appConfigure_center_content{width:320px;margin-left:14px;border:0px solid red;}
+.backendStaff_appConfigure_center_mobileInfo{height:20px;background: url(../images/backendStaff_appConfigure_mobileHeader.png);position: relative;}
+
+.backendStaff_appConfigure_center_btnTheme{position:absolute;right:-40px; z-index:2; top:0;background: #cceefa;width:28px;height:22px;display:block;text-align:center;padding-top:6px;}
+.backendStaff_appConfigure_center_btnTheme em{display: inline-block;}
+.backendStaff_appConfigure_center_btnTheme:hover{background: #c7e7f2;}
+
+.backendStaff_appConfigure .mCommon_basicListLine{position: relative;cursor: pointer;}
+.backendStaff_appConfigure_lineToolBtn{position:absolute;right:-30px; z-index:2; top:0;width:22px;display: block;display: none;}
+.backendStaff_appConfigure_lineToolBtn a{display:block;height:19px;background: #fff;text-align: center;margin-bottom:1px;padding-top:3px;}
+.backendStaff_appConfigure_lineToolBtn a:hover{background: #f2f2f2;}
+.backendStaff_appConfigure_lineToolBtn a em{display: inline-block;}
+
+.backendStaff_appConfigure_lineListActive{border: 2px dashed #00ace6;position: absolute;left:0;top:0;z-index:2;display:none;box-sizing: border-box;width:100%;height:100%;}
+
+.backendStaff_appConfigure_colBlackOverlay{width:100%;height:100%;background: rgba(0,0,0,0.6);position: absolute;top:0;left:0;z-index:3;}
+
+.backendStaff_appConfigure_colToolBtn{position: absolute;top:0;left: 0;z-index: 5;display: block;}
+.backendStaff_appConfigure_colToolBtn a{float: left;display:block;height:19px;background: #fff;text-align: center;margin-top:1px;padding-top:3px;margin-left:1px;width:22px;}
+.backendStaff_appConfigure_colToolBtn a:hover{background: #f2f2f2;}
+.backendStaff_appConfigure_colToolBtn a em{display: inline-block;}
+
+.backendStaff_appConfigure_center_addNewStyle{height:53px;color: #fff;font-size: 14px;line-height:53px;text-align: center;border:1px dashed #fff;cursor: pointer;background-color:#00ace6;}
+.backendStaff_appConfigure_center_addNewStyle:hover{background: #0099cc;}
+
+.backendStaff_appConfigure_center_contentFooter{width:320px;margin-left:14px;}
+/*准备删除*/
+
+.backendStaff_appConfigure_center_contentFooter{width:320px;margin-left:14px;background: #f8f8f8; border-top:1px solid rgba(0,0,0,0.15);}
+
+.backendStaff_appConfigure_center_contentFooter_item{float: left;width:20%;margin:0 auto;position:relative}
+.backendStaff_appConfigure_center_contentFooter_item em{display:block;width:28px;height:27px;color: #999;margin:0 auto;}
+.backendStaff_appConfigure_center_contentFooter_item i{line-height:20px;display: block;padding:0 5px;text-align: center;}
+.backendStaff_appConfigure_center_contentFooter_item:hover{background: #dedede;}
+.backendStaff_appConfigure_center_contentFooter_item em:before{font-size:20px;}
+
+
+/*准备删除end*/
+
+/*pc设置的js需要的css*/
+.backendStaff_appConfigure_center_contentFooter_itemNone{display:none;position:absolute;z-index:2;left:0;top:0;height:100%;width:100%; background-color: #ccc; background-repeat: no-repeat; background-position: center center; background-image: url(../images/backendStaff_appConfigure_nullMenu.png);}
+.backendStaff_appConfigure_center_contentFooter_itemActive{display:none;position:absolute;z-index:3;left:0;top:0;height:100%;width:100%; border:2px #00d5ff   dashed; box-sizing: border-box}
+.backendStaff_appConfigure_center_contentFooter_itemMove{display:none;position:absolute;z-index:6;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_appConfigure_center_contentFooter_itemHover{display:none;position:absolute;z-index:4;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_appConfigure_center_contentFooter_itemSortable{display:none;position:absolute;z-index:5;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+
+
+
+.backendStaff_appConfigure_right_content_footerMenu_style{ margin-right: -8px;}
+.backendStaff_appConfigure_right_content_footerMenu_style_item{ width: 142px; position:relative;background: #000080; cursor: pointer; margin-right:4px; margin-bottom: 4px; float:left;border: 2px solid #f7f7f7;}
+.backendStaff_appConfigure_right_content_footerMenu_style_item:hover{ border-color:#00ace6;}
+.backendStaff_appConfigure_right_content_footerMenu_style_item_btn{ float:left; width: 25%;  text-align: center; }
+.backendStaff_appConfigure_right_content_footerMenu_style_item_btn .common_fontIcon32_footerMenuIcon{ display: inline-block; height: 27px;}
+.backendStaff_appConfigure_right_content_footerMenu_style_item_btn .common_fontIcon32_footerMenuIcon:before{ font-size:17px; line-height:27px;height:27px; }
+.backendStaff_appConfigure_right_content_footerMenu_style_item .commonIcon20_selected{position:absolute; z-index:1; left:61px; top: 4px; display:none}
+.backendStaff_appConfigure_right_content_footerMenu_style_item_active  .commonIcon20_selected{display:block;}
+.backendStaff_appConfigure_right_content_footerMenu_style_item_active { border-color:#00ace6;}
+
+
+.backendStaff_appConfigure_center_contentFooter_btn{position: absolute;top:50px;z-index:2;display: none;width:72px;text-align: left;left:10px;}
+.backendStaff_appConfigure_center_contentFooter_btn a{padding:3px;width:16px;height:16px;float:left;border:1px solid #d9d9d9;background: #fff;}
+.backendStaff_appConfigure_center_contentFooter_btn em{width:16px;height:16px;}
+.backendStaff_appConfigure_center_contentFooter_btn a:hover{background: #f2f2f2;}
+.backendStaff_appConfigure_center_contentFooter_itemAdd{position:absolute;right:0;top:10px;background:#cceefa;width:16px;height:16px;padding:3px;cursor: pointer;}
+.backendStaff_appConfigure_center_contentFooter_itemAdd:hover{background: #F2F2F2;}
+.backendStaff_appConfigure_center_contentFooter_popupTip{position:absolute;left:0;top:-40px;width:350px;z-index:3;}
+.backendStaff_appConfigure_center_contentFooter_popupTip .common_commentComment_text em{display: inline-block;vertical-align:-4px;margin-right:5px;}
+.backendStaff_appConfigure_center_contentFooter_popupTip .common_commentComment_arrow em{display: block;}
+
+.backendStaff_appConfigure_right_content_lineSet .form-input{padding:0;margin-bottom:15px;}
+.backendStaff_appConfigure_right_content_itemTitle{margin-bottom:5px;line-height:20px;}
+.backendStaff_appConfigure_right_content_itemBox{margin-left:-14px;}
+.backendStaff_appConfigure_right_content_item{clear:left;float: left;margin-left:14px;padding:1px;margin-bottom: 12px;position: relative;}
+.backendStaff_appConfigure_right_content_item:nth-child(2n){clear:none;float:left;}
+.backendStaff_appConfigure_right_content_item img.backendStaff_appConfigure_right_content_item_img{border:1px solid #d9d9d9;width:135px;}
+.backendStaff_appConfigure_right_content_item:hover{padding:0;cursor: pointer;}
+.backendStaff_appConfigure_right_content_item img[portalrowtype_newcontent]{cursor:move}
+.backendStaff_appConfigure_right_content_item:hover img.backendStaff_appConfigure_right_content_item_img{border:2px solid #00ace6;}
+.backendStaff_appConfigure_right_content_itemActive{padding:0;}
+.backendStaff_appConfigure_right_content_itemActive img.backendStaff_appConfigure_right_content_item_img{border:2px solid #00ace6;}
+.backendStaff_appConfigure_right_content_listBox, .backendStaff_appConfigure_right_content_scrollBox {
+width:139px;}
+.backendStaff_appConfigure_right_content_item_newIcon{width:18px;height:18px;position:absolute;right:-8px;top:-8px;}
+
+.backendStaff_appConfigure_right_content_applySet{}
+.backendStaff_appConfigure_right_content_applySet .form-input{padding:0;}
+.backendStaff_appConfigure_right_content_applySet .form-information{margin-left:0;}
+
+.backendStaff_appConfigure_right_content_colSet .form-input{padding:3px 0;margin-bottom: 10px;}
+.backendStaff_appConfigure_right_content_colSet_themeColor {margin-right:-10px;}
+.backendStaff_appConfigure_right_content_colSet_themeColor span {float:left;border:1px solid #ccc;margin-right:10px;margin-bottom:10px;cursor:pointer;position: relative;width:46px;height:46px;}
+.backendStaff_appConfigure_right_content_colSet_themeColor span:hover {border-color:#00ace6;}
+.backendStaff_appConfigure_right_content_colSet_themeColor span em {position:absolute;bottom:2px;right:2px;display: none;}
+.backendStaff_appConfigure_right_content_colSet_themeColor span.backendStaff_appConfigure_right_content_colSet_themeColor_itemActive{border-color:#00ace6;}
+.backendStaff_appConfigure_right_content_colSet_themeColor .backendStaff_appConfigure_right_content_colSet_themeColor_itemActive em{display: block;}
+
+.backendStaff_appConfigure_right_content_themeColorSet{}
+.backendStaff_appConfigure_right_content_themeColorSet .common_controlsBasicColorPicker2_defineList_box{margin-right:-5px;}
+.backendStaff_appConfigure_right_content_themeColorSet .common_controlsBasicColorPicker2_defineList{width:142px;margin-right:5px;}
+.backendStaff_appConfigure_right_content_themeColorSet .common_controlsBasicColorPicker2_defineList_whiteBg{height: 32px;padding:2px;}
+.backendStaff_appConfigure_right_content_themeSet .form-input{padding:3px 0;}
+.backendStaff_appConfigure_right_content_themeSet_bgColor{width:92px;height:136px;border:1px solid #e1e2e6;box-sizing: border-box;}
+.backendStaff_appConfigure_right_content_themeSet_bgColor input{width:0;height: 0;display: none;}
+.backendStaff_appConfigure_right_content_themeSet_bgColor .sp-replacer{padding:0;border:0;background: none;width:100%;height: 100%;}
+.backendStaff_appConfigure_right_content_themeSet_bgColor .sp-dd{display:none;}
+.backendStaff_appConfigure_right_content_themeSet_bgColor .sp-preview{width:100%;height: 100%;border: 1px solid #e5e5e5;box-sizing: border-box}
+.backendStaff_appConfigure_right_content_themeSet_bgImg{height:136px;}
+.backendStaff_appConfigure_right_content_themeSet_bgImg .common_imageList88_list{height: 100%;}
+.backendStaff_appConfigure_right_content_themeSet_bgImg .common_imageList88_listItem{width:88px;height: 100%;
+    overflow: hidden;}
+.backendStaff_appConfigure_right_content_themeSet_bgImg img{width:100%;height:156px;margin-top:-10px;}
+
+.backendStaff_appConfigure_right_content_themeBgSet .common_imageList88_listItem > img{width:88px;height:136px;}
+.backendStaff_appConfigure_right .common_controlsBasicColorPicker_box{position: absolute;left: 15px;top:80px;z-index: 3;}
+.backendStaff_appConfigure_right_content_cutPic_img{width:290px;background: #f2f2f2;border:1px solid #e6e6e6;}
+.backendStaff_appConfigure_right_content_cutPic_img td{height:290px;text-align: center;}
+.backendStaff_appConfigure_right_content_cutPic_img img{max-width:100%;max-height: 100%;}
+.backendStaff_appConfigure_right_content_cutPic_btn{margin-top:20px;}
+.backendStaff_appConfigure_right_content_null { text-align:center; padding-top:80px}
+
+.backendStaff_appConfigure_nullList{padding:20px 0; text-align:center;background-color:#ccc}/*增加b..gColor*/
+/*.mApp_setting_spacingOpacity .backendStaff_appConfigure_nullList { margin: 0 3px;background:rgba(255,255,255,0.9)}*/
+.mApp_setting_spacingOpacity .backendStaff_appConfigure_nullList{ margin: 0 0px;background:rgba(255,255,255,0.9)}/*17.4.5修改*/
+.backendStaff_appConfigure_nullEnter01,
+.backendStaff_appConfigure_nullEnter02,
+.backendStaff_appConfigure_nullEnter03 {background:#ccc;text-align:center; position: absolute; left:0; top:0;z-index:1}
+/*******************************2017.04.14增加yue_start*********************************/
+.backendStaff_appConfigure_nullList_personal{padding:57px 0;}
+.backendStaff_appConfigure_nullList_numbers{padding:24px 0;}
+/*******************************2017.04.14增加yue_end*********************************/
+
+.backendStaff_appConfigure_center_content .mCommon_controlListBlockApp1,
+.backendStaff_appConfigure_center_content .mCommon_controlListBlockApp2,
+.backendStaff_appConfigure_center_content .mCommon_controlListBlockApp3,
+.backendStaff_appConfigure_center_content .mCommon_controlListBlockApp4{/*cursor: default;*/}
+.backendStaff_appConfigure_center_content .mCommon_basicListMore{cursor: default;}
+.backendStaff_appConfigure_center_content .mCommon_basicListMore a{cursor: default;}
+.backendStaff_appConfigure_center_content .mApp_setting_swiperWrapper a{cursor: default;}
+
+/*backendStaff_personnel_cardBox*/
+.backendStaff_personnel_cardBox{}
+.backendStaff_personnel_cardBox {border-top: 1px solid #e5ecf2;border-bottom: 1px solid #e5ecf2;height: 235px;overflow-y: auto;}
+.backendStaff_personnel_cardBox .common_cardBox {float: left;margin-top: 10px;margin-right: 20px;cursor: pointer;}
+
+/*backendStaff_overlay20141218_addPeople*/
+.backendStaff_overlay20141218_addPeople_contentBox{max-height:400px;overflow-y: auto;}
+.backendStaff_overlay20141218_addPeople_selectPeople li{float: left;}
+.backendStaff_overlay20141218_addPeople_selectPeople input{}
+.backendStaff_overlay20141218_addPeople_table{}
+.backendStaff_overlay20141218_addPeople_table .common_dateTable_td01{width:auto;}
+.backendStaff_overlay20141218_addPeople_table .common_dateTable_td02{width:100px;}
+.backendStaff_overlay20141218_addPeople_table .common_dateTable_td03{width:34px;}
+.backendStaff_overlay20141218_addPeople_table .common_dateTable_td03{padding:0;}
+.backendStaff_overlay20141218_addPeople_table .common_buttonLight{margin-right:0;}
+
+/*backendStaff_pcConfigure*/
+.backendStaff_pcConfigure_left{margin-left:100px;}
+.backendStaff_pcConfigure_left:first-child{margin-left: 0px;}
+.backendStaff_pcConfigure_right{margin-left: 100px;}
+
+/*backendStaff_pcConfigure_language*/
+.backendStaff_pcConfigure_language_box{width: 1000px;margin:0 auto;}
+.backendStaff_pcConfigure_language_box_table{width: 95%;}
+.backendStaff_pcConfigure_language_box_table_thead_tr th{font-size: 14px;color: #000;text-align: center;}
+.backendStaff_pcConfigure_language_box_table_tbody_tr td{font-size: 12px;color: #626262;text-align: center;}
+.backendStaff_pcConfigure_language_box_table_tbody_tdBorder textarea{border: 1px solid #E6E6E8;margin-right: 15px;margin-top: 15px;line-height: 14px;width: 93%;text-align: center;padding-top: 10px;padding-bottom: 5px;overflow-y:visible;}
+.backendStaff_pcConfigure_language_box_table_thead_tr_thAppName,.backendStaff_pcConfigure_language_box_table_thead_tr_thField{width: 10%;}
+.backendStaff_pcConfigure_language_box_table_tbody_tdWidth{width:10%;}
+.backendStaff_pcConfigure_language_box_table_div{margin-top: 15px;border-top: 1px solid #EAEAEA;padding-top: 5px;}
+.backendStaff_pcConfigure_language_box_table_thead_tr_thTraditionalChinese,.backendStaff_pcConfigure_language_box_table_thead_tr_thComplexChinese,
+.backendStaff_pcConfigure_language_box_table_thead_tr_thEnglish{padding-right: 15px;}
+.backendStaff_pcConfigure_language_box_table_div:last-child{border-bottom: 1px solid #EAEAEA;padding-bottom: 15px;}
+
+
+/*pc设置的js需要的css*/
+.backendStaff_pcConfigure_lineActive{display:none;position:absolute;z-index:3;left:0;top:0;height:100%;width:100%; border:2px #00ace6  dashed; box-sizing: border-box}
+.backendStaff_pcConfigure_lineMove{display:none;position:absolute;z-index:6;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_pcConfigure_lineHover{display:none;position:absolute;z-index:4;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_pcConfigure_lineSortable{display:none;position:absolute;z-index:5;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+
+
+.backendStaff_pcConfigure_enterNoneDiv{display:none;position:absolute;z-index:2;left:0;top:0;height:100%;width:100%; background-color: #ccc; background-repeat: no-repeat; background-position: center center;}
+.backendStaff_appConfigure_hoverBlack{display:none;position:absolute;z-index:4;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_pcConfigure_enterActiveDiv{display:none;position:absolute;z-index:3;left:0;top:0;height:100%;width:100%; border:2px #00ace6  dashed; box-sizing: border-box}
+.backendStaff_pcConfigure_enterMoveDiv{display:none;position:absolute;z-index:6;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+
+
+/*覆盖jQuery ui 样式*/
+.backendStaff_appConfigure .ui-state-disabled, 
+.backendStaff_appConfigure .ui-widget-content .ui-state-disabled, 
+.backendStaff_appConfigure .ui-widget-header .ui-state-disabled {
+    background-image: none;
+    opacity: 1;
+}
+
+
+/*service_overlay_inputTextImagineSet*/
+.service_overlay_inputTextImagineSet_textarea{margin-top:10px;}
+.service_overlay_inputTextImagineSet_textarea .form_textarea{height:165px;margin-bottom:12px;}
+.service_overlay_inputTextImagineSet .form-input{padding:0;margin-bottom: 0;}
+.service_overlay_inputTextImagineSet_errorTip{}
+.service_overlay_inputTextImagineSet_tipsGray{margin-top:5px;}
+/*service_overlay_importImagineContent*/
+.service_overlay_importImagineContent_tips{line-height: 26px;margin-top:5px;color:#333;}
+.service_overlay_importImagineContent_tips i{margin-right:5px;}
+.service_overlay_importImagineContent_upload .left{width:380px;padding:0;}
+.service_overlay_importImagineContent_upload{margin-top:25px;}
+.service_overlay_importImagineContent .form-input{padding:0;}
+
+.signin_overlay_signinPersonCard{width:620px;height:210px;overflow: auto;padding-top:12px;border-top: 1px solid #e5e7f2;border-bottom: 1px solid #e5e7f2;}
+.signin_overlay_signinPersonCard .common_cardBox{float: left;margin-right: 10px;margin-bottom: 10px;}
+
+/*合作网站微信登录*/
+.muchCommunity_banding_cooperateSite li{width:32px;text-align: center;}
+.muchCommunity_banding_cooperateSite li em{margin-top:5px;}
+.muchCommunity_banding_cooperateSite_text{font-size:12px;color: #0f72b8;line-height:20px;}
+.login_login20140704_content .common_controlsBasicPhotoName_weixinLogin{margin-top:10px;}
+.login_loginCompanyDefaule_weixinLogin{margin-top:20px;margin-bottom: 20px;padding-left:60px;}
+
+.muchCommunity_overlay20150618_bangdingWeixin{overflow: hidden;}
+.muchCommunity_overlay20150618_bangdingWeixin iframe{border: 0px;outline:none;width:340px;height:420px;overflow: hidden;}
+
+/*portal底导航设置弹窗*/
+.backendStaff_overlay20141218_portalFooterNavSet{}
+.backendStaff_overlay20141218_portalFooterNavSet .form-input{padding:3px 0;}
+.backendStaff_overlay20141218_selectAppIcon_lable{line-height: 42px;}
+.backendStaff_overlay20141218_selectAppIcon_icon_normal{border:1px solid #ccc;padding:5px;}
+.backendStaff_overlay20141218_selectAppIcon_icon_hover{text-align: center;color:#fff;background: #ccc;width:24px;height:32px;padding:6px 10px;cursor:pointer;}
+.backendStaff_overlay20141218_selectAppIcon_iconAddAfter .backendStaff_overlay20141218_selectAppIcon_icon_hover{display: none;}
+.backendStaff_overlay20141218_selectAppIcon_iconAddAfter:hover .backendStaff_overlay20141218_selectAppIcon_icon_normal{display: none;}
+.backendStaff_overlay20141218_selectAppIcon_iconAddAfter:hover .backendStaff_overlay20141218_selectAppIcon_icon_hover{display: block;}
+.backendStaff_overlay20141218_selectAppIcon_selectArea{width:290px;height:200px;overflow-y: auto;border:1px solid #ccc;}
+.backendStaff_overlay20141218_selectAppIcon_selectArea .common_formSelectIcon {border:0;}
+.backendStaff_overlay20141218_selectAppIcon_selectArea .common_formSelectIcon em{color:#00ace6;width:32px;height: 32px;}
+.backendStaff_overlay20141218_selectAppIcon_selectArea .common_formSelectIcon em:before{font-size:28px;}
+.backendStaff_overlay20141218_selectAppIcon_selectArea .common_formSelectIcon > p:hover em.commonIconLeft32_community_blue,
+.backendStaff_overlay20141218_selectAppIcon_selectArea .common_formSelectIcon > p:hover em.commonIconLeft32_addressBook_blue,
+.backendStaff_overlay20141218_selectAppIcon_selectArea .common_formSelectIcon > p:hover em.common_fontIcon32_meInfo {
+text-align: center;
+font-family: "iconfont" !important;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-webkit-text-stroke-width: 0.2px;
+-moz-osx-font-smoothing: grayscale;
+color: #fff;
+}
+.backendStaff_overlay20141218_selectAppIcon_icon_normal em{color:#00ace6}
+
+
+/*backendStaff_applicationMaintainOverlay*/
+.backendStaff_applicationMaintainOverlay_settingMap_box{}
+.backendStaff_applicationMaintainOverlay_settingMap_input{ width:350px; margin-left: 5px;}
+.backendStaff_applicationMaintainOverlay_settingMap_box .form-input{ padding:3px 0 ; margin: 0;}
+
+.backendStaff_applicationMaintainOverlay_selectType_box .imageList140_box{max-width:680px;max-height:300px;margin-top:20px;overflow-y: auto;overflow-x: hidden;padding-bottom:20px;margin-bottom:-20px;}
+.backendStaff_applicationMaintainOverlay_selectType_box .imageList140_imgBox{height:194px;margin-right:15px;margin-top:0;margin-bottom:20px;}
+.backendStaff_applicationMaintainOverlay_selectType_box .imageList140_more{ height:107px}
+.backendStaff_applicationMaintainOverlay_selectType_form .form-lable{ width: 80px;}
+.backendStaff_applicationMaintainOverlay_selectType_form  li > input{ width:254px;}
+.backendStaff_applicationMaintainOverlay_selectType_form  .lable_list_input{ width:260px;}
+.backendStaff_applicationMaintainOverlay_selectType_form  .form-input{ margin-bottom: 0px;}
+
+
+/*================支付-社区分润账号管理======================*/
+.backendpay_profitAccount_tablebox table{table-layout: inherit;}
+.backendpay_profitAccount_tablebox td select{width:auto;}
+.backendpay_profitAccount_tablebox td strong{font-weight: bold;}
+
+.backendpay_profitAccount_overlay_edit_form .form-lable{width:120px}
+.backendpay_profitAccount_overlay_edit_form select{width:auto;}
+.backendpay_profitAccount_overlay_edit_form .linkInline{margin:0 5px;}
+.backendpay_profitAccount_overlay_edit_form .profitSet p{margin:8px 0;}
+.backendpay_profitAccount_overlay_edit_form .profitSetRule p{margin:2px 0;}
+.backendpay_profitAccount_overlay_edit_form .profitSetRule span{display: inline-block;width:105px;text-align:right;}
+.backendpay_profitAccount_overlay_edit_form .form-inputtext{width:80px;}
+
+.backendpay_profitAccount_overlay_cardInfo .form-lable{width:160px}
+.backendpay_profitAccount_overlay_cardInfo select{width:auto;}
+.backendpay_profitAccount_overlay_box400{width:380px;}
+
+/*================支付-平台交易记录======================*/
+.backendpay_transactionRecord_formbox .form-lable{width:100px}
+.backendpay_transactionRecord_formbox .form-infomation a{margin:0 5px;}
+
+.backendpay_transactionRecord_tablebox {overflow-x: auto;}
+.backendpay_transactionRecord_tablebox table{min-width: 100%;width: auto;}
+.backendpay_transactionRecord_tablebox td select{width:auto;}
+.backendpay_transactionRecord_tablebox td strong{font-weight: bold;}
+
+.backendpay_transactionRecord_overlay .overlay_message_text{line-height:40px;}
+
+/*================支付-分润管理======================*/
+.backendpay_profitManagement_formbox .form-lable{width:100px}
+.backendpay_profitManagement_tablebox{}
+.backendpay_profitManagement_tablebox .common_table_tool span{line-height:30px;display:inline-block;height:24px;overflow:hidden;margin-right:20px;}
+.backendpay_profitManagement_tablewrapper {}
+.backendpay_profitManagement_tablewrapper table{width: 100%;table-layout: inherit;}
+.backendpay_profitManagement_tablewrapper td select{width:auto;}
+.backendpay_profitManagement_tablewrapper td strong{font-weight: bold;}
+
+.backendpay_profitManagement_overlay_form .notice{padding:0 20px 10px 20px;}
+.backendpay_profitManagement_overlay_form .form-lable{width:80px}
+.backendpay_profitManagement_overlay_form .profitMoney {border:1px solid #ccc;margin:5px 0 10px 0;padding:5px}
+.backendpay_profitManagement_overlay_form .profitMoney p{line-height:24px;color:#fd0000;}
+.backendpay_profitManagement_overlay_form .profitMoney span{display: inline-block;text-align:right;width:160px;color:#000;}
+.backendpay_profitManagement_overlay_tablebox{padding:0 20px;}
+.backendpay_profitManagement_overlay_tablewrapper {overflow-x: auto;overflow-y:hidden;}
+.backendpay_profitManagement_overlay_tablewrapper table{min-width: 100%;width: auto;}
+.backendpay_profitManagement_overlay_tablewrapper th,.backendpay_profitManagement_overlay_tablewrapper td{white-space: nowrap;}
+
+
+/*================支付-日志管理======================*/
+.backendpay_logManagement_tablebox {overflow-x: auto;}
+.backendpay_logManagement_tablebox table{min-width: 100%;width: auto;}
+
+/*================支付-对账管理======================*/
+.backendpay_checkBill_formbox .form-lable{width:100px}
+.backendpay_checkBill_tablebox .common_table_tool{margin-top:15px;}
+.backendpay_checkBill_tablebox .common_table_tool span{margin-right:20px;}
+.backendpay_checkBill_tablebox table{width: 100%;table-layout: inherit;}
+.backendpay_checkBill_tablebox .font_green{color:#49a31f;}
+.backendpay_checkBill_tablebox .font_red{color:#ff3333;}
+
+.backendPay_checkBill_allMoneyWrapper{}
+.backendPay_checkBill_allMoney{padding:20px 60px 20px 0;border:1px solid #e9e9e9;background:#f7f7f7;margin:10px 0;}
+.backendPay_checkBill_allMoney .all,.backendPay_checkBill_allMoney .col1,.backendPay_checkBill_allMoney .col2{width:200px;display: inline-block;text-align:center;}
+.backendPay_checkBill_allMoney .allInner,.backendPay_checkBill_allMoney .col1Inner,.backendPay_checkBill_allMoney .col2Inner{display: inline-block;margin: 0 auto;text-align:left;}
+.backendPay_checkBill_allMoney .all span,.backendPay_checkBill_allMoney .col1 span,.backendPay_checkBill_allMoney .col2 span{display: block;}
+.backendPay_checkBill_allMoney span{display: inline-block;font-size:30px;}
+.backendPay_checkBill_allMoney .title{font-size:12px;}
+.backendPay_checkBill_allMoney .money{font-size:18px;}
+
+/*订单金额未对平*/
+.backendPay_checkBill_allMoneyWrapper .notBalance{border:1px solid #ffcccc;background:#ffe5e5 url(../images/backendPay_checkBill_notbalance.png) 740px 30px no-repeat;}
+/*订单金额对平*/
+.backendPay_checkBill_allMoneyWrapper .balance{background:#f7f7f7 url(../images/backendPay_checkBill_balance.png) 740px 30px no-repeat;}
+
+
+
+
+
+/*backendPay_platformProfitAccount_overlay*/
+.backendPay_platformProfitAccount_overlay_form .form-lable{ width:160px}
+.backendPay_platformProfitAccount_overlay_form .form-input{margin-bottom:15px}
+
+/*payment_overlay*/
+.payment_overlay_cardInfo_form .form-lable{ width:160px}
+.payment_overlay_cardInfo_form .form-input{margin-bottom:15px}
+
+
+/*trade_management*/
+.trade_management_formFiltrate_tableBox .common_formFiltrate_title{}
+.trade_management_tableBox{overflow-x: auto;margin-top:10px;}
+.trade_management_tableBox > table{min-width:100%;}
+.trade_management_tableBox .common_dateTable_th01{width:150px;}
+.trade_management_tableBox .common_dateTable_th02{width:80px;}
+.trade_management_tableBox .common_dateTable_th03{width:150px;}
+.trade_management_tableBox .common_dateTable_th04{width:150px;}
+.trade_management_tableBox .common_dateTable_th05{width:80px;}
+.trade_management_tableBox .common_dateTable_th06{width:80px;}
+.trade_management_tableBox .common_dateTable_th07{width:80px;}
+.trade_management_tableBox .common_dateTable_th08{width:80px;}
+.trade_management_tableBox .common_dateTable_th09{width:80px;}
+.trade_management_tableBox .common_dateTable_th10{width:100px;}
+.trade_management_tableBox .common_dateTable_th11{width:150px;}
+.trade_management_tableBox .common_dateTable_th12{width:80px;}
+
+/*trade_detail*/
+.trade_detail_content{border: 1px solid #f2f2f2;}
+
+/*第一步 导入数据（1）*/
+.propertyPayment_importData01_crumbsBox .common_controlsContainerPopup_importData_dialog{background: #fafafa;width:810px;}
+.propertyPayment_importData01_crumbsBox .common_controlsContainerPopup_importData_contentBox{background: #fafafa;width:810px;}
+.propertyPayment_importData01_crumbsBox .common_controlsContainerPopup_importDataCrumbs_right span{width:50%;}
+.propertyPayment_importData01_crumbsBox .common_controlsContainerPopup_importData_footerButton{height: 59px;border-top:1px solid #e9e9e9;margin-top:40px;}
+.propertyPayment_importData01_guide_box{text-align: center;margin-top:40px;height: 78px;background:#f7f7f7;border:1px solid #e9e9e9;}
+.propertyPayment_importData01_guide{display: inline-block;}
+.propertyPayment_importData01_guide_text{float: left;color:#333;font-size:14px;line-height: 78px;}
+.propertyPayment_importData01_guide_iconBox{float: left;margin-top:10px;max-width:82px;margin:10px 5px 0;}
+.propertyPayment_importData01_guide_icon{width:41px;height: 40px;background:#00ace6;border-radius: 50%;background-clip: border-box;margin:0 auto;}
+.propertyPayment_importData01_guide_icon em{margin: 0px auto;padding-top:4px;}
+.propertyPayment_importData01_guide_iconText{font-size:14px;color: #333;margin-top:1px;}
+.propertyPayment_importData01_title{font-size:18px;color:#000;line-height:26px;margin-top:40px;text-align: center;}
+.propertyPayment_importData01_iconBox{text-align: center;margin-top:20px;}
+.propertyPayment_importData01_icon{width:140px;height: 140px;background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) no-repeat -140px 0;display:inline-block;cursor: pointer;}
+.propertyPayment_importData01_icon:hover{background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) no-repeat -140px -140px;}
+.propertyPayment_importData01_icon p{font-size: 18px;color: #fff;padding-top: 85px;}
+.propertyPayment_importData01_iconText a{line-height: 36px;color:#00ace6;}
+.propertyPayment_importData01_box02 .propertyPayment_importData01_title{margin-top:60px}
+.propertyPayment_importData01_box02 .propertyPayment_importData01_iconBox{margin-top:50px;}
+.propertyPayment_importData01_box02 .propertyPayment_importData01_icon{width:140px;height:140px;display:inline-block;cursor:pointer;background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) no-repeat 0 0;}
+.propertyPayment_importData01_box02 .propertyPayment_importData01_icon:hover{background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) 0 -140px no-repeat  ;}
+
+
+
+
+/*第一步 导入数据（2）*/
+.propertyPayment_importData02_talbe{overflow-x: auto;overflow-y: auto;max-height:300px;background: #fff;}
+.propertyPayment_importData02_talbe > table{min-width:100%;width:auto;}
+.propertyPayment_importData02_talbe th{max-width:140px;white-space:nowrap;width:auto;}
+.propertyPayment_importData02_title{margin-top:25px;font-size:18px;color: #333;text-align: center;margin-bottom: 10px;}
+
+/*第二步 设置查询条件*/
+.propertyPayment_setSearch_mobile_box{margin-top:40px;}
+.propertyPayment_setSearch_left_box{width:375px;margin-left:50px;}
+.propertyPayment_setSearch_left_mobileTopBg{height: 51px;background: url(../images/backendStaff_appConfigure_mobileTopBg.png) no-repeat;}
+.propertyPayment_setSearch_left_mobileMiddleBg{background: url(../images/backendStaff_appConfigure_mobileMiddleBg.png);
+background-repeat: repeat-y;}
+.propertyPayment_setSearch_left_mobileBottomBg{height: 51px;
+background: url(../images/backendStaff_appConfigure_mobileBottomBg2.png) no-repeat;}
+.propertyPayment_setSearch_left_mobileContent{width:320px;margin-left:14px;background: #fff;min-height: 330px;}
+.propertyPayment_setSearch_left_mobileInfo{height: 20px;background: url(../images/backendStaff_appConfigure_mobileHeader.png);}
+.propertyPayment_setSearch_left_header{text-align: center;line-height: 45px;font-size: 17px;}
+.propertyPayment_setSearch_left_mobileContent .mCommon_frameContent15_content{padding:10px;}
+.propertyPayment_setSearch_left_mobileContent .mCommon_controlFormGroup_box{padding:5px;border:1px dashed #00ace6;cursor: pointer;}
+.propertyPayment_setSearch_left_mobileContent .mCommon_controlFormGroup_box:hover{background: #cceefa;}
+.propertyPayment_setSearch_left_mobileContent .mParment_search_titleBox{padding:5px;border:1px dashed #00ace6;cursor: pointer;width:auto;}
+.propertyPayment_setSearch_left_mobileContent .mParment_search_titleBox:hover{background: #cceefa;}
+.propertyPayment_setSearch_left_mobileContent .propertyPayment_setSearch_left_mobileContent_itemActive{background: #cceefa;}
+
+.propertyPayment_setSearch_right_box{display:block;width:338px;min-height:350px;border:1px solid #e6e6e6;background: #f7f7f7;margin-top:50px;}
+.propertyPayment_setSearch_right_title{height: 44px;line-height: 44px;background: #cceefa;font-size: 14px;color: #666;padding-left: 15px;}
+.propertyPayment_setSearch_right_content{padding:15px;}
+.propertyPayment_setSearch_right_setSearchTips{}
+.propertyPayment_setSearch_right_setSearchTips .form-lable{width:45px;}
+.propertyPayment_setSearch_right_setSearchTips .form-input{padding:3px 0;margin-bottom:15px;}
+.propertyPayment_setSearch_right_setSearchTips .form_textarea{width:250px;height: 100px;}
+.propertyPayment_setSearch_right_setSearchTips .form-inputtext{width:250px;}
+.propertyPayment_setSearch_right_setSearchCondition_item li{width:140px;}
+.propertyPayment_setSearch_right_setSearchCondition .form-input{padding:3px 0;margin-bottom:0;}
+.propertyPayment_setSearch_right_setSearchCondition_desc{line-height: 26px;margin-top:5px;}
+.propertyPayment_setSearch_right_setSearchCondition_desc a{margin-left:5px;margin-right:5px;}
+
+/*第三步 设置列表显示*/
+.propertyPayment_setList_mobile_box{margin-top:40px;}
+.propertyPayment_setList_left_box{width:375px;margin-left:50px;}
+.propertyPayment_setList_left_mobileTopBg{height: 51px;background: url(../images/backendStaff_appConfigure_mobileTopBg.png) no-repeat;}
+.propertyPayment_setList_left_mobileMiddleBg{background: url(../images/backendStaff_appConfigure_mobileMiddleBg.png);
+background-repeat: repeat-y;}
+.propertyPayment_setList_left_mobileBottomBg{height: 51px;
+background: url(../images/backendStaff_appConfigure_mobileBottomBg2.png) no-repeat;}
+.propertyPayment_setList_left_mobileContent{width:320px;margin-left:14px;background: #fff;min-height: 330px;}
+.propertyPayment_setList_left_mobileInfo{height: 20px;background: url(../images/backendStaff_appConfigure_mobileHeader.png);}
+.propertyPayment_setList_left_header{text-align: center;line-height: 45px;font-size: 17px;}
+.propertyPayment_setList_left_mobileContent .mCommon_basicSearchList_box{border:1px dashed #00ace6;padding:0;}
+.propertyPayment_setList_left_mobileContent .mCommon_basicSearchList_box:hover{background: #cceefa;}
+.propertyPayment_setList_left_mobileContent .propertyPayment_setList_left_mobileContent_itemActive{background: #cceefa;}
+
+.propertyPayment_setList_right_box{display:block;width:338px;min-height:350px;border:1px solid #e6e6e6;background: #f7f7f7;margin-top:50px;}
+.propertyPayment_setList_right_title{height: 44px;line-height: 44px;background: #cceefa;font-size: 14px;color: #666;padding-left: 15px;}
+.propertyPayment_setList_right_content{padding:15px;}
+.propertyPayment_setList_right_setListShow_item li{width:140px;}
+.propertyPayment_setList_right_setListShow .form-input{padding:3px 0;margin-bottom:0;}
+
+/*批量导入第一步*/
+.propertyPayment_batchAdding01_title{font-size:18px;color:#000;line-height:26px;margin-top:40px;text-align: center;}
+.propertyPayment_batchAdding01_iconBox{text-align: center;margin-top:20px;}
+.propertyPayment_batchAdding01_icon{width:140px;height: 140px;background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) no-repeat 0 0;display:inline-block;cursor: pointer;}
+.propertyPayment_batchAdding01_icon p{font-size: 18px;color: #fff;padding-top: 85px;}
+.propertyPayment_batchAdding01_iconText a{line-height: 36px;color:#00ace6;}
+.propertyPayment_batchAdding01_box02 .propertyPayment_batchAdding01_title{margin-top:60px}
+.propertyPayment_batchAdding01_box02 .propertyPayment_batchAdding01_iconBox{margin-top:50px;}
+.propertyPayment_batchAdding01_box02 .propertyPayment_batchAdding01_icon{background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) no-repeat 0 0;}
+.propertyPayment_batchAdding01_box02 .propertyPayment_batchAdding01_icon:hover{background: url(../images/propertyPayment_importData_download.png?v=2015.09.24) no-repeat 0 -140px;}
+
+
+/*propertyPayment_batchAdding02 批量导入第二步*/
+.propertyPayment_batchAdding02_talbe{overflow-x: auto;overflow-y: auto;max-height:300px;}
+.propertyPayment_batchAdding02_talbe > table{min-width:100%;width:auto;}
+.propertyPayment_batchAdding02_talbe th{max-width:140px;white-space:nowrap;width:auto;}
+.propertyPayment_batchAdding02_title{margin-top:25px;font-size:14px;color: #333;margin-bottom: 10px;}
+
+/*propertyPayment_loading*/
+.propertyPayment_uploading_box{margin: 200px auto 0;text-align: center;}
+.propertyPayment_uploading_box .common_progressBar{margin:0 auto;width:300px;}
+
+/*=================客户信息收集===================*/
+/*信息收集*/
+.backendBaseManagement_baseInfoForm .form-lable{ width:100px}
+/*加入审批*/
+.backendStaff_joinApprovalTable .txtCenter{text-align:center;}
+.backendStaff_joinApprovalTable select{width:auto;min-width:100px;}
+.backendStaff_joinApprovalPerson_content{border: 1px solid #f2f2f2;}
+/*pc收集信息*/
+.backendStaff_collectInfo_miniheader{width:100%;}
+.backendStaff_collectInfo_content{border: 1px solid #f2f2f2;}
+.backendStaff_collectInfoPersonalPageMoreT{padding-bottom: 10px;}
+.backendStaff_collectInfoPersonalPageMoreT em,.backendStaff_collectInfoPersonalPageMoreB em{font-family: 宋体;margin:0 5px;}
+.backendStaff_collectInfoPersonalPageMoreB{margin-top:10px;padding:10px 0 10px 0;border-top:1px solid #e5ecf2;}
+
+
+/*=================物业缴费 数据===================*/
+/*待缴费*/
+.propertyPayment_dataUnPaid_tableBox {overflow-x: auto;margin-top: 10px;max-height: 300px;overflow-y:auto;}
+.propertyPayment_dataUnPaid_tableBox > table {width: auto;min-width: 100%;}
+.propertyPayment_dataUnPaid_tableBox th {max-width: 140px;width: auto;white-space: nowrap;}
+/*已缴费*/
+.propertyPayment_dataPaid_tableBox {overflow-x: auto;margin-top: 10px;max-height: 300px;overflow-y:auto;}
+.propertyPayment_dataPaid_tableBox > table {width: auto;min-width: 100%;}
+.propertyPayment_dataPaid_tableBox th {max-width: 140px;width: auto;white-space: nowrap;}
+.propertyPayment_dataPaid_tableBox .common_dateTable td{padding:0 10px;line-height: 30px;}
+.propertyPayment_dataPaid_tableBox .common_otherIcon_modify{vertical-align: 4px;}
+
+/*=================物业缴费 设置查询===================*/
+.propertyPayment_settingSearch_mobile_box{margin-top:10px;}
+.propertyPayment_settingSearch_left_box{width:375px;margin-left:50px;}
+.propertyPayment_settingSearch_left_mobileTopBg{height: 51px;background: url(../images/backendStaff_appConfigure_mobileTopBg.png) no-repeat;}
+.propertyPayment_settingSearch_left_mobileMiddleBg{background: url(../images/backendStaff_appConfigure_mobileMiddleBg.png);
+background-repeat: repeat-y;}
+.propertyPayment_settingSearch_left_mobileBottomBg{height: 51px;
+background: url(../images/backendStaff_appConfigure_mobileBottomBg2.png) no-repeat;}
+.propertyPayment_settingSearch_left_mobileContent{width:320px;margin-left:14px;background: #fff;min-height: 330px;}
+.propertyPayment_settingSearch_left_mobileInfo{height: 20px;background: url(../images/backendStaff_appConfigure_mobileHeader.png);}
+.propertyPayment_settingSearch_left_header{text-align: center;line-height: 45px;font-size: 17px;}
+.propertyPayment_settingSearch_left_mobileContent_itemActive{border:1px dashed #00ace6;}
+
+.propertyPayment_settingSearch_right_box{display:block;width:338px;min-height:350px;border:1px solid #e6e6e6;background: #f7f7f7;margin-top:50px;}
+.propertyPayment_settingSearch_right_title{height: 44px;line-height: 44px;background: #cceefa;font-size: 14px;color: #666;padding-left: 15px;}
+.propertyPayment_settingSearch_right_content{padding:15px;}
+.propertyPayment_settingSearch_right_setSearchTips{}
+.propertyPayment_settingSearch_right_setSearchTips .form-lable{width:45px;}
+.propertyPayment_settingSearch_right_setSearchTips .form-input{padding:3px 0;margin-bottom:15px;}
+.propertyPayment_settingSearch_right_setSearchTips .form_textarea{width:250px;height: 100px;}
+.propertyPayment_settingSearch_right_setSearchTips .form-inputtext{width:250px;}
+.propertyPayment_settingSearch_right_setSearchCondition_desc{line-height: 26px;margin-top:5px;}
+.propertyPayment_settingSearch_right_setSearchCondition_desc a{margin-left:5px;margin-right:5px;}
+.propertyPayment_settingSearch_right_setSearchCondition_item li{width:140px;}
+.propertyPayment_settingSearch_right_setSearchCondition .form-input{padding:3px 0;margin-bottom:0;}
+.propertyPayment_settingSearch_left_mobileContent .mCommon_frameContent15_content{padding:10px;}
+.propertyPayment_settingSearch_left_mobileContent .mCommon_controlFormGroup_box{padding:5px;border:1px dashed #00ace6;cursor: pointer;}
+.propertyPayment_settingSearch_left_mobileContent .mCommon_controlFormGroup_box:hover{background: #cceefa;}
+.propertyPayment_settingSearch_left_mobileContent .mParment_search_titleBox{padding:5px;border:1px dashed #00ace6;cursor: pointer;width:auto;}
+.propertyPayment_settingSearch_left_mobileContent .mParment_search_titleBox:hover{background: #cceefa;}
+.propertyPayment_settingSearch_left_mobileContent .propertyPayment_settingSearch_left_mobileContent_itemActive{background: #cceefa;}
+/*=================物业缴费 设置列表显示===================*/
+.propertyPayment_settingList_mobile_box{margin-top:10px;}
+.propertyPayment_settingList_left_box{width:375px;margin-left:50px;}
+.propertyPayment_settingList_left_mobileTopBg{height: 51px;background: url(../images/backendStaff_appConfigure_mobileTopBg.png) no-repeat;}
+.propertyPayment_settingList_left_mobileMiddleBg{background: url(../images/backendStaff_appConfigure_mobileMiddleBg.png);
+background-repeat: repeat-y;}
+.propertyPayment_settingList_left_mobileBottomBg{height: 51px;
+background: url(../images/backendStaff_appConfigure_mobileBottomBg2.png) no-repeat;}
+.propertyPayment_settingList_left_mobileContent{width:320px;margin-left:14px;background: #fff;min-height: 330px;}
+.propertyPayment_settingList_left_mobileInfo{height: 20px;background: url(../images/backendStaff_appConfigure_mobileHeader.png);}
+.propertyPayment_settingList_left_header{text-align: center;line-height: 45px;font-size: 17px;}
+.propertyPayment_settingList_left_mobileContent_itemActive{border:1px dashed #00ace6;}
+
+.propertyPayment_settingList_right_box{display:block;width:338px;min-height:350px;border:1px solid #e6e6e6;background: #f7f7f7;margin-top:50px;}
+.propertyPayment_settingList_right_title{height: 44px;line-height: 44px;background: #cceefa;font-size: 14px;color: #666;padding-left: 15px;}
+.propertyPayment_settingList_right_content{padding:15px;}
+.propertyPayment_settingList_right_setSearchCondition_item li{width:140px;}
+.propertyPayment_settingList_right_setListShow .form-input {margin-bottom: 0;padding: 3px 0;}
+
+.propertyPayment_settingList_left_mobileContent .mCommon_basicSearchList_box{border:1px dashed #00ace6;padding:0;}
+.propertyPayment_settingList_left_mobileContent .mCommon_basicSearchList_box:hover{background: #cceefa;}
+.propertyPayment_settingList_left_mobileContent .propertyPayment_settingList_left_mobileContent_itemActive{background: #cceefa;}
+
+.propertyPayment_settingPayment_title{font-size:14px;margin-top:10px;margin-left:10px;margin-bottom:5px;}
+.propertyPayment_settingPayment_content{margin-left:10px;}
+.propertyPayment_settingPayment_content .form-input{padding:3px 0;}
+/*编辑信息收集*/
+/*backendBaseManagement_editInfo*/
+.backendBaseManagement_editInfo_box{width:610px;margin: 20px auto 0;background: #fff;padding:15px;}
+.backendBaseManagement_editInfo_box .mCommon_basicFlowChart_itemTitle .common_buttonLight_box{padding-right:10px;}
+.backendBaseManagement_editInfo_flowChart_itemContent .mCommon_controlFormGroup_item{padding-top:0;}
+.backendBaseManagement_editInfo_box .mCommon_basicFlowChart_itemContent{padding-right:10px;padding-left:10px;}
+.backendBaseManagement_editInfo_flowChart_itemTitle{font-size:14px;color:#666;margin-left:10px;border-bottom: 1px dashed #d9d9d9;padding-bottom:5px;}
+
+.backendBaseManagement_editInfo_flowChart_bottomBox{background: url(../images/formPCommon_frameBottonBgTrue.png);border: 1px solid #CCC;position: relative;margin:10px;}
+.backendBaseManagement_editInfo_flowChart_bottomBox_arrow{text-align: center;margin-top: -13px;height: 13px;position: relative;z-index: 3;}
+.backendBaseManagement_editInfo_flowChart_bottomBox_arrow > em{display: inline-block;width: 20px;height: 13px;background-image: url(../images/formPCommon_arrowup.png);}
+.backendBaseManagement_editInfo_flowChart_bottomBox_content{display: block;text-align: center;}
+.backendBaseManagement_editInfo_flowChart_bottomBox_content .common_controlsContainerForm_inputType{padding: 20px 0;padding-left: 50px;display: none;}
+.backendBaseManagement_editInfo_flowChart_bottomBox_content_add{padding: 20px;}
+.backendBaseManagement_editInfo_flowChart_bottomBox_active .backendBaseManagement_editInfo_flowChart_bottomBox_content_add { display: none; }
+.backendBaseManagement_editInfo_flowChart_bottomBox_active .common_controlsContainerForm_inputType { display: block; }
+.backendBaseManagement_editInfo_box .common_controlsContainerForm_frameEditgroup_content{display: none;}
+
+.backendBaseManagement_editInfo_flowChart_itemContent .mCommon_controlFormGroup_item{margin-top:0;}
+.form_overlay_templateRight_content .backendBaseManagement_editInfo_flowChart_itemContent .mCommon_controlFormGroup_item{margin-top:15px;}
+
+.backendBaseManagement_editInfo_flowChart_itemContent{position: relative;margin-top:5px;}
+
+/*statistical热门应用统计*/
+.statisticalAnalysis_statisticalApplyHot_cardWrapper{display: table;width: 100%;}
+.statisticalAnalysis_statisticalApplyHot_card{display: table-cell;}
+.statisticalAnalysis_statisticalApplyHot_card:first-child .statisticalAnalysis_statisticalApplyHot_cardInner{border-left:0;}
+.statisticalAnalysis_statisticalApplyHot_cardInner{border-left:1px solid #e7e7eb;padding:0 5px;margin-bottom:10px;}
+.statisticalAnalysis_statisticalApplyHot_card_rank{font-size:12px;color:#333;margin-top:20px;}
+.statisticalAnalysis_statisticalApplyHot_card_title{font-size:18px;color:#333;width:200px;margin:15px auto 15px;text-align: center;}
+.statisticalAnalysis_statisticalApplyHot_card_num{font-size:12px;color:#666;margin-top:5px;}
+
+.statisticalAnalysis_statisticalApplyHot_dataStatistical_content{border-top:0;text-align: left;}
+.statisticalAnalysis_statisticalApplyHot_dataStatistical_filterCondition{padding:0px 10px 0px 10px;background: #f8f8f9;display: block;border:1px solid #E6E6E6;}
+.statisticalAnalysis_statisticalApplyHot_dataStatistical_filterCondition .form-input{padding:0;margin-top:10px;}
+.statisticalAnalysis_statisticalApplyHot_dataStatistical_img{padding:20px 0;text-align: left;height: 300px;overflow: auto;}
+.statisticalAnalysis_statisticalApplyHot_dataStatistical_img img{}
+
+.statisticalAnalysis_statisticalApplyHot_detailData_table{overflow-x: auto;margin-top: 10px;}
+.statisticalAnalysis_statisticalApplyHot_detailData_table table{width: auto;min-width: 100%;}
+.statisticalAnalysis_statisticalApplyHot_detailData_table th{max-width: 140px;width: auto;white-space: nowrap;}
+
+/*statistical用户统计*/
+.statisticalAnalysis_statisticalUser_cardWrapper{display: table;width: 100%;}
+.statisticalAnalysis_statisticalUser_card{display: table-cell;}
+.statisticalAnalysis_statisticalUser_card:first-child .statisticalAnalysis_statisticalUser_cardInner{border-left:0;}
+.statisticalAnalysis_statisticalUser_cardInner{border-left:1px solid #e7e7eb;padding:0 5px;margin-bottom:10px;}
+.statisticalAnalysis_statisticalUser_card_rank{font-size:12px;color:#333;margin:0 auto;margin-top:20px;width:200px;text-align: center;}
+.statisticalAnalysis_statisticalUser_card_title{font-size:18px;color:#333;width:200px;margin:15px auto 15px;text-align: center;}
+.statisticalAnalysis_statisticalUser_card_num{font-size:12px;color:#666;margin:0 auto;margin-top:5px;width:200px;text-align: center;}
+
+.statisticalAnalysis_statisticalUser_dataStatistical_content{border-top:0;text-align: left;}
+.statisticalAnalysis_statisticalUser_dataStatistical_filterCondition{padding:0px 10px 0px 10px;background: #f8f8f9;display: block;border:1px solid #E6E6E6;}
+.statisticalAnalysis_statisticalUser_dataStatistical_filterCondition .form-input{padding:0;margin-top:10px;}
+.statisticalAnalysis_statisticalUser_dataStatistical_img{padding:20px 0;text-align: left;height: 300px;overflow: auto;}
+.statisticalAnalysis_statisticalUser_dataStatistical_img img{}
+
+.statisticalAnalysis_statisticalUser_detailData_table{overflow-x: auto;margin-top: 10px;}
+.statisticalAnalysis_statisticalUser_detailData_table table{width: auto;min-width: 100%;}
+.statisticalAnalysis_statisticalUser_detailData_table th{max-width: 140px;width: auto;white-space: nowrap;}
+/*statistical人员活跃统计*/
+.statisticalAnalysis_statisticalPersonnelActive_cardWrapper{display: table;width: 100%;}
+.statisticalAnalysis_statisticalPersonnelActive_card{display: table-cell;}
+.statisticalAnalysis_statisticalPersonnelActive_card:first-child .statisticalAnalysis_statisticalPersonnelActive_cardInner{border-left:0;}
+.statisticalAnalysis_statisticalPersonnelActive_cardInner{border-left:1px solid #e7e7eb;padding:0 5px;margin-bottom:10px;}
+.statisticalAnalysis_statisticalPersonnelActive_card_rank{font-size:12px;color:#333;margin:0 auto;margin-top:20px;width:200px;text-align: center;}
+.statisticalAnalysis_statisticalPersonnelActive_card_title{font-size:18px;color:#333;width:200px;margin:15px auto 15px;text-align: center;}
+.statisticalAnalysis_statisticalPersonnelActive_card_num{font-size:12px;color:#666;margin:0 auto;margin-top:5px;width:200px;text-align: center;}
+
+.statisticalAnalysis_statisticalPersonnelActive_dataStatistical_content{border-top:0;text-align: left;}
+.statisticalAnalysis_statisticalPersonnelActive_dataStatistical_filterCondition{padding:0px 10px 0px 10px;background: #f8f8f9;display: block;border:1px solid #E6E6E6;}
+.statisticalAnalysis_statisticalPersonnelActive_dataStatistical_filterCondition .form-input{padding:0;margin-top:10px;}
+.statisticalAnalysis_statisticalPersonnelActive_dataStatistical_img{padding:20px 0;text-align: left;height: 300px;overflow: auto;}
+.statisticalAnalysis_statisticalPersonnelActive_dataStatistical_img img{}
+
+.statisticalAnalysis_statisticalPersonnelActive_detailData_table{overflow-x: auto;margin-top: 10px;}
+.statisticalAnalysis_statisticalPersonnelActive_detailData_table table{width: auto;min-width: 100%;}
+.statisticalAnalysis_statisticalPersonnelActive_detailData_table th{max-width: 140px;width: auto;white-space: nowrap;}
+/*statistical热帖统计*/
+.statisticalAnalysis_statisticalPostHot_cardWrapper{display: table;width: 100%;}
+.statisticalAnalysis_statisticalPostHot_card{display: table-cell;}
+.statisticalAnalysis_statisticalPostHot_card:first-child .statisticalAnalysis_statisticalPostHot_cardInner{border-left:0;}
+.statisticalAnalysis_statisticalPostHot_cardInner{border-left:1px solid #e7e7eb;padding:0 5px;margin-bottom:10px;}
+.statisticalAnalysis_statisticalPostHot_card_rank{font-size:12px;color:#333;margin:0 auto;margin-top:20px;width:200px;text-align: center;}
+.statisticalAnalysis_statisticalPostHot_card_title{font-size:18px;color:#333;width:200px;margin:15px auto 15px;text-align: center;}
+.statisticalAnalysis_statisticalPostHot_card_num{font-size:12px;color:#666;margin:0 auto;margin-top:5px;width:200px;text-align: center;}
+
+.statisticalAnalysis_statisticalPostHot_dataStatistical_content{border-top:0;text-align: left;}
+.statisticalAnalysis_statisticalPostHot_dataStatistical_filterCondition{padding:0px 10px 0px 10px;background: #f8f8f9;display: block;border:1px solid #E6E6E6;}
+.statisticalAnalysis_statisticalPostHot_dataStatistical_filterCondition .form-input{padding:0;margin-top:10px;}
+.statisticalAnalysis_statisticalPostHot_dataStatistical_img{padding:20px 0;text-align: left;height: 300px;overflow: auto;}
+.statisticalAnalysis_statisticalPostHot_dataStatistical_img img{}
+
+.statisticalAnalysis_statisticalPostHot_detailData_table{overflow-x: auto;margin-top: 10px;}
+.statisticalAnalysis_statisticalPostHot_detailData_table table{width: auto;min-width: 100%;}
+.statisticalAnalysis_statisticalPostHot_detailData_table th{max-width: 140px;width: auto;white-space: nowrap;}
+/*statistical用户留存率*/
+.statisticalAnalysis_userRetainRate_dataStatistical_content{border-top:0;text-align: left;}
+.statisticalAnalysis_userRetainRate_dataStatistical_filterCondition{padding:0px 10px 0px 10px;background: #f8f8f9;display: block;border:1px solid #E6E6E6;}
+.statisticalAnalysis_userRetainRate_dataStatistical_filterCondition .form-input{padding:0;margin-top:10px;}
+.statisticalAnalysis_userRetainRate_dataStatistical_img{padding:20px 0;text-align: left;height: 300px;overflow: auto;}
+.statisticalAnalysis_userRetainRate_dataStatistical_img img{}
+
+.statisticalAnalysis_userRetainRate_detailData_table{overflow-x: auto;margin-top: 10px;}
+.statisticalAnalysis_userRetainRate_detailData_table table{width: auto;min-width: 100%;}
+.statisticalAnalysis_userRetainRate_detailData_table th{max-width: 140px;width: auto;white-space: nowrap;}
+/*statistical被赞统计*/
+.statisticalAnalysis_statisticalPraise_cardWrapper{display: table;width: 100%;}
+.statisticalAnalysis_statisticalPraise_card{display: table-cell;}
+.statisticalAnalysis_statisticalPraise_card:first-child .statisticalAnalysis_statisticalPraise_cardInner{border-left:0;}
+.statisticalAnalysis_statisticalPraise_cardInner{border-left:1px solid #e7e7eb;padding:0 5px;margin-bottom:10px;}
+.statisticalAnalysis_statisticalPraise_card_rank{font-size:12px;color:#333;margin:0 auto;margin-top:20px;width:200px;text-align: center;}
+.statisticalAnalysis_statisticalPraise_card_title{font-size:18px;color:#333;width:200px;margin:15px auto 15px;text-align: center;}
+.statisticalAnalysis_statisticalPraise_card_num{font-size:12px;color:#666;margin:0 auto;margin-top:5px;width:200px;text-align: center;}
+
+.statisticalAnalysis_statisticalPraise_dataStatistical_content{border-top:0;text-align: left;}
+.statisticalAnalysis_statisticalPraise_dataStatistical_filterCondition{padding:0px 10px 0px 10px;background: #f8f8f9;display: block;border:1px solid #E6E6E6;}
+.statisticalAnalysis_statisticalPraise_dataStatistical_filterCondition .form-input{padding:0;margin-top:10px;}
+.statisticalAnalysis_statisticalPraise_dataStatistical_img{padding:20px 0;text-align: left;height: 300px;overflow: auto;}
+.statisticalAnalysis_statisticalPraise_dataStatistical_img img{}
+
+.statisticalAnalysis_statisticalPraise_detailData_table{overflow-x: auto;margin-top: 10px;}
+.statisticalAnalysis_statisticalPraise_detailData_table table{width: auto;min-width: 100%;}
+.statisticalAnalysis_statisticalPraise_detailData_table th{max-width: 140px;width: auto;white-space: nowrap;}
+
+/*统计分析-会员经营分析*/
+.statisticalAnalysis_pagebox{}
+.statisticalAnalysis_pagebox .common_h2140124_box{border:1px solid #e6e6e6;}
+.statisticalAnalysis_pagebox .common_h2140124_title{padding:0 17px;font-size:14px;line-height: 40px;}
+.statisticalAnalysis_memberForm .form-lable{width:76px;}
+.statisticalAnalysis_memberForm .form-input{padding:3px 0;}
+.statisticalAnalysis_memberForm .lable_list{max-width: 700px;}
+
+/*选择社区*/
+.statisticalAnalysis_overlay_chooseCommunity{margin-top:15px;}
+.statisticalAnalysis_overlay_chooseCommunityItem{height: 60px;display: table;width:100%;background-color: #fafafa;border: 1px solid #E6E6E6;cursor: pointer;margin-top:5px;box-sizing: border-box;}
+.statisticalAnalysis_overlay_chooseCommunityItem:hover{background-color: #edeef2;}
+.statisticalAnalysis_overlay_chooseCommunityItemSelected{background-color: #edeef2;}
+.statisticalAnalysis_overlay_chooseCommunityCheck{display: table-cell;vertical-align: middle;width: 13px;text-align: center;padding-left:10px;}
+.statisticalAnalysis_overlay_chooseCommunityPic{display: table-cell;vertical-align: middle;width: 40px;padding-left:10px;}
+.statisticalAnalysis_overlay_chooseCommunityPic img{max-width: 40px;max-height: 40px;}
+.statisticalAnalysis_overlay_chooseCommunityInfo{display: table-cell;vertical-align: middle;padding-left:10px;}
+
+/*===============================商铺===================================*/
+/*=====商品管理=====*/
+.shop_productManagement{}
+.shop_productManagement_toolbarBox{}
+.shop_productManagement table{table-layout: inherit;}
+.shop_productManagement .common_photoName_box{display: table;}
+.shop_productManagement .common_photoName_photo{display: table-cell;}
+.shop_productManagement .common_photoName_content{display: table-cell;vertical-align: middle;padding-left:10px;}
+.shop_productManagement .common_photoName_photoImg{width:64px;height:64px;}
+.shop_productManagement .common_order em{vertical-align:-3px;}
+
+.shop_productManagementTableWrapper{overflow-x:auto;overflow-y: hidden;}
+.shop_productManagementTableWrapper table{min-width:1000px;} /*把表格最小宽度1050改成1000，在实施人员小屏幕出滚动条160824*/
+
+/*分类*/
+.shop_productManagement_classficItemMore{cursor:pointer;width:100px;}
+.shop_productManagement_classficTh span{color: #0f72b8;}
+.shop_productManagement_classficTh:hover span{text-decoration:underline;color: #0f72b8;}
+
+.shop_productManagement_classficItems{max-width:710px;}
+/*浮层*/
+.shop_productManagement_classficAdd{padding:0;}
+.shop_productManagement_classficAdd .form-checkbox li{margin-right: 20px;}
+/*标题下拉*/
+.shop_productManagement_classfic_bubble{position:relative;}
+.shop_productManagement_classfic_bubble .common_140124bubble_shadow{position:absolute;left:0;top:48px;display: none;z-index:2;}
+.shop_productManagement_classfic_bubble .common_140124overlay_communities_list > li > a{margin-right:0;}
+
+
+/*======商品管理-表单====*/
+.shop_productManagement_formEdit{}
+/*提示信息*/
+.shop_productManagement_formEdit .common_controlsBasicFont_buleTipsHelp{display: inline-block;vertical-align: middle;margin:0 10px 0 4px;}
+.shop_productManagement_formEdit .common_weiget_box{z-index:1000;}
+/*提示信息end*/
+.shop_productManagement_formEdit .form-lable{width:130px;}/*20160926折行*/
+.shop_productManagement_formEdit .inputSmall{width:50px;}
+.shop_productManagement_tipbox{z-index:1000;position:absolute;cursor: pointer;}
+
+/*图片排序*/
+.shop_productManagement_imgListWrapper{min-width:720px;margin:0 -14px;}
+.shop_productManagement_imgList{}
+.shop_productManagement_imgListItem{position:relative;margin:10px 14px 0 14px;height:102px;}
+.shop_productManagement_imgListImg{width:102px;height:102px;border:1px solid #e6e6e6;display: inline-block;text-align:center;position:relative;background:#ffffff;cursor:move;}
+.shop_productManagement_imgListImg img{max-width:100%;max-height:100%;position:absolute;
+top:0;left:0;right:0;bottom:0; margin: auto;}
+.shop_productManagement_imgListItem .common_otherIcon_delete{position:absolute;right:-8px;top:-8px;cursor: pointer;}
+
+.shop_productManagement_imgAdd{margin:10px 14px 0 14px;display: inline-block;background:#ffffff;}
+.shop_productManagement_imgAdd:hover{background-color: #f4f4f4;cursor: pointer;}
+.shop_productManagement_imgAdd .common_fontIcon32_build{color: #cccccc;width:102px;height:102px;border:1px dashed #cccccc;box-sizing: border-box;}
+.shop_productManagement_imgAdd .common_fontIcon32_build:before{line-height: 102px;font-size: 50px;}
+/*开发环境的页面覆盖了一个包含input的层，此层把原hover的效果覆盖了*/
+#contructFileInputDiv:hover{background-color: rgba(0,0,0,0.04);}
+
+/*图片排序end*/
+
+/*添加规格-文字*/
+.shop_productManagement_specificationWrapper .common_fontIcon32_build{color: #0f72b8;width:12px;height: 12px;margin:0 5px 0 0;vertical-align: 1px}
+.shop_productManagement_specificationWrapper .common_fontIcon32_build:before{font-size:12px;line-height:26px;}
+.shop_productManagement_specificationWrapper a{cursor: pointer;}
+
+.shop_productManagement_specificationItem {}
+.shop_productManagement_specificationItem a{margin:0 5px;}
+.shop_productManagement_specificationItem div{padding:5px 0;}
+.shop_productManagement_specificationItem .lable_list{padding:0 0 2px 5px;display: inline-block;width: 471px;}
+.shop_productManagement_specificationItem .lable_list_input .placeholder{background:none;padding-left:0;}
+.shop_productManagement_specificationItem input{width:220px;}
+.shop_productManagement_specificationItem .subClassification{padding-left:40px;padding-bottom: 0;}
+.shop_productManagement_specificationItem .subClassificationIcon{float:left;width:29px;height:25px;border-left:1px solid #e1e2e6;border-bottom:1px solid #e1e2e6;margin:-10px -3px 0 -30px;}
+/*添加规格-文字end*/
+
+/*添加规格-时间*/
+.shop_productManagement_setTime{margin:5px 0;}
+.setTimeLabel{padding:7px 0;}
+.setTimeLabel input{vertical-align: middle;margin-right:3px;}
+/*按周按日期*/
+.shop_productManagement_setTimeCategory{}
+.shop_productManagement_setTimeCategory li{cursor:pointer;line-height:28px;padding:0 12px;border:1px solid #cccccc;margin-right:9px;float:left;}
+.shop_productManagement_setTimeCategory li.active{line-height:26px;border:2px solid #0f72b8;padding:0 11px;}
+/*按周*/
+.shop_productManagement_setTime_week{position:relative;}
+.shop_productManagement_setTime_week a{color: #000;}
+.shop_productManagement_setTime_week .subClassificationIcon{position:absolute;width:29px;height:25px;border-left:1px solid #e1e2e6;border-bottom:1px solid #e1e2e6;left:10px;top:0;}
+.shop_productManagement_setTime_week .shop_productManagement_setTimeCategory{padding:10px 0 10px 40px;}
+
+/*按周*/
+.shop_productManagement_setTime_date{position:relative;}
+.shop_productManagement_setTime_date a{color: #000;}
+.shop_productManagement_setTime_date .subClassificationIcon{position:absolute;width:29px;height:25px;border-left:1px solid #e1e2e6;border-bottom:1px solid #e1e2e6;left:10px;top:0;}
+.shop_productManagement_setTime_date .shop_productManagement_setTimeCategory{padding:10px 0 10px 40px;}
+
+/*有效期*/
+.shop_productManagement_setTime_validity .form-lable{width:auto}
+/*提前天数*/
+.shop_productManagement_setTime_minMaxDay .form-lable{width:auto}
+.shop_productManagement_setTime_minMaxDay .form-inputtext{width:50px;}
+.shop_productManagement_setTime_minMaxDay .form-input{padding-left:0;}
+/*每日时间设置*/
+.shop_productManagement_setTime_day{}
+.shop_productManagement_setTime_day .dayLabel{cursor:pointer;display:inline-block;line-height:28px;padding:0 12px;border:1px solid #cccccc;}
+.shop_productManagement_setTime_day .dayLabelActive{display:inline-block;line-height:26px;padding:0 11px;border:2px solid #0f72b8;}
+/*时间段设置*/
+.shop_productManagement_setTime_dayPeriod{position:relative;}
+.shop_productManagement_setTime_dayPeriod .subClassificationIcon{position:absolute;width:29px;height:25px;border-left:1px solid #e1e2e6;border-bottom:1px solid #e1e2e6;left:10px;top:0;}
+.shop_productManagement_setTime_dayPeriodItem{padding-left:40px;}
+.shop_productManagement_setTime_dayPeriodItem .form-input{padding-left:0;display: inline-block;margin-bottom:0;}
+.shop_productManagement_setTime_dayPeriodItem .form-lable{width:auto}
+.shop_productManagement_setTime_dayPeriodItem .common_selectDown_gray,
+.shop_productManagement_setTime_dayPeriodItem .common_selectDown_gray_active{width:55px;}
+.shop_productManagement_setTime_dayPeriodItem .common_selectDown_gray_active em,
+.shop_productManagement_setTime_dayPeriodItem .common_selectDown_gray em{float: right;margin-top:4px;}
+.shop_productManagement_setTime_dayPeriodSmall .common_selectDown_gray,
+.shop_productManagement_setTime_dayPeriodSmall .common_selectDown_gray_active{width:35px;}
+
+.shop_productManagement_setTime_dayPeriod .addIcon{padding-left:40px;display: inline-block;padding-top:5px;}
+.shop_productManagement_setTime_dayPeriod .common_fontIcon32_build{color: #0f72b8;width:12px;height: 12px;margin:0 5px 0 0;vertical-align: 1px}
+.shop_productManagement_setTime_dayPeriod .common_fontIcon32_build:before{font-size:12px;line-height: 30px;}
+.shop_productManagement_setTime_dayPeriod .addIcon{color: #0f72b8;}
+
+/*添加规格-时间end*/
+
+/*添加规格表格*/
+.shop_productManagement_specificationTable{border-collapse: collapse;margin:10px 0 0 0;}
+.shop_productManagement_specificationTable th,.shop_productManagement_specificationTable td{border:1px solid #ccc;line-height: 26px;padding: 0 10px;text-align:left;}
+.shop_productManagement_specificationTable th{text-align: center;min-width:80px;}
+.shop_productManagement_specificationTable th em{float:right;margin:5px 0 0 5px;}/*图标*/
+.shop_productManagement_specificationTable th{background: url("../images/tableheader_bg.png") repeat-x 0 2px;}
+.shop_productManagement_specificationTable .txtRight{
+	text-align: right;
+}
+.shop_productManagement_specificationTable .txtCenter{
+	text-align: center;
+}
+.shop_productManagement_specificationTable .txtLeft{
+	text-align: left;
+}
+/*输入框*/
+.shop_productManagement_specificationTable .form140124_inputtext,.shop_productManagement_specificationTable .form140124_inputtextDisable{width:110px;margin:5px 0;text-align:left;}
+.shop_productManagement_specificationTable .inputNum{text-align:right;width:80px;}
+/*输入框end*/
+/*添加规格表格end*/
+/*规格表格验证错误*/
+.shop_productManagement_specificationTable .specificationTable_td_error{background-color:#ff5959;}
+.specificationTable_error{margin:5px 0;}
+/*规格表格验证错误end*/
+/*按钮区*/
+.shop_productManagement_btnArea{margin:20px 0;padding-left:140px;font-size:0;}/*20160926折行*/
+.shop_productManagement_btnArea a{margin:0 5px;font-size:14px;}
+/*按钮区end*/
+
+/*流程图*/
+.shop_productManagement_flowChart{width:290px;}
+.shop_productManagement_flowChart img{width:100%;}
+/*流程图end*/
+
+/*地理位置*/
+.shop_productManagement_position{line-height: 26px;}
+.shop_productManagement_position span{font-weight: bold;}
+.shop_productManagement_position a{margin: 0 10px;}
+
+.shop_productManagement_positionChoose{}
+.shop_productManagement_positionChoose .form-input{padding-left:0;margin:3px 0;}
+.shop_productManagement_positionChoose .form-input .common_selectDown_gray,.shop_productManagement_positionChoose .form-input .common_selectDown_gray_active{color: #000;width:194px;}
+.shop_productManagement_positionChoose .common_selectDown_gray,
+.shop_productManagement_positionChoose .common_selectDown_gray_active{width:55px;}
+.shop_productManagement_positionChoose .common_selectDown_gray_active em,
+.shop_productManagement_positionChoose .common_selectDown_gray em{float: right;margin-top:4px;}
+
+.shop_productManagement_positionLocation{border: 1px solid #ccc;height: 24px;line-height: 24px;width: 190px;padding-right: 20px;background: #ffffff;}
+.shop_productManagement_positionLocation input{border:0;width:175px;}
+.shop_productManagement_positionLocation .commonIconLeft32_signwall_blue{float: right;margin-right:-20px;width:20px;height:20px;cursor: pointer;}
+.commonIconLeft32_signwall_blue:before{font-size: 14px;line-height: 24px;}
+.shop_productManagement_positionDetail input{width:417px;}
+.shop_productManagement_positionChooseBtn{margin-bottom:10px;}
+.shop_productManagement_positionChooseBtn a{margin-right:10px;line-height: 20px;}
+/*地理位置end*/
+
+.shop_productManagement_posRange{padding:5px 0;}
+.shop_productManagement_posRange span{float: left;line-height:24px;}
+.shop_productManagement_posRange a{color: #000;}
+
+/*浮出层*/
+.shop_overlay_700{width:700px;}
+.shop_overlay_chooseTemplate{max-height:430px;padding-bottom:20px;overflow-y: auto;overflow-x: hidden;}
+/*浮出层-左侧提示文字*/
+.shop_overlay_notice{float:left;line-height:25px;}
+.shop_overlay_notice input{vertical-align: middle;margin-right:5px;}
+/*库存*/
+.shop_overlay_inStock table{table-layout: inherit;}
+.shop_overlay_inStockDate{}
+.shop_overlay_inStockDate li{cursor:pointer;line-height:28px;padding:0 12px;border:1px solid #cccccc;margin-right:9px;float:left;}
+.shop_overlay_inStockDate li.active{line-height:26px;border:2px solid #0f72b8;padding:0 11px;}
+
+/*复制店铺*/
+.shop_overlay_storeClone .common_settingLoad{display: inline-block;}
+
+/*黄色提示层关闭按钮*/
+.shop_productManagement_formEdit .form-input li.common_weiget_close{
+    float:right;
+}
+/*=======收入管理=======*/
+.shop_incomeManagement{}
+
+/*金额公式*/
+.shop_incomeManagement_allMoney{padding:20px 60px 20px 0;border:1px solid #e9e9e9;background:#f7f7f7;margin:10px 0;display: inline-block;}
+.shop_incomeManagement_allMoney .commonIcon42_moneyAll,
+.shop_incomeManagement_allMoney .commonIcon42_money,
+.shop_incomeManagement_allMoney .commonIcon42_moneyCost{vertical-align: text-bottom;margin-right:8px;}
+.shop_incomeManagement_allMoney .all,.shop_incomeManagement_allMoney .col1,.shop_incomeManagement_allMoney .col2{width:200px;display: inline-block;text-align:center;}
+.shop_incomeManagement_allMoney .allInner,.shop_incomeManagement_allMoney .col1Inner,.shop_incomeManagement_allMoney .col2Inner{display: inline-block;margin: 0 auto;text-align:left;}
+.shop_incomeManagement_allMoney .all span,.shop_incomeManagement_allMoney .col1 span,.shop_incomeManagement_allMoney .col2 span{display: block;color:#333333;}
+.shop_incomeManagement_allMoney span{display: inline-block;font-size:30px;color:#666;}
+.shop_incomeManagement_allMoney .title{font-size:12px;}
+.shop_incomeManagement_allMoney .money{font-size:18px;}
+
+/*表格*/
+.shop_incomeManagementTableWrapper{overflow-x: auto;overflow-y: hidden;}
+.shop_incomeManagementTableWrapper table{min-width:980px;table-layout: inherit;}
+.shop_incomeManagementTableWrapper th{white-space: nowrap;}
+.shop_incomeManagementTableWrapper .common_dateTable th.common_dateTable_thLast{width:60px;}
+/*=======商城设置=======*/
+.shop_shopManagement_form{}
+.shop_shopManagement_form .form-input{padding-left:0;padding-right: 0;}
+.shop_shopManagement_form .form-lable{width:80px;}
+
+/*上传图片*/
+.shop_shopManagement_imgListWrapper{min-width:720px;margin:0 -14px;}
+.shop_shopManagement_imgList{}
+.shop_shopManagement_imgListItem{position:relative;margin:10px 14px 0 14px;height:102px;}
+.shop_shopManagement_imgListImg{width:102px;height:102px;border:1px solid #e6e6e6;display: inline-block;text-align:center;position:relative;background:#ffffff;}
+.shop_shopManagement_imgListImg img{max-width:100%;max-height:100%;position:absolute;
+    top:0;left:0;right:0;bottom:0; margin: auto;}
+.shop_shopManagement_imgListItem .common_otherIcon_delete{position:absolute;right:-8px;top:-8px;cursor: pointer;}
+
+.shop_shopManagement_imgAdd{margin:10px 14px 0 14px;display: inline-block;background:#ffffff;}
+.shop_shopManagement_imgAdd:hover{background-color: #f4f4f4;cursor: pointer;}
+.shop_shopManagement_imgAdd .common_fontIcon32_build{color: #cccccc;width:102px;height:102px;border:1px dashed #cccccc;box-sizing: border-box;}
+.shop_shopManagement_imgAdd .common_fontIcon32_build:before{line-height: 102px;font-size: 50px;}
+/*上传图片end*/
+
+.shop_shopManagement_positionChoose .form-input{padding:0;}
+.shop_shopManagement_positionChoose .form-lable{float:left;}
+.shop_shopManagement_positionChoose .form-input .common_selectDown_gray,.shop_shopManagement_positionChoose .form-input .common_selectDown_gray_active{color: #000;width:194px;}
+.shop_shopManagement_positionChoose .common_selectDown_gray,
+.shop_shopManagement_positionChoose .common_selectDown_gray_active{width:55px;}
+.shop_shopManagement_positionChoose .common_selectDown_gray_active em,
+.shop_shopManagement_positionChoose .common_selectDown_gray em{float: right;margin-top:4px;}
+
+/*商城卡片*/
+.shop_shopManagement_card{color:#333333;font-size:14px;position:relative;width:604px;padding:20px;border:1px solid #e9e9e9;}
+.shop_shopManagement_card .common_icon16_tips{position:absolute;right:10px;top:10px;}
+.shop_shopManagement_shopName{font-size:24px;}
+.shop_shopManagement_nameAndTel{margin:15px 0;}
+.shop_shopManagement_name{margin-right:25px;}
+.shop_shopManagement_name em{vertical-align:middle;margin-right:10px;}
+.shop_shopManagement_tel em{vertical-align:middle;margin-right:10px;}
+
+.shop_shopManagement_webUrl{color: #999999;font-size:14px;}
+.shop_shopManagement_webUrl span{color:#333333;margin-right:10px;}
+
+/*商铺表格的操作按钮*/
+.shop_tableOperateButton .common_buttonLight_box{float:right;}
+
+/*===============================商铺end================================*/
+
+/*验证码*/
+.guide_sompanySignup20141011_verifyInput20150907{}
+.guide_sompanySignup20141011_verifyInput20150907 .common_buttonLight{float: right;height:28px;line-height: 28px;}
+.guide_sompanySignup20141011_verifyInput20150907 .common_100inputText20140704Input_ipnut{width:250px}
+
+.login_findPassword02_email_form .common_100inputText_verify .form-inputtext{height:38px;line-height:38px;}
+.login_findPassword02_email_form .common_100inputText_verify .common_buttonLight{height:38px;line-height:38px;}
+
+/*通知*/
+.notification_system_lil_iconBox{width:42px;height:42px;background:#ffb219;margin-right:5px;}
+.notification_system_lil_iconBox em{margin:0 auto;padding-top:6px;width:30px;height:30px;}
+.notification_system_lil_iconBox em:before {font-size: 30px;line-height:30px;}
+
+/*商品模板列表*/
+.backendShopTemplate_list_table{margin-top:10px;}
+.backendShopTemplate_list_table .common_table_th01{width:auto;}
+.backendShopTemplate_list_table .common_table_th02{width:100px;}
+.backendShopTemplate_list_table .common_table_th03{width:75px;}
+.backendShopTemplate_list_table .common_table_th04{width:80px;}
+.backendShopTemplate_list_table .common_table_th05{width:80px;}
+.backendShopTemplate_list_table .common_table_th06{width:70px;}
+.backendShopTemplate_list_table .common_table_th01 a,
+.backendShopTemplate_list_table .common_table_th03 a,
+.backendShopTemplate_list_table .common_table_th04 a{color: #000;display: inline-block;float: none;margin-right: 0;}
+
+/*编辑基本信息*/
+.backendShopTemplate_editBaseInfo_process{margin-top:20px;}
+.backendShopTemplate_editBaseInfo_process .common_controlsContainerPopup_importDataCrumbs_right{margin-left:84px;}
+.backendShopTemplate_editBaseInfo_process .common_controlsContainerPopup_importDataCrumbs_right span{width:50%;}
+.backendShopTemplate_editBaseInfo_process .common_controlsContainerPopup_importData_contentBox{margin-left:30px;}
+.backendShopTemplate_editBaseInfo_process .common_controlsContainerPopup_importDataLine{padding:29px 26px;}
+
+.backendShopTemplate_editBaseInfo_content{margin-top:50px;}
+.backendShopTemplate_editBaseInfo_content .form-input{padding:3px 0;}
+.backendShopTemplate_editBaseInfo_content .form-lable{min-width:66px;}
+.backendShopTemplate_editBaseInfo_content .form-inputtext{width:350px;}
+
+
+/*设计上架模板*/
+.backendShopTemplate_editShelvesTemplate_content{margin-top:50px;}
+.backendShopTemplate_editShelvesTemplate_content .form-input{padding:3px 0;}
+.backendShopTemplate_editShelvesTemplate_content .form-lable{min-width:90px;}
+.backendShopTemplate_editShelvesTemplate_richText{}
+
+/*设定流程模板*/
+.backendShopTemplate_setProcessTemplate_content01{margin-top:90px;}
+.backendShopTemplate_setProcessTemplate_editProcessIcon{text-align:center;display:block;width:140px;height: 140px;background: url(../images/backendShopTemplate_setProcessTemplate_editProcess.png);background-position: 0 0;margin:0 auto;cursor: pointer;}
+.backendShopTemplate_setProcessTemplate_editProcessIcon:hover{background-position: -140px 0;}
+.backendShopTemplate_setProcessTemplate_editProcessIcon i{margin-top:85px;display: inline-block;color: #fff;font-size: 18px;}
+.backendShopTemplate_setProcessTemplate_btn{text-align: center;margin-top:90px;}
+.backendShopTemplate_setProcessTemplate_btn .form-input{display: inline-block;}
+
+.backendShopTemplate_setProcessTemplate_content02{margin-top:40px;margin-left:30px;}
+.backendShopTemplate_setProcessTemplate_content02 .form-input{padding:3px 0;}
+.backendShopTemplate_setProcessTemplate_processNode{margin-top:30px;}
+
+/*统计图私密权限*/
+.form_settingSearch_statisticViewPrivacy{margin-left:50px;}
+.form_settingSearch_statisticViewPrivacy .form-checkbox-vertical-list{margin-top:0px}
+.form_settingSearch_statisticViewPrivacy_dataItem{width:400px;}
+
+
+/*绑定微信*/
+.backendCommunityWX_bind{text-align:center;}
+.backendCommunityWX_bindInner{display: inline-block;margin:0 auto;text-align:left;padding-top:150px;}
+.backendCommunityWX_bind_btn{margin-bottom:5px;background-color: #3ebc00;width:270px;height:50px;border-radius: 3px;display:inline-block;font-size:18px;text-align: center;color: #fff;padding-top:8px;box-sizing: border-box;}
+.backendCommunityWX_bind_btn:hover{text-decoration: none;background-color:#44cc00;}
+.backendCommunityWX_bind_btn em{display:inline-block;vertical-align:middle;margin-right:15px;width:44px;height:38px;background:url(../images/backendCommunityWX_bind_btnIcon.png) 0 0 no-repeat;}
+
+.backendCommunityWX_bind_info{color: #999;line-height:22px;}
+.backendCommunityWX_bind_info li{position:relative;padding-left:10px;}
+.backendCommunityWX_bind_info li:before{position:absolute;left:0;top:10px;content: "";width:2px;height:3px;background-color:#999999;}
+
+/*公众号*/
+.backendCommunityWX_publicNum{padding:20px 0;}
+.backendCommunityWX_publicNum p{line-height:22px;}
+.backendCommunityWX_publicNum_font{font-size:14px;padding-bottom:4px;}
+.backendCommunityWX_publicNum_form .form-input{font-size:14px;margin:0;padding:2px 0;}
+
+
+/*支付申请*/
+.payment_applicationOpen{padding-top:60px;padding-left:60px;}
+.payment_applicationOpenInner{display: inline-block;width:740px;height:357px;box-sizing:border-box;background:url(../images/payment_applicationOpen.png) 0 0 no-repeat;}
+.payment_applicationOpen_btn{float:right;margin-top:180px;background-color: #fdb103;width:240px;height:60px;border-radius: 3px;font-size:24px;text-align: center;color: #fff;padding-top:11px;box-sizing: border-box;}
+.payment_applicationOpen_btn:hover{text-decoration: none;background-color:#fcc135;}
+.payment_applicationOpen_btn em{display:inline-block;vertical-align:middle;margin-right:10px;width:38px;height:40px;background:url(../images/payment_applicationOpen_btnIcon.png) 0 0 no-repeat;}
+
+.payment_overlay_wxMode .overlay_message_text_350_01{line-height:42px;font-size:14px;}
+
+.payment_application_box .common_graph_content{text-align:left;}
+.payment_application_box .form-input{margin-bottom:0;padding:0;}
+.payment_application_box .form-lable{width:60px;}
+
+.payment_application_box .common_title_boxNoLine{color:#999;}
+
+/*服务电商*/
+.backendCommunityWX_eCommerce .common_weiget_text a{display: inline-block;}
+.backendCommunityWX_eCommerce_store{padding:17px 0;}
+.backendCommunityWX_eCommerce_store span{font-size:14px;}
+.backendCommunityWX_eCommerce_store .font_gray{font-size:12px;}
+.backendCommunityWX_eCommerce_search{padding:10px 0;}
+.backendCommunityWX_eCommerce_search .form-input {margin:0;padding:0;}
+.backendCommunityWX_eCommerce_search .form-lable{font-size:14px;margin-right:10px;}
+.backendCommunityWX_eCommerce_tab{border-top:1px solid #e6e6e6;}
+.backendCommunityWX_eCommerce_tab h2.common_h2index140124_title_active:first-child{border-left:1px solid #e6e6e6;}
+
+/*订单处理*/
+.shop_orderProcess_search .common_search{margin-top:7px;}
+.shop_orderProcess_bubble{position:relative;}
+.shop_orderProcess_bubble .common_140124bubble_shadow{position:absolute;left:0;top:48px;display: none;z-index:2;}
+.shop_orderProcess_bubble .common_140124overlay_communities_list > li > a{margin-right:0;}
+
+
+/*基础短信设置*/
+.backend_messageManage_baseMessageSet_form{}
+.backend_messageManage_baseMessageSet_form .form-lable{width:85px;}
+.backend_messageManage_baseMessageSet_table{}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th01{width:20px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th02{width:50px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th03{width:50px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th04{width:50px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th05{width:50px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th06{width:50px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th07{width:auto;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th08{width:70px;}
+.backend_messageManage_baseMessageSet_table .common_dateTable_th09{width:80px;}
+
+
+.backend_messageManage_overlay_messageTemplateContent{margin-top:10px;}
+.backend_messageManage_overlay_messageTemplateContent .form-lable{width:70px;}
+
+/*短信模板审核*/
+.backend_messageManage_messageTemplateAudit_table{margin-top:10px;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th01{width:50px;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th02{width:auto;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th03{width:70px;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th04{width:90px;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th05{width:80px;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th06{width:80px;}
+.backend_messageManage_messageTemplateAudit_table .common_dateTable_th07{width:90px;}
+
+
+.backend_messageManage_overlay_messageTemplateAuditForm{}
+.backend_messageManage_overlay_messageTemplateAuditForm .form-lable{width:90px;}
+.backend_messageManage_overlay_messageTemplateAudit_messageContent {width:360px;}
+
+
+/*主题更换*/
+.backendStaff_appConfigure_right_content_themeColorSet .common_imageList88_list{width:46px;margin-bottom:5px;}
+.backendStaff_appConfigure_right_content_themeColorSet .common_imageList88_listItem em{left:11px;top:11px;}
+.backendStaff_appConfigure_right_content_themeColorSet .common_imageList88_list{margin-right:4px;}
+
+/*应用设置*/
+.backendStaff_appConfigure_right_content_colSet .form-lable{min-width:60px;}
+.backendStaff_appConfigure_right_content_colSet .form-information{margin-left:0;}
+.backendStaff_appConfigure_right_content_colSet_iconTextStyle{background: #f2f2f2;padding:10px;}
+.backendStaff_appConfigure_right_content_colSet_iconNormal .common_fontIcon32_build:before{font-size:20px;}
+.backendStaff_appConfigure_right_content_colSet_iconNormal .common_fontIcon32_build{color: #ccc;}
+
+
+.backendStaff_appConfigure_right_content_colSet_imgStyle{background: #f2f2f2;padding:10px;}
+.backendStaff_appConfigure_right_content_colSet_imgStyle .common_controlsBasicUpdateImage_logoBuildShow_box{margin:0 auto;}
+.backendStaff_appConfigure_right .common_controlsJsSlider_box{width:237px;}
+
+
+/*backendStaff_overlay20141218_editImg*/
+.backendStaff_overlay20141218_editImg_previw{width:320px;height:560px;padding-right:20px;}
+.backendStaff_overlay20141218_editImg_previw img{width:320px;height:560px;}
+.backendStaff_overlay20141218_editImg_primary{padding-left:20px;}
+.backendStaff_overlay20141218_editImg_text{font-size:12px;color:#999;margin-top:10px;}
+.backendStaff_overlay20141218_editImg_primaryImg{width:256px;height:256px;margin-top:20px;text-align: center;background: #ededed;}
+.backendStaff_overlay20141218_editImg_primaryImg img{max-width:256px;max-height:256px;}
+
+/*短信模板管理*/
+.backendMessageManage_templateManage_form{}
+.backendMessageManage_templateManage_form .form-lable{width:85px;}
+.backendMessageManage_templateManage_form input{width:300px;}
+.backendMessageManage_templateManage_table{}
+.backendMessageManage_templateManage_table .common_dateTable_th01{width:50px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th02{width:70px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th03{width:70px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th04{width:90px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th05{width:90px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th06{width:auto;} 
+.backendMessageManage_templateManage_table .common_dateTable_th07{width:60px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th08{width:60px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th09{width:80px;} 
+.backendMessageManage_templateManage_table .common_dateTable_th10{width:130px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*发出短信记录*/
+.backendMessageManage_sendMessageRecord_form{}
+.backendMessageManage_sendMessageRecord_form .form-lable{width:60px;}
+.backendMessageManage_sendMessageRecord_table{}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th01{width:50px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th02{width:90px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th03{width:auto;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th04{width:80px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th05{width:80px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th06{width:80px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th07{width:80px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th08{width:80px;}
+.backendMessageManage_sendMessageRecord_table .common_dateTable_th09{width:80px;}
+
+
+/**/
+.service_overlay_message_null{text-align: center;padding:50px 0;}
+.service_overlay_message_list .common_controlsContainerList_messageRemindList{margin-top:10px;}
+
+/*发出短信记录--平台*/
+.backend_messageManage_sendMessageRecord_inputArea .form-lable{
+	width: 60px;
+}
+.backend_messageManage_sendMessageRecord_btnPosition{
+	padding-left: 75px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th01{
+	width:30px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th02{
+	width:50px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th03{
+	width:70px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th04{
+	width:auto;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th05{
+	width:50px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th06{
+	width:50px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th07{
+	width:50px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th08{
+	width:50px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th09{
+	width:70px;
+}
+.backend_messageManage_sendMessageRecord_showTable .common_dateTable_th10{
+	width:50px;
+}
+
+/*发出短信记录--企业*/
+.community_sendMessageRecord_inputArea .form-lable{
+	width: 60px;
+}
+.community_sendMessageRecord_btnPosition{
+	padding-left: 75px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th01{
+	width:30px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th02{
+	width:50px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th03{
+	width:70px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th04{
+	width:auto;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th05{
+	width:50px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th06{
+	width:50px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th07{
+	width:50px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th08{
+	width:50px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th09{
+	width:70px;
+}
+.community_sendMessageRecord_showTable .common_dateTable_th10{
+	width:50px;
+}
+
+/*轻表单设置短信模板*/
+.form_settingNoticePush_formBody{
+	text-align: left;
+}
+.form_settingNoticePush_messageRemindList{margin-top:20px;}
+.form_settingNoticePush_messageRemindList .common_controlsContainerList_messageRemindList{margin-top:10px;}
+.form_settingNoticePush_messageList_null{text-align: center;padding:50px 0;}
+
+/*定制化管理模块下的社区分类*/
+.backendCommunityClassify_description_lable{
+	line-height: 24px;
+}
+.backendCommunityClassify_description_info{
+	line-height: 24px;
+}
+
+/*图文推送发短信微信灰度，选择短信模板*/
+.index_overlay20151207_listHead{
+	padding: 10px 20px;
+}
+.index_overlay20151207_listArea{
+	max-height: 450px;
+	overflow-y : auto;
+	padding: 0px 20px;
+}
+.index_overlay20151207_listTable{
+	width: 100%;
+}
+.index_overlay20151207_listArea table:first-child{
+	margin-top:0 ;
+}
+.index_overlay20151207_trInfo{
+	background-color: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	cursor: pointer;
+}
+
+.index_overlay20151207_trInfo:hover{
+	background-color: #edeef2;
+}
+.index_overlay20151207_tdLable{
+	width: 15px;
+	vertical-align: middle;
+}
+.index_overlay20151207_tdInfo{
+	line-height: 16px;
+	padding: 14px 5px;
+}
+
+/*复制社区创建社区页面时候的弹窗*/
+.index_overlay20151207_promptInfo{
+	font-size: 12px;
+	line-height: 16px;
+}
+.index_overlay20151207_copyComTable{
+	height: 60px;
+	width: 100%;
+}
+.index_overlay20151207_copyComTrInfo{
+	padding: 5px 0;
+	background-color: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	cursor: pointer;
+}
+/*行选中时候的背景改变*/
+.index_overlay20151207_trInfoCheck{
+	background-color: #edeef2;
+}
+.index_overlay20151207_copyComTrInfo:hover{
+	background-color: #edeef2;
+}
+.index_overlay20151207_copyComTdLable{
+	width: 13px;
+}
+.index_overlay20151207_copyComTdPic{
+	width: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+.index_overlay20151207_copyComTdPic img{
+	max-width: 40px;
+	max-height: 40px;
+}
+.index_overlay20151207_copyComTdInfo{
+	font-size: 12px;
+	line-height: 40px;
+}
+/*复制社区管理社区页面时候的弹窗*/
+.index_overlay20151207_copyCommunityPopup .form-lable{
+	width: 90px;
+}
+.index_overlay20151207_nameLimitPic{
+	margin-top:5px;
+	margin-left: 10px;
+}
+.index_overlay20151207_nameLimit{
+	font-size: 12px;
+	line-height: 26px;
+}
+
+/*创建社区在弹窗时需要控制高度,在页面中不需要*/
+.community_overlay_buildFormPage{
+	height: 450px;
+	overflow-y: auto;
+}
+/*选择要复制的社区时给一个固定高度*/
+.index_overlay20151207_copyCommunityFixedHeight{
+	height: 385px;
+}
+
+/*app设计列表优化*/
+.backendStaff_applyAuthorize_appListOption{
+	margin-right: 30px;
+	margin-bottom: 30px;
+    height:613px;
+}
+.backendStaff_applyAuthorize_faceArea{
+	width: 340px;
+	border: 1px solid #CCCCCC;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.backendStaff_applyAuthorize_faceAreaDefaultPic{
+	width: 88px;
+	height: 88px;
+	background:url("../images/backendStaff_applyAuthorize_faceAreaDefaultCheck.png") no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.backendStaff_applyAuthorize_faceAreaDefaultPicPrompt{
+	width: 16px;
+	display: block;
+	margin-top: 4px;
+	margin-left: 38px;
+	cursor: pointer;
+}
+/*显示默认选中的样式*/
+.backendStaff_applyAuthorize_appListAddDefaultPic .backendStaff_applyAuthorize_faceAreaDefaultPic{
+	display: block;
+}
+/*hover时的阴影效果*/
+.backendStaff_applyAuthorize_faceArea:hover {
+	box-shadow: 0px 0px 10px 2px #999999;
+}
+/*脸的头部*/
+.backendStaff_applyAuthorize_faceAreaHeadTop{
+	display: block;
+}
+.backendStaff_applyAuthorize_faceAreaHeadBottom{
+	display: block;
+}
+.backendStaff_applyAuthorize_faceAreaHeadBottomTitle{
+	text-align: center;
+	font-size: 18px;
+	color: #F7F7F7;
+	line-height: 48px;
+	margin-left: 48px;
+	margin-right: 48px;
+}
+/*脸的中部*/
+.backendStaff_applyAuthorize_faceAreaBody{
+	width: 340px;
+	height: 456px;
+	border: 0;
+	overflow-y: auto;
+	display: block;
+}
+.backendStaff_applyAuthorize_faceAreaFoot{
+	height: 48px;
+}
+.backendStaff_applyAuthorize_faceAreaFootHiddenBG{
+	display: none;
+	width: 100%;
+	height: 48px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	bottom: 0px;
+	text-align: center;
+}
+.backendStaff_applyAuthorize_faceAreaFootHiddenBtn{
+	margin-top: 11px;
+	display: inline-block;
+}
+/*显示操作按钮*/
+.backendStaff_applyAuthorize_appListOption:hover .backendStaff_applyAuthorize_faceAreaFootHiddenBG{
+	display: block;
+}
+/*脸的名称和使用人数*/
+.backendStaff_applyAuthorize_appListFoot{
+	width: 332px;
+	padding: 0 5px;
+}
+.backendStaff_applyAuthorize_appListFootName{
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	font-weight: bold;
+}
+.backendStaff_applyAuthorize_appListFootPeople{
+	font-size: 12px;
+	margin-top: 4px;
+}
+.backendStaff_applyAuthorize_appListFootPeople i{
+	margin: 0 5px;
+}
+/*app设计工具优化*/
+.common_frame150504_page1_content{
+	padding-top: 50px;
+}
+/*这里不能删除*/
+.backendStaff_appConfigure{
+	padding:0px;
+}
+/*左右两侧距离上面的高度*/
+.backendStaff_appConfigure_left,.backendStaff_appConfigure_right{
+	top: 80px;
+	border: 1px solid #CCCCCC;
+}
+/*缩短中间底部的高度，中部内容距离底部近了，*/
+.backendStaff_appConfigure_center_mobileBottomBg{
+	height: 102px;
+}
+/*左侧缩放展开的按钮图标*/
+.common_icon16_packupTitleLi,.common_icon16_openTitleLi{
+	display:inline-block;
+	width:16px;
+	height: 16px;
+	background: url(../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30) no-repeat;
+	cursor: pointer;
+}
+.common_icon16_openTitleLi{
+	background-position: -48px -16px;
+}
+.common_icon16_packupTitleLi{
+	background-position: -48px 0;
+}
+/*中间上部右侧的切换主题按钮*/
+.backendStaff_appConfigure_center_btnTheme{
+	right: 0px;
+	background-color: #FFFFFF;
+	width: 24px;
+	height: 24px;
+	padding-top: 0px;
+}
+/*中间底部右侧的添加按钮*/
+.backendStaff_appConfigure_center_contentFooter_itemAdd{
+	right: 10px;
+	top:0;
+	background-color: #FFFFFF;
+}
+.backendStaff_appConfigure_headConfigureContainer{
+	box-sizing: border-box;
+	text-align: center;
+	height: 50px;
+}
+.backendStaff_appConfigure_headConfigureTab{
+	display: inline-block;
+}
+.backendStaff_appConfigure_headConfigureTabTh{
+	width: 100px;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 14px;
+	line-height: 50px;
+	cursor: pointer;
+}
+.backendStaff_appConfigure_headConfigureTabThActive{
+	color: #FFFFFF;
+	background-color: #4F4F4F;
+}
+.backendStaff_appConfigure_headConfigureTitle{
+	font-size: 24px;
+	line-height: 50px;
+	color: #e5e5e5;
+	width: 35%;
+	margin-left: 20px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.backendStaff_appConfigure_headConfigureClose{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	padding-right: 20px;
+	padding-top: 9px;
+}
+.backendStaff_appConfigure_left_title{
+	background-color: #E6E6E6;
+	font-weight: normal;
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC;
+}
+.backendStaff_appConfigure_leftTitlePrompt{
+	display: inline-block;
+	vertical-align: -3px;
+	cursor: pointer;
+}
+.common_weiget_box[tip='backendStaff_appConfigure_availableAppPrompt']{
+	z-index: 100;
+}
+.backendStaff_appConfigure_availableAppLi{
+	margin: 10px 0;
+}
+.backendStaff_appConfigure_availableAppLiTitle{
+	margin-left: 5px;
+	cursor: pointer;
+}
+.backendStaff_appConfigure_availableAppLiTitleName{
+	display: inline;
+	font-size: 12px;
+	line-height: 16px;
+	margin-left: 3px;
+}
+/*protal首页应用盒子旁的提示*/
+.backendStaff_appConfigure_leftAppBoxPrompt{
+	cursor: pointer;
+	float: left;
+}
+.backendStaff_appConfigure_leftAppBoxAdd{
+	cursor: pointer;
+}
+.backendStaff_appConfigure_leftAppBoxAdd .common_icon16140124_addBlue{
+	display: none;
+}
+.backendStaff_appConfigure_leftAppBoxAdd:hover .common_icon16140124_addGray{
+	display: none;
+}
+.backendStaff_appConfigure_leftAppBoxAdd:hover .common_icon16140124_addBlue{
+	display: block;
+}
+.backendStaff_appConfigure_footBtnAddApp{
+	background-color: #CCCCCC;
+}
+.backendStaff_appConfigure_footBtnAppDisable{
+	background-color: #adadad;
+}
+.backendStaff_appConfigure_footBtnAppDisable:hover{
+	background-color: #adadad;
+}
+.backendStaff_appConfigure_appRightTabArea{
+	width: 100%;
+}
+.backendStaff_appConfigure_appRightTabAreaRow{
+	background-color: #E6E6E6;
+}
+.backendStaff_appConfigure_appRightTabAreaCol{
+	color: #555555;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	border-left: 1px solid #CCCCCC;
+	cursor: pointer;
+	border-bottom: 1px solid #CCCCCC;
+}
+.backendStaff_appConfigure_appRightTabAreaCol:first-child{
+	border-left: 0px;
+}
+.backendStaff_appConfigure_appRightTabAreaColActive{
+	background-color: #F7F7F7;
+	border-bottom:1px solid #F7F7F7;
+}
+.backendStaff_appConfigure_rightContentEditStyleNone{
+	text-align: center;
+	font-size: 12px;
+	margin-top:50px;
+}
+/*编辑样式时带跳转的垂直水平居中*/
+.backendStaff_appConfigure_rightEditStyleHasHref{
+	text-align: center;
+	margin-top: 50px;
+}
+.backendStaff_appConfigure_rightEditStyleHasHref div{
+	display: inline-block;
+}
+.backendStaff_appConfigure_rightEditStyleHasHrefContentTop{
+	font-size: 12px;
+	line-height: 26px;
+}
+/*编辑样式时带跳转的垂直水平居中end*/
+
+.backendStaff_appConfigure_rightEditStyleHasHrefNoPic .form-lable{
+	width: 60px;
+}
+.backendStaff_appConfigure_rightEditStyleHasHrefNoPicName{
+	font-size: 12px;
+	line-height: 26px;
+}
+.backendStaff_appConfigure_rightEditStyleHasPic .form-lable{
+	width: 60px;
+}
+
+.backendStaff_appConfigure_rightEditStylePicLable{
+	font-size: 12px;
+	line-height: 44px;
+}
+.backendStaff_appConfigure_rightEditStylePicIconHover{
+	text-align: center;
+	color: #FFFFFF;
+	background: #CCCCCC;
+	width: 24px;
+	height: 32px;
+	padding: 6px 10px;
+	cursor: pointer;
+}
+.backendStaff_appConfigure_rightEditStyleSelectIconNormal{
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+}
+.backendStaff_appConfigure_rightEditStyleSelectIconNormal em{
+	color: #00ACE6;
+}
+.backendStaff_appConfigure_rightEditStyleSelectIconHover{
+	text-align: center;
+	color: #FFFFFF;
+	background: #CCCCCC;
+	width: 24px;
+	height: 32px;
+	padding: 6px 10px;
+	cursor: pointer;
+	display: none;
+}
+.backendStaff_appConfigure_rightEditStyleSelectIconAfter:hover .backendStaff_appConfigure_rightEditStyleSelectIconHover{
+	display: block;
+}
+.backendStaff_appConfigure_rightEditStyleSelectIconAfter:hover .backendStaff_appConfigure_rightEditStyleSelectIconNormal{
+	display: none;
+}
+/*底部保存和预览*/
+.common_frame150504_page1_footer a{
+	margin-top: 17px;
+	margin-right: 10px;
+}
+.common_frame140124_page1_headBox{
+	z-index: 999;
+}
+/*预览页面*/
+.backendStaff_appConfigure_previewBG{
+	background:rgba(0,0,0,0.8);
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 999;
+	display: none;
+}
+.backendStaff_appConfigure_previewBGPhone{
+	display: none;
+	z-index: 1000;
+	width: 384px;
+	height: 747px;
+	background: url("../images/backendStaff_appConfigure_previewPhoneContainer.png") no-repeat;
+}
+.backendStaff_appConfigure_previewPhoneContent{
+	margin-top:86px;
+	margin-left: 17px;
+}
+.backendStaff_appConfigure_previewPhoneContentClose{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+/*app配置页面预览手机样式*/
+.backendStaff_appConfigure_faceArea{
+	width: 340px;
+	background-repeat: no-repeat;
+}
+/*脸的头部*/
+.backendStaff_appConfigure_faceAreaHeadTop{
+	display: block;
+	height: 16px;
+}
+.backendStaff_appConfigure_faceAreaHeadBottom{
+	display: block;
+}
+.backendStaff_appConfigure_faceAreaHeadBottomTitle{
+	text-align: center;
+	font-size: 18px;
+	color: #F7F7F7;
+	line-height: 48px;
+	margin-left: 48px;
+	margin-right: 48px;
+}
+/*脸的中部*/
+.backendStaff_appConfigure_faceAreaBody{
+	width: 340px;
+	height: 456px;
+	border: 0;
+	overflow-y: auto;
+	display: block;
+}
+.backendStaff_appConfigure_faceAreaFoot{
+	height: 48px;
+}
+
+/*app配置时主题图片需要更改上传图片的尺寸*/
+.backendStaff_overlay20141218_editImg_previw{
+	height: 568px;
+}
+/*自定义应用组配置时中部没有tab显示的提示文字*/
+.backendStaff_appConfigure_centerNoTabShowFont{
+	text-align: center;
+	padding-top: 50px;
+	display: none;
+}
+/*自定义应用组配置时中部没有内容显示的提示文字*/
+.backendStaff_appConfigure_centerNoContentShowFont{
+	text-align: center;
+	padding-top: 50px;
+	display: none;
+}
+/*pc配置页头部样式*/
+.backendStaff_pcConfigure_headConfigureContainer{
+	box-sizing: border-box;
+	text-align: center;
+}
+.backendStaff_pcConfigure_headConfigureTab{
+	display: inline-block;
+}
+.backendStaff_pcConfigure_headConfigureTabTh{
+	width: 100px;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 14px;
+	line-height: 50px;
+	cursor: pointer;
+}
+.backendStaff_pcConfigure_headConfigureTabThActive{
+	color: #FFFFFF;
+	background-color: #4F4F4F;
+}
+.backendStaff_pcConfigure_headConfigureTitle{
+	font-size: 24px;
+	line-height: 50px;
+	color: #e5e5e5;
+	width: 35%;
+	margin-left: 20px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.backendStaff_pcConfigure_headConfigureClose{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	padding-right: 20px;
+	padding-top: 9px;
+}
+/*appConfigure页中间底部按钮背景*/
+.backendStaff_appConfigure_contentFooterMask{
+	width: 320px;
+	height: 48px;
+	margin-left: 14px;
+	position: absolute;
+	top:0px;
+	z-index: -1;
+}
+/*appConfigure页面大的背景颜色*/
+.backendStaff_appConfigure_bigBGColor{
+	background-color: #D1D1D1;
+}
+/*appConfigure页面底部背景颜色*/
+.backendStaff_appConfigure_footerBtnBG{
+	background-color: #dedede;
+	border-top: 1px solid #CCCCCC;
+}
+/*appConfigure页面中部内容不能被底导航盖住*/
+.backendStaff_appConfigure_contentPadding48{
+	/*margin-bottom: 100px;*/
+}
+/*appConfigure页面中部手机头部图片距离为10px所以加下面样式*/
+.backendStaff_appConfigure_center_mobileTopBg{
+	margin-top:2px;
+}
+/*appConfigure页面中部内容和右侧小图标的距离*/
+.mApp_setting_spacingOpacity .backendStaff_appConfigure_lineToolBtn{
+	right: -38px;
+}
+/*账户管理*/
+.backendAccountManagement_overlay_info .form-lable{width:65px;}
+.backendAccountManagement_overlay_create .form-lable{width:72px;}
+/*h5优化时页面弹窗*/
+.backendStaff_overlay_notShowingInfo{
+	font-size: 12px;
+	line-height: 26px;
+}
+.backendStaff_overlay_notShowingInfoCheckbox{
+	vertical-align: -2px;
+	margin-right: 3px;
+}
+/*加入审批*/
+.backendStaff_joinApprovalTableName{line-height:42px;margin-left:10px;float:left;}
+/*protal首页应用盒子列表项的按钮*/
+.backendStaff_appConfigure_leftAppBoxItemBtnBox{
+    display: none;
+}
+.backendStaff_appConfigure_leftAppBoxItemBtn{
+	width: 110px;
+	background: #ffffff;
+	position: absolute;
+	left: 0;
+    border-right: 1px solid #acacac;
+	border-top: 1px solid #acacac;
+	border-left: 1px solid #acacac;
+	z-index: 2;
+    cursor: pointer;
+}
+.backendStaff_appConfigure_leftAppBoxItemBtn a{
+	margin:0 6px;
+	font-size: 12px;
+	height: 28px;
+	line-height: 28px;
+
+}
+.backendStaff_appConfigure_leftAppBoxItemBtn .common_buttonLight{
+	color: #666666;
+    text-decoration: none;
+}
+.backendStaff_appConfigure_leftAppBoxItemBtn:hover .common_buttonLight{
+	color: #00ace6;
+}
+.backendStaff_appConfigure_leftBtnList1{
+    top:32px;
+}
+.backendStaff_appConfigure_leftBtnList2{
+    top:60px;
+}
+.backendStaff_appConfigure_leftBtnList3{
+    top:89px;
+}
+.backendStaff_appConfigure_leftBtnList4{
+    top:118px;
+    border-bottom: 1px solid #acacac;
+}
+.backendStaff_appConfigure_leftAppBoxItem{
+	float: left;
+	position: relative;
+}
+/*二级页面=自定义应用盒子*/
+.backendStaff_appConfigureCustomAppGroup_headBG{
+	background: #00ace6;
+	border-bottom: 1px solid #0099CC;
+}
+.backendStaff_appConfigureCustomAppGroup_headTitle{
+	color: #FFFFFF;
+}
+.backendStaff_appConfigureCustomAppGroup_headReturn{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-right: 30px;
+	padding-top: 16px;
+}
+.backendStaff_appConfigureCustomAppGroup_headReturn a{
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+}
+.backendStaff_appConfigureCustomAppGroup_headReturnIcon em{
+	display: inline-block;
+	vertical-align: -3px;
+}
+.backendStaff_appConfigureCustomAppGroup_rightEditStyleNull{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+}
+.backendStaff_appConfigureCustomAppGroup_mobileContentPage{
+    /*position: relative;删除，在firefox下托起后位置不对了。*/
+}
+/*标签添加按钮*/
+.backendStaff_appConfigureCustomAppGroup_addAppBtn{
+	position:absolute;
+	right:-30px;
+	top:0px;
+	background:#cceefa;
+	width:16px;
+	height:16px;
+	padding:3px;
+	cursor: pointer;
+}
+.backendStaff_appConfigureCustomAppGroup_addAppBtn:hover{
+	background: #F2F2F2;
+}
+/*自定义应用组，底部按钮*/
+.backendStaff_appConfigureCustomAppGroup_mobileBottomBgBox{
+	height:54px;
+}
+.backendStaff_aappConfigureCustomAppGroup_mobileBottomBgPic{
+	height:54px;
+	background: #d9d9d9;
+	background: url("../images/backendStaff_appConfigure_mobileBottomBgReduce.png") no-repeat top left;
+	position: fixed;
+	left:0;
+	bottom:61px;
+	z-index:100;
+	width:348px;
+}
+.backendStaff_appConfigureCustomAppGroup_mobileContentBattery{
+	height:20px;
+	background: #00ACE6;
+}
+/*自定义应用组页面中部显示标题名称区域*/
+.backendStaff_appConfigureCustomAppGroup_mobileContentTitle{
+	background: #00ace6;
+	padding:0 45px;
+	height: 45px;
+}
+.backendStaff_appConfigureCustomAppGroup_mobileContentTitle p{
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 45px;
+	text-align: center;
+}
+/*自定义应用组页面中部标签切换*/
+.backendStaff_appConfigureCustomAppGroup_mobileTab{
+	
+}
+
+.backendStaff_appConfigureCustomAppGroup_mobileTab{
+	position: relative;
+}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent{
+	border-bottom: 1px solid #edeef0; background:#fff
+}
+
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_item{ float: left;height: 42px;text-align: center; position:relative;}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInner{display: block;padding: 0 4px;}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInner em{color: #666; display: block;font-size: 14px; line-height: 40px;padding: 0;}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInnerActive{border-bottom: 2px solid #00ace6;}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInnerActive em{color:#00ace6}
+
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemNone .backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInner{ }
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemNone .backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInner em{color:#999}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemNone  .backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInnerActive{ border-bottom: 2px solid #7fd6f3;}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemNone  .backendStaff_appConfigureCustomAppGroup_mobileTabContent_itemInnerActive em{color:#7fd6f3}
+
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_item_active{display:none;position:absolute;z-index:3;left:0;top:0;height:100%;width:100%; border:2px #00ace6  dashed; box-sizing: border-box}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_item_move{display:none;position:absolute;z-index:6;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_item_hover{display:none;position:absolute;z-index:4;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+.backendStaff_appConfigureCustomAppGroup_mobileTabContent_item_sortable{display:none;position:absolute;z-index:5;left:0;top:0;height:100%;width:100%; background-color: rgba(0,0,0,0.3)}
+
+.backendStaff_appConfigureCustomAppGroup_mobileTabSettingBtn{
+	position:absolute;
+	top:22px;
+}
+/*自定义页面弹窗*/
+.backendStaff_overlay20150724_customAppCollection .form-lable{
+	width: 70px;
+}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol{
+	position: absolute;
+	z-index: 9;
+	width:72px;
+	bottom:-24px;
+	display:none;
+}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine{
+	position: absolute;
+	z-index: 9;
+	right: -31px;
+	top: 22px;
+}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol a,.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine a{
+	padding:3px;
+	width:16px;
+	height:16px;
+	float:left;
+	border:1px solid #d9d9d9;
+	background: #fff;
+}	
+/*工具tool 16原来写在common2里的css 由于覆盖了原有样式改到了cloud_now2里了*/
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_edit,
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_delete,
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_move{display:inline-block;width:16px;height: 16px;background: url(../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30) no-repeat;cursor: pointer;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_edit{background-position: 0 0;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_delete{background-position: -16px 0;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_move{background-position: -32px 0;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_edit:hover{background-position: 0 -16px;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_delete:hover{background-position: -16px -16px;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnCol .common_icon16_move:hover{background-position: -32px -16px;cursor: move;}
+
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_edit,
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_delete,
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_move{display:inline-block;width:16px;height: 16px;background: url(../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30) no-repeat;cursor: pointer;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_edit{background-position: 0 0;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_delete{background-position: -16px 0;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_move{background-position: -32px 0;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_edit:hover{background-position: 0 -16px;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_delete:hover{background-position: -16px -16px;}
+.backendStaff_appConfigureCustomAppGroup_tabToolBtnLine .common_icon16_move:hover{background-position: -32px -16px;cursor: move;}
+
+/*多列表下显示内容--指定群组范围变色*/
+.backendStaff_appConfigureCustomAppGroup_groupRange .backendStaff_appConfigureCustomAppGroup_groupRangeStyle{
+	color: #51aff4;
+}
+/*多列表下显示内容*/
+.backendStaff_appConfigureCustomAppGroup_fromApplicationList,
+.backendStaff_appConfigureCustomAppGroup_geographicalPositionList,
+.backendStaff_appConfigureCustomAppGroup_shortTextList,
+.backendStaff_appConfigureCustomAppGroup_soundRecordingList,
+.backendStaff_appConfigureCustomAppGroup_bigPictureList,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextList,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextList,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextList,
+.backendStaff_appConfigureCustomAppGroup_longTextList{
+	background: #ebecf0;
+	padding-bottom: 10px;
+}
+.backendStaff_appConfigureCustomAppGroup_fromApplicationList:after,
+.backendStaff_appConfigureCustomAppGroup_geographicalPositionList:after,
+.backendStaff_appConfigureCustomAppGroup_shortTextList:after,
+.backendStaff_appConfigureCustomAppGroup_soundRecordingList:after,
+.backendStaff_appConfigureCustomAppGroup_bigPictureList:after,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextList:after,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextList:after,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextList:after,
+.backendStaff_appConfigureCustomAppGroup_longTextList:after{
+	border-bottom: 1px solid #e1e2e6;
+}
+.backendStaff_appConfigureCustomAppGroup_fromApplicationItem,
+.backendStaff_appConfigureCustomAppGroup_geographicalPositionItem,
+.backendStaff_appConfigureCustomAppGroup_shortTextItem,
+.backendStaff_appConfigureCustomAppGroup_soundRecordingItem,
+.backendStaff_appConfigureCustomAppGroup_bigPictureItem,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextItem,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextItem,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextItem,
+.backendStaff_appConfigureCustomAppGroup_longTextItem{
+	background: #FFFFFF;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.backendStaff_appConfigureCustomAppGroup_fromApplicationItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_geographicalPositionItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_shortTextItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_soundRecordingItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_bigPictureItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextItem:last-child,
+.backendStaff_appConfigureCustomAppGroup_longTextItem:last-child{
+	margin-bottom: 0px;
+}
+.backendStaff_appConfigureCustomAppGroup_fromApplicationItem:after,
+.backendStaff_appConfigureCustomAppGroup_geographicalPositionItem:after,
+.backendStaff_appConfigureCustomAppGroup_shortTextItem:after,
+.backendStaff_appConfigureCustomAppGroup_soundRecordingItem:after,
+.backendStaff_appConfigureCustomAppGroup_bigPictureItem:after,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextItem:after,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextItem:after,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextItem:after,
+.backendStaff_appConfigureCustomAppGroup_longTextItem:after{
+	border-top: 1px solid #e1e2e6;
+	border-bottom: 1px solid #e1e2e6;
+}
+.backendStaff_appConfigureCustomAppGroup_fromApplicationItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_geographicalPositionItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_shortTextItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_soundRecordingItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_bigPictureItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextItem:first-child:after,
+.backendStaff_appConfigureCustomAppGroup_longTextItem:first-child:after{
+	border-top: 0;
+}
+/*多列表下显示内容--图片大小*/
+.backendStaff_appConfigureCustomAppGroup_bigPicturePicBox img,
+.backendStaff_appConfigureCustomAppGroup_leftPicRightTextPicBox img,
+.backendStaff_appConfigureCustomAppGroup_rightPicLeftTextPicBox img,
+.backendStaff_appConfigureCustomAppGroup_topPicBelowTextPicBox img,
+.backendStaff_appConfigureCustomAppGroup_longTextPicBox img{
+	width: 100%;
+	height: 100%;
+}
+
+/*积分管理*/
+.integral_overlayRecord {height: 300px;overflow-y: auto;}
+.integral_overlayRecord .common_dateTable_th01{width:60px;}
+.integral_overlayRecord .common_dateTable_th05{width:110px;}
+.integral_overlayRecord .common_dateTable_th06{width:100px;}
+/*编辑积分类型*/
+.integral_overlayTypeEdit .form-lable{width:80px;}
+/*积分规则描述*/
+.integral_overlayTypeDesciption{width:490px;height:300px;}
+/*编辑积分规则*/
+.integral_overlayRuleEdit .form-lable{width:100px;}
+
+/*积分商品管理*/
+.integral_integralMallConfig{width: 375px;margin:0 auto;}
+.integral_integralMallConfigTop{background:url("../images/backendStaff_appConfigure_mobileTopBg.png") 0 0 no-repeat;height: 51px;}
+.integral_integralMallConfigContent{background:url("../images/backendStaff_appConfigure_mobileMiddleBg.png") 0 0 repeat-y;}
+.integral_integralMallConfigFooter{background:url("../images/backendStaff_appConfigure_mobileBottomBg2.png") 0 bottom no-repeat;height:51px;}
+
+.integral_integralMallConfigContent .integral_integralMallConfigContentInner{margin-left:14px;width: 320px;}
+.integral_integralMallConfigContent_mobileInfo{background:url("../images/backendStaff_appConfigure_mobileHeader.png") 0 0 no-repeat;height: 20px;background-color:#00ace6;}
+/*划过时图标*/
+.integral_integralMallConfig_lineListActive { border: 2px dashed #00ace6;box-sizing:border-box;  display: none;height: 100%;left: 0;position: absolute;top: 0;width: 100%;z-index: 2;}
+.integral_integralMallConfigContent .mIntegral_mall_swiperWrapper{background:url("../images/integralMallSwiperBlank.png") center no-repeat;background-size:100%;}
+.mIntegral_mall_swiperWrapper .integral_integralMallConfig_lineListActive{height: 128px;}
+/*已关闭轮播图*/
+.integral_mall_swiperClosed{background-color:rgba(0,0,0,0.8);color:#fff;font-size:12px;position:absolute;left:0;top:0;height:128px;z-index:100;width:100%;text-align:center;line-height:128px;display: none;cursor: pointer;}
+.integral_mall_swiperClosed:hover{text-decoration: underline;}
+
+.integral_integralMallConfig_lineToolBtn {display: none;position: absolute;right: -30px;top: 0;width: 22px; z-index: 2;}
+.integral_integralMallConfig_lineToolBtn a {background: #fff; display: block;height: 19px; padding-top: 3px;  text-align: center; border:1px solid #d9d9d9;border-top:0;}
+.integral_integralMallConfig_lineToolBtn a:first-child{border-top:1px solid #d9d9d9;}
+.integral_integralMallConfig_lineToolBtn a:hover{background:#f2f2f2;}
+.integral_integralMallConfig_lineToolBtn .common_icon16_edit, .integral_integralMallConfig_lineToolBtn .common_icon16_delete{background:url("../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30") 0 0 no-repeat; cursor: pointer; display: inline-block;height: 16px; width: 16px;}
+.integral_integralMallConfig_lineToolBtn .common_icon16_edit{background-position: 0 0;}
+.integral_integralMallConfig_lineToolBtn .common_icon16_delete{background-position:-16px 0;}
+.integral_integralMallConfigContent .mIntegral_mallList{position:relative;}
+/*重置非手型*/
+.integral_integralMallConfigContentInner .mIntegral_mall_carbonAndRecord div,
+.integral_integralMallConfigContentInner .mIntegral_mall_carbonAndRecord div,
+.integral_integralMallConfigContentInner .mCommon_jsFilterCondition li,
+.integral_integralMallConfigContentInner .mCommon_jsFilterItem em{cursor: default;}
+/*设置列表样式*/
+.integral_overlay_setColumn{}
+.integral_overlay_setColumnItem{float:left;width:50%;}
+
+
+/*左侧应用组下拉*/
+.backendStaff_appConfigure_leftAppBoxItemDropDown{
+	display: none;
+	width: 20px;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+}
+.backendStaff_appConfigure_leftAppBoxItemDropDown em{
+	margin: 8px 4px 8px 0;
+	display: none;
+}
+.backendStaff_appConfigure_leftAppBoxList .backendStaff_appConfigure_leftAppBoxItemDropDown{
+	display: block;
+}
+.backendStaff_appConfigure_left_content_item:hover .common_icon16_downEditNormal{
+	display: block;
+}
+.backendStaff_appConfigure_left_content_item .backendStaff_appConfigure_leftAppBoxItemDropDown:hover .common_icon16_downEditNormal{
+	display: none;
+}
+.backendStaff_appConfigure_left_content_item .backendStaff_appConfigure_leftAppBoxItemDropDown:hover .common_icon16_arrowDownWhite{
+	display: block;
+}
+.backendStaff_appConfigure_left_content_item_disable:hover .common_icon16_arrowDownBlack{
+	display: block;
+}
+.backendStaff_appConfigure_left_content_item_disable .backendStaff_appConfigure_leftAppBoxItemDropDown:hover .common_icon16_arrowDownBlack{
+	display: none;
+}
+.backendStaff_appConfigure_left_content_item_disable .backendStaff_appConfigure_leftAppBoxItemDropDown:hover .common_icon16_arrowDownBlue{
+	display: block;
+}
+
+
+/*自定义应用组显示new字居中*/
+.backendStaff_appConfigure_availableAppLi .common_unreadNew{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+/*脸部列表优化*/
+.backendStaff_applyAuthorize_appListBox{
+	padding-top: 20px;
+}
+.backendStaff_applyAuthorize_appListFootPeopleCount{
+	float: left;
+	color: #999999;
+}
+.backendStaff_applyAuthorize_appListFootPeopleCount i{
+	margin: 0 5px;
+}
+.backendStaff_applyAuthorize_appListFootPeopleAuthorization{
+	float: right;
+	color: #0f72b8;
+	cursor: pointer;
+	display: none;
+}
+.backendStaff_applyAuthorize_appListOption:hover .backendStaff_applyAuthorize_appListFootPeopleAuthorization{
+	display: block;
+}
+/*多店铺*/
+/*门店设置*/
+.backendStaff_storeSet table{table-layout: inherit;background-color:#fff;}
+.backendStaff_storeSet .common_search .search_input{height:26px;line-height:26px;}
+.backendStaff_storeSet_tableOperateButton .common_buttonLight_box{float:right;}
+.backendStaff_storeSet_bgGray{background-color:#e6e6e6;}
+.backendStaff_storeSet_tdNone{color:#999999;}
+/*添加应用*/
+.backendStaff_overlay20160329_addApp .form-lable{width:140px;}
+.backendStaff_overlay20160329_addApp .lable_list{width:220px;}
+.backendStaff_overlay20160329_addApp .form-information-gray{max-width:260px;}
+/*商品管理*/
+.shop_productManagement_bubble{position:relative;}
+.shop_productManagement_bubble .common_140124bubble_shadow{position:absolute;left:0;top:48px;display: none;}
+.shop_productManagement_bubble .common_140124overlay_communities_list > li > a{margin-right:0;}
+/*选择门店和模板*/
+.shop_overlay_chooseStoreAndTemp{}
+.shop_overlay_chooseStore{width:165px;height:510px;overflow-x:hidden;overflow-y:auto;background:#f7f7f7;}
+.shop_overlay_chooseStore ul{padding:15px 0;}
+.shop_overlay_chooseStoreItem{width:120px;height:28px;line-height:28px;border:1px solid #e6e6e6;margin:5px auto;background:#fff;}
+.shop_overlay_chooseStoreItem a{color:#666666;display: block;text-align:center;padding:0 7px;}
+.shop_overlay_chooseStoreItemActive a{color:#fff;background:#00ace6;text-decoration: none;}
+.shop_overlay_chooseTemp{width:540px;height:510px;overflow-x:hidden;overflow-y:auto;}
+/*空提示*/
+.shop_overlay_tempBlank{text-align:center;margin-top:150px;}
+.shop_overlay_tempBlank p{line-height:54px;}
+/*商品-编辑排序和分类*/
+.shop_overlay_editOrderAndClass{width:700px;}
+.shop_overlay_editOrderAndClass table .form-inputtext{width:160px;}
+/*商品-设置列表样式*/
+.shop_overlay_setColumn{}
+.shop_overlay_setColumnItem{float:left;width:50%;}
+/*商品-店铺设置*/
+.shop_configStore .mCommon_jsFilterItem,.shop_configStore .mCommon_jsFilterItem em{cursor: default;}
+.shop_ConfigStoreType{display: none;}
+.shop_ConfigStoreType:first-child{margin-left:45px;}
+.shop_ConfigStoreType .mShop_storeIndexInfo_commodity_box{border-top: 0;margin-top:10px;}
+/*视频-店铺设置*/
+.shop_configStoreVideo .mCommon_jsFilterItem,.shop_configStoreVideo .mCommon_jsFilterItem em{cursor: default;}
+.shop_ConfigStoreVideoType{display: none;}
+.shop_ConfigStoreVideoType:first-child{margin-left:45px;}
+.shop_ConfigStoreVideoType .mShop_storeIndexInfo_commodity_box{border-top: 0;margin-top:10px;}
+/*配置筛选条3个选项时*/
+.shop_configStore_filter3 li{width: 126px;}
+.shop_configStore_filter3 li:last-child{width:auto;}
+/*配置筛选条4个选项时*/
+.shop_configStore_filter4 li{width: 81px;}
+.shop_configStore_filter4 li:last-child{width:auto;}
+/*商品-分类*/
+.shop_overlay_classfic{width:400px;}
+.shop_overlay_classfic .form-lable{width:80px;}
+.shop_overlay_classfic .form-inputtext{width:177px;}
+.shop_overlay_classfic .form_inputIcon_input{width:150px;}
+
+/*添加关联社区内人员*/
+.shop_productManagementService_relationPeople .form-lable{width:130px;}
+.shop_productManagementService_relationPeople .shop_productManagement_btnArea{padding-left:140px;}
+.shop_productManagementProduct_relationPeople .form-lable{width:130px;}
+.shop_productManagementProduct_relationPeople .shop_productManagement_btnArea{padding-left:140px;}
+
+/*规格项下的项目显示*/
+.shop_shopProductManagementSpecification_optionsList,
+.shop_shopProductManagementSetTimeWeek_weekContent{
+	line-height: 20px;
+}
+.shop_shopProductManagementSetTimeWeek_weekContentTime,
+.shop_shopProductManagementSetTimeDate_contentDate,
+.shop_shopProductManagementSetTimeDate_contentTime
+{
+	float: left;
+	line-height: 26px;
+}
+
+/*商品-编辑标签*/
+.shop_overlay_editLabel{}
+.shop_overlay_editLabel .form-lable{width:70px;}
+.shop_overlay_editLabel .form_notice{margin-top:5px;} /*错误提示*/
+.shop_overlay_editLabel .lable_list{width:340px;}
+.shop_overlay_editLabel .lable_list input{width:300px;}
+
+/*商品管理-筛选管理*/
+.shop_productManagement_filter{}
+.shop_productManagement_filter_Label font{margin-top:5px;}
+.shop_productManagement_filter_Label .common_buttonLight{margin-top:2px;margin-left:5px;display:none;}
+
+/*商品管理-选择标签*/
+.shop_overlay_chooseLabel{}
+.shop_overlay_chooseLabelArea{max-height:350px;overflow-y:auto;}
+.shop_overlay_chooseLabel_labelBox .common_buttonLight{display: none;}
+.shop_overlay_chooseLabel .form-lable{float:none;text-align:left;font-weight:bold;}
+.shop_overlay_chooseLabel .form-radio{float:none;}
+
+/*商品管理*/
+.shop_productManagement_product_filter{max-width:718px;display: block;}
+.shop_productManagement_product_addr textarea{width:506px;}
+
+/*商品模板自定义字段*/
+.backendShopTemplate_editShelvesTemplate_customFields .common_table{width:400px;}
+.backendShopTemplate_editShelvesTemplate_customFields .common_table_tool{margin-bottom:5px;}
+.backendShopTemplate_editShelvesTemplate_customFields .common_table_th01{width:200px;}
+.backendShopTemplate_editShelvesTemplate_customFields .common_table_th02{width:130px;}
+.backendShopTemplate_editShelvesTemplate_customFields .common_table_th03{width:60px;}
+
+/*portal我的图片*/
+.backendStaff_overlay20160329_selectImg{height:440px;padding-bottom:10px;}
+.backendStaff_overlay20160329_myImg .common_imageList88_listItem_box{margin-right:-20px;}
+.backendStaff_overlay20160329_myImg .common_imageList88_list{width:124px;margin-right:20px;}
+.backendStaff_overlay20160329_myImg .common_imageList88_listItem em{top:74px;left:44px;}
+.backendStaff_overlay20160329_myImg .common_imageList88_listItem{width:120px;height:180px;overflow: hidden}
+.backendStaff_overlay20160329_myImg .common_imageList88_listItem img{width:120px;height:213px;margin-top:-17px;}
+.backendStaff_overlay20160329_myImg .common_imageList88_listItem img[src*="themeBgDefined"]{width:120px;height:180px;margin-top:0px;}
+
+/*标题设置*/
+.backendStaff_appConfigure_right_content_titleSet{}
+.backendStaff_appConfigure_right_content_titleSet .form-input{padding:3px 0;}
+.backendStaff_appConfigure_right_content_titleSet_iconTextStyle{background: #f2f2f2;padding:10px;}
+.backendStaff_appConfigure_right_content_titleSet_imgStyle{background: #f2f2f2;padding:10px;}
+.backendStaff_appConfigure_right_content_titleSet_imgStyle .common_controlsBasicUpdateImage_logoBuildShow_box{margin:0 auto;}
+/*列表设置*/
+.backendStaff_appConfigure_right_content_applySet{}
+.backendStaff_appConfigure_right_content_applySet .form-input{padding:3px 0;}
+.backendStaff_appConfigure_right_content_applySet_iconTextStyle{background: #f2f2f2;padding:10px;}
+.backendStaff_appConfigure_right_content_applySet_imgStyle{background: #f2f2f2;padding:10px;}
+.backendStaff_appConfigure_right_content_applySet_imgStyle .common_controlsBasicUpdateImage_logoBuildShow_box{margin:0 auto;}
+
+/*pc端Portal页面透明度调整的区域，滑块和显示百分比的距离*/
+.common_controlsJsSlider_sliderBar{
+    margin-right: 77px;
+}
+
+/*自定义模块*/
+.backendStaff_appConfigure20150120_customModularBox{
+    line-height: 2.04rem;
+    color: #ccc;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-size: 20px;
+}
+/*视频列表*/
+.shop_videoStoreList_bubble{position:relative;}
+.shop_videoStoreList_bubble .common_140124bubble_shadow{position:absolute;left:0;top:48px;display: none;z-index:2;}
+.shop_videoStoreList_bubble .common_140124overlay_communities_list > li > a{margin-right:0;}
+
+/*全部群组16.07.15*/
+.backendStaff_appConfigureCustomAppGroup_allGroup{
+    background-color: #fff;
+}
+/*铺好多*/
+.service_managementListService3_card{border-bottom: 1px solid #e6e6e6;width:350px;}
+.service_managementListService3_card:hover{border:1px solid #e6e6e6}
+.service_managementListService3_config{margin: 20px 0 0;}
+.service_managementListService3_configBlock01{height:44px;}
+.service_overlay20160905_editTab .form-input{padding-left:0;padding-right: 0;}
+.service_overlay20160905_editTab_content{border: 1px solid #e6e6e6;background: #fafafa;padding:10px 0;}
+.service_overlay20160905_editTab_content .form-input{padding:0 15px;}
+.service_overlay20160905_editTab_content .form-radio{padding:0 15px;}
+.service_overlay20160905_editTab_content_checkBox{max-width:150px;}
+.service_overlay20160905_editList .form-lable{width:80px;text-align: right;}
+.service_overlay20160905_editList_errorTip{margin-left:95px;display: none;}
+.service_overlay20160905_editList{height:290px;max-height:350px;overflow-y: auto;}
+.service_managementListService3_configBlock02{min-height: 405px;}
+.service_overlay20160905_editTab_content_error div{padding-top:5px;}
+
+/*关联电商*/
+.merCon_setRelate_contentBox{background: none;margin:0;}
+.merCon_setRelate_progress{background: none;margin:0;}
+.merCon_setRelate_progress .common_controlsContainerPopup_importDataCrumbs_right span{float: right;}
+.merCon_setRelate_content{margin-top:20px;}
+.merCon_setRelate_content .form-lable{width:95px;}
+.merCon_setRelate_btn{background: none;text-align: left;}
+
+.merCon_templateData_contentBox{background: none;margin:0;}
+.merCon_templateData_progress{background: none;margin:0;}
+.merCon_templateData_progress .common_controlsContainerPopup_importDataCrumbs_right span{float: right;}
+.merCon_templateData_content{margin-top:20px;}
+.merCon_templateData_content .form-lable{width:75px;}
+.merCon_templateData_btn{background: none;text-align: left;}
+
+/*服务单配置查询页面*/
+.service_managementListService3_searchList{}
+.service_managementListService3_searchList_notSet{}
+.service_managementListService3_searchList_notSet{background-color:rgba(0,0,0,0.8);color:#fff;font-size:12px;position:absolute;left:0;top:0;height: 100%;width:100%;text-align:center;cursor: pointer;z-index:100;}
+.service_managementListService3_searchList_notSet span{display: inline-block;position:relative;top:50%;margin-top:-8px;}
+.service_managementListService3_searchList_notSet:hover{text-decoration: underline;}
+
+/*复制社区步骤页面 16.10.11*/
+.dev_copyCommunity_headBox{position: relative}
+.dev_copyCommunity_headBoxStep{width: 600px;background-color: transparent;}
+.dev_copyCommunity_headBoxPadding{padding: 29px 48px;}
+.dev_copyCommunity_headBoxMargin{margin-left: 0;}
+.dev_copyCommunity_headBoxIntroduce{position: absolute;right: 0;top: 0;}
+.dev_copyCommunity_headBoxIntroduce:hover{cursor: pointer;}
+.dev_copyCommunity_bigBox{margin: 25px auto 0;}
+.dev_copyCommunity_infoTitle{text-align: center;font-size: 16px;color: #333;}
+.dev_copyCommunity_infoDesc{text-align: center;font-size: 14px;color: #333;}
+.dev_copyCommunity_listBox{border-width:1px;position: static;}
+.dev_copyCommunity_listBoxInfo{height: 275px;overflow-y: auto;}
+.dev_copyCommunity_listBoxInfo .index_overlay20151207_copyComTable,
+.dev_copyCommunity_infoListBoxNoPaging .index_overlay20151207_copyComTable,
+.dev_copyCommunity_lastStepTargetBox .index_overlay20151207_copyComTable{height: 50px;margin-top: 5px;}
+.dev_copyCommunity_listBoxInfo .index_overlay20151207_copyComTable:first-child,
+.dev_copyCommunity_infoListBoxNoPaging .index_overlay20151207_copyComTable:first-child,
+.dev_copyCommunity_infoListBoxNoPaging .index_overlay20151207_copyComTable:first-child{margin-top: 0;}
+.dev_copyCommunity_listBoxInfoHeadPic img{max-width: 32px;max-height: 32px;}
+.dev_copyCommunity_btnBox{text-align: center;}
+.dev_copyCommunity_secondBox{width: 820px;margin: 25px auto 0;}
+.dev_copyCommunity_infoListBox{width: 400px;border-width:1px;position: static;}
+.dev_copyCommunity_infoListBoxHeadDesc{line-height: 26px;}
+.dev_copyCommunity_infoListBoxNoPaging{height: 285px;overflow-y: auto;}
+.dev_copyCommunity_listBoxNullInfo{height: 285px;overflow-y: auto;text-align: center;line-height: 260px;}
+.dev_copyCommunity_oneExample .index_overlay20151207_copyComTable{height: 50px;}
+.dev_copyCommunity_lastStepPadding{padding: 0}
+.dev_copyCommunity_lastStepTargetBox{height: 270px;overflow-y: auto;}
+.index_overlay20151207_copyComNoClick{cursor: default;}
+.index_overlay20151207_copyComNoClick:hover{background-color: #FAFAFA;}
+.dev_copyCommunity_copyResultBox{margin-top: 100px;}
+.dev_copyCommunity_copying{margin: 0px auto;}
+.dev_copyCommunity_copyingPadding{padding-top: 43px;}
+.dev_copyCommunity_successBox{margin: 0px auto;width: 80px;}
+.dev_copyCommunity_functionDesc{position: fixed;top:0;left: 0px;width: 100%;height: 100%;background-color: rgba(51,51,51,0.5);z-index: 310;}
+.dev_copyCommunity_descReminder{color:#FF0000;}
+.dev_copyCommunity_functionDescFont{font-size: 14px;}
+/*复制社区弹窗 16.10.18*/
+.dev_copyCommunity_comErrorBox{padding-left: 85px;padding-top: 10px;padding-right:20px;width:320px;max-height: 210px;overflow-y: auto;}
+.dev_copyCommunity_comErrorBox li{list-style-type: decimal;font-size: 12px;line-height: 20px;}
+.dev_copyCommunity_comDuplicateNameBox{padding-left: 73px;padding-top: 10px;padding-right:20px;width:320px;max-height: 210px;overflow-y: auto;}
+.dev_copyCommunity_comDuplicateNameBox li{margin-top: 10px;}
+.dev_copyCommunity_comDuplicateNameBox li:first-child{margin-top: 0;}
+.dev_copyCommunity_comDuplicateNameBox p{font-size: 12px;}
+.dev_copyCommunity_comDuplicateNameBox .dev_copyCommunity_commuityName{font-weight: bold;}
+/*16.10.19*/
+.dev_copyCommunity_searchNullInfo{height: 311px;font-size: 16px;text-align: center;line-height: 311px;}
+
+/*地理位置判断*/
+.service_overlay20160905_setCriterion{margin-top:20px;}
+.service_overlay20160905_setCriterion .form-lable{width:65px;}
+
+
+/*铺好多二期*/
+.service_managementListService4_condition{}
+.service_managementListService4_condition .form-lable{width:60px;text-align: right;}
+.service_managementListService4_table{}
+.service_managementListService4_table .common_dateTable_th01{width:60px;}
+.service_managementListService4_table .common_dateTable_th02{width:70px;}
+.service_managementListService4_table .common_dateTable_th03{width:110px;}
+.service_managementListService4_table .common_dateTable_th04{width:90px;}
+.service_managementListService4_table .common_dateTable_th05{width:auto;}
+.service_managementListService4_table .common_dateTable_th06{width:90px;}
+
+.service_managementListService3_configFlowCharDetail_box{position: relative}
+.service_managementListService3_btn_box{height:61px;}
+.service_managementListService3_btn{position: absolute;bottom:0;left:0;width:100%;}
+.service_managementListService3_btn:after {
+    border-top: 1px solid #e1e2e6;
+}
+.service_managementListService3_btn_noConfig{
+    background:#fafafa;height:61px;line-height: 61px;font-size: 14px;color:#999;text-align: center;}
+.service_managementListService3_btn_noConfig i{height:61px;line-height: 61px;}
+.service_managementListService3_btn_config{}
+.service_managementListService3_configFlowCharDetail .mCommon_frameContent15_page{max-height: 400px;overflow-y: auto;}
+.service_managementListService3_btn_config .mCommon_basicBtnShop_white i{line-height: 49px;height:49px;}
+
+.service_overlay20160905_setFootOpt{}
+.service_overlay20160905_setFootOpt .form-lable{width:60px;}
+.service_overlay20160905_btnSet input{width:100px;}
+.service_overlay20160905_btnSet .input-checkbox{width:20px;}
+.service_overlay20160905_btnSet .form-checkbox li{margin-right:0}
+.service_overlay20160905_btnSet select{width:110px;height:24px;line-height: 24px;border:1px solid #ccc;}
+
+/*积分*/
+.integral_overlay_editRule{height: 420px;overflow-y: auto;}
+.integral_overlay_editRuleFlowChart{margin-top:10px;}
+.integral_overlay_editRuleFlowChart .form-inputtext{width:90px;}
+.integral_overlay_editRuleFlowChart select{width:120px;height:26px;border:1px solid #ccc;}
+.integral_overlay_editRuleFlowChart .form-input{margin-bottom:0;padding-bottom:0;}
+
+/*作品秀2期*/
+.works_myWorks_header{}
+.works_myWorks_header_noticeText{color:#9d9d9d;font-size:14px;line-height: 50px;margin-left: -10px;}
+.works_myWorks_content{margin:0 auto;width:340px;}
+
+/*代办列表*/
+.todoList_overlay_tabbox{overflow-x: scroll;overflow-y: hidden;height: 44px;padding-bottom: 13px;}
+/*添加按钮*/
+.todoList_overlay_toolBtn_addBtn{position: absolute;right: -30px;top: 0;background: #cceefa;width: 16px;height: 16px;padding: 3px;cursor: pointer;}
+/*hover遮罩*/
+.todoList_overlay_tap_hover{display: none;position: absolute;z-index: 4;left: 0;top: 0;height: 100%;width: 100%;background-color: rgba(0,0,0,.3);}
+/*按钮组*/
+.todoList_overlay_toolBtnGroup{position:absolute;z-index:5;width:72px;display: none;bottom: 0px;}
+.todoList_overlay_toolBtnGroup .common_icon16_move, .todoList_overlay_toolBtnGroup .common_icon16_edit, .todoList_overlay_toolBtnGroup .common_icon16_delete{background:url("../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30") 0 0 no-repeat; cursor: pointer; display: inline-block;height: 16px; width: 16px;}
+.todoList_overlay_toolBtnGroup .common_icon16_delete {background-position: -16px 0;}
+.todoList_overlay_toolBtnGroup .common_icon16_move {background-position: -32px 0;}
+.todoList_overlay_toolBtnGroup a{padding: 3px;width: 16px;height: 16px;float: left;border: 1px solid #d9d9d9;background: #fff;}
+.todoList_overlay_toolBtnGroup a em{border:0}
+/*激活框*/
+.todoList_overlay .mCommon_basicTabMenu_common{position: relative;overflow: initial;background-color: #fff;}
+.todoList_listactive{border: 2px dashed #00ace6;box-sizing: border-box;border-bottom: 0;display: none;height: 100%;position: absolute;top: 0;width: 100%;z-index: 4;}
+.todoList_listactive_tap{border: 2px dashed #00ace6;box-sizing: border-box;display: none;height: 100%;position: absolute;top: 0;width: 100%;z-index: 4;}
+/*下拉框*/
+.todoList_overlay .common_selectDown_gray{width: 200px;}
+/*输入框*/
+.todoList_overlay .form-inputtext{width: 206px;}
+/*标题*/
+.todoList_overlay .form-lable{width: 75px;}
+/* 通知 */
+.inform_classifyset_form{padding:initial;}
+.inform_classify_form_config_block_box{position: relative;}
+.inform_classify_imageUpload{}
+.inform_classify_imageUpload .common_logo80_updateBg td{height:50px;}
+.inform_classify_imageUpload .common_logo80_updateBg{width:50px;}
+.inform_classify_imageUpload .common_imageUpload04_toolNotic{margin-left: 75px;}
+.inform_classify_imageUpload .common_imageUpload04_noticBox{margin-top: 0px}
+.inform_classify_loadtable{width: 50px;height:50px;}
+.inform_classify_loadtable td{width: 50px;height:50px;}
+.inform_classify_loadtable img{max-width:100%;max-height: 100%;}
+.inform_classify_left{border-radius: 25px;height: 25px;}
+/* 按钮 */
+.inform_classify_move{background:url("../images/commoncontrolsContainerForm_hoverIcon16.png?v=2015.12.30") 0 0 no-repeat; cursor: pointer; display: inline-block;height: 16px; width: 16px;background-position:-32px 0;}
+.common_controlsBasic_config_block_box{min-height: 400px;}
+.inform_classify_Head{position: relative;}
+.inform_classify_addBtn{position: absolute;right: -30px;top: 0;background: #cceefa;width: 16px;height: 16px;padding: 3px;cursor: pointer;}
+.todoList_overlay_listactive{border: 2px dashed #00ace6;box-sizing: border-box;display: none;height: 98%;position: absolute;top: 0;width: 100%;z-index: 4;}
+.todoList_overlay_listactive_tap{border: 2px dashed #00ace6;box-sizing: border-box;display: none;height: 100%;position: absolute;top: 0;width: 100%;z-index: 4;}
+/* 考勤打卡 */
+.timecard_timecardpopup_wait{text-align: center;}
+.timecard_timecardpopup_content{padding-top: 40px;padding-bottom: 40px;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+.dajia {}
+/* CSS Document */
+
+.mCommon_basicTab0114{position: relative;}
+
+.mCommon_basicTab0114:after{ border-bottom:1px solid #e1e2e6;}
+.mCommon_basicTab0114_Box{  padding:0 15px; z-index:1; position:relative}
+.mCommon_basicTab0114_Box > li:first-child{margin-left:0}
+.mCommon_basicTab0114_Menu{float:left; margin-left: 20px;color: #666; font-size: 12px;  line-height:41px; padding-bottom:3px; cursor: pointer;}
+.mCommon_basicTab0114_Menu_active{padding-bottom:0px; border-bottom:3px solid #00ace6;color: #333; cursor: default;}
+
+
+
+
+

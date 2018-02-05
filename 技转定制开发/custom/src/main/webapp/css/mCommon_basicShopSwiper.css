@@ -1,0 +1,18 @@
+/*顶部轮播图片*/
+.dajia{}
+/*.mCommon_basicShopSwiper{max-width:640px;margin:0 auto;}*/
+/*by-yuexy2017.10.26*/
+.mCommon_basicShopSwiper{max-width:100%;margin:0 auto;}
+.mCommon_basicShopSwiper .swiper-container {position:relative;width: 100%;height:100%;color: #fff;text-align: center;}
+.mCommon_basicShopSwiper .pagination {width:100%;position: absolute;z-index: 20;bottom: 10px;display: block; text-align: center;}
+.mCommon_basicShopSwiper .swiper-pagination-switch {
+  display: inline-block;width: 6px;height: 6px;
+  border-radius: 3px;background: #fff;margin-right: 5px;
+  opacity: 0.3;cursor: pointer; box-shadow: #ccc 1px 1px;
+}
+.mCommon_basicShopSwiper .swiper-active-switch {background: #fff;opacity: 1.0}
+.mCommon_basicShopSwiper table{width:100%;height:100%;background: #fff;}
+.mCommon_basicShopSwiper td{}
+.mCommon_basicShopSwiper td img{width:100%;}
+
+

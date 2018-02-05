@@ -1,0 +1,29 @@
+.mCommon_basicTextAndNamePageAddr_contentBox{
+	color: #333333;
+	font-size: 17px;
+	line-height: 25px;
+}
+.mCommon_basicTextAndNamePageAddr_contentBoxReply{
+	margin-right: 10px;
+	display: none;
+}
+.mCommon_basicTextAndNamePageAddr_contentBoxReplyContent>i{
+	color: #1378bf;
+}
+.mCommon_basicTextAndNamePageAddr_contentBoxReplyContent>img{
+	margin-right: 5px;
+}
+.mCommon_basicTextAndNamePageAddr_pageLinkAddress{
+	cursor: pointer;
+}
+.mCommon_basicTextAndNamePageAddr_pageLinkAddressImg{
+	width: 17px;
+	height: 17px;
+	vertical-align: -2px;
+}
+.mCommon_basicTextAndNamePageAddr_pageLinkAddressText{
+	color: #1378bf;
+}
+.mCommon_basicTextAndNamePageAddr_contentBoxReplyShow .mCommon_basicTextAndNamePageAddr_contentBoxReply{
+	display: inline;
+}

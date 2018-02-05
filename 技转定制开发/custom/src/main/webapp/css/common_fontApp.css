@@ -1,0 +1,1433 @@
+@charset "utf-8";
+dajia{versions:20131226}
+/* CSS Document */
+@font-face {font-family: "iconfontApp";
+  src: url('../images/iconfont_app/iconfont.eot?v=2017.03.08'); /* IE9*/
+  src: url('../images/iconfont_app/iconfont.eot?#iefix?v=2017.03.08') format('embedded-opentype'), /* IE6-IE8 */
+  url('../images/iconfont_app/iconfont.woff?v=2017.03.08') format('woff'), /* chrome、firefox */
+  url('../images/iconfont_app/iconfont.ttf?v=2017.03.08') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../images/iconfont_app/iconfont.svg#iconfont?v=2017.03.08') format('svg'); /* iOS 4.1- */
+}
+
+.commonIconLeft32_psychologicalConsulting_white,
+.commonIconLeft32_workStudy_white,
+.commonIconLeft32_caseShare_white,
+.commonIconLeft32_mobileportal_white,
+.commonIconLeft32_weibo_white,
+.commonIconLeft32_demand_white,
+.commonIconLeft32_plugInTrade_white,
+.commonIconLeft32_activity_white,
+.commonIconLeft32_scholarship_white,
+.commonIconLeft32_classSituation_white,
+.commonIconLeft32_loanApply_white,
+.commonIconLeft32_industryInsight_white,
+.commonIconLeft32_easySearch_white,
+.commonIconLeft32_circularize_white,
+.commonIconLeft32_attendance_white,
+.commonIconLeft32_lottery_white,
+.commonIconLeft32_levelTest_white,
+.commonIconLeft32_document_white,
+.commonIconLeft32_signwall_white,
+.commonIconLeft32_checkIn_white,
+.commonIconLeft32_studentUnion_white,
+.commonIconLeft32_talkingBook_white,
+.commonIconLeft32_meetingArrange_white,
+.commonIconLeft32_wonderfulThinking_white,
+.commonIconLeft32_PartyApply_white,
+.commonIconLeft32_technologyDiscuss_white,
+.commonIconLeft32_show_white,
+.commonIconLeft32_board_white,
+.commonIconLeft32_educationAnnouncement_white,
+.commonIconLeft32_league_white,
+.commonIconLeft32_question_white,
+.commonIconLeft32_hotline_white,
+.commonIconLeft32_customerService_white,
+.commonIconLeft32_phone_white,
+.commonIconLeft32_activityApply_white,
+.commonIconLeft32_broadcast_white,
+.commonIconLeft32_share_white,
+.commonIconLeft32_music_white,
+.commonIconLeft32_teachingSchedule_white,
+.commonIconLeft32_blog_white,
+.commonIconLeft32_album_white,
+.commonIconLeft32_practice_white,
+.commonIconLeft32_aboutUs_white,
+.commonIconLeft32_educationalConsulting_white,
+.commonIconLeft32_industryTrends_white,
+.commonIconLeft32_plan_white,
+.commonIconLeft32_marketReport_white,
+.commonIconLeft32_vote_white,
+.commonIconLeft32_news_white,
+.commonIconLeft32_math_white,
+.commonIconLeft32_weeklyReport_white,
+.commonIconLeft32_shits_white,
+.commonIconLeft32_employment_white,
+.commonIconLeft32_default_white,
+.commonIconLeft32_report_white,
+.commonIconLeft32_file_white,
+.commonIconLeft32_onlineClass_white,
+.commonIconLeft32_questionAnswer_white,
+.commonIconLeft32_educationSchedule_white,
+.commonIconLeft32_petal_white,
+.commonIconLeft32_showAndShare_white,
+.commonIconLeft32_member_white,
+.commonIconLeft32_repair_white,
+.commonIconLeft32_allNews_white,
+.commonIconLeft32_group_white,
+.commonIconLeft32_form_white,
+.commonIconLeft32_shopManage_white,
+.commonIconLeft32_courseManage_white,
+.commonIconLeft32_addressBook_white,
+.commonIconLeft32_shopCart_white,
+.commonIconLeft32_integral_white,
+.commonIconLeft32_personHead_white,
+    /*20161115储值新增*/
+.commonIconLeft32_prepaid_white,/*充值*/
+.commonIconLeft32_wallet_white,/*钱包*/
+.commonIconLeft32_collection_white,/*付款*/
+.commonIconLeft32_balance_white,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.commonIconLeft32_setting_white,
+.commonIconLeft32_store_white,
+.commonIconLeft32_sendqueue_white,
+.commonIconLeft32_mine_white,
+/* 20170308新增 设置，收藏，发送，我的 end */
+
+.commonIconSend32_psychologicalConsulting_white,
+.commonIconSend32_workStudy_white,
+.commonIconSend32_caseShare_white,
+.commonIconSend32_mobileportal_white,
+.commonIconSend32_weibo_white,
+.commonIconSend32_demand_white,
+.commonIconSend32_plugInTrade_white,
+.commonIconSend32_activity_white,
+.commonIconSend32_scholarship_white,
+.commonIconSend32_classSituation_white,
+.commonIconSend32_loanApply_white,
+.commonIconSend32_industryInsight_white,
+.commonIconSend32_easySearch_white,
+.commonIconSend32_circularize_white,
+.commonIconSend32_attendance_white,
+.commonIconSend32_lottery_white,
+.commonIconSend32_levelTest_white,
+.commonIconSend32_document_white,
+.commonIconSend32_signwall_white,
+.commonIconSend32_checkIn_white,
+.commonIconSend32_studentUnion_white,
+.commonIconSend32_talkingBook_white,
+.commonIconSend32_meetingArrange_white,
+.commonIconSend32_wonderfulThinking_white,
+.commonIconSend32_PartyApply_white,
+.commonIconSend32_technologyDiscuss_white,
+.commonIconSend32_show_white,
+.commonIconSend32_board_white,
+.commonIconSend32_educationAnnouncement_white,
+.commonIconSend32_league_white,
+.commonIconSend32_question_white,
+.commonIconSend32_hotline_white,
+.commonIconSend32_customerService_white,
+.commonIconSend32_phone_white,
+.commonIconSend32_activityApply_white,
+.commonIconSend32_broadcast_white,
+.commonIconSend32_share_white,
+.commonIconSend32_music_white,
+.commonIconSend32_teachingSchedule_white,
+.commonIconSend32_blog_white,
+.commonIconSend32_album_white,
+.commonIconSend32_practice_white,
+.commonIconSend32_aboutUs_white,
+.commonIconSend32_educationalConsulting_white,
+.commonIconSend32_industryTrends_white,
+.commonIconSend32_plan_white,
+.commonIconSend32_marketReport_white,
+.commonIconSend32_vote_white,
+.commonIconSend32_news_white,
+.commonIconSend32_math_white,
+.commonIconSend32_weeklyReport_white,
+.commonIconSend32_shits_white,
+.commonIconSend32_employment_white,
+.commonIconSend32_default_white,
+.commonIconSend32_report_white,
+.commonIconSend32_file_white,
+.commonIconSend32_onlineClass_white,
+.commonIconSend32_questionAnswer_white,
+.commonIconSend32_educationSchedule_white,
+.commonIconSend32_petal_white,
+.commonIconSend32_showAndShare_white,
+.commonIconSend32_member_white,
+.commonIconSend32_repair_white,
+.commonIconSend32_allNews_white,
+.commonIconSend32_group_white,
+.commonIconSend32_form_white,
+.commonIconSend32_shopManage_white,
+.commonIconSend32_courseManage_white,
+.commonIconSend32_addressBook_white,
+.commonIconSend32_shopCart_white,
+.commonIconSend32_integral_white,
+.commonIconSend32_personHead_white,
+    /*20161115储值新增*/
+.commonIconSend32_prepaid_white,/*充值*/
+.commonIconSend32_wallet_white,/*钱包*/
+.commonIconSend32_collection_white,/*付款*/
+.commonIconSend32_balance_white,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.commonIconSend32_setting_white,
+.commonIconSend32_store_white,
+.commonIconSend32_sendqueue_white,
+.commonIconSend32_mine_white
+/* 20170308新增 设置，收藏，发送，我的 end */
+{ display:block; height:32px; width:32px;color: #fff;  text-align: center;
+ font-family:"iconfontApp" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+/*老图标兼容*/
+.common_iconLeft26_psychologicalConsulting_gray,
+.common_iconLeft26_workStudy_gray,
+.common_iconLeft26_caseShare_gray,
+.common_iconLeft26_mobileportal_gray,
+.common_iconLeft26_Weibo_gray,
+.common_iconLeft26_demand_gray,
+.common_iconLeft26_plugInTrade_gray,
+.common_iconLeft26_activity_gray,
+.common_iconLeft26_scholarship_gray,
+.common_iconLeft26_classSituation_gray,
+.common_iconLeft26_loanApply_gray,
+.common_iconLeft26_industryInsight_gray,
+.common_iconLeft26_easySearch_gray,
+.common_iconLeft26_circularize_gray,
+.common_iconLeft26_attendance_gray,
+.common_iconLeft26_lottery_gray,
+.common_iconLeft26_levelTest_gray,
+.common_iconLeft26_document_gray,
+.common_iconLeft26_signwall_gray,
+.common_iconLeft26_checkIn_gray,
+.common_iconLeft26_studentUnion_gray,
+.common_iconLeft26_talkingBook_gray,
+.common_iconLeft26_meetingArrange_gray,
+.common_iconLeft26_wonderfulThinking_gray,
+.common_iconLeft26_PartyApply_gray,
+.common_iconLeft26_technologyDiscuss_gray,
+.common_iconLeft26_show_gray,
+.common_iconLeft26_board_gray,
+.common_iconLeft26_educationAnnouncement_gray,
+.common_iconLeft26_league_gray,
+.common_iconLeft26_question_gray,
+.common_iconLeft26_hotline_gray,
+.common_iconLeft26_customerService_gray,
+.common_iconLeft26_phone_gray,
+.common_iconLeft26_activityApply_gray,
+.common_iconLeft26_broadcast_gray,
+.common_iconLeft26_share_gray,
+.common_iconLeft26_music_gray,
+.common_iconLeft26_teachingSchedule_gray,
+.common_iconLeft26_blog_gray,
+.common_iconLeft26_album_gray,
+.common_iconLeft26_practice_gray,
+.common_iconLeft26_aboutUs_gray,
+.common_iconLeft26_educationalConsulting_gray,
+.common_iconLeft26_industryTrends_gray,
+.common_iconLeft26_plan_gray,
+.common_iconLeft26_marketReport_gray,
+.common_iconLeft26_vote_gray,
+.common_iconLeft26_news_gray,
+.common_iconLeft26_math_gray,
+.common_iconLeft26_weeklyReport_gray,
+.common_iconLeft26_shits_gray,
+.common_iconLeft26_employment_gray,
+.common_iconLeft26_default_gray,
+.common_iconLeft26_report_gray,
+.common_iconLeft26_file_gray,
+.common_iconLeft26_onlineClass_gray,
+.common_iconLeft26_questionAnswer_gray,
+.common_iconLeft26_educationSchedule_gray,
+.common_iconLeft26_petal_gray,
+.common_iconLeft26_showAndShare_gray,
+.common_iconLeft26_member_gray,
+.common_iconLeft26_repair_gray,
+.common_iconLeft26_allNews_gray,
+.common_iconLeft26_group_gray,
+.common_iconLeft26_form_gray,
+.common_iconLeft26_shopManage_gray,
+.common_iconLeft26_courseManage_gray,
+.common_iconLeft26_addressBook_gray,
+.common_iconLeft26_shopCart_gray,
+.common_iconLeft26_integral_gray,
+.common_iconLeft26_personHead_gray,
+    /*20161115储值新增*/
+.common_iconLeft26_prepaid_gray,/*充值*/
+.common_iconLeft26_wallet_gray,/*钱包*/
+.common_iconLeft26_collection_gray,/*付款*/
+.common_iconLeft26_balance_gray,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.common_iconLeft26_setting_gray,
+.common_iconLeft26_store_gray,
+.common_iconLeft26_sendqueue_gray,
+.common_iconLeft26_mine_gray,
+/* 20170308新增 设置，收藏，发送，我的 end */
+/*老图标兼容 end*/
+.commonIconLeft32_psychologicalConsulting_gray,
+.commonIconLeft32_workStudy_gray,
+.commonIconLeft32_caseShare_gray,
+.commonIconLeft32_mobileportal_gray,
+.commonIconLeft32_weibo_gray,
+.commonIconLeft32_demand_gray,
+.commonIconLeft32_plugInTrade_gray,
+.commonIconLeft32_activity_gray,
+.commonIconLeft32_scholarship_gray,
+.commonIconLeft32_classSituation_gray,
+.commonIconLeft32_loanApply_gray,
+.commonIconLeft32_industryInsight_gray,
+.commonIconLeft32_easySearch_gray,
+.commonIconLeft32_circularize_gray,
+.commonIconLeft32_attendance_gray,
+.commonIconLeft32_lottery_gray,
+.commonIconLeft32_levelTest_gray,
+.commonIconLeft32_document_gray,
+.commonIconLeft32_signwall_gray,
+.commonIconLeft32_checkIn_gray,
+.commonIconLeft32_studentUnion_gray,
+.commonIconLeft32_talkingBook_gray,
+.commonIconLeft32_meetingArrange_gray,
+.commonIconLeft32_wonderfulThinking_gray,
+.commonIconLeft32_PartyApply_gray,
+.commonIconLeft32_technologyDiscuss_gray,
+.commonIconLeft32_show_gray,
+.commonIconLeft32_board_gray,
+.commonIconLeft32_educationAnnouncement_gray,
+.commonIconLeft32_league_gray,
+.commonIconLeft32_question_gray,
+.commonIconLeft32_hotline_gray,
+.commonIconLeft32_customerService_gray,
+.commonIconLeft32_phone_gray,
+.commonIconLeft32_activityApply_gray,
+.commonIconLeft32_broadcast_gray,
+.commonIconLeft32_share_gray,
+.commonIconLeft32_music_gray,
+.commonIconLeft32_teachingSchedule_gray,
+.commonIconLeft32_blog_gray,
+.commonIconLeft32_album_gray,
+.commonIconLeft32_practice_gray,
+.commonIconLeft32_aboutUs_gray,
+.commonIconLeft32_educationalConsulting_gray,
+.commonIconLeft32_industryTrends_gray,
+.commonIconLeft32_plan_gray,
+.commonIconLeft32_marketReport_gray,
+.commonIconLeft32_vote_gray,
+.commonIconLeft32_news_gray,
+.commonIconLeft32_math_gray,
+.commonIconLeft32_weeklyReport_gray,
+.commonIconLeft32_shits_gray,
+.commonIconLeft32_employment_gray,
+.commonIconLeft32_default_gray,
+.commonIconLeft32_report_gray,
+.commonIconLeft32_file_gray,
+.commonIconLeft32_onlineClass_gray,
+.commonIconLeft32_questionAnswer_gray,
+.commonIconLeft32_educationSchedule_gray,
+.commonIconLeft32_petal_gray,
+.commonIconLeft32_showAndShare_gray,
+.commonIconLeft32_member_gray,
+.commonIconLeft32_repair_gray,
+.commonIconLeft32_allNews_gray,
+.commonIconLeft32_group_gray,
+.commonIconLeft32_form_gray,
+.commonIconLeft32_shopManage_gray,
+.commonIconLeft32_courseManage_gray,
+.commonIconLeft32_addressBook_gray,
+.commonIconLeft32_shopCart_gray,
+.commonIconLeft32_integral_gray,
+.commonIconLeft32_personHead_gray,
+    /*20161115储值新增*/
+.commonIconLeft32_prepaid_gray,/*充值*/
+.commonIconLeft32_wallet_gray,/*钱包*/
+.commonIconLeft32_collection_gray,/*付款*/
+.commonIconLeft32_balance_gray,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.commonIconLeft32_setting_gray,
+.commonIconLeft32_store_gray,
+.commonIconLeft32_sendqueue_gray,
+.commonIconLeft32_mine_gray,
+/* 20170308新增 设置，收藏，发送，我的 end */
+.commonIconSend32_psychologicalConsulting_gray,
+.commonIconSend32_workStudy_gray,
+.commonIconSend32_caseShare_gray,
+.commonIconSend32_mobileportal_gray,
+.commonIconSend32_weibo_gray,
+.commonIconSend32_demand_gray,
+.commonIconSend32_plugInTrade_gray,
+.commonIconSend32_activity_gray,
+.commonIconSend32_scholarship_gray,
+.commonIconSend32_classSituation_gray,
+.commonIconSend32_loanApply_gray,
+.commonIconSend32_industryInsight_gray,
+.commonIconSend32_easySearch_gray,
+.commonIconSend32_circularize_gray,
+.commonIconSend32_attendance_gray,
+.commonIconSend32_lottery_gray,
+.commonIconSend32_levelTest_gray,
+.commonIconSend32_document_gray,
+.commonIconSend32_signwall_gray,
+.commonIconSend32_checkIn_gray,
+.commonIconSend32_studentUnion_gray,
+.commonIconSend32_talkingBook_gray,
+.commonIconSend32_meetingArrange_gray,
+.commonIconSend32_wonderfulThinking_gray,
+.commonIconSend32_PartyApply_gray,
+.commonIconSend32_technologyDiscuss_gray,
+.commonIconSend32_show_gray,
+.commonIconSend32_board_gray,
+.commonIconSend32_educationAnnouncement_gray,
+.commonIconSend32_league_gray,
+.commonIconSend32_question_gray,
+.commonIconSend32_hotline_gray,
+.commonIconSend32_customerService_gray,
+.commonIconSend32_phone_gray,
+.commonIconSend32_activityApply_gray,
+.commonIconSend32_broadcast_gray,
+.commonIconSend32_share_gray,
+.commonIconSend32_music_gray,
+.commonIconSend32_teachingSchedule_gray,
+.commonIconSend32_blog_gray,
+.commonIconSend32_album_gray,
+.commonIconSend32_practice_gray,
+.commonIconSend32_aboutUs_gray,
+.commonIconSend32_educationalConsulting_gray,
+.commonIconSend32_industryTrends_gray,
+.commonIconSend32_plan_gray,
+.commonIconSend32_marketReport_gray,
+.commonIconSend32_vote_gray,
+.commonIconSend32_news_gray,
+.commonIconSend32_math_gray,
+.commonIconSend32_weeklyReport_gray,
+.commonIconSend32_shits_gray,
+.commonIconSend32_employment_gray,
+.commonIconSend32_default_gray,
+.commonIconSend32_report_gray,
+.commonIconSend32_file_gray,
+.commonIconSend32_onlineClass_gray,
+.commonIconSend32_questionAnswer_gray,
+.commonIconSend32_educationSchedule_gray,
+.commonIconSend32_petal_gray,
+.commonIconSend32_showAndShare_gray,
+.commonIconSend32_member_gray,
+.commonIconSend32_repair_gray,
+.commonIconSend32_allNews_gray,
+.commonIconSend32_group_gray,
+.commonIconSend32_form_gray,
+.commonIconSend32_shopManage_gray,
+.commonIconSend32_courseManage_gray,
+.commonIconSend32_addressBook_gray,
+.commonIconSend32_shopCart_gray,
+.commonIconSend32_integral_gray,
+.commonIconSend32_personHead_gray,
+    /*20161115储值新增*/
+.commonIconSend32_prepaid_gray,/*充值*/
+.commonIconSend32_wallet_gray,/*钱包*/
+.commonIconSend32_collection_gray,/*付款*/
+.commonIconSend32_balance_gray,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.commonIconSend32_setting_gray,
+.commonIconSend32_store_gray,
+.commonIconSend32_sendqueue_gray,
+.commonIconSend32_mine_gray
+/* 20170308新增 设置，收藏，发送，我的 end */
+{display:block; height:32px; width:32px;color:#ffffff;  text-align: center;
+ font-family:"iconfontApp" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+  
+/*老版本兼容*/
+.common_iconLeft26_psychologicalConsulting_send_blue,  
+.common_iconLeft26_workStudy_send_blue,
+.common_iconLeft26_caseShare_send_blue,
+.common_iconLeft26_mobileportal_send_blue,
+.common_iconLeft26_Weibo_send_blue,
+.common_iconLeft26_demand_send_blue,
+.common_iconLeft26_plugInTrade_send_blue,
+.common_iconLeft26_activity_send_blue,
+.common_iconLeft26_scholarship_send_blue,
+.common_iconLeft26_classSituation_send_blue,
+.common_iconLeft26_loanApply_send_blue,
+.common_iconLeft26_industryInsight_send_blue,
+.common_iconLeft26_easySearch_send_blue,
+.common_iconLeft26_circularize_send_blue,
+.common_iconLeft26_attendance_send_blue,
+.common_iconLeft26_lottery_send_blue,
+.common_iconLeft26_levelTest_send_blue,
+.common_iconLeft26_document_send_blue,
+.common_iconLeft26_signwall_send_blue,
+.common_iconLeft26_checkIn_send_blue,
+.common_iconLeft26_studentUnion_send_blue,
+.common_iconLeft26_talkingBook_send_blue,
+.common_iconLeft26_meetingArrange_send_blue,
+.common_iconLeft26_wonderfulThinking_send_blue,
+.common_iconLeft26_PartyApply_send_blue,
+.common_iconLeft26_technologyDiscuss_send_blue,
+.common_iconLeft26_show_send_blue,
+.common_iconLeft26_board_send_blue,
+.common_iconLeft26_educationAnnouncement_send_blue,
+.common_iconLeft26_league_send_blue,
+.common_iconLeft26_question_send_blue,
+.common_iconLeft26_hotline_send_blue,
+.common_iconLeft26_customerService_send_blue,
+.common_iconLeft26_phone_send_blue,
+.common_iconLeft26_activityApply_send_blue,
+.common_iconLeft26_broadcast_send_blue,
+.common_iconLeft26_share_send_blue,
+.common_iconLeft26_music_send_blue,
+.common_iconLeft26_teachingSchedule_send_blue,
+.common_iconLeft26_blog_send_blue,
+.common_iconLeft26_album_send_blue,
+.common_iconLeft26_practice_send_blue,
+.common_iconLeft26_aboutUs_send_blue,
+.common_iconLeft26_educationalConsulting_send_blue,
+.common_iconLeft26_industryTrends_send_blue,
+.common_iconLeft26_plan_send_blue,
+.common_iconLeft26_marketReport_send_blue,
+.common_iconLeft26_vote_send_blue,
+.common_iconLeft26_news_send_blue,
+.common_iconLeft26_math_send_blue,
+.common_iconLeft26_weeklyReport_send_blue,
+.common_iconLeft26_shits_send_blue,
+.common_iconLeft26_employment_send_blue,
+.common_iconLeft26_default_send_blue,
+.common_iconLeft26_report_send_blue,
+.common_iconLeft26_file_send_blue,
+.common_iconLeft26_onlineClass_send_blue,
+.common_iconLeft26_questionAnswer_send_blue,
+.common_iconLeft26_educationSchedule_send_blue,
+.common_iconLeft26_petal_send_blue,
+.common_iconLeft26_showAndShare_send_blue,
+.common_iconLeft26_member_send_blue,
+.common_iconLeft26_repair_send_blue,
+.common_iconLeft26_allNews_send_blue,
+.common_iconLeft26_group_send_blue,
+.common_iconLeft26_form_send_blue,
+.common_iconLeft26_shopManage_send_blue,
+.common_iconLeft26_courseManage_send_blue,
+.common_iconLeft26_addressBook_send_blue,
+.common_iconLeft26_shopCart_send_blue,
+.common_iconLeft26_integral_send_blue,
+.common_iconLeft26_personHead_send_blue,
+    /*20161115储值新增*/
+.common_iconLeft26_prepaid_send_blue,/*充值*/
+.common_iconLeft26_wallet_send_blue,/*钱包*/
+.common_iconLeft26_collection_send_blue,/*付款*/
+.common_iconLeft26_balance_send_blue,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.common_iconLeft26_setting_send_blue,
+.common_iconLeft26_store_send_blue,
+.common_iconLeft26_sendqueue_send_blue,
+.common_iconLeft26_mine_send_blue,
+/* 20170308新增 设置，收藏，发送，我的 end */
+/*老版本兼容 end*/
+.commonIconLeft32_psychologicalConsulting_blue,
+.commonIconLeft32_workStudy_blue,
+.commonIconLeft32_caseShare_blue,
+.commonIconLeft32_mobileportal_blue,
+.commonIconLeft32_weibo_blue,
+.commonIconLeft32_demand_blue,
+.commonIconLeft32_plugInTrade_blue,
+.commonIconLeft32_activity_blue,
+.commonIconLeft32_scholarship_blue,
+.commonIconLeft32_classSituation_blue,
+.commonIconLeft32_loanApply_blue,
+.commonIconLeft32_industryInsight_blue,
+.commonIconLeft32_easySearch_blue,
+.commonIconLeft32_circularize_blue,
+.commonIconLeft32_attendance_blue,
+.commonIconLeft32_lottery_blue,
+.commonIconLeft32_levelTest_blue,
+.commonIconLeft32_document_blue,
+.commonIconLeft32_signwall_blue,
+.commonIconLeft32_checkIn_blue,
+.commonIconLeft32_studentUnion_blue,
+.commonIconLeft32_talkingBook_blue,
+.commonIconLeft32_meetingArrange_blue,
+.commonIconLeft32_wonderfulThinking_blue,
+.commonIconLeft32_PartyApply_blue,
+.commonIconLeft32_technologyDiscuss_blue,
+.commonIconLeft32_show_blue,
+.commonIconLeft32_board_blue,
+.commonIconLeft32_educationAnnouncement_blue,
+.commonIconLeft32_league_blue,
+.commonIconLeft32_question_blue,
+.commonIconLeft32_hotline_blue,
+.commonIconLeft32_customerService_blue,
+.commonIconLeft32_phone_blue,
+.commonIconLeft32_activityApply_blue,
+.commonIconLeft32_broadcast_blue,
+.commonIconLeft32_share_blue,
+.commonIconLeft32_music_blue,
+.commonIconLeft32_teachingSchedule_blue,
+.commonIconLeft32_blog_blue,
+.commonIconLeft32_album_blue,
+.commonIconLeft32_practice_blue,
+.commonIconLeft32_aboutUs_blue,
+.commonIconLeft32_educationalConsulting_blue,
+.commonIconLeft32_industryTrends_blue,
+.commonIconLeft32_plan_blue,
+.commonIconLeft32_marketReport_blue,
+.commonIconLeft32_vote_blue,
+.commonIconLeft32_news_blue,
+.commonIconLeft32_math_blue,
+.commonIconLeft32_weeklyReport_blue,
+.commonIconLeft32_shits_blue,
+.commonIconLeft32_employment_blue,
+.commonIconLeft32_default_blue,
+.commonIconLeft32_report_blue,
+.commonIconLeft32_file_blue,
+.commonIconLeft32_onlineClass_blue,
+.commonIconLeft32_questionAnswer_blue,
+.commonIconLeft32_educationSchedule_blue,
+.commonIconLeft32_petal_blue,
+.commonIconLeft32_showAndShare_blue,
+.commonIconLeft32_member_blue,
+.commonIconLeft32_repair_blue,
+.commonIconLeft32_allNews_blue,
+.commonIconLeft32_group_blue,
+.commonIconLeft32_form_blue,
+.commonIconLeft32_shopManage_blue,
+.commonIconLeft32_courseManage_blue,
+.commonIconLeft32_addressBook_blue,
+.commonIconLeft32_shopCart_blue,
+.commonIconLeft32_integral_blue,
+.commonIconLeft32_personHead_blue,
+    /*20161115储值新增*/
+.commonIconLeft32_prepaid_blue,/*充值*/
+.commonIconLeft32_wallet_blue,/*钱包*/
+.commonIconLeft32_collection_blue,/*付款*/
+.commonIconLeft32_balance_blue,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.commonIconLeft32_setting_blue,
+.commonIconLeft32_store_blue,
+.commonIconLeft32_sendqueue_blue,
+.commonIconLeft32_mine_blue,
+/* 20170308新增 设置，收藏，发送，我的 end */
+.commonIconSend32_psychologicalConsulting_blue,
+.commonIconSend32_workStudy_blue,
+.commonIconSend32_caseShare_blue,
+.commonIconSend32_mobileportal_blue,
+.commonIconSend32_weibo_blue,
+.commonIconSend32_demand_blue,
+.commonIconSend32_plugInTrade_blue,
+.commonIconSend32_activity_blue,
+.commonIconSend32_scholarship_blue,
+.commonIconSend32_classSituation_blue,
+.commonIconSend32_loanApply_blue,
+.commonIconSend32_industryInsight_blue,
+.commonIconSend32_easySearch_blue,
+.commonIconSend32_circularize_blue,
+.commonIconSend32_attendance_blue,
+.commonIconSend32_lottery_blue,
+.commonIconSend32_levelTest_blue,
+.commonIconSend32_document_blue,
+.commonIconSend32_signwall_blue,
+.commonIconSend32_checkIn_blue,
+.commonIconSend32_studentUnion_blue,
+.commonIconSend32_talkingBook_blue,
+.commonIconSend32_meetingArrange_blue,
+.commonIconSend32_wonderfulThinking_blue,
+.commonIconSend32_PartyApply_blue,
+.commonIconSend32_technologyDiscuss_blue,
+.commonIconSend32_show_blue,
+.commonIconSend32_board_blue,
+.commonIconSend32_educationAnnouncement_blue,
+.commonIconSend32_league_blue,
+.commonIconSend32_question_blue,
+.commonIconSend32_hotline_blue,
+.commonIconSend32_customerService_blue,
+.commonIconSend32_phone_blue,
+.commonIconSend32_activityApply_blue,
+.commonIconSend32_broadcast_blue,
+.commonIconSend32_share_blue,
+.commonIconSend32_music_blue,
+.commonIconSend32_teachingSchedule_blue,
+.commonIconSend32_blog_blue,
+.commonIconSend32_album_blue,
+.commonIconSend32_practice_blue,
+.commonIconSend32_aboutUs_blue,
+.commonIconSend32_educationalConsulting_blue,
+.commonIconSend32_industryTrends_blue,
+.commonIconSend32_plan_blue,
+.commonIconSend32_marketReport_blue,
+.commonIconSend32_vote_blue,
+.commonIconSend32_news_blue,
+.commonIconSend32_math_blue,
+.commonIconSend32_weeklyReport_blue,
+.commonIconSend32_shits_blue,
+.commonIconSend32_employment_blue,
+.commonIconSend32_default_blue,
+.commonIconSend32_report_blue,
+.commonIconSend32_file_blue,
+.commonIconSend32_onlineClass_blue,
+.commonIconSend32_questionAnswer_blue,
+.commonIconSend32_educationSchedule_blue,
+.commonIconSend32_petal_blue,
+.commonIconSend32_showAndShare_blue,
+.commonIconSend32_member_blue,
+.commonIconSend32_repair_blue,
+.commonIconSend32_allNews_blue,
+.commonIconSend32_group_blue,
+.commonIconSend32_form_blue,
+.commonIconSend32_shopManage_blue,
+.commonIconSend32_courseManage_blue,
+.commonIconSend32_addressBook_blue,
+.commonIconSend32_shopCart_blue,
+.commonIconSend32_integral_blue,
+.commonIconSend32_personHead_blue,
+    /*20161115储值新增*/
+.commonIconSend32_prepaid_blue,/*充值*/
+.commonIconSend32_wallet_blue,/*钱包*/
+.commonIconSend32_collection_blue,/*付款*/
+.commonIconSend32_balance_blue,/*余额*/
+    /*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.commonIconSend32_setting_blue,
+.commonIconSend32_store_blue,
+.commonIconSend32_sendqueue_blue,
+.commonIconSend32_mine_blue
+/* 20170308新增 设置，收藏，发送，我的 end */
+{ display:block; height:32px; width:32px;color: #00ace6;  text-align: center;
+ font-family:"iconfontApp" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+.common_iconLeft26_psychologicalConsulting_gray:before,
+.commonIconLeft32_psychologicalConsulting_blue:before,
+.commonIconLeft32_psychologicalConsulting_gray:before,
+.commonIconLeft32_psychologicalConsulting_white:before{font-size: 20px;content: "\e600";line-height: 32px;}
+.common_iconLeft26_psychologicalConsulting_send_blue:before,
+.commonIconSend32_psychologicalConsulting_blue:before,
+.commonIconSend32_psychologicalConsulting_white:before,
+.commonIconSend32_psychologicalConsulting_gray:before{font-size: 28px;content: "\e600";line-height: 32px;}
+
+.common_iconLeft26_workStudy_gray:before,
+.commonIconLeft32_workStudy_blue:before,
+.commonIconLeft32_workStudy_gray:before,
+.commonIconLeft32_workStudy_white:before{font-size: 20px;content: "\e603";line-height: 32px;}
+.common_iconLeft26_workStudy_send_blue:before,
+.commonIconSend32_workStudy_blue:before,
+.commonIconSend32_workStudy_white:before,
+.commonIconSend32_workStudy_gray:before{font-size: 28px;content: "\e603";line-height: 32px;}
+
+.common_iconLeft26_caseShare_gray:before,
+.commonIconLeft32_caseShare_blue:before,
+.commonIconLeft32_caseShare_gray:before,
+.commonIconLeft32_caseShare_white:before{font-size: 20px;content: "\e608";line-height: 32px;}
+.common_iconLeft26_caseShare_send_blue:before,
+.commonIconSend32_caseShare_blue:before,
+.commonIconSend32_caseShare_white:before,
+.commonIconSend32_caseShare_gray:before{font-size: 28px;content: "\e608";line-height: 32px;}
+
+.common_iconLeft26_mobileportal_gray:before,
+.commonIconLeft32_mobileportal_blue:before,
+.commonIconLeft32_mobileportal_white:before,
+.commonIconLeft32_mobileportal_gray:before{font-size: 20px;content: "\e60b";line-height: 32px;}
+.common_iconLeft26_mobileportal_send_blue:before,
+.commonIconSend32_mobileportal_gray:before,
+.commonIconSend32_mobileportal_white:before,
+.commonIconSend32_mobileportal_blue:before{font-size: 28px;content: "\e60b";line-height: 32px;}
+
+.common_iconLeft26_Weibo_gray:before,
+.commonIconLeft32_weibo_blue:before,
+.commonIconLeft32_weibo_white:before,
+.commonIconLeft32_weibo_gray:before{font-size: 20px;content: "\e60c";line-height: 32px;}
+.common_iconLeft26_Weibo_send_blue:before,
+.commonIconSend32_weibo_blue:before,
+.commonIconSend32_weibo_gray:before,
+.commonIconSend32_weibo_white:before{font-size: 28px;content: "\e60c";line-height: 32px;}
+
+.common_iconLeft26_demand_gray:before,
+.commonIconLeft32_demand_blue:before,
+.commonIconLeft32_demand_gray:before,
+.commonIconLeft32_demand_white:before{font-size: 20px;content: "\e60d";line-height: 32px;}
+.common_iconLeft26_demand_send_blue:before,
+.commonIconSend32_demand_blue:before,
+.commonIconSend32_demand_white:before,
+.commonIconSend32_demand_gray:before{font-size: 28px;content: "\e60d";line-height: 32px;}
+
+.common_iconLeft26_plugInTrade_gray:before,
+.commonIconLeft32_plugInTrade_blue:before,
+.commonIconLeft32_plugInTrade_gray:before,
+.commonIconLeft32_plugInTrade_white:before{font-size: 20px;content: "\e611";line-height: 32px;}
+.common_iconLeft26_plugInTrade_send_blue:before,
+.commonIconSend32_plugInTrade_blue:before,
+.commonIconSend32_plugInTrade_white:before,
+.commonIconSend32_plugInTrade_gray:before{font-size: 28px;content: "\e611";line-height: 32px;}
+
+.common_iconLeft26_activity_gray:before,
+.commonIconLeft32_activity_blue:before,
+.commonIconLeft32_activity_white:before,
+.commonIconLeft32_activity_gray:before{font-size: 20px;content: "\e614";line-height: 32px;}
+.common_iconLeft26_activity_send_blue:before,
+.commonIconSend32_activity_blue:before,
+.commonIconSend32_activity_white:before,
+.commonIconSend32_activity_gray:before{font-size: 28px;content: "\e614";line-height: 32px;}
+
+.common_iconLeft26_scholarship_gray:before,
+.commonIconLeft32_scholarship_blue:before,
+.commonIconLeft32_scholarship_gray:before,
+.commonIconLeft32_scholarship_white:before{font-size: 20px;content: "\e616";line-height: 32px;}
+.common_iconLeft26_scholarship_send_blue:before,
+.commonIconSend32_scholarship_blue:before,
+.commonIconSend32_scholarship_white:before,
+.commonIconSend32_scholarship_gray:before{font-size: 28px;content: "\e616";line-height: 32px;}
+
+.common_iconLeft26_classSituation_gray:before,
+.commonIconLeft32_classSituation_blue:before,
+.commonIconLeft32_classSituation_gray:before,
+.commonIconLeft32_classSituation_white:before{font-size: 20px;content: "\e620";line-height: 32px;}
+.common_iconLeft26_classSituation_send_blue:before,
+.commonIconSend32_classSituation_blue:before,
+.commonIconSend32_classSituation_white:before,
+.commonIconSend32_classSituation_gray:before{font-size: 28px;content: "\e620";line-height: 32px;}
+
+.common_iconLeft26_loanApply_gray:before,
+.commonIconLeft32_loanApply_blue:before,
+.commonIconLeft32_loanApply_gray:before,
+.commonIconLeft32_loanApply_white:before{font-size: 20px;content: "\e627";line-height: 32px;}
+.common_iconLeft26_loanApply_send_blue:before,
+.commonIconSend32_loanApply_blue:before,
+.commonIconSend32_loanApply_white:before,
+.commonIconSend32_loanApply_gray:before{font-size: 28px;content: "\e627";line-height: 32px;}
+
+.common_iconLeft26_industryInsight_gray:before,
+.commonIconLeft32_industryInsight_blue:before,
+.commonIconLeft32_industryInsight_gray:before,
+.commonIconLeft32_industryInsight_white:before,
+.common_iconLeft26_easySearch_gray:before,
+.commonIconLeft32_easySearch_blue:before,
+.commonIconLeft32_easySearch_white:before,
+.commonIconLeft32_easySearch_gray:before{font-size: 20px;content: "\e629";line-height: 32px;}
+.common_iconLeft26_industryInsight_send_blue:before,
+.commonIconSend32_industryInsight_blue:before,
+.commonIconSend32_industryInsight_white:before,
+.commonIconSend32_industryInsight_gray:before,
+.common_iconLeft26_easySearch_send_blue:before,
+.commonIconSend32_easySearch_blue:before,
+.commonIconSend32_easySearch_white:before,
+.commonIconSend32_easySearch_gray:before{font-size: 28px;content: "\e629";line-height: 32px;}
+
+.common_iconLeft26_circularize_gray:before,
+.commonIconLeft32_circularize_blue:before,
+.commonIconLeft32_circularize_gray:before,
+.commonIconLeft32_circularize_white:before{font-size: 20px;content: "\e62b";line-height: 32px;}
+.common_iconLeft26_circularize_send_blue:before,
+.commonIconSend32_circularize_blue:before,
+.commonIconSend32_circularize_white:before,
+.commonIconSend32_circularize_gray:before{font-size: 28px;content: "\e62b";line-height: 32px;}
+
+.common_iconLeft26_attendance_gray:before,
+.commonIconLeft32_attendance_blue:before,
+.commonIconLeft32_attendance_gray:before,
+.commonIconLeft32_attendance_white:before{font-size: 20px;content: "\e62e";line-height: 32px;}
+.common_iconLeft26_attendance_send_blue:before,
+.commonIconSend32_attendance_blue:before,
+.commonIconSend32_attendance_white:before,
+.commonIconSend32_attendance_gray:before{font-size: 28px;content: "\e62e";line-height: 32px;}
+
+.common_iconLeft26_lottery_gray:before,
+.commonIconLeft32_lottery_blue:before,
+.commonIconLeft32_lottery_white:before,
+.commonIconLeft32_lottery_gray:before,
+.common_iconLeft26_levelTest_gray:before,
+.commonIconLeft32_levelTest_blue:before,
+.commonIconLeft32_levelTest_gray:before,
+.commonIconLeft32_levelTest_white:before{font-size: 20px;content: "\e631";line-height: 32px;}
+.common_iconLeft26_lottery_send_blue:before,
+.commonIconSend32_lottery_blue:before,
+.commonIconSend32_lottery_white:before,
+.commonIconSend32_lottery_gray:before,
+.common_iconLeft26_levelTest_send_blue:before,
+.commonIconSend32_levelTest_blue:before,
+.commonIconSend32_levelTest_white:before,
+.commonIconSend32_levelTest_gray:before{font-size: 28px;content: "\e631";line-height: 32px;}
+
+
+.common_iconLeft26_document_gray:before,
+.commonIconLeft32_document_blue:before,
+.commonIconLeft32_document_white:before,
+.commonIconLeft32_document_gray:before{font-size: 20px;content: "\e632";line-height: 32px;}
+.common_iconLeft26_document_send_blue:before,
+.commonIconSend32_document_blue:before,
+.commonIconSend32_document_white:before,
+.commonIconSend32_document_gray:before{font-size: 28px;content: "\e632";line-height: 32px;}
+
+.common_iconLeft26_signwall_gray:before,
+.commonIconLeft32_signwall_blue:before,
+.commonIconLeft32_signwall_white:before,
+.commonIconLeft32_signwall_gray:before,
+.common_iconLeft26_checkIn_gray:before,
+.commonIconLeft32_checkIn_blue:before,
+.commonIconLeft32_checkIn_white:before,
+.commonIconLeft32_checkIn_gray:before{font-size: 20px;content: "\e633";line-height: 32px;}
+.common_iconLeft26_signwall_send_blue:before,
+.commonIconSend32_signwall_blue:before,
+.commonIconSend32_signwall_white:before,
+.commonIconSend32_signwall_gray:before,
+.common_iconLeft26_checkIn_send_blue:before,
+.commonIconSend32_checkIn_blue:before,
+.commonIconSend32_checkIn_white:before,
+.commonIconSend32_checkIn_gray:before{font-size: 28px;content: "\e633";line-height: 32px;}
+
+.common_iconLeft26_studentUnion_gray:before,
+.commonIconLeft32_studentUnion_blue:before,
+.commonIconLeft32_studentUnion_gray:before,
+.commonIconLeft32_studentUnion_white:before{font-size: 20px;content: "\e63d";line-height: 32px;}
+.common_iconLeft26_studentUnion_send_blue:before,
+.commonIconSend32_studentUnion_blue:before,
+.commonIconSend32_studentUnion_white:before,
+.commonIconSend32_studentUnion_gray:before{font-size: 28px;content: "\e63d";line-height: 32px;}
+
+.common_iconLeft26_talkingBook_gray:before,
+.commonIconLeft32_talkingBook_blue:before,
+.commonIconLeft32_talkingBook_gray:before,
+.commonIconLeft32_talkingBook_white:before{font-size: 20px;content: "\e640";line-height: 32px;}
+.common_iconLeft26_talkingBook_send_blue:before,
+.commonIconSend32_talkingBook_blue:before,
+.commonIconSend32_talkingBook_white:before,
+.commonIconSend32_talkingBook_gray:before{font-size: 28px;content: "\e640";line-height: 32px;}
+
+.common_iconLeft26_meetingArrange_gray:before,
+.commonIconLeft32_meetingArrange_blue:before,
+.commonIconLeft32_meetingArrange_gray:before,
+.commonIconLeft32_meetingArrange_white:before{font-size: 20px;content: "\e645";line-height: 32px;}
+.common_iconLeft26_meetingArrange_send_blue:before,
+.commonIconSend32_meetingArrange_blue:before,
+.commonIconSend32_meetingArrange_white:before,
+.commonIconSend32_meetingArrange_gray:before{font-size: 28px;content: "\e645";line-height: 32px;}
+
+.common_iconLeft26_wonderfulThinking_gray:before,
+.commonIconLeft32_wonderfulThinking_blue:before,
+.commonIconLeft32_wonderfulThinking_gray:before,
+.commonIconLeft32_wonderfulThinking_white:before{font-size: 20px;content: "\e646";line-height: 32px;}
+.common_iconLeft26_wonderfulThinking_send_blue:before,
+.commonIconSend32_wonderfulThinking_blue:before,
+.commonIconSend32_wonderfulThinking_white:before,
+.commonIconSend32_wonderfulThinking_gray:before{font-size: 28px;content: "\e646";line-height: 32px;}
+
+.common_iconLeft26_PartyApply_gray:before,
+.commonIconLeft32_PartyApply_blue:before,
+.commonIconLeft32_PartyApply_gray:before,
+.commonIconLeft32_PartyApply_white:before{font-size: 20px;content: "\e610";line-height: 32px;}
+.common_iconLeft26_PartyApply_send_blue:before,
+.commonIconSend32_PartyApply_blue:before,
+.commonIconSend32_PartyApply_white:before,
+.commonIconSend32_PartyApply_gray:before{font-size: 28px;content: "\e610";line-height: 32px;}
+
+.common_iconLeft26_technologyDiscuss_gray:before,
+.commonIconLeft32_technologyDiscuss_blue:before,
+.commonIconLeft32_technologyDiscuss_gray:before,
+.commonIconLeft32_technologyDiscuss_white:before{font-size: 20px;content: "\e615";line-height: 32px;}
+.common_iconLeft26_technologyDiscuss_send_blue:before,
+.commonIconSend32_technologyDiscuss_blue:before,
+.commonIconSend32_technologyDiscuss_white:before,
+.commonIconSend32_technologyDiscuss_gray:before{font-size: 28px;content: "\e615";line-height: 32px;}
+
+.common_iconLeft26_show_gray:before,
+.commonIconLeft32_show_blue:before,
+.commonIconLeft32_show_gray:before,
+.commonIconLeft32_show_white:before{font-size: 20px;content: "\e617";line-height: 32px;}
+.common_iconLeft26_show_send_blue:before,
+.commonIconSend32_show_blue:before,
+.commonIconSend32_show_white:before,
+.commonIconSend32_show_gray:before{font-size: 28px;content: "\e617";line-height: 32px;}
+
+.common_iconLeft26_board_gray:before,
+.commonIconLeft32_board_white:before,
+.commonIconLeft32_board_blue:before,
+.commonIconLeft32_board_gray:before{font-size: 20px;content: "\e618";line-height: 32px;}
+.common_iconLeft26_board_send_blue:before,
+.commonIconSend32_board_blue:before,
+.commonIconSend32_board_gray:before,
+.commonIconSend32_board_white:before{font-size: 28px;content: "\e618";line-height: 32px;}
+
+.common_iconLeft26_educationAnnouncement_gray:before,
+.commonIconLeft32_educationAnnouncement_blue:before,
+.commonIconLeft32_educationAnnouncement_gray:before,
+.commonIconLeft32_educationAnnouncement_white:before{font-size: 20px;content: "\e619";line-height: 32px;}
+.common_iconLeft26_educationAnnouncement_send_blue:before,
+.commonIconSend32_educationAnnouncement_blue:before,
+.commonIconSend32_educationAnnouncement_white:before,
+.commonIconSend32_educationAnnouncement_gray:before{font-size: 28px;content: "\e619";line-height: 32px;}
+
+.common_iconLeft26_league_gray:before,
+.commonIconLeft32_league_blue:before,
+.commonIconLeft32_league_gray:before,
+.commonIconLeft32_league_white:before{font-size: 20px;content: "\e630";line-height: 32px;}
+.common_iconLeft26_league_send_blue:before,
+.commonIconSend32_league_blue:before,
+.commonIconSend32_league_white:before,
+.commonIconSend32_league_gray:before{font-size: 28px;content: "\e630";line-height: 32px;}
+
+.common_iconLeft26_question_gray:before,
+.commonIconLeft32_question_blue:before,
+.commonIconLeft32_question_gray:before,
+.commonIconLeft32_question_white:before{font-size: 20px;content: "\e636";line-height: 32px;}
+.common_iconLeft26_question_send_blue:before,
+.commonIconSend32_question_blue:before,
+.commonIconSend32_question_white:before,
+.commonIconSend32_question_gray:before{font-size: 28px;content: "\e636";line-height: 32px;}
+
+.common_iconLeft26_hotline_gray:before,
+.commonIconLeft32_hotline_blue:before,
+.commonIconLeft32_hotline_white:before,
+.commonIconLeft32_hotline_gray:before{font-size: 20px;content: "\e681";line-height: 32px;}
+.common_iconLeft26_hotline_send_blue:before,
+.commonIconSend32_hotline_blue:before,
+.commonIconSend32_hotline_white:before,
+.commonIconSend32_hotline_gray:before{font-size: 28px;content: "\e681";line-height: 32px;}
+
+.common_iconLeft26_customerService_gray:before,
+.commonIconLeft32_customerService_blue:before,
+.commonIconLeft32_customerService_white:before,
+.commonIconLeft32_customerService_gray:before{font-size: 20px;content: "\e686";line-height: 32px;}
+.common_iconLeft26_customerService_send_blue:before,
+.commonIconSend32_customerService_blue:before,
+.commonIconSend32_customerService_white:before,
+.commonIconSend32_customerService_gray:before{font-size: 28px;content: "\e686";line-height: 32px;}
+
+.common_iconLeft26_phone_gray:before,
+.commonIconLeft32_phone_blue:before,
+.commonIconLeft32_phone_white:before,
+.commonIconLeft32_phone_gray:before{font-size: 20px;content: "\e688";line-height: 32px;}
+.common_iconLeft26_phone_send_blue:before,
+.commonIconSend32_phone_blue:before,
+.commonIconSend32_phone_white:before,
+.commonIconSend32_phone_gray:before{font-size: 28px;content: "\e688";line-height: 32px;}
+
+.common_iconLeft26_activityApply_gray:before,
+.commonIconLeft32_activityApply_blue:before,
+.commonIconLeft32_activityApply_gray:before,
+.commonIconLeft32_activityApply_white:before{font-size: 20px;content: "\e601";line-height: 32px;}
+.common_iconLeft26_activityApply_send_blue:before,
+.commonIconSend32_activityApply_blue:before,
+.commonIconSend32_activityApply_white:before,
+.commonIconSend32_activityApply_gray:before{font-size: 28px;content: "\e601";line-height: 32px;}
+
+.common_iconLeft26_broadcast_gray:before,
+.commonIconLeft32_broadcast_blue:before,
+.commonIconLeft32_broadcast_gray:before,
+.commonIconLeft32_broadcast_white:before{font-size: 20px;content: "\e612";line-height: 32px;}
+.common_iconLeft26_broadcast_send_blue:before,
+.commonIconSend32_broadcast_blue:before,
+.commonIconSend32_broadcast_white:before,
+.commonIconSend32_broadcast_gray:before{font-size: 28px;content: "\e612";line-height: 32px;}
+
+.common_iconLeft26_share_gray:before,
+.commonIconLeft32_share_blue:before,
+.commonIconLeft32_share_gray:before,
+.commonIconLeft32_share_white:before{font-size: 20px;content: "\e628";line-height: 32px;}
+.common_iconLeft26_share_send_blue:before,
+.commonIconSend32_share_blue:before,
+.commonIconSend32_share_white:before,
+.commonIconSend32_share_gray:before{font-size: 28px;content: "\e628";line-height: 32px;}
+
+.common_iconLeft26_music_gray:before,
+.commonIconLeft32_music_blue:before,
+.commonIconLeft32_music_gray:before,
+.commonIconLeft32_music_white:before{font-size: 20px;content: "\e641";line-height: 32px;}
+.common_iconLeft26_music_send_blue:before,
+.commonIconSend32_music_blue:before,
+.commonIconSend32_music_white:before,
+.commonIconSend32_music_gray:before{font-size: 28px;content: "\e641";line-height: 32px;}
+
+.common_iconLeft26_teachingSchedule_gray:before,
+.commonIconLeft32_teachingSchedule_blue:before,
+.commonIconLeft32_teachingSchedule_gray:before,
+.commonIconLeft32_teachingSchedule_white:before{font-size: 20px;content: "\e635";line-height: 32px;}
+.common_iconLeft26_teachingSchedule_send_blue:before,
+.commonIconSend32_teachingSchedule_blue:before,
+.commonIconSend32_teachingSchedule_white:before,
+.commonIconSend32_teachingSchedule_gray:before{font-size: 28px;content: "\e635";line-height: 32px;}
+
+.common_iconLeft26_blog_gray:before,
+.commonIconLeft32_blog_blue:before,
+.commonIconLeft32_blog_white:before,
+.commonIconLeft32_blog_gray:before{font-size: 20px;content: "\e60a";line-height: 32px;}
+.common_iconLeft26_blog_send_blue:before,
+.commonIconSend32_blog_blue:before,
+.commonIconSend32_blog_white:before,
+.commonIconSend32_blog_gray:before{font-size: 28px;content: "\e60a";line-height: 32px;}
+
+.common_iconLeft26_album_gray:before,
+.commonIconLeft32_album_blue:before,
+.commonIconLeft32_album_white:before,
+.commonIconLeft32_album_gray:before{font-size: 20px;content: "\e62f";line-height: 32px;}
+.common_iconLeft26_album_send_blue:before,
+.commonIconSend32_album_blue:before,
+.commonIconSend32_album_gray:before,
+.commonIconSend32_album_white:before{font-size: 28px;content: "\e62f";line-height: 32px;}
+
+.common_iconLeft26_practice_gray:before,
+.commonIconLeft32_practice_blue:before,
+.commonIconLeft32_practice_gray:before,
+.commonIconLeft32_practice_white:before{font-size: 20px;content: "\e622";line-height: 32px;}
+.common_iconLeft26_practice_send_blue:before,
+.commonIconSend32_practice_blue:before,
+.commonIconSend32_practice_white:before,
+.commonIconSend32_practice_gray:before{font-size: 28px;content: "\e622";line-height: 32px;}
+
+.common_iconLeft26_aboutUs_gray:before,
+.commonIconLeft32_aboutUs_blue:before,
+.commonIconLeft32_aboutUs_gray:before,
+.commonIconLeft32_aboutUs_white:before{font-size: 20px;content: "\e62a";line-height: 32px;}
+.common_iconLeft26_aboutUs_send_blue:before,
+.commonIconSend32_aboutUs_blue:before,
+.commonIconSend32_aboutUs_white:before,
+.commonIconSend32_aboutUs_gray:before{font-size: 28px;content: "\e62a";line-height: 32px;}
+
+.common_iconLeft26_educationalConsulting_gray:before,
+.commonIconLeft32_educationalConsulting_blue:before,
+.commonIconLeft32_educationalConsulting_gray:before,
+.commonIconLeft32_educationalConsulting_white:before{font-size: 20px;content: "\e64b";line-height: 32px;}
+.common_iconLeft26_educationalConsulting_send_blue:before,
+.commonIconSend32_educationalConsulting_blue:before,
+.commonIconSend32_educationalConsulting_white:before,
+.commonIconSend32_educationalConsulting_gray:before{font-size: 28px;content: "\e64b";line-height: 32px;}
+
+.common_iconLeft26_industryTrends_gray:before,
+.commonIconLeft32_industryTrends_blue:before,
+.commonIconLeft32_industryTrends_gray:before,
+.commonIconLeft32_industryTrends_white:before{font-size: 20px;content: "\e61c";line-height: 32px;}
+.common_iconLeft26_industryTrends_send_blue:before,
+.commonIconSend32_industryTrends_blue:before,
+.commonIconSend32_industryTrends_white:before,
+.commonIconSend32_industryTrends_gray:before{font-size: 28px;content: "\e61c";line-height: 32px;}
+
+.common_iconLeft26_plan_gray:before,
+.commonIconLeft32_plan_blue:before,
+.commonIconLeft32_plan_gray:before,
+.commonIconLeft32_plan_white:before{font-size: 20px;content: "\e621";line-height: 32px;}
+.common_iconLeft26_plan_send_blue:before,
+.commonIconSend32_plan_blue:before,
+.commonIconSend32_plan_gray:before,
+.commonIconSend32_plan_white:before{font-size: 28px;content: "\e621";line-height: 32px;}
+
+.common_iconLeft26_marketReport_gray:before,
+.commonIconLeft32_marketReport_blue:before,
+.commonIconLeft32_marketReport_gray:before,
+.commonIconLeft32_marketReport_white:before{font-size: 20px;content: "\e634";line-height: 32px;}
+.common_iconLeft26_marketReport_send_blue:before,
+.commonIconSend32_marketReport_blue:before,
+.commonIconSend32_marketReport_white:before,
+.commonIconSend32_marketReport_gray:before{font-size: 28px;content: "\e634";line-height: 32px;}
+
+.common_iconLeft26_vote_gray:before,
+.commonIconLeft32_vote_blue:before,
+.commonIconLeft32_vote_gray:before,
+.commonIconLeft32_vote_white:before{font-size: 20px;content: "\e649";line-height: 32px;}
+.common_iconLeft26_vote_send_blue:before,
+.commonIconSend32_vote_blue:before,
+.commonIconSend32_vote_white:before,
+.commonIconSend32_vote_gray:before{font-size: 28px;content: "\e649";line-height: 32px;}
+
+.common_iconLeft26_news_gray:before,
+.commonIconLeft32_news_blue:before,
+.commonIconLeft32_news_gray:before,
+.commonIconLeft32_news_white:before{font-size: 20px;content: "\e602";line-height: 32px;}
+.common_iconLeft26_news_send_blue:before,
+.commonIconSend32_news_blue:before,
+.commonIconSend32_news_white:before,
+.commonIconSend32_news_gray:before{font-size: 28px;content: "\e602";line-height: 32px;}
+
+.common_iconLeft26_math_gray:before,
+.commonIconLeft32_math_blue:before,
+.commonIconLeft32_math_gray:before,
+.commonIconLeft32_math_white:before{font-size: 20px;content: "\e604";line-height: 32px;}
+.common_iconLeft26_math_send_blue:before,
+.commonIconSend32_math_blue:before,
+.commonIconSend32_math_white:before,
+.commonIconSend32_math_gray:before{font-size: 28px;content: "\e604";line-height: 32px;}
+
+.common_iconLeft26_weeklyReport_gray:before,
+.commonIconLeft32_weeklyReport_blue:before,
+.commonIconLeft32_weeklyReport_gray:before,
+.commonIconLeft32_weeklyReport_white:before{font-size: 20px;content: "\e606";line-height: 32px;}
+.common_iconLeft26_weeklyReport_send_blue:before,
+.commonIconSend32_weeklyReport_blue:before,
+.commonIconSend32_weeklyReport_white:before,
+.commonIconSend32_weeklyReport_gray:before{font-size: 28px;content: "\e606";line-height: 32px;}
+
+.common_iconLeft26_shits_gray:before,
+.commonIconLeft32_shits_blue:before,
+.commonIconLeft32_shits_gray:before,
+.commonIconLeft32_shits_white:before{font-size: 20px;content: "\e607";line-height: 32px;}
+.common_iconLeft26_shits_send_blue:before,
+.commonIconSend32_shits_blue:before,
+.commonIconSend32_shits_white:before,
+.commonIconSend32_shits_gray:before{font-size: 28px;content: "\e607";line-height: 32px;}
+
+.common_iconLeft26_employment_gray:before,
+.commonIconLeft32_employment_blue:before,
+.commonIconLeft32_employment_gray:before,
+.commonIconLeft32_employment_white:before{font-size: 20px;content: "\e60f";line-height: 32px;}
+.common_iconLeft26_employment_send_blue:before,
+.commonIconSend32_employment_blue:before,
+.commonIconSend32_employment_white:before,
+.commonIconSend32_employment_gray:before{font-size: 28px;content: "\e60f";line-height: 32px;}
+
+.common_iconLeft26_default_gray:before,
+.commonIconLeft32_default_blue:before,
+.commonIconLeft32_default_gray:before,
+.commonIconLeft32_default_white:before{font-size: 20px;content: "\e613";line-height: 32px;}
+.common_iconLeft26_default_send_blue:before,
+.commonIconSend32_default_blue:before,
+.commonIconSend32_default_white:before,
+.commonIconSend32_default_gray:before{font-size: 28px;content: "\e613";line-height: 32px;}
+
+.common_iconLeft26_report_gray:before,
+.commonIconLeft32_report_blue:before,
+.commonIconLeft32_report_white:before,
+.commonIconLeft32_report_gray:before{font-size: 20px;content: "\e61b";line-height: 32px;}
+.common_iconLeft26_report_send_blue:before,
+.commonIconSend32_report_blue:before,
+.commonIconSend32_report_white:before,
+.commonIconSend32_report_gray:before{font-size: 28px;content: "\e61b";line-height: 32px;}
+
+.common_iconLeft26_file_gray:before,
+.commonIconLeft32_file_blue:before,
+.commonIconLeft32_file_gray:before,
+.commonIconLeft32_file_white:before{font-size: 20px;content: "\e626";line-height: 32px;}
+.common_iconLeft26_file_send_blue:before,
+.commonIconSend32_file_blue:before,
+.commonIconSend32_file_white:before,
+.commonIconSend32_file_gray:before{font-size: 28px;content: "\e626";line-height: 32px;}
+
+.common_iconLeft26_onlineClass_gray:before,
+.commonIconLeft32_onlineClass_blue:before,
+.commonIconLeft32_onlineClass_gray:before,
+.commonIconLeft32_onlineClass_white:before{font-size: 20px;content: "\e63b";line-height: 32px;}
+.common_iconLeft26_onlineClass_send_blue:before,
+.commonIconSend32_onlineClass_blue:before,
+.commonIconSend32_onlineClass_white:before,
+.commonIconSend32_onlineClass_gray:before{font-size: 28px;content: "\e63b";line-height: 32px;}
+
+.common_iconLeft26_questionAnswer_gray:before,
+.commonIconLeft32_questionAnswer_blue:before,
+.commonIconLeft32_questionAnswer_gray:before,
+.commonIconLeft32_questionAnswer_white:before{font-size: 20px;content: "\e64a";line-height: 32px;}
+.common_iconLeft26_questionAnswer_send_blue:before,
+.commonIconSend32_questionAnswer_blue:before,
+.commonIconSend32_questionAnswer_white:before,
+.commonIconSend32_questionAnswer_gray:before{font-size: 28px;content: "\e64a";line-height: 32px;}
+
+.common_iconLeft26_educationSchedule_gray:before,
+.commonIconLeft32_educationSchedule_blue:before,
+.commonIconLeft32_educationSchedule_gray:before,
+.commonIconLeft32_educationSchedule_white:before{font-size: 20px;content: "\e63e";line-height: 32px;}
+.common_iconLeft26_educationSchedule_send_blue:before,
+.commonIconSend32_educationSchedule_blue:before,
+.commonIconSend32_educationSchedule_white:before,
+.commonIconSend32_educationSchedule_gray:before{font-size: 28px;content: "\e63e";line-height: 32px;}
+
+.common_iconLeft26_petal_gray:before,
+.commonIconLeft32_petal_blue:before,
+.commonIconLeft32_petal_gray:before,
+.commonIconLeft32_petal_white:before{font-size: 20px;content: "\e605";line-height: 32px;}
+.common_iconLeft26_petal_send_blue:before,
+.commonIconSend32_petal_blue:before,
+.commonIconSend32_petal_white:before,
+.commonIconSend32_petal_gray:before{font-size: 28px;content: "\e605";line-height: 32px;}
+
+
+
+.common_iconLeft26_showAndShare_gray:before,
+.commonIconLeft32_showAndShare_blue:before,
+.commonIconLeft32_showAndShare_gray:before,
+.commonIconLeft32_showAndShare_white:before{font-size: 20px;content: "\e644";line-height: 32px;}
+.common_iconLeft26_showAndShare_send_blue:before,
+.commonIconSend32_showAndShare_blue:before,
+.commonIconSend32_showAndShare_white:before,
+.commonIconSend32_showAndShare_gray:before{font-size: 28px;content: "\e644";line-height: 32px;}
+
+.common_iconLeft26_member_gray:before,
+.commonIconLeft32_member_blue:before,
+.commonIconLeft32_member_gray:before,
+.commonIconLeft32_member_white:before{font-size: 20px;content: "\e609";line-height: 32px;}
+.common_iconLeft26_member_send_blue:before,
+.commonIconSend32_member_blue:before,
+.commonIconSend32_member_white:before,
+.commonIconSend32_member_gray:before{font-size: 28px;content: "\e609";line-height: 32px;}
+
+.common_iconLeft26_repair_gray:before,
+.commonIconLeft32_repair_blue:before,
+.commonIconLeft32_repair_gray:before,
+.commonIconLeft32_repair_white:before{font-size: 20px;content: "\e60e";line-height: 32px;}
+.common_iconLeft26_repair_send_blue:before,
+.commonIconSend32_repair_blue:before,
+.commonIconSend32_repair_white:before,
+.commonIconSend32_repair_gray:before{font-size: 28px;content: "\e60e";line-height: 32px;}
+
+.common_iconLeft26_allNews_gray:before,
+.commonIconLeft32_allNews_blue:before,
+.commonIconLeft32_allNews_gray:before,
+.commonIconLeft32_allNews_white:before{font-size: 20px;content: "\e61a";line-height: 32px;}
+.common_iconLeft26_allNews_send_blue:before,
+.commonIconSend32_allNews_blue:before,
+.commonIconSend32_allNews_white:before,
+.commonIconSend32_allNews_gray:before{font-size: 28px;content: "\e61a";line-height: 32px;}
+
+.common_iconLeft26_group_gray:before,
+.commonIconLeft32_group_blue:before,
+.commonIconLeft32_group_gray:before,
+.commonIconLeft32_group_white:before{font-size: 20px;content: "\e61d";line-height: 32px;}
+.common_iconLeft26_group_send_blue:before,
+.commonIconSend32_group_blue:before,
+.commonIconSend32_group_white:before,
+.commonIconSend32_group_gray:before{font-size: 28px;content: "\e61d";line-height: 32px;}
+
+.common_iconLeft26_form_gray:before,
+.commonIconLeft32_form_blue:before,
+.commonIconLeft32_form_white:before,
+.commonIconLeft32_form_gray:before{font-size: 20px;content: "\e654";line-height: 32px;}
+.common_iconLeft26_form_send_blue:before,
+.commonIconSend32_form_gray:before,
+.commonIconSend32_form_white:before,
+.commonIconSend32_form_blue:before{font-size: 28px;content: "\e654";line-height: 32px;}
+
+.common_iconLeft26_shopManage_gray:before,
+.commonIconLeft32_shopManage_blue:before,
+.commonIconLeft32_shopManage_white:before,
+.commonIconLeft32_shopManage_gray:before{font-size: 20px;content: "\e6af";line-height: 32px;}
+.common_iconLeft26_shopManage_send_blue:before,
+.commonIconSend32_shopManage_blue:before,
+.commonIconSend32_shopManage_white:before,
+.commonIconSend32_shopManage_gray:before{font-size: 28px;content: "\e6af";line-height: 32px;}
+
+.common_iconLeft26_courseManage_gray:before,
+.commonIconLeft32_courseManage_blue:before,
+.commonIconLeft32_courseManage_white:before,
+.commonIconLeft32_courseManage_gray:before{font-size: 20px;content: "\e61e";line-height: 32px;}
+.common_iconLeft26_courseManage_send_blue:before,
+.commonIconSend32_courseManage_blue:before,
+.commonIconSend32_courseManage_white:before,
+.commonIconSend32_courseManage_gray:before{font-size: 28px;content: "\e61e";line-height: 32px;}
+
+.common_iconLeft26_addressBook_gray:before,
+.commonIconLeft32_addressBook_blue:before,
+.commonIconLeft32_addressBook_white:before,
+.commonIconLeft32_addressBook_gray:before{font-size: 20px;content: "\e62d";line-height: 32px;}
+.common_iconLeft26_addressBook_send_blue:before,
+.commonIconSend32_addressBook_blue:before,
+.commonIconSend32_addressBook_white:before,
+.commonIconSend32_addressBook_gray:before{font-size: 28px;content: "\e62d";line-height: 32px;}
+
+.common_iconLeft26_shopCart_gray:before,
+.commonIconLeft32_shopCart_blue:before,
+.commonIconLeft32_shopCart_white:before,
+.commonIconLeft32_shopCart_gray:before{font-size: 20px;content: "\e6ae";line-height: 32px;}
+.common_iconLeft26_shopCart_send_blue:before,
+.commonIconSend32_shopCart_blue:before,
+.commonIconSend32_shopCart_white:before,
+.commonIconSend32_shopCart_gray:before{font-size: 28px;content: "\e6ae";line-height: 32px;}
+
+
+.common_iconLeft26_integral_gray:before,
+.commonIconLeft32_integral_blue:before,
+.commonIconLeft32_integral_white:before,
+.commonIconLeft32_integral_gray:before{font-size: 20px;content: "\e6b3";line-height: 32px;}
+.common_iconLeft26_integral_send_blue:before,
+.commonIconSend32_integral_blue:before,
+.commonIconSend32_integral_white:before,
+.commonIconSend32_integral_gray:before{font-size: 28px;content: "\e6b3";line-height: 32px;}
+
+
+.common_iconLeft26_personHead_gray:before,
+.commonIconLeft32_personHead_blue:before,
+.commonIconLeft32_personHead_white:before,
+.commonIconLeft32_personHead_gray:before{font-size: 20px;content:"\e678";line-height: 32px;}
+.common_iconLeft26_personHead_send_blue:before,
+.commonIconSend32_personHead_blue:before,
+.commonIconSend32_personHead_white:before,
+.commonIconSend32_personHead_gray:before{font-size: 28px;content:"\e678";line-height: 32px;}
+
+/*20161115储值新增*/
+.common_iconLeft26_prepaid_gray:before,
+.commonIconLeft32_prepaid_blue:before,
+.commonIconLeft32_prepaid_white:before,
+.commonIconLeft32_prepaid_gray:before{font-size: 20px;content: "\e61f";line-height: 32px;}
+.common_iconLeft26_prepaid_send_blue:before,
+.commonIconSend32_prepaid_blue:before,
+.commonIconSend32_prepaid_white:before,
+.commonIconSend32_prepaid_gray:before{font-size: 28px;content: "\e61f";line-height: 32px;}
+
+.common_iconLeft26_wallet_gray:before,
+.commonIconLeft32_wallet_blue:before,
+.commonIconLeft32_wallet_white:before,
+.commonIconLeft32_wallet_gray:before{font-size: 20px;content: "\e623";line-height: 32px;}
+.common_iconLeft26_wallet_send_blue:before,
+.commonIconSend32_wallet_blue:before,
+.commonIconSend32_wallet_white:before,
+.commonIconSend32_wallet_gray:before{font-size: 28px;content: "\e623";line-height: 32px;}
+
+.common_iconLeft26_collection_gray:before,
+.commonIconLeft32_collection_blue:before,
+.commonIconLeft32_collection_white:before,
+.commonIconLeft32_collection_gray:before{font-size: 20px;content: "\e624";line-height: 32px;}
+.common_iconLeft26_collection_send_blue:before,
+.commonIconSend32_collection_blue:before,
+.commonIconSend32_collection_white:before,
+.commonIconSend32_collection_gray:before{font-size: 28px;content: "\e624";line-height: 32px;}
+
+.common_iconLeft26_balance_gray:before,
+.commonIconLeft32_balance_blue:before,
+.commonIconLeft32_balance_white:before,
+.commonIconLeft32_balance_gray:before{font-size: 20px;content: "\e625";line-height: 32px;}
+.common_iconLeft26_balance_send_blue:before,
+.commonIconSend32_balance_blue:before,
+.commonIconSend32_balance_white:before,
+.commonIconSend32_balance_gray:before{font-size: 28px;content: "\e625";line-height: 32px;}
+/*20161115储值新增 end*/
+/* 20170308新增 设置，收藏，发送队列，我的 */
+.common_iconLeft26_setting_gray:before,
+.commonIconLeft32_setting_blue:before,
+.commonIconLeft32_setting_white:before,
+.commonIconLeft32_setting_gray:before{font-size: 20px;content: "\e62c";line-height: 32px;}
+.common_iconLeft26_setting_send_blue:before,
+.commonIconSend32_setting_blue:before,
+.commonIconSend32_setting_white:before,
+.commonIconSend32_setting_gray:before{font-size: 28px;content: "\e62c";line-height: 32px;}
+
+.common_iconLeft26_store_gray:before,
+.commonIconLeft32_store_blue:before,
+.commonIconLeft32_store_white:before,
+.commonIconLeft32_store_gray:before{font-size: 20px;content: "\e665";line-height: 32px;}
+.common_iconLeft26_store_send_blue:before,
+.commonIconSend32_store_blue:before,
+.commonIconSend32_store_white:before,
+.commonIconSend32_store_gray:before{font-size: 28px;content: "\e665";line-height: 32px;}
+
+.common_iconLeft26_sendqueue_gray:before,
+.commonIconLeft32_sendqueue_blue:before,
+.commonIconLeft32_sendqueue_white:before,
+.commonIconLeft32_sendqueue_gray:before{font-size: 20px;content: "\e6a9";line-height: 32px;}
+.common_iconLeft26_sendqueue_send_blue:before,
+.commonIconSend32_sendqueue_blue:before,
+.commonIconSend32_sendqueue_white:before,
+.commonIconSend32_sendqueue_gray:before{font-size: 28px;content: "\e6a9";line-height: 32px;}
+
+.common_iconLeft26_mine_gray:before,
+.commonIconLeft32_mine_blue:before,
+.commonIconLeft32_mine_white:before,
+.commonIconLeft32_mine_gray:before{font-size: 20px;content: "\e638";line-height: 32px;}
+.common_iconLeft26_mine_send_blue:before,
+.commonIconSend32_mine_blue:before,
+.commonIconSend32_mine_white:before,
+.commonIconSend32_mine_gray:before{font-size: 28px;content: "\e638";line-height: 32px;}
+/* 20170308新增 设置，收藏，发送队列，我的 end*/

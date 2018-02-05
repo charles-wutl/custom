@@ -1,0 +1,59 @@
+.mCommon_controlBottomBtnReadPraise_readCount{
+	float: left;
+	font-size: 12px;
+	color: #999999;
+	line-height: 32px;
+}
+.mCommon_controlBottomBtnReadPraise_btnBox{
+	float: right;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDiv{
+	text-align: right;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDiv>a{
+	padding: 0 10px;
+}
+.mCommon_controlBottomBtnReadPraise_praiseNormal{
+	display: none;
+}
+.mCommon_controlBottomBtnReadPraise_praiseClick{
+	display: none;
+}
+.mCommon_controlBottomBtnReadPraise_commitPraise .mCommon_controlBottomBtnReadPraise_praiseClick{
+	display: inline;
+}
+.mCommon_controlBottomBtnReadPraise_cancelPraise .mCommon_controlBottomBtnReadPraise_praiseNormal{
+	display: inline;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDiv a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #666666;
+	height: 30px;
+	display: inline-block;
+	padding:0 10px;
+	line-height: 30px;
+	text-align: center;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDiv a:first-child{
+	margin-right: 12px;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDivReply:after{
+	border: 1px solid #d9dade;
+	font-size: 50px;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDivPraise:after{
+	border: 1px solid #d9dade;
+	font-size: 50px;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDiv a img{
+	width: 14px;
+	height: 14px;
+	margin-right: 1px;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDivReply img{
+	vertical-align: -3px;
+}
+.mCommon_controlBottomBtnReadPraise_btnBoxDivPraise img{
+	vertical-align: -3px;
+}

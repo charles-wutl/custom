@@ -1,0 +1,86 @@
+@charset "utf-8";
+dajia{versions:20150324;}
+/*新版移动网页公用css*/
+
+/*原有公用css无法合并部分
+html {
+	color:#333;
+	font-family:STHeiti,Arial;
+}
+body,font {
+	font-size:17px; line-height:24px;
+}
+a {color:#2489ce;
+}
+
+
+@import "../../sprint3/css/common20150324.css";
+*/
+/*css解决原公用代码无法合并*/
+*{
+	margin:0;
+	padding:0;
+}
+.mCommon_frameInfo_page,
+.mCommon_frameContent10_page,
+.mYearCard_card_frame,
+.mYearCard_editBg,
+.mYearCard_send_share,
+.mScrollVertical_scrollContent_page,
+*[data-role~="page"]{
+font-size:17px; line-height:24px;
+}
+/*css解决原公用代码无法合并end*/
+*{-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent; /* For some Androids,个人感觉是低版本的安卓，4.0以下 */  }
+
+/*换肤的默认值*/
+.mTheme_bgColor10{background-color:rgba(0,172,230,0.1);}
+.mTheme_bgColor20{background-color:rgba(0,172,230,0.2);}
+.mTheme_bgColor30{background-color:rgba(0,172,230,0.3);}
+.mTheme_bgColor40{background-color:rgba(0,172,230,0.4);}
+.mTheme_bgColor50{background-color:rgba(0,172,230,0.5);}
+.mTheme_bgColor60{background-color:rgba(0,172,230,0.6);}
+.mTheme_bgColor70{background-color:rgba(0,172,230,0.7);}
+.mTheme_bgColor80{background-color:rgba(0,172,230,0.8);}
+.mTheme_bgColor90{background-color:rgba(0,172,230,0.9);}
+.mTheme_bgColor{background-color:rgba(0,172,230,1);}
+.mTheme_color10{color:rgba(0,172,230,0.1);}
+.mTheme_color20{color:rgba(0,172,230,0.2);}
+.mTheme_color30{color:rgba(0,172,230,0.3);}
+.mTheme_color40{color:rgba(0,172,230,0.4);}
+.mTheme_color50{color:rgba(0,172,230,0.5);}
+.mTheme_color60{color:rgba(0,172,230,0.6);}
+.mTheme_color70{color:rgba(0,172,230,0.7);}
+.mTheme_color80{color:rgba(0,172,230,0.8);}
+.mTheme_color90{color:rgba(0,172,230,0.9);}
+.mTheme_color{color:rgba(0,172,230,1);}
+.mTheme_borderColor10{border-color:rgba(0,172,230,0.1);}
+.mTheme_borderColor20{border-color:rgba(0,172,230,0.2);}
+.mTheme_borderColor30{border-color:rgba(0,172,230,0.3);}
+.mTheme_borderColor40{border-color:rgba(0,172,230,0.4);}
+.mTheme_borderColor50{border-color:rgba(0,172,230,0.5);}
+.mTheme_borderColor60{border-color:rgba(0,172,230,0.6);}
+.mTheme_borderColor70{border-color:rgba(0,172,230,0.7);}
+.mTheme_borderColor80{border-color:rgba(0,172,230,0.8);}
+.mTheme_borderColor90{border-color:rgba(0,172,230,0.9);}
+.mTheme_borderColor{border-color:rgba(0,172,230,1);}
+.mTheme_afterBorderColor10:after{border-color:rgba(0,172,230,0.1);}
+.mTheme_afterBorderColor20:after{border-color:rgba(0,172,230,0.2);}
+.mTheme_afterBorderColor30:after{border-color:rgba(0,172,230,0.3);}
+.mTheme_afterBorderColor40:after{border-color:rgba(0,172,230,0.4);}
+.mTheme_afterBorderColor50:after{border-color:rgba(0,172,230,0.5);}
+.mTheme_afterBorderColor60:after{border-color:rgba(0,172,230,0.6);}
+.mTheme_afterBorderColor70:after{border-color:rgba(0,172,230,0.7);}
+.mTheme_afterBorderColor80:after{border-color:rgba(0,172,230,0.8);}
+.mTheme_afterBorderColor90:after{border-color:rgba(0,172,230,0.9);}
+.mTheme_afterBorderColor:after{border-color:rgba(0,172,230,1);}
+
+.mCommon_basicBtn_blue{background-color:rgba(0,172,230,1);}
+.mCommon_basicBtn_blue_tap{background-color:rgba(25,197,255,1);}
+.mCommon_basicBtn_blueBorder{color:rgba(0,172,230,1);}
+.mCommon_basicBtn_blueBorder:after{border-color:rgba(0,172,230,1);}
+.mCommon_basicBtn32_blue{background-color:rgba(0,172,230,1);}
+.mCommon_basicBtn32_blue_tap{background-color:rgba(25,197,255,1);}
+.mCommon_basicBtn32_blueBorder{color:rgba(0,172,230,1);}
+.mCommon_basicBtn32_blueBorder:after{border-color:rgba(0,172,230,1);}

@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dajia {}
+/**/
+.mCommon_basicInputContact { border:1px solid #e1e2e6; padding:7px 10px; padding-right:5px; background:#fff;}
+.mCommon_basicInputContact > input{border:0; line-height:24px;height:24px; font-size:14px; color:#333333;width:100%;background: transparent;cursor:pointer; }
+.mCommon_basicInputContact > img { width:20px; height:20px; float:right; margin-top:-22px;cursor:pointer; position:relative; z-index:2 ;  background: #fff;}
+
+
+

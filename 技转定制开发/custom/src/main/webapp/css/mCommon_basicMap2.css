@@ -1,0 +1,35 @@
+.mCommon_basicMap2_box{
+	padding: 5px;
+	height: 56px;
+}
+.mCommon_basicMap2_box:after{
+	border: 1px solid #e1e2e6;
+}
+.mCommon_basicMap2_boxImg{
+	float: left;
+	width: 80px;
+	height: 56px;
+}
+.mCommon_basicMap2_boxImg img{
+	width: 100%;
+	height: 100%;
+}
+.mCommon_basicMap2_boxTextDesc{
+	padding-left: 90px;
+	padding-right: 5px;
+}
+.mCommon_basicMap2_boxTextDescTitle{
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
+}
+.mCommon_basicMap2_boxTextDescContent{
+	font-size: 13px;
+	color: #999999;
+	line-height: 16px;
+}
+.mCommon_basicMap2_boxTextDescTime{
+	font-size: 10px;
+	color: #999999;
+	line-height: 16px;
+}

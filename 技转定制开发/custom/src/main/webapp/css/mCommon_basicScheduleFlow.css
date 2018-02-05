@@ -1,0 +1,62 @@
+@charset "utf-8";
+.dajia {}
+.mCommon_basicScheduleFlow_box {padding:15px;}
+/*去掉第一个节点顶端的线*/
+/*.mCommon_basicScheduleFlow_box > .mCommon_basicScheduleFlow_item:first-child .mCommon_basicScheduleFlow_itemTitle_icon{border-top:15px solid transparent;  background-clip:padding-box;  -webkit-background-clip:padding;  }*/
+.mCommon_basicScheduleFlow_box .mCommon_basicScheduleFlow_item:first-child .mCommon_basicScheduleFlow_itemTitle_icon{border-top:15px solid transparent !important;  background-clip:padding-box  !important;  -webkit-background-clip:padding ;  }
+
+/*去掉最后一个节点的线*/
+/*.mCommon_basicScheduleFlow_box > .mCommon_basicScheduleFlow_item:last-child .mCommon_basicScheduleFlow_itemTitle_icon{background:none}
+.mCommon_basicScheduleFlow_box > .mCommon_basicScheduleFlow_item:last-child .mCommon_basicScheduleFlow_itemTitle_content_line{display: none;}*/
+
+.mCommon_basicScheduleFlow_box .mCommon_basicScheduleFlow_item:last-child .mCommon_basicScheduleFlow_itemTitle_icon{background:none }
+.mCommon_basicScheduleFlow_box .mCommon_basicScheduleFlow_item:last-child .mCommon_basicScheduleFlow_itemTitle_content_line{}
+
+/*左侧蓝色线圈*/
+.mCommon_basicScheduleFlow_item {margin-top:-20px;}
+.mCommon_basicScheduleFlow_itemTitle {display: table;width:100%;}
+.mCommon_basicScheduleFlow_itemTitle_icon {display:table-cell;width:12px;background-image:url(../images/mCommon_basicScheduleFlow_lineBlue.png);}
+.mCommon_basicScheduleFlow_itemTitle_icon em {width:12px; height:12px; border-radius:12px;display: block;background: #00abe7;}
+/*右侧文字内容*/
+.mCommon_basicScheduleFlow_itemTitle_contentBox{padding: 0 0 20px 10px;}
+.mCommon_basicScheduleFlow_itemTitle_contentBox .mCommon_basicScheduleFlow_itemTitle_content{width: 100%;cursor: pointer; background: #fff;margin-top: 10px;}
+/*时间*/
+.mCommon_basicScheduleFlow_itemTitle_content_time{color: #999999;width: 50px;vertical-align: sub;font-size: 12px;padding-right:10px;}
+.mCommon_basicScheduleFlow_itemTitle_content_time_black{color: #000;}
+.mCommon_basicScheduleFlow_itemTitle_content_time_gray{color: #999999;}
+/*标题*/
+.mCommon_basicScheduleFlow_itemTitle_content_title{color:#282828;font-size: 16px;padding-right: 10px;}
+/*按钮*/
+.mCommon_basicScheduleFlow_itemTitle_content_icon{width: 25px;text-align: left;text-align: left;}
+.mCommon_basicScheduleFlow_itemTitle_content_icon img{width: 7px;height: 13px;vertical-align: middle;}
+.mCommon_basicScheduleFlow_itemTitle_content_icon {width: 40px;background: 10px url("../images/mCommon_basicLunchDom_arrowDown.png") no-repeat ;background-size: 10px;background-position: center;}
+
+/*分割线*/
+.mCommon_basicScheduleFlow_itemTitle_content_line{border-bottom:1px solid #e8eaeb;background-color: #e8eaeb;margin-top: 10px;}
+
+/*编辑框*/
+.mCommon_basicLunchDom_contentDom{height: 100px;width: 96%;margin-left: 2%;  overflow: hidden;  transition:height 0.1s;  -moz-transition:height 0.1s; /* Firefox 4 */  -webkit-transition:height 0.1s; /* Safari and Chrome */  -o-transition:height 0.1s; /* Opera */  }
+.mCommon_basicScheduleFlow_itemEditBox{  height: 0px;  background-color: #e8eaeb;  overflow: hidden;margin: 0 auto;   transition:height 0.1s;  -moz-transition:height 0.1s; /* Firefox 4 */  -webkit-transition:height 0.1s; /* Safari and Chrome */  -o-transition:height  0.1s; /* Opera */  }
+.mCommon_basicScheduleFlow_itemEditbutton{float: left;width: 50%;text-align: center;  }
+.mCommon_basicScheduleFlow_itemEditbutton em{margin: 0 auto ;margin-top:4px;width: 20px;  height: 30px;  display: block;  background-size: 100%;  background-repeat: no-repeat;  background-position: center;}
+.mCommon_basicScheduleFlow_itemEditbutton_text{color:#00abe7;line-height: 12px;font-size: 12px;margin-bottom:4px;}
+.mCommon_basicScheduleFlow_itemEditbutton_time{}
+.mCommon_basicScheduleFlow_itemEditbutton_delate{}
+.mCommon_basicScheduleFlow_next_gray{
+    background-image:url("../images/mCommon_basicScheduleFlow_next_gray.png");
+}
+.mCommon_basicScheduleFlow_next_blue{
+    background-image:url("../images/mCommon_basicScheduleFlow_next_gray.png");
+}
+.mCommon_basicScheduleFlow_time_blue{
+    background-image:url("../images/mCommon_basicScheduleFlow_time_blue.png");
+}
+.mCommon_basicScheduleFlow_time_gray{
+    background-image:url("../images/mCommon_basicScheduleFlow_time_gray.png");
+}
+.mCommon_basicScheduleFlow_delate_blue{
+    background-image:url("../images/mCommon_basicScheduleFlow_delate_blue.png");
+}
+.mCommon_basicScheduleFlow_delate_gray{
+    background-image:url("../images/mCommon_basicScheduleFlow_delate_gray.png");
+}

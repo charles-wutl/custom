@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*列表*/
+.mCommon_basicStoreList{}
+
+.mCommon_basicTodoList{}
+.mCommon_basicTodoListItem{padding:10px;background:#fff;}
+.mCommon_basicTodoListItem:after{border-bottom:1px solid #edeef2;}
+
+.mCommon_basicTodoListItem_Box h3{font-size: 17px;line-height:22px;color: #333;overflow:hidden;max-height:44px;word-break:break-all;word-wrap:break-word;}
+.mCommon_basicTodoListItem_personBox{text-align:left;margin-top:4px;}
+.mCommon_basicTodoListItem_personBox_person{display:block;color:#666;font-size: 14px;}
+.mCommon_basicTodoListItem_personBox_time{float:right;background-color: #ffa414;color:#fff;font-size: 10px;line-height: 13px;padding: 0 5px;margin-top: 4px;}
+
+.mCommon_basicTodoListItem_detailBox{font-size: 12px;color:#999}
+.mCommon_basicTodoListItem_detail{margin: 2px 0;}
+
+
+.mCommon_basicStoreListItem{position:relative;padding:10px;background:#fff;}
+.mCommon_basicStoreListItem:after{border-bottom:1px solid #edeef2;}
+
+.mCommon_basicStoreListItem_info h3{font-size: 17px;}
+.mCommon_basicStoreList_money{font-size:17px;color: #ff4d4d;margin-top:3px;}
+.mCommon_basicStoreList_money span{display: inline-block;word-break:break-all;word-wrap:break-word;}
+.mCommon_basicStoreList_money strong{}/*数字*/
+.mCommon_basicStoreList_money em{font-size:12px;}/*单位，起*/
+.mCommon_basicStoreList_money i{font-style: normal;color: #999999;}/*起*/
+.mCommon_basicStoreList_money i.currency{color: #ff4d4d;} /*币种*/
+.mCommon_basicStoreList_sizeBig{font-size:17px;}
+.mCommon_basicStoreList_sizeBig em{font-size:12px;}
+.mCommon_basicStoreList_sizeSmall{font-size:17px;margin-top:5px;}
+.mCommon_basicStoreList_sizeSmall em{font-size:10px;}
+.mCommon_basicStoreList_areaAndDistance{text-align:left;color: #999999;font-size: 12px;line-height:12px;margin-top:4px;}
+.mCommon_basicStoreList_area{display:block;}
+.mCommon_basicStoreList_distance{float:right;margin-left:5px;}
+
+/*好评数*/
+.mCommon_basicStoreList_praiseNum{line-height:0;padding-top:4px;}
+.mCommon_basicStoreList_praiseNum em{vertical-align:middle;width:12px;height:12px;background:url(../images/mCommon_basicIcon_praiseGray.png) 0 0 no-repeat;background-size:100% 100%;display: inline-block;}
+.mCommon_basicStoreList_praiseNum span{color:#999999;font-size:12px;vertical-align:middle;}
+
+
+/*tapClass*/
+.mCommon_basicStoreListItem_tapClass{}
+
+/*列表样式2-2列*/
+.mCommon_basicStoreListTwoCol{display: block;padding:0 5px;background:#fff;}
+.mCommon_basicStoreListTwoCol:after{clear:both;content:".";display: block;height:0;visibility:hidden;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreListItem{clear:left;float:left;width:50%;padding:0 5px;background:#fff;box-sizing: border-box;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreListItem:after{border-bottom:0;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreListItem:nth-child(2n){clear:none;float:left;}
+
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreListItem_info{display: block;padding:10px 0 5px 0;text-align:left;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreListItem_info h3{font-size:15px;line-height:20px;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreList_money{font-size:16px;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreList_money i{height:12px;width:12px;}
+.mCommon_basicStoreListTwoCol .mCommon_basicStoreListItemSoldOut{width:100%;height:100%;margin:0;background:url(../images/mCommon_basicStoreListItemSoldOut.png?v=20160510) center no-repeat;background-size:50%;}
+
+@supports ( display: -webkit-flex ) {
+    .mCommon_basicStoreListTwoCol{display:-webkit-box;display: -webkit-flex;display: flex;
+        -webkit-flex-wrap: wrap; flex-wrap: wrap;-webkit-align-items:stretch;align-items:stretch;}
+    .mCommon_basicStoreListTwoCol .mCommon_basicStoreListItem{float:none;}
+}
+
+

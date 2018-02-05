@@ -1,0 +1,21 @@
+/*块内容*/
+.dajia{}
+
+/*空*/
+.mCommon_basicListBlockListNone{display: table;width:100%;background: #fff;}
+.mCommon_basicListBlockListNone_cont{display: table-cell;vertical-align: middle;height: 210px;padding:0 20%;text-align:center;}
+.mCommon_basicListBlockListNone_icon{margin:0 auto;width: 60px;height: 60px;}
+.mCommon_basicListBlockListNone_icon em{width: 60px;height: 60px;color: #999999;font-size: 60px;line-height:1;}
+.mCommon_basicListBlockListNone_icon em:before{font-size: 60px;line-height:1;}
+.mCommon_basicListBlockListNone p{font-size: 14px;color: #999999;line-height:1.286;padding:11px 0 6px 0;}
+.mCommon_basicListBlockListNone a{font-size:14px;color:#999999;display:inline-block;border-radius:30px;line-height:2.14;margin-top:7px;padding: 0 25px;border: 1px solid #999999;}
+.mCommon_basicListBlockListNone a:hover{text-decoration:none;}
+.mCommon_basicListBlockListNone_btnHide a{
+    display: none;
+}
+.mCommon_basicListBlockListNone .mCommon_basicIcon60Failed{
+    border:3px solid #999999;
+}
+.mCommon_basicListBlockListNone .mCommon_basicIcon60Failed>i{
+    color: #999999;
+}

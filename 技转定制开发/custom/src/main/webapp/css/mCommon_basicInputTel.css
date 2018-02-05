@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+.dajia {}
+/* CSS Document */
+.dajia {}
+.mCommon_basicInputTel { position:relative;border: 1px solid #e1e2e6; padding:7px 10px;background: #fff;}
+.mCommon_basicInputTel > input{border:0; /*line-height:24px;*/height:24px; font-size:14px; color:#333333; width:100%}
+.mCommon_basicInputTel > img { width:24px; height:24px; float:right; margin-top:-24px;cursor:pointer; position:relative; z-index:2 ;  background: #fff;}
+.mCommon_basicInputTel_delPicHide > img { display: none;}
+
+.mCommon_basicInputTelDisable:before{
+    box-sizing: border-box;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:1;
+    background: rgba(255,255,255,0.1);
+}

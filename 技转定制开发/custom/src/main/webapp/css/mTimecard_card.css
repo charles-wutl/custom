@@ -1,0 +1,83 @@
+.mTimecard_card_header_map{
+	width:100%;
+}
+.mTimecard_card_header_map img{
+	width:100%;
+}
+.mTimecard_card_take{
+	float: left;
+}
+.mTimecard_card_more{
+	float: right;
+}
+.mTimecard_card_png{
+	float: right;	
+}
+.mTimecard_card_png img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	padding-bottom: 1px;
+}
+.mTimecard_card_content_header{
+	border-bottom:1px solid #e1e2e6;
+	padding:14px;
+}
+.mTimecard_card_content_header p{
+	font-size: 15px;
+}
+.mTimecard_card_header_add{
+	padding:10px 15px 10px 15px;
+	border-bottom:1px solid #e1e2e6;
+}
+.mTimecard_card_header_add_left{
+	display: block;
+	float:left;
+}
+.mTimecard_card_header_add_left img{
+	width:16px;
+	height:24px;
+	vertical-align: middle;
+}
+.mTimecard_card_header_add_right{
+	display: block;
+	font-size: 18px;
+	margin-left:30px;
+}
+.mTimecard_card_center{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom:1px solid #e1e2e6;
+}
+.mTimecard_card_center_left,.mTimecard_card_center_right{
+	width: 50%;
+	float: left;
+}
+.mTimecard_card_center_again,.mTimecard_card_center_signin{
+	display: inline-block;
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+	color: #FFFFFF;
+    margin: 0 auto;
+    display: inherit;
+
+}
+.mTimecard_card_center_again i,.mTimecard_card_center_signin i{
+	font-size: 18px;
+	display: inline-block;
+	padding: 16px;
+	line-height: normal;
+}
+.mTimecard_card_center_again{
+	background:#ffa414;
+	text-align: center;
+
+}
+.mTimecard_card_center_signin{
+	background:#4da9eb;
+	text-align: center;
+}
+.mTimecard_card_center_signin i{
+	font-size: 18px;
+}
